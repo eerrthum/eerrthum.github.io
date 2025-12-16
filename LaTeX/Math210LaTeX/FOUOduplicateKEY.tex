@@ -1,0 +1,118 @@
+\documentclass{article}
+
+
+% ========================================================================
+% preamble 
+% ========================================================================
+
+% margins, size, formatting
+\oddsidemargin=.25in
+\evensidemargin=.25in
+\topmargin=-.5in
+\textwidth=6in
+\textheight=9in
+\pagestyle{myheadings}
+
+% packages for fancy fonts, symbols, thm/proof environments, etc
+\usepackage{amsmath,amssymb,amsthm}
+
+% Dr. E's special format for HW problems
+\newsavebox{\probinput}
+\newenvironment{problem}[1]%
+  {\vspace{\baselineskip}%
+   \ifnum #1>9 \else \hspace{.78ex} \fi {\large \bf#1.$\;$}%
+   \begin{lrbox}{\probinput}%
+   \begin{minipage}[t]{.9175\textwidth}}%
+  {\end{minipage}%
+   \end{lrbox}%
+   \usebox{\probinput}}
+\newsavebox{\subinput}
+\newenvironment{subprob}[1]%
+  {\vspace{.5\baselineskip}%
+   {\bf #1)$\;$}%
+   \begin{lrbox}{\subinput}%
+   \begin{minipage}[t]{.965\textwidth}}%
+  {\end{minipage}%
+   \end{lrbox}%
+   \usebox{\subinput}}
+
+
+% ========================================================================
+% body 
+% ========================================================================
+
+\begin{document}
+
+% header =================================================================
+\markright{\large \bf  Student Name \hfill MATH210 HW 3.14 \hfill}
+\vspace{\baselineskip}
+
+% problem  ================================================================
+\begin{problem}{2} 
+Your first LaTeX assignment is to use LaTeX to produce a document that replicates this one
+as exactly as possible, with just two differences: First, replace the
+name above with your own. Second, make the following letter substitutions so that I know
+that you did not just photocopy this document: in Problems 5 and 8, change each $m$ to $n$;
+in Problem 13, change each $c$ to $b$. Your grade on this assignment will be based on how much
+your paper looks exactly like this one (including these instructions). 
+
+Note: In a regular assignment, for questions with a short answer, you may just  respond in a complete sentence (like in 3 below). For questions asking for a proof, restate the assumptions and the statement that you are trying to prove (but you can leave out definitions). For questions where you grade a proof, you can simply give your grade and explanation (as in 21).
+\end{problem}
+
+\begin{problem}{3} 
+\begin{subprob}{a} 
+$A \cap B = \{1,4,5\}$.
+\end{subprob}
+\begin{subprob}{d} 
+False, because $e>2$.
+\end{subprob}
+\end{problem}
+
+\begin{problem}{5}
+Prove that every integer that is divisible by 6 is even.
+
+\begin{proof}
+Suppose $n \in \mathbb{Z}$. Then there is some $k \in \mathbb{Z}$ such that $n = 6k$.
+Therefore $n = 2(3k)$, and since $3k$ is also in $ \mathbb{Z}$, this means that $n$ is divisible by 2 and
+therefore that $n$ is even.
+\end{proof}
+\end{problem}
+
+\begin{problem}{8}
+%Define $A = \{m \in \mathbb{Z} \mid m^3 - m^2 - 6m = 0\}$. 
+Prove that if $n \in A$ then $n= -2$, $0$, or $3$.
+
+\begin{proof}
+Note that
+\begin{align*}
+n^3 - n^2 - 6n &= n(n^2 - n- 6) & \text{(factor out an $n$)}\\
+&= n(n + 2)(n- 3). & \text{(factor the quadratic)}
+\end{align*}
+Therefore since $n \in A  = \{n \in \mathbb{Z} \mid n^3 - n^2 - 6n = 0\}$ then $n(n + 2)(n - 3) = 0$. Thus $n$ must be equal to one of
+$-2$, $0$, or $3$.
+\end{proof}
+\end{problem}
+
+\begin{problem}{13}
+Prove that if $a$, $b \in \mathbb{R}$ with $a \le b$ then $[b,\infty) \subseteq [a,\infty)$.
+
+\begin{proof}
+Suppose $a \le b$ in $\mathbb{R}$. For all $x \in \mathbb{R}$,
+\begin{align*}
+x \in [b, \infty) & \Rightarrow x \ge b \\
+& \Rightarrow x \ge b \ge a & \text{($b \ge a$ by hypothesis)}\\
+& \Rightarrow x \ge a & \text{(transitivity)}\\
+& \Rightarrow x \in [a,\infty).
+\end{align*}
+Therefore we have $[b,\infty) \subseteq [a,\infty)$.
+\end{proof}
+\end{problem}
+
+\begin{problem}{21} Proofs to grade
+
+\begin{subprob}{h}
+Grade: C. This only shows that $A \subseteq B$. It also needs to show that $B \subseteq A$ to establish that $A = B$. Also they should state ``because $f^{-1}(x)$ is onto'' after the third step.
+\end{subprob}
+\end{problem}
+
+\end{document} 

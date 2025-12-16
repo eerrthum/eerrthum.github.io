@@ -1,0 +1,400 @@
+\documentclass{article}
+
+
+% ========================================================================
+% preamble 
+% ========================================================================
+
+% (stuff that you don't have to mess with or worry about right now.)
+
+% margins, size, formatting
+\oddsidemargin=.25in
+\evensidemargin=.25in
+\topmargin=-.5in
+\textwidth=6in
+\textheight=9in
+\pagestyle{myheadings}
+
+% packages for fancy fonts, symbols, thm/proof environments, etc
+\usepackage{amsmath,amssymb,amsthm}
+%\usepackage{mathrsfs}
+
+% Dr. E's special format for HW problems
+% .................................................................
+% usage example (pretend it is problem #7 with parts a, b):
+%
+% \begin{problem}{7}
+% Here is where you type your answer to the problem.  If there were
+% parts to the problem you would do something like the following:
+%
+% \begin{subprob}{a}
+% Here is where you type the answer to the first part.
+% \end{subprob}
+%
+% \begin{subprob}{b}
+% Here is where you type the answer to the second part.
+% \end{subprob}
+%
+% \end{problem}
+% .................................................................
+\newsavebox{\probinput}
+\newenvironment{problem}[1]%
+  {\vspace{\baselineskip}%
+   \ifnum #1>9 \else \hspace{.78ex} \fi {\large \bf#1.$\;$}%
+   \begin{lrbox}{\probinput}%
+   \begin{minipage}[t]{.9175\textwidth}}%
+  {\end{minipage}%
+   \end{lrbox}%
+   \usebox{\probinput}}
+\newsavebox{\subinput}
+\newenvironment{subprob}[1]%
+  {\vspace{.5\baselineskip}%
+   {\bf #1)$\;$}%
+   \begin{lrbox}{\subinput}%
+   \begin{minipage}[t]{.965\textwidth}}%
+  {\end{minipage}%
+   \end{lrbox}%
+   \usebox{\subinput}}
+
+
+% ========================================================================
+% body 
+% ========================================================================
+
+\begin{document}
+
+% header =================================================================
+
+% PLEASE FILL IN THE CORRECT SECTION OF THE BOOK, AND YOUR NAME HERE
+\markright{\large \bf  Sally Student \hfill MATH210 HW X.x \& Y.y - Z.z \hfill}
+\vspace{\baselineskip}
+
+% problem ================================================================
+\begin{problem}{1} % notice the problem number here
+This sample document provides a template for writing a \LaTeX\/ document suitable for homework assignments in Pf. Errthum's Math210 class.   The first few ``problems'' will explain how the document works.  Then there will be some ``problems'' that illustrate various notations and formatting environments.  Compare what is in the typeset version of this document to the file \verb|latexsample.tex|.  Note in particular that anything typed after a percent sign in the text file is treated as a comment and is ignored by the compiler.  Comments in the text file refer both to \LaTeX\/ and to hints about writing good solutions and proofs. 
+\end{problem}
+
+% problem ================================================================
+\begin{problem}{4}
+Each of your problem solutions should be contained in a ``problem'' environment.  Problems with parts will also need ``subprob'' environments.  These are special environments made up for the purposes of this class and will {\it not} be found in any other documentation online (see the ``preamble'' of the text file); see the comment in the text file for the general usage format for these environments.  Please use these environments so your homework will be in the standard format for the class.  Also please put the correct section and your name at the top of the page as they are in this sample document.
+\end{problem}
+
+% problem ================================================================
+\begin{problem}{5}
+The very basics of \LaTeX\/ (compare the typeset document and the text file):
+
+\begin{subprob}{a} % notice the "part" letter here
+Extra spaces    in           the text              file do     not    appear   in    the     typeset     document.
+
+Except for a double carriage-return, that makes a new line. 
+Single
+carriage
+returns
+don't 
+do 
+anything.
+\end{subprob}
+
+\begin{subprob}{b}
+Mathematical expressions are typed between dollar signs like this: $y=x^2+1$.  To make a centered equation on its own line, use double dollar signs, like this:
+%
+$$y=x^2+1.$$
+
+The percent sign above the equation in the text file just makes it so that extra space is not added between the centered equation and the main paragraph above.
+\end{subprob}
+
+\begin{subprob}{c}
+Many \LaTeX commands and math symbols start with a backslash symbol.  For example, $\sin x$ and $\{x \in \mathbb{R} \mid x \geq 0\}$.  Notice that the set-notation parentheses need to have backslashes before them (while regular parentheses do not).  This is because in \LaTeX, those squiggly parentheses often have other uses. 
+\end{subprob}
+
+\begin{subprob}{d}
+If you need to put something in italics you do it {\em like this}.  Or maybe you need to have something in {\bf boldface}.  Or maybe {\bf \em both}. 
+\end{subprob}
+
+\begin{subprob}{e}
+Notice that to have quotes appear ``correctly'' in the typeset document you may have to type them yourself using the \verb|`| and \verb|'| keys instead of the \verb|"| key.
+\end{subprob}
+
+\begin{subprob}{f}
+Don't forget to end each of your environments.  In other words, don't 
+forget your \verb|\end{problem}| or \verb|\end{subprob}|, or you will get a compiling error.  Also make sure to end dollar sign environments and parentheses.
+\end{subprob}
+
+\end{problem}
+
+% problem ================================================================
+\begin{problem}{8}
+Here is some random notation you might need: 
+\vspace{.5\baselineskip}
+% this "vspace" above just adds some vertical space.  note that
+% we can't add vertical space with carriage returns, so we have to 
+% add it this way instead.  here "baselineskip" is the space of a line,
+% so we're skipping by half that. 
+ 
+$x_2$,
+$x_{25}$, % note parentheses needed to get both digits in subscript
+$x^2$,
+$x^{25}$, % note parentheses needed to get both digits in exponent
+$\pm 4$,
+$x \not = 17$, % you can put "not" in front of lots of different operators
+$x > 5$, 
+$x < 5$, 
+$x \geq 5$, 
+$x \leq 5$,
+$\{ 1, 2, 3 \}$, % note curly brackets need a backslash or they are invisible
+$\{ x \mid \sqrt{x} > 2 \}$,
+$\sqrt[5]{x+7}$,
+$\infty$, 
+$\overline{x}$, 
+$\not\!\! R$.
+\vspace{.5\baselineskip}
+
+$A \subset B$, 
+$A \subseteq B$,
+$A \not \subset B$,
+$A \not \subseteq B$,
+$A \setminus B$,
+$\widetilde{A}$, % "rm" changes the font to "roman", i.e. non-math, font
+$A \cap B$,
+$A \cup B$,
+$x \in A$, 
+$x \not \in A$, 
+$|A|$, 
+$\mathcal{P}(A)$, 
+$\emptyset$,
+$\overline{\overline{A}}$.
+\vspace{.5\baselineskip}
+
+$\frac{5}{1+x}$, 
+$\displaystyle\frac{5}{1+x}$, % anything in $$ is automatically displaystyle
+$\bigcap_{i=1}^n S_i$,
+$\displaystyle\bigcap_{i=1}^n S_i$,
+$\bigcup_{i=1}^n S_i$,
+$\displaystyle\bigcup_{i=1}^n S_i$,
+$\sum_{k=1}^{10} a_k$,
+$\displaystyle\sum_{k=1}^{10} a_k$,
+$\prod_{k=1}^{10} a_k$,
+$\displaystyle\prod_{k=1}^{10} a_k$,
+$\displaystyle\bigcap_{\delta \in \Delta}A_\delta$,
+$\displaystyle\bigcup_{A \in \mathcal{A}}A$.
+\vspace{.5\baselineskip}
+% "displaystyle" is the default when using double dollar signs.
+% so you only need to use "displaystyle" in the rare case where you
+% want one of these oversized notations right in the middle of a line
+% of text, which is not usually what you want.  for centered equations,
+% everything will automatically be in "displaystyle".
+
+$\mathbb{R}$, % use this ONLY to denote the real numbers
+$\mathbb{Q}$, % rational numbers
+$\mathbb{Z}$, % integers
+$\mathbb{N}$, % natural numbers
+$\rightarrow$, 
+$\leftarrow$,
+$\leftrightarrow$, 
+$\longrightarrow$,
+$\longleftarrow$,
+$\longleftrightarrow$,
+$\stackrel{\text{1-1}}{\longrightarrow}$, %\stackrel puts the first thing in brackets on top of the second thing in brackets
+$\Rightarrow$, % the "implies" arrow
+$\Leftarrow$,
+$\Leftrightarrow$, % the "if and only if" arrow
+$\Longrightarrow$, % longer "implies" arrow
+$\Longleftarrow$,
+$\Longleftrightarrow$, % longer "if and only if" arrow
+$\mapsto$,
+$\longmapsto$.
+\vspace{.5\baselineskip}
+
+$\mathcal{P}$, % "mathcal" is a fancy font that can be applied to any letter.
+$\mathcal{S}$,
+$\mathcal{F}$,
+$\forall$,
+$\exists$,
+$\lor$, % think "logical or"
+$\land$, % think "logical and"
+$\sim$, % use this for the logical "not" since this is what the book uses. You should also use this for equivalence relations, it's made to be a binary operation
+$\approx$,
+$\equiv$,
+$\times$, % for cartesian products
+$\ast$,
+$\star$,
+$\mid$, % use this for "such that"
+$a | b$, % use this for "divides"
+$|x|$, % use this for absolute value
+$\|x\|$,
+$\lceil x \rceil$,
+$\lfloor x \rfloor$,
+$\{x \in \mathbb{Z} \mid x \text{ is prime} \}$. % note use of "text"
+% the "text" is needed so that we can have non-math type inside of the
+% math environment.  without the "text" the words would be in math/italics,
+% and all smushed together with no spaces between words.  notice also
+% the space before the word "is".
+\vspace{.5\baselineskip}
+
+$\gcd$, % in math mode, just "gcd" would be in italics, but "\gcd" is not
+${\rm lcm}$, % there isn't a command for "lcm" in tex so we just roman it
+$n \choose k$,
+$n+1 \choose k$, % no brackets needed, the n+1 is all assumed to be on top
+$a = {n+1 \choose k}$, % we need brackets or else "a=" would be in the choose
+$\prec$, % think "precedes"
+$\preceq$,
+$\succ$, % think "succeeds"
+$\succeq$,
+$f \colon [0,\infty) \rightarrow \mathbb{R}$, 
+$f \circ g$ % composition
+\{, % these next few symbols mean particular things to latex
+\}, % so to get them to appear in your document you precede them with backslash
+\$, % notice that these are NOT in math mode
+\%,
+\&,
+\_,
+\#,
+\textbackslash.
+
+$$f(x) = \left\{\begin{array}{ll} 
+x^2 & \text{if }x>2 \\
+3x-1 & \text{if } x \le 2\end{array}\right.$$
+
+\end{problem}
+
+% problem ================================================================
+\begin{problem}{9}
+Suppose 43 students take algebra, 32 take Spanish, 7 take both.
+% notice i am actually writing out some of the problem here.
+% you don't have to write it out word-for-word, but your homework 
+% assignment should make sense on its own without the book around.
+\vspace{.5\baselineskip}
+% i like to put a little space between the initial problem information
+% and the solution, just to make it look nice.  note this isn't necessary
+% if the solution has parts (see above) or is a proof (see below)
+
+The number taking algebra or Spanish (or both, of course) is:
+%
+$$43 + 32 - 7 = 68.$$
+
+(We have to subtract 7 because those students are counted twice.)
+
+% for this problem, notice that i didn't just answer "68".
+% there is work!  and justification!  and some info at the beginning!
+
+\end{problem}
+
+% problem ================================================================
+\begin{problem}{10}
+In this problem will will prove a theorem two different ways, to illustrate two different formats for writing proofs with steps and reasons clearly written out.
+
+\begin{subprob}{a}
+Prove that $n^3+n$ is even for every integer $n$.
+
+\begin{proof} % notice there is a built-in proof environment - use it!
+Suppose $n$ is any integer.  We will examine two cases:
+\vspace{.5\baselineskip}
+
+If $n$ is even, then $n=2k$ for some $k \in \mathbb{Z}$, and therefore:
+%
+\begin{align*} % the "%" on the line above just prevents added linespace
+n^3+n
+  &= (2k)^3 + (2k) % "&=" gives an aligned equals.  the "&" is like "tab"
+     &\text{(since $n=2k$)} \\ % this is how you might provide a reason
+  &= 8k^3 + 2k \\
+  &= 2(4k^3+k).  % notice we are still using punctuation, even here!
+     &\text{(factor out a $2$)}
+\end{align*}
+% the "*" in the align environment just makes it so the equations are not 
+% numbered.  in this example the reasons/justifications given for the
+% steps aren't really mathematically needed - they are pretty obvious - but
+% i put them here so you could see how to include them when necessary.
+
+Since $4k^3+k \in \mathbb{Z}$, this means $n^3+n$ is divisible by $2$ and therefore is even.
+% notice that i am explaining the conclusion here
+\vspace{.5\baselineskip}
+
+On the other hand, suppose $n$ is odd.  Then $n=2k+1$ for some $k \in \mathbb{Z}$, and thus:
+%
+\begin{align*}
+n^3+n
+  &= (2k+1)^3 + (2k+1)
+     &\text{(since $n=2k+1$)} \\
+  &= (8k^3+12k^2+6k+1) + (2k+1)
+     &\text{(multiply out)} \\
+  &= 8k^3+12k^2+8k+2 \\
+  &= 2(4k^3+6k^2+4k+1).
+     &\text{(factor out a $2$)}
+\end{align*}
+
+Once again, $n^3+n$ is a multiple of $2$ and therefore is even.
+\end{proof} % ending the proof environment automatically adds the "box"
+
+\end{subprob}
+
+\begin{subprob}{b}
+Prove that $n^3+n$ is even for every integer $n$.
+
+\begin{proof}
+Note that $n^3+n = n(n^2+1)$.  It suffices to show that for any $n \in \mathbb{Z}$, either $n$ is even or $n^2+1$ is even.  (Since then the product of $n$ and $n^2+1$ will have to be even.)  For any integer $n$ we have:
+% notice that at the beginning of the proof i am very clearly laying out
+% the strategy of the proof.  this makes the proof much easier to read.
+% think about what kind of proof YOU would like to read.  you don't want
+% to be thinking "what are they doing here???" all the time.  so don't be 
+% afraid to lay out the game plan for the proof or explain why you're about
+% to do the calculation or argument that you're about to do.
+%
+\begin{align*} 
+n \text{ is even}
+  &\Longleftrightarrow n^2 \text{ is even}
+    &\text{(Theorem 2.1.9)} \\ %This really isn't a theorem in our text, but hopefully you get the point.
+  &\Longleftrightarrow n^2+1 \text{ is odd.}
+\end{align*}
+% we didn't HAVE to use the format above, but it can make proofs
+% easier to read.  notice the reason given at the important step.
+
+Therefore if $n$ is even, $n^2+1$ is odd; and if $n$ is odd, then $n^2+1$ is even.  (The second implication is the contrapositive of the backwards part of the ``if-and-only-if'' statement: If $n^2+1$ is odd, then $n$ is even.)  In any case, one of $n$ or $n^2+1$ must be even, and therefore $n^3+n=n(n^2+1)$ must be even.
+% even though i said what would be sufficient at the start of the proof,
+% i thought it made it clearer to give a good wrap-up here.
+\end{proof}
+
+\end{subprob}
+
+\end{problem} % don't forget to end the problem environment after all that!
+
+% problem ================================================================
+\begin{problem}{12}
+Prove by induction that $1+2+3+\cdots+n = \frac{n(n+1)}{2}$ for all natural numbers $n$.
+\begin{proof}
+Proceed by induction.
+
+{\bf Base Case:} $1 = \frac{2}{2} = \frac{1\cdot 2}{2} = \frac{1(1+1)}{2}$.
+
+{\bf Inductive Case:} Suppose for some $k$ that $1+2+\cdots+k=\frac{k(k+1)}{2}$. Then
+\begin{align*}
+1+2+\cdots+k+(k+1) &= \frac{k(k+1)}{2}+(k+1) &\text{(by Inductive Hypothesis)}\\
+&= \frac{k^2+k}{2}+\frac{2k+2}{2}\\
+&= \frac{k^2+3k+2}{2}\\
+&= \frac{(k+1)(k+2)}{2}
+\end{align*}
+Thus, by the Principle of Mathematical Induction, $1+2+3+\cdots+n = \frac{n(n+1)}{2}$ for all natural numbers $n$.
+\end{proof}
+\end{problem}
+
+% problem ================================================================
+\begin{problem}{13}
+You don't have to do your truth tables in \LaTeX; you can write them in by hand if you like (using a \textbackslash vspace command to create the extra room).  But in case you are interested, this is how to do it:
+
+\begin{center}
+\begin{tabular}{|c|c||c|c|c|c|}
+\hline
+$P$ & $Q$ & $P \land Q$ & $\sim(P \land Q)$ & $\sim Q$ & $\sim(P \land Q) \land \sim Q$ \\
+\hline
+T & T & T & F & F & F \\
+T & F & F & T & T & T \\
+F & T & F & T & F & F \\
+F & F & F & T & T & T \\
+\hline
+\end{tabular}
+\end{center}
+
+Since the truth-values for $\sim Q$ and $\sim(P \land Q) \land \sim Q$ are the same for all possible truth-values of $P$ and $Q$, the two statements are logicaly equivalent.
+\end{problem}
+
+
+\end{document} % every document must end with this.

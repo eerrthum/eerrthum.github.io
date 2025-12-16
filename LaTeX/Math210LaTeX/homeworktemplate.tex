@@ -1,0 +1,75 @@
+\documentclass{article}
+
+
+% ========================================================================
+% preamble 
+% ========================================================================
+
+% margins, size, formatting
+\oddsidemargin=.25in
+\evensidemargin=.25in
+\topmargin=-.5in
+\textwidth=6in
+\textheight=9in
+\pagestyle{myheadings}
+
+% packages for fancy fonts, symbols, thm/proof environments, etc
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{mathrsfs}
+
+% Dr. E's special format for HW problems
+\newsavebox{\probinput}
+\newenvironment{problem}[1]%
+  {\vspace{\baselineskip}%
+   \ifnum #1>9 \else \hspace{.78ex} \fi {\large \bf#1.$\;$}%
+   \begin{lrbox}{\probinput}%
+   \begin{minipage}[t]{.9175\textwidth}}%
+  {\end{minipage}%
+   \end{lrbox}%
+   \usebox{\probinput}}
+\newsavebox{\subinput}
+\newenvironment{subprob}[1]%
+  {\vspace{.5\baselineskip}%
+   {\bf #1)$\;$}%
+   \begin{lrbox}{\subinput}%
+   \begin{minipage}[t]{.965\textwidth}}%
+  {\end{minipage}%
+   \end{lrbox}%
+   \usebox{\subinput}}
+
+
+% ========================================================================
+% body 
+% ========================================================================
+
+\begin{document}
+
+% header =================================================================
+\markright{\large \bf  Your Name \hfill MATH210 HW 0.0 \hfill}
+\vspace{\baselineskip}
+% ================================================================
+
+% A problem starts here.
+\begin{problem}{6} 
+Obviously you should put in the correct problem number. 
+
+\begin{subprob}{c}
+This is what you would use if you had a subproblem to do. 
+\end{subprob}
+
+\end{problem}
+% A problem ends here.
+
+% A problem starts here.
+\begin{problem}{8} 
+The main question of the problem.
+
+\begin{proof}
+If your answer is a proof, this is what you use after restating the question. (You can use this within a subproblem as well.)
+\end{proof}
+
+\end{problem}
+% A problem ends here.
+
+
+\end{document} 

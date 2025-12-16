@@ -1,0 +1,1575 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252"><meta http-equiv="expires" content="0">
+
+
+
+<style type="text/css">
+table {font-size: 100%;}
+</style>
+</head>
+
+<body link="#00ff00" text="#000000" vlink="#f00000" bgcolor="#ffffff">
+
+<h3>
+<hr>
+<p>The Maximum flow and the Minimum cut</p>
+
+<p>(Original source: <a href="http://www.mathcs.emory.edu/~cheung/Courses/323/Syllabus/NetFlow/max-flow-min-cut.html">http://www.mathcs.emory.edu/~cheung/Courses/323/Syllabus/NetFlow/max-flow-min-cut.html</a>)</p>
+<hr>
+</h3>
+<ul>
+
+<p>
+</p><li> <font color="darkmagenta"><b>
+     Classic Theorem: the <i>Max-flow min-cut</i> Theorem
+     </b></font>
+<p>
+</p><ul>
+<li> In this webpage, we will study (prove) the
+    <b>classic</b>
+    <font color="blue"><b><i>Max-flow min-cut</i> Theorem</b></font>
+<p>
+</p><hr>
+<p>
+</p></li><li> Here is the
+    <font color="red"><b>Wikipedia</b></font> page:
+  <a href="http://en.wikipedia.org/wiki/Max-flow_min-cut_theorem">
+  <font color="blue"><b>click here</b></font></a>
+</li></ul>
+
+<p>
+</p><hr>
+<hr>
+<p>
+</p><hr>
+<hr>
+<p>
+</p><hr>
+<hr>
+<p>
+</p></li><li> <font color="darkmagenta"><b>
+     Cut
+     </b></font>
+<p>
+ </p><ul>
+ <li> <b>Definition:</b>  a <font color="red"><b> <i>cut</i></b></font>
+     of a <b>network</b>
+<p>
+</p><ul>
+<table bgcolor="#FFEEEE" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> <font color="blue"><b>Cut</b></font> =
+      a <b><i>set</i></b> of 
+     <font color="red"><b>edges</b></font> whose
+      <font color="darkred"><b>removal</b></font> will 
+      <font color="blue"><b>divide/separate</b></font>
+      the <b>network</b> into
+      <font color="red"><b>2 halves <i>X</i> and <i>Y</i></b></font>
+      where:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p>
+</p><ul>
+<table bgcolor="lightyellow" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li>     <font color="red"><b>(source) <i>S</i> &#8712; <i>X</i></b></font>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <b><i>and</i></b>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </li><li>     <font color="red"><b>(sink) <i>T</i> &#8712; <i>Y</i></b></font>
+ </li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+</p><hr>
+<p>
+</p></li><li> In other words:
+<p>
+</p><ul>
+<table bgcolor="lightcyan" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> <font color="red"><b>Removing</b></font> the <b>edges</b> in
+       a <font color="blue"><b>cut</b></font> will
+       <font color="red"><b><i>severe</i></b></font>
+       the <b>source</b> <font color="blue"><b><i>S</i></b></font>
+       from the <b>sink</b> <font color="blue"><b><i>T</i></b></font>
+     
+ </li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+
+ 
+ </p></li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+</p><hr>
+<p>
+</p></li><li> <b>Example:</b> <font color="blue"><b> 2 cuts</b></font>
+   in the network
+<p>
+</p><ul>
+<table bgcolor="lightyellow" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> <b>Cut 1:</b>
+<p>
+</p><ul>
+<table border="5">
+
+<tbody><tr> <td>
+<img src="max-flow-min-cut_files/netflow09a.gif">
+</td> </tr>
+
+</tbody></table>
+</ul>
+<p>
+</p><hr>
+<p>
+ </p></li><li> <b>Cut 2:</b>
+<p>
+</p><ul>
+<table border="5">
+
+<tbody><tr> <td>
+<img src="max-flow-min-cut_files/netflow09b.gif">
+</td> </tr>
+
+</tbody></table>
+</ul>
+<p>
+ </p></li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+
+
+
+ </p></li></ul>
+<p>
+</p><hr>
+<hr>
+<p>
+</p><hr>
+<hr>
+<p>
+</p><hr>
+<hr>
+<p>
+</p></li><li> <font color="darkmagenta"><b>
+     <i>Capacity</i> of a cut
+     </b></font>
+<p>
+</p><ul>
+<li> <b>Definition:</b>
+   the <font color="red"><b> capacity</b></font> of a <b>cut</b>
+<p>
+</p><ul>
+<table bgcolor="lightcyan" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> <font color="blue"><b>Capacity of a cut</b></font> =
+     the <b>sum</b> of the
+     <font color="red"><b>capacity of the edges</b></font>
+     in the <font color="blue"><b>cut</b></font> that are
+     <font color="magenta"><b><i>oriented</i></b></font> from
+     <font color="red"><b>a vertex &#8712; <i>X</i> to
+     a vertex &#8712; <i>Y</i></b></font>
+<p>
+</p><hr>
+<p>
+<b>Note:</b>
+</p><p>
+</p><ul>
+<table bgcolor="lightyellow" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> These <b>edges</b> can be used to
+    <font color="blue"><b>"carry" flow</b></font> from
+    <font color="red"><b><i>S</i> &#8594; <i>T</i></b></font> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+
+ </p></li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+</p><hr>
+<p>
+<b>Example:</b> <font color="red"><b><i>capacity</i> of cuts</b></font>
+</p><p>
+</p><p>
+</p><ul>
+<table bgcolor="lightyellow" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> <b>Cut 1:</b>
+<p>
+</p><ul>
+<table border="5">
+
+<tbody><tr> <td>
+<img src="max-flow-min-cut_files/netflow10a.gif">
+</td> </tr>
+
+</tbody></table>
+</ul>
+<p>
+</p><hr>
+<p>
+ </p></li><li> <b>Cut 2:</b>
+<p>
+</p><ul>
+<table border="5">
+
+<tbody><tr> <td>
+<img src="max-flow-min-cut_files/netflow10b.gif">
+</td> </tr>
+
+</tbody></table>
+</ul>
+<p>
+
+</p><p>
+<font color="red"><b>Note:</b></font>
+</p><p>
+</p><ul>
+<table bgcolor="lightcyan" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li>  The
+      <b>capacity</b> of edge <font color="red"><b>B &#8594; A</b></font>
+      is <font color="darkmagenta"><b>not included</b></font> in
+      the <b>sum</b>
+      because 
+      <font color="red"><b>B &#8594; A</b></font> is 
+      <b><i>directed</i></b> from a vertex in
+      <font color="blue"><b><i>Y</i></b></font> to
+      a vertex in
+      <font color="blue"><b><i>X</i></b></font>
+ <p>
+ </p></li><li> <font color="red"><b><i>Only</i></b></font>  edges
+       <font color="blue"><b><i>oriented</i></b></font> from a vertex in
+      <font color="red"><b><i>X</i></b></font> to
+      a vertex in
+      <font color="blue"><b><i>Y</i></b></font>
+      are used to 
+      <b>"carry" flow</b>
+      from
+      <font color="red"><b><i>S</i> &#8594; <i>T</i></b></font> !!!
+ </li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+ </p></li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+
+</p></li></ul>
+
+<p>
+</p><hr>
+<hr>
+<p>
+</p><p>
+</p><hr>
+<hr>
+<p>
+</p></li><li> <font color="darkmagenta"><b>
+     <i>Minimum</i> cut (and: <i>minimum</i> cut capacity)
+     </b></font>
+<p>
+</p><ul>
+<li> <b>Definition:</b>
+    <font color="red"><b><i>minimum</i> cut</b></font> and
+    <font color="blue"><b>min. cut capacity</b></font>
+<p>
+</p><ul>
+<table bgcolor="#FFEEEE" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> <font color="blue"><b>Minimum cut</b></font> =
+      the <font color="red"><b>cut</b></font> in the <b>network</b>
+      that has the
+      <font color="blue"><b><i>smallest</i> possible capacity</b></font>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p>
+</p><hr>
+<p>
+ </p></li><li> <font color="blue"><b>Minimum cut capacity</b></font> =
+      the <font color="red"><b>capacity</b></font> of the
+      <font color="blue"><b><i>minimum</i> cut</b></font>
+ </li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+
+</p></li></ul>
+
+
+<p>
+</p><hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<p>
+</p></li><li> <font color="darkmagenta"><b>
+     An <i>upper bound</i> for the maximum flow
+     </b></font>
+<p>
+</p><ul>
+<li> <b>Recall: <i>maximum</i> flow:</b>
+<p>
+</p><ul>
+<table bgcolor="#CCFFCC" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> <font color="blue"><b>Maximum flow</b></font> =
+     the <font color="red"><b>largest possible flow</b></font>
+      from <b>source <i>S</i></b> to 
+   <b>sink <i>T</i></b>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </li></ul>
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+</p><hr>
+<p>
+</p></li><li> <b>Proposition:</b>
+<p>
+</p><ul>
+<table bgcolor="#FFEEEE" border="5">
+<tbody><tr> <td>
+
+<font color="blue">
+<b>
+<pre>     <font color="red">Maximum flow</font>  &#8804;  <font color="red">Capacity</font> of the <font color="red">min. cut</font> of the network             
+</pre>
+</b>
+</font>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+<b>Proof:</b>
+</p><p>
+</p><ul>
+<table bgcolor="lightyellow" border="5">
+<tbody><tr> <td>
+
+ <ul>
+<p>
+</p><li> Consider <font color="blue"><b><i>any</i> cut</b></font> of
+    the <b>basic network</b>:
+<p>
+</p><ul>
+<table border="5">
+
+<tbody><tr> <td>
+<img src="max-flow-min-cut_files/netflow11.gif">
+</td> </tr>
+
+</tbody></table>
+</ul>
+<p>
+<b>Note that:</b>
+</p><p>
+</p><ul>
+<table bgcolor="lightcyan" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> <font color="blue"><b><i>Any</i> flow</b></font> 
+       <b><i>must</i></b> pass through the
+       <font color="red"><b>edge of a <i>cut</i></b></font>
+ <p>
+ We have that:
+</p><p>
+</p><ul>
+<table bgcolor="#FFEEEE" border="5">
+<tbody><tr> <td>
+
+<font color="blue">
+<b>
+<pre>   <font color="red">Total flow</font> = &#8721;<sub> <font color="red">forward edge e</font></sub> f(e) - &#8721;<sub> <font color="darkred">backward edge b</font></sub> f(b)   
+
+              &#8804; &#8721;<sub> <font color="red">forward edge e</font></sub> f(e)     (f(e) &#8804; c(e))
+
+              &#8804; &#8721;<sub> <font color="red">forward edge e</font></sub> c(e) 
+</pre>
+</b>
+</font>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+
+ </p><p>
+ </p></li><li> <b>Therefore:</b>
+<p>
+</p><ul>
+<table bgcolor="#CCFFCC" border="5">
+<tbody><tr> <td>
+
+<font color="red">
+<b>
+<pre>    Total flow  <font color="blue">&#8804;</font>  capacity of <font color="blue">any cut</font>        
+</pre>
+</b>
+</font>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+
+ </p></li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+</p><hr>
+<hr>
+<p>
+</p></li><li> This is <font color="blue"><b>true</b></font> for
+      <font color="red"><b><i>every</i> flow</b></font>
+<p>
+</p><ul>
+<table bgcolor="#FFEEEE" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li>  So it is <font color="blue"><b>true</b></font> for the
+   <font color="red"><b><i>maximum</i> possible flow</b></font> also...
+ </li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+
+
+</p><p>
+ <b>Therefore:</b>
+</p><p>
+</p><ul>
+<table bgcolor="#CCFFCC" border="5">
+<tbody><tr> <td>
+
+<font color="blue">
+<b>
+<pre>    <font color="red">Maximum flow</font>  &#8804;  capacity of <font color="red">any cut</font>      
+</pre>
+</b>
+</font>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+ </p></li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+
+</p><p>
+</p><hr>
+<p>
+</p></li><li> If the <font color="blue"><b><i>maximum</i> flow</b></font>
+     <font color="blue"><b>&#8804;</b></font>
+    capacity of <font color="red"><b><i>any</i> cut</b></font>,
+   then
+   <font color="blue"><b><i>maximum</i> flow</b></font>
+     <font color="blue"><b>&#8804;</b></font>
+    capacity of the <font color="red"><b><i>minimum</i> cut</b></font>:
+
+<p>
+</p><ul>
+<table bgcolor="lightcyan" border="5">
+<tbody><tr> <td>
+
+<font color="blue">
+<b>
+<pre>   <font color="red">Maximum flow</font>  &#8804;  capacity of <font color="red">minimum cut</font>          <font color="red">.......... (1)</font>         
+</pre>
+</b>
+</font>
+
+</td> </tr>
+</tbody></table>
+</ul>
+</li></ul>
+
+<p>
+</p><hr>
+<hr>
+<p>
+</p><hr>
+<hr>
+<p>
+</p><hr>
+<hr>
+<p>
+</p></li><li> <font color="darkmagenta"><b>
+     The &nbsp; <i>max-flow, min-cut</i> &nbsp; theorem
+     </b></font>
+<p>
+</p><ul>
+<li> <b>Theorem:</b>
+<p>
+</p><ul>
+<table bgcolor="#FFEEEE" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> In <font color="blue"><b><i>any</i> basic network</b></font>, the
+    <font color="red"><b>value of the <i>maximum flow</i></b></font> is
+    <font color="blue"><b><i>equal</i> to</b></font> the
+    <font color="red"><b>capacity of the
+    <i>minimum cut</i></b></font>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <p>
+ I.e.: 
+</p><p>
+</p><ul>
+<table bgcolor="#CCFFCC" border="5">
+<tbody><tr> <td>
+
+<font color="red">
+<b>
+<pre>    maximum flow = capacity of min. cut            
+</pre>
+</b>
+</font>
+
+</td> </tr>
+</tbody></table>
+</ul>
+
+ </li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+<b>Proof:</b>
+</p><p>
+</p><ul>
+<table bgcolor="lightcyan" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> From the <font color="blue"><b>previous discussion</b></font>,
+    we have that:
+<p>
+</p><ul>
+<table bgcolor="lightyellow" border="5">
+<tbody><tr> <td>
+
+<font color="red">
+<b>
+<pre>    maximum flow  <font color="blue">&#8804;</font>  capacity of min. cut      
+</pre>
+</b>
+</font>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+</p><hr>
+<p>
+</p></li><li> To <font color="red"><b>complete the proof</b></font>, we 
+   <font color="blue"><b>show</b></font> that:
+<p>
+</p><ul>
+<table bgcolor="#CCFFCC" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> There 
+    <font color="blue"><b>exists</b></font>
+     a <b>cut</b> <font color="red"><b> <i>C</i></b></font> such that:
+<p>
+</p><ul>
+<table bgcolor="lightyellow" border="5">
+<tbody><tr> <td>
+
+<font color="blue">
+<b>
+<pre>    capacity of cut <font color="red">C</font> <font color="magenta">=</font> maximum flow           
+</pre>
+</b>
+</font>
+
+</td> </tr>
+</tbody></table>
+</ul>
+
+<p>
+   
+ </p></li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+We will
+  <font color="blue"><b>construct</b></font> the
+  <b>cut</b> <font color="red"><b><i>C</i></b></font>
+  from a <font color="blue"><b>maximum flow</b></font>....
+</p><p>
+</p><p>
+</p><hr>
+<hr>
+<p>
+</p></li><li> <font color="blue"><b>Assume</b></font> that
+      we have found a <font color="red"><b>maximum flow</b></font>
+    in the network
+ <p>
+  <b><i>Now</i></b>
+    <font color="blue"><b>construct</b></font>
+     the following <font color="red"><b>cut</b></font>:
+</p><p>
+</p><ul>
+<table bgcolor="#FFEEEE" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> <font color="red"><b><i>X</i></b></font> =
+    <b>set </b> of
+     <font color="blue"><b> vertices</b></font>
+      that can be
+   <font color="red"><b>reached</b></font>
+    from <b>source</b> <font color="blue"><b> <i>S</i></b></font>
+   through
+    a <font color="red"><b>flow-augmenting path</b></font>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <p>
+ </p></li><li> <font color="red"><b><i>Y</i></b></font> =
+     all the <font color="blue"><b>other</b></font> vertices
+ </li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+<b>Example:</b>
+</p><p>
+</p><ul>
+<table bgcolor="lightyellow" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> Here is a <font color="blue"><b>basic network</b></font> with 
+     a <font color="red"><b><i>maximum</i> flow</b></font>:
+<p>
+</p><ul>
+<table border="5">
+
+<tbody><tr> <td>
+<img src="max-flow-min-cut_files/netflow12a.gif">
+</td> </tr>
+
+</tbody></table>
+</ul>
+<p>
+</p><hr>
+<p>
+</p></li><li> <font color="blue"><b>Nodes</b></font> that can
+     <font color="red"><b>reached</b></font>
+      from <b>source</b> <font color="blue"><b> <i>S</i></b></font>
+   through
+    a <font color="red"><b>flow-augmenting path</b></font>:
+<p>
+</p><ul>
+<table bgcolor="#CCFFCC" border="5">
+<tbody><tr> <td>
+
+<font color="blue">
+<b>
+<pre>    only the node:  <font color="red">C</font>                  
+</pre>
+</b>
+</font>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+</p><hr>
+<p>
+</p></li><li> This is the <font color="red"><b>cut</b></font> that we will 
+     <font color="blue"><b>construct</b></font>:
+<p>
+</p><ul>
+<table border="5">
+
+<tbody><tr> <td>
+<img src="max-flow-min-cut_files/netflow12b.gif">
+</td> </tr>
+
+</tbody></table>
+</ul>
+<p>
+ </p></li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+</p><hr>
+<hr>
+<p>
+</p></li><li> We must <font color="red"><b>prove the following</b></font>:
+<p>
+</p><ul>
+<table bgcolor="#CCFFCC" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> The above <b>construction</b> yields a
+     <font color="red"><b><i>cut</i></b></font>
+<p>
+ I.e.:
+</p><p>
+</p><ul>
+<table bgcolor="lightyellow" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> The <b>source</b> <font color="blue"><b><i>S</i></b></font>
+     and the <b>sink</b> <font color="blue"><b><i>T</i></b></font>
+     are in <font color="red"><b><i>different</i> sets</b></font> !
+ </li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+ 
+</p><p>
+</p><hr>
+<p>
+</p></li><li> The <font color="blue"><b>total flow</b></font> through the 
+    <b><i>cut</i></b> is
+      <font color="red"><b><i>equal</i> to</b></font>
+      the <font color="blue"><b>capacity</b></font> of the 
+     <b><i>cut</i></b>
+ </li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+
+We will prove the above by proving
+ <font color="blue"><b>3 <i>special</i> properties</b></font> of this
+  <font color="red"><b>construction</b></font>
+</p><p>
+
+</p><hr>
+<hr>
+<p>
+</p></li><li> <b>Property 1:</b>
+   the construct <font color="blue"><b>yields</b></font> a
+   <font color="red"><b>cut</b></font>, meaning:
+<p>
+</p><ul>
+<table bgcolor="lightyellow" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> <font color="red"><b><i>S</i> &nbsp; &#8712; &nbsp; <i>X</i></b></font>
+ </li><li> <font color="red"><b><i>T</i> &nbsp; &#8713; &nbsp; <i>X</i></b></font>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   (i.e.:
+  <font color="blue"><b><i>T</i> &nbsp; &#8712; &nbsp; <i>Y</i></b></font>)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+<b>Proof:</b>
+</p><p>
+</p><ul>
+<table bgcolor="#FFEEEE" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> By the <font color="blue"><b>way</b></font> the set
+    <font color="red"><b><i>X</i></b></font> is formed,
+    the <b>source</b> <font color="blue"><b><i>S</i></b></font>
+    is <b>always</b> included in <font color="red"><b><i>X</i></b></font>.
+ <p>
+ I.e.:
+</p><p>
+</p><ul>
+<table bgcolor="lightyellow" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> <font color="red"><b><i>S</i> &nbsp; &#8712; &nbsp; <i>X</i></b></font>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+</p><hr>
+<hr>
+<hr>
+<p>
+</p></li><li> We will show
+    <font color="red"><b><i>T</i> &#8713; <i>X</i></b></font>
+    (i.e.,
+    <font color="blue"><b><i>T</i> &#8712; <i>Y</i></b></font>)
+    by <font color="red"><b>contradiction</b></font>
+<p>
+ <font color="blue"><b><i>Suppose</i></b></font>:
+</p><p>
+</p><ul>
+<table bgcolor="lightyellow" border="5">
+<tbody><tr> <td>
+
+ <ul>
+
+ <li> <font color="red"><b><i>T</i> &nbsp; &#8712; &nbsp; <i>X</i></b></font>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+</p><hr>
+<p>
+ </p></li><li> From the <font color="blue"><b>construction</b></font> of the
+    <b>cut</b> <font color="red"><b><i>C</i></b></font>:
+<p>
+</p><ul>
+<table bgcolor="lightyellow" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> <font color="red"><b><i>X</i></b></font> =
+       all vertices that can be
+   <font color="blue"><b>reached from source <i>S</i></b></font>
+   by a <font color="red"><b>flow-<i>augmenting</i> path</b></font>
+ </li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+
+</p><hr>
+ <p>
+ </p></li><li> <b><i>Because</i></b> &nbsp;
+     <font color="red"><b><i>T</i> &nbsp; &#8712; &nbsp; <i>X</i></b></font>,
+     then:
+<p>
+</p><ul>
+<table bgcolor="lightyellow" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li>  There  <font color="blue"><b><i>exists</i></b></font> a
+    <font color="red"><b>flow augmenting path</b></font>
+    from
+    <font color="blue"><b><i>S</i> &#8594; <i>T</i></b></font>
+ </li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+which <font color="red"><b>means</b></font>:
+</p><p>
+</p><ul>
+<table bgcolor="#CCFFCC" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li>  the
+   <font color="blue"><b><i>current</i> flow</b></font> is
+   <font color="red"><b><i>not</i> maximum</b></font> !!!!
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+ </p><p>
+ </p><hr>
+ <p>
+  </p></li><li> That <font color="blue"><b>contradicts</b></font> the
+  <b>given <i>fact</i></b> that the
+  <font color="blue"><b><i>current</i> flow</b></font> is
+  <font color="red"><b>maximum</b></font> !!!
+
+
+ </li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+
+</p><p>
+</p><hr>
+<hr>
+<p>
+</p></li><li> <b>Taking stock:</b>
+<p>
+</p><ul>
+<table bgcolor="lightyellow" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> We have <font color="red"><b>shown</b></font> that:
+<p>
+</p><ul>
+<table bgcolor="#FFEEEE" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> The <b>source</b> <font color="red"><b><i>S</i></b></font> and
+     the <b>sink</b> <font color="red"><b><i>T</i></b></font> are
+    in <font color="blue"><b><i>different</i> parts</b></font>
+    of the <b>cut</b> <font color="red"><b><i>C</i></b></font>:
+
+<p>
+</p><ul>
+<table border="5">
+
+<tbody><tr> <td>
+<img src="max-flow-min-cut_files/netflow11.gif">
+</td> </tr>
+
+</tbody></table>
+</ul>
+<p>
+ </p></li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+
+ </p></li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+Now we will show that:
+</p><p>
+</p><ul>
+<table bgcolor="#CCFFCC" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> <font color="blue"><b>Total flow</b></font>
+       over the <b>cut</b> is
+       <font color="red"><b>equal</b></font> to the
+       <font color="blue"><b>capacity</b></font> of the <b>cut</b>
+<p>
+<b>Recall:</b>
+</p><p>
+</p><ul>
+<table bgcolor="lightyellow" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> <font color="blue"><b>Capacity</b></font> of a <b>cut</b> =
+      <font color="red"><b>sum</b></font> of the 
+      <font color="blue"><b>capacity</b></font> of
+      <b><i>all</i></b>
+      <font color="red"><b>forward edges</b></font>
+ </li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+
+ </p></li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+
+</p><hr>
+<hr>
+<p>
+</p></li><li> <b>Property 2:</b>
+<p>
+</p><ul>
+<table width="800" bgcolor="#CCFFCC" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> For <font color="blue"><b>each <i>forward</i> edge  <i>e</i></b></font>
+     in the
+     <b>cut</b> <font color="red"><b><i>C</i></b></font>:
+<p>
+</p><ul>
+<table bgcolor="lightyellow" border="5">
+<tbody><tr> <td>
+
+<font color="blue">
+<b>
+<pre>    <font color="red">f(e) = c(e)</font>        
+</pre>
+</b>
+</font>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+<b><i>Graphically</i> illustrated:</b>
+</p><p>
+</p><ul>
+<table border="5">
+
+<tbody><tr> <td>
+<img src="max-flow-min-cut_files/netflow13.gif">
+</td> </tr>
+
+</tbody></table>
+</ul>
+
+</li></ul></td> </tr>
+</tbody></table>
+</ul>
+<p>
+<b>Proof:</b>
+</p><p>
+</p><ul>
+<table bgcolor="lightyellow" border="5">
+<tbody><tr> <td>
+
+
+ <ul>
+ <li> Select an
+     <font color="blue"><b><i>arbitrary</i> forward edge</b></font>
+     <font color="red"><b><i>A</i>&#8594;<i>B</i></b></font> of the
+     <b>cut</b>
+<p>
+</p><ul>
+<table bgcolor="#FFEEEE" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> <font color="red"><b><i>A</i></b></font>
+     <b>&#8712;</b>
+      <font color="blue"><b><i>X</i></b></font>,
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>and</b>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </li><li> <font color="red"><b><i>B</i></b></font>
+     <b>&#8712;</b>
+      <font color="blue"><b><i>Y</i></b></font>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   (i.e., there is
+  <font color="blue"><b><i>no</i></b></font>
+   <font color="red"><b>flow augmenting path</b></font> from
+   <font color="blue"><b><i>S</i></b></font> to
+   <font color="red"><b><i>B</i></b></font>)
+ </li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+
+</p><p>
+ </p></li><li> Because
+   <font color="blue"><b><i>A</i></b></font>
+     <b>&#8712;</b>
+      <font color="red"><b><i>X</i></b></font>,
+     there is a <font color="blue"><b>flow augmenting path</b></font> from
+      <font color="red"><b><i>S</i> &#8594; <i>A</i></b></font>:
+<p>
+</p><ul>
+<table border="5">
+
+<tbody><tr> <td>
+<img src="max-flow-min-cut_files/netflow13a.gif">
+</td> </tr>
+
+</tbody></table>
+</ul>
+ <p>
+</p><hr>
+<p>
+ </p></li><li> <font color="blue"><b><i>If</i>:</b></font>
+     <font color="red"><b><i>f(e) &lt; c(e)</i></b></font>: 
+ 
+<p>
+</p><ul>
+<table border="5">
+
+<tbody><tr> <td>
+<img src="max-flow-min-cut_files/netflow13b.gif">
+</td> </tr>
+
+</tbody></table>
+</ul>
+ <p>
+   <font color="red"><b><i>then</i></b></font>:
+</p><p>
+</p><ul>
+<table bgcolor="#FFEEEE" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li>     there <b><i>will be</i></b>
+    a <font color="blue"><b>flow augmenting path</b></font> from
+      <font color="red"><b><i>S</i> &#8594; <i>B</i></b></font> 
+   (by <font color="darkmagenta"><b><i>increasing</i> the flow
+      through <i>A</i> &#8594; <i>B</i></b></font>) !!!
+ </li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+<b>which mean:</b>
+</p><p>
+</p><ul>
+<table bgcolor="lightcyan" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> <font color="red"><b><i>B</i> &#8712; <i>X</i></b></font> !!!
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+</p><hr>
+<p>
+ </p></li><li> This <font color="red"><b>contradicts</b></font> the fact that:
+    <font color="blue"><b><i>B</i> &#8712; <i>Y</i></b></font> 
+   
+      
+ </li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+
+
+
+</p><hr>
+<hr>
+<p>
+</p></li><li> <b>Property 3:</b>
+<p>
+</p><ul>
+<table width="800" bgcolor="#FFEEEE" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> For <font color="blue"><b>each <i>backward</i> edge <i>e</i></b></font>
+      in the <b>cut</b>
+      <font color="red"><b><i>C</i></b></font>:
+<p>
+</p><ul>
+<table bgcolor="#CCFFCC" border="5">
+<tbody><tr> <td>
+
+<font color="blue">
+<b>
+<pre>     <font color="red">f(e) = 0</font>            
+</pre>
+</b>
+</font>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+
+</p><p>
+<b><i>Graphically</i> illustrated:</b>
+</p><p>
+</p><ul>
+<table border="5">
+
+<tbody><tr> <td>
+<img src="max-flow-min-cut_files/netflow14.gif">
+</td> </tr>
+
+</tbody></table>
+</ul>
+
+</li></ul></td> </tr>
+</tbody></table>
+</ul>
+<p>
+<b>Proof:</b>
+</p><p>
+</p><ul>
+<table bgcolor="lightyellow" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> Select an
+     <font color="blue"><b><i>arbitrary</i> backward edge</b></font>
+     <font color="red"><b><i>B</i>&#8594;<i>A</i></b></font> of the
+     <b>cut</b>
+<p>
+</p><ul>
+<table bgcolor="#FFEEEE" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> <font color="red"><b><i>A</i></b></font>
+     <b>&#8712;</b>
+      <font color="blue"><b><i>X</i></b></font>,
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>and</b>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </li><li> <font color="red"><b><i>B</i></b></font>
+     <b>&#8712;</b>
+      <font color="blue"><b><i>Y</i></b></font>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   (i.e., there is
+  <font color="blue"><b><i>no</i></b></font>
+   <font color="red"><b>flow augmenting path</b></font> from
+   <font color="blue"><b><i>S</i></b></font> to
+   <font color="red"><b><i>B</i></b></font>)
+ </li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+
+</p><p>
+ </p></li><li> Because
+   <font color="blue"><b><i>A</i></b></font>
+     <b>&#8712;</b>
+      <font color="red"><b><i>X</i></b></font>,
+     there is a <font color="blue"><b>flow augmenting path</b></font> from
+      <font color="red"><b><i>S</i> &#8594; <i>A</i></b></font>:
+<p>
+</p><ul>
+<table border="5">
+
+<tbody><tr> <td>
+<img src="max-flow-min-cut_files/netflow14a.gif">
+</td> </tr>
+
+</tbody></table>
+</ul>
+ <p>
+</p><hr>
+<p>
+ </p></li><li> <font color="blue"><b><i>If</i>:</b></font>
+     <font color="red"><b><i>f(e) &gt; 0</i></b></font>: 
+ 
+<p>
+</p><ul>
+<table border="5">
+
+<tbody><tr> <td>
+<img src="max-flow-min-cut_files/netflow14b.gif">
+</td> </tr>
+
+</tbody></table>
+</ul>
+ <p>
+   <font color="red"><b><i>then</i></b></font>:
+</p><p>
+</p><ul>
+<table bgcolor="#FFEEEE" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li>     there <b><i>will be</i></b>
+    a <font color="blue"><b>flow augmenting path</b></font> from
+      <font color="red"><b><i>S</i> &#8594; <i>B</i></b></font> 
+   (by <font color="darkmagenta"><b><i>increasing</i> the flow
+      through <i>A</i> &#8594; <i>B</i></b></font>) !!!
+<p>
+</p><ul>
+<table bgcolor="lightyellow" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> If we
+   <font color="red"><b><i>decrease</i></b></font> some
+   flow on
+   <b><i>A</i>&#8594;<i>B</i></b>,
+   the 
+ </li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+
+ </p></li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+<b>which mean:</b>
+</p><p>
+</p><ul>
+<table bgcolor="lightcyan" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> <font color="red"><b><i>B</i> &#8712; <i>X</i></b></font> !!!
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+</p><hr>
+<p>
+ </p></li><li> This <font color="red"><b>contradicts</b></font> the fact that:
+    <font color="blue"><b><i>B</i> &#8712; <i>Y</i></b></font> 
+   
+      
+ </li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+
+<p>
+</p><hr>
+<hr>
+<p>
+</p></li><li> Therefore, we have the following situation at this particular cut:
+<p>
+</p><ul>
+<table border="5">
+
+<tbody><tr> <td>
+<img src="max-flow-min-cut_files/netflow15.gif">
+</td> </tr>
+
+</tbody></table>
+</ul>
+<p>
+And therefore:
+</p><p>
+</p><ul>
+<table bgcolor="lightyellow" border="5">
+<tbody><tr> <td>
+
+<font color="blue">
+<b>
+<pre>
+    <font color="red">total flow</font>   = sum of <font color="red">f(e)</font> for every forward edge e  (<font color="red">f(e) = c(e)</font> !!!)
+
+                 = sum of <font color="red">c(e)</font> for every forward edge e     
+
+                 =  <font color="red">capacity of the cut</font> 
+</pre>
+</b>
+</font>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+In other words:
+</p><p>
+</p><ul>
+<table bgcolor="#FFEEEE" border="5">
+<tbody><tr> <td>
+
+ <ul>
+ <li> We found a <font color="blue"><b>cut</b></font> that has the
+  <font color="red"><b>capacity <i>equal</i> to the max. flow</b></font> !!!
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </li></ul>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+That completes the proof...
+
+
+</p></li></ul>
+
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+
+</p></li></ul>
+
+
+<p>
+</p><hr>
+<hr>
+<p>
+</p></li><li> <font color="darkmagenta"><b>
+     Practice
+     </b></font>
+<p>
+</p><ul>
+<li> Find a <font color="blue"><b>minimum cut</b></font>
+    in the following <b>basic network</b>:
+<p>
+</p><ul>
+<table border="5">
+
+<tbody><tr> <td>
+<img src="max-flow-min-cut_files/netflow40.gif">
+</td> </tr>
+
+</tbody></table>
+</ul>
+<p>
+<b>Solution:</b>   the max flow is achieved with this flow assignment
+</p><p>
+</p><ul>
+<table border="5">
+
+<tbody><tr> <td>
+<img src="max-flow-min-cut_files/netflow40a.gif">
+</td> </tr>
+
+</tbody></table>
+</ul>
+<p>
+Here is the solution with <b>saturated edges</b>
+  thickened:
+</p><p>
+</p><ul>
+<table border="5">
+
+<tbody><tr> <td>
+<img src="max-flow-min-cut_files/netflow40c.gif">
+</td> </tr>
+
+</tbody></table>
+</ul>
+<p>
+
+Find all node that can be reach by
+ <b>flow augmenting paths</b> from <b><i>S</i></b>:
+</p><ul>
+<table border="5">
+
+<tbody><tr> <td>
+<ul>
+<li> <b>
+     <i>S</i>
+      &nbsp; &#8594; <i>C</i>
+      &nbsp; &#8594; <i>E</i>
+      &nbsp; &#8594; <i>B</i></b>
+      (through backward edge <b><i>BE</i></b> by decreasing flow !)
+   <br>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+    &nbsp; 
+      <b>&#8594; <i>A</i></b>
+      (through backward edge <b><i>AE</i></b> by decreasing flow !)
+</li></ul>
+</td> </tr>
+
+</tbody></table>
+</ul>
+<p>
+The minimum cut:
+</p><p>
+</p><ul>
+<table border="5">
+
+<tbody><tr> <td>
+<img src="max-flow-min-cut_files/netflow40b.gif">
+</td> </tr>
+
+</tbody></table>
+</ul>
+<p>
+
+</p></li></ul>
+
+
+
+
+<p>
+</p></li></ul>
+<p>
+</p><hr>
+<hr>
+<hr>
+<hr>
+
+
+
+
+
+
+
+
+</body></html>

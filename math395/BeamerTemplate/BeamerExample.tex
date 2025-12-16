@@ -1,0 +1,126 @@
+\documentclass{beamer}
+\usepackage{beamerthemeshadow}
+\usepackage{beamerthemeDarmstadt}
+\usepackage{multicol}
+%\usepackage{pgfpages}
+%\pgfpagesuselayout{resize to}[letterpaper,border shrink=5mm,portrait]
+
+% \usepackage[english]{babel}
+% \usepackage[latin1]{inputenc}
+% \usepackage{times}
+% \usepackage[T1]{fontenc}
+% \usepackage{graphicx,subfigure}
+% \usepackage{color}
+% \usepackage{amsmath}
+% 
+
+
+% user's definition
+
+\newenvironment{changemargin}[2]{%
+  \begin{list}{}{%
+    \setlength{\topsep}{0pt}%
+    \setlength{\leftmargin}{#1}%
+    \setlength{\rightmargin}{#2}%
+    \setlength{\listparindent}{\parindent}%
+    \setlength{\itemindent}{\parindent}%
+    \setlength{\parsep}{\parskip}%
+  }%
+  \item}{\end{list}}
+
+\title[Your Title Here]
+{\Large Your Title Here again}
+
+
+\author{Your name, or any other subtitle on title slide}
+
+\date{June 31, 1999}
+
+\institute[WSU] {Winona State University}
+
+
+
+%-------------------------------------------------------------------
+\begin{document}
+
+\begin{frame}
+  \titlepage 
+\end{frame}
+
+
+
+%---------------------------------------------------
+\section{Intro}
+\subsection{}
+\frame{{Welcome to Beamer}
+This is beamer: the LaTeX package to make {\color{red} awesome} presentations.\\
+
+Notice how everything in inside of a frame; these define the ``slides''.\\
+
+The most common compiling problem is forgetting to close the frame.
+
+}
+\section{Boxes}
+\subsection{Boxes and Things}
+\frame{{Boxes}
+You can make the following boxes:
+\begin{theorem}[Theorem Title]
+You can omit the theorem title if need be.
+\end{theorem}
+\begin{example}
+Here, I omitted the example title, but I could've included it if I had wanted to.
+\end{example}
+\begin{alertblock}{Advice}
+Throughout your talk, be consistent in your use of color for a box, i.e. Blue only for theorems, Green only for examples, and Red for really important stuff (like Theorems you came up with/proved)
+\end{alertblock}
+
+}
+
+\frame{{Beamer working for you}
+\begin{definition}
+I would've really liked to put this box on the previous slide, but Beamer knows when there's too much on a slide and it doesn't shrink stuff just to fit. If Beamer says it's too much for a slide, it's probably right.
+\end{definition}
+}
+
+\frame{{Itemized Lists}
+\begin{itemize}
+\item Notice how horrible the first slide (after the title slide) looks.
+\item It's often nicer looking to use itemized lists
+\item Don't you think?
+\end{itemize}
+}
+
+\frame{{Pictures and Graphics}
+You can also include pictures:
+\begin{center}
+\includegraphics[width=2in]{Example.jpg}
+\end{center}
+(centering optional)\\
+\includegraphics[width=2in]{Example.jpg}
+
+Just make sure the graphic file is in the same folder as the .tex file.
+}
+
+\section{Advanced Moves}
+\subsection{}
+\frame{{}
+\begin{itemize}
+\item Frames don't have to have a title
+\item Neither do subsections (I rarely name my subsections, most time leaving them blank like here).
+\item If you do use sections, you often have to compile twice. On the first compile a .log file is created so that on the second compile it can make the correct links. It's really bad when you make a change to your talk 5 minutes before you go on and forget to compile twice.
+\end{itemize}
+
+}
+
+\frame{{Uncovering}
+\begin{itemize}
+\item<1->One of the best things Beamer can do, but {\color{green}one of the last things you should implement} is
+\item<2-> uncovering.
+\item<3-> See source code how to do this.
+\item<3-4> It's easiest in an itemized list. You put $<$n-m$>$ after the $\backslash$item. Then that bullet will be shown in steps n through m. (Leaving m blank means until the end, n blank from the beginning).
+\item<4-> You can also uncover \uncover<5->{one} \uncover<6->{word} \uncover<7->{at} \uncover<8->{a} \uncover<9->{time.}
+\item<10-> This also works inside math equations: $\displaystyle\int e^x\ dx=\uncover<11->{e^x}\uncover<12->{+C}$.
+\end{itemize}
+
+}
+\end{document}

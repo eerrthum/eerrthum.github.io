@@ -1,0 +1,64 @@
+\documentclass{article}
+\pagestyle{empty}
+
+% ========================================================================
+% preamble-- INCLUDE, BUT DO NOT CHANGE ANY OF THIS
+% ========================================================================
+
+% margins, size, formatting
+
+% packages for fancy fonts, symbols, thm/proof environments, etc
+\usepackage[left=2cm,top=2cm,right=2cm, bottom=2cm,nohead,nofoot]{geometry}
+\usepackage{amssymb,amsmath,amsthm,verbatim, bbm, amscd}
+\usepackage{mdframed} \mdfsetup{nobreak=true}
+
+% Theorem Styles
+\theoremstyle{problem}
+\newtheorem{problem}{Problem}[section]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[problem]{Lemma}
+\newtheorem{proposition}[problem]{Proposition}
+\newtheorem{corollary}[problem]{Corollary}
+% Definition Styles
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\newtheorem*{notation}{Definition}
+\newtheorem{example}{Example}[section]
+\newmdtheoremenv[%
+  linewidth=2pt]{framed}{Definition}
+
+\newmdtheoremenv[%
+  linewidth=2pt, linecolor=blue]{done}{Definition}
+
+
+% ========================================================================
+% body-- YOU MAY MAKE CHANGES AS NECESSARY BELOW
+% ========================================================================
+
+\begin{document}
+
+% Problem/Example Number
+{\bf
+Problem Errthum
+}
+% Retype Problem Statement (you can just copy and paste from the lexicon)
+Make a duplicate of this assignment (using the homeworktemplate.tex file as an example) except change the problem number to your last name.
+
+\begin{proof}
+There are five basic things you should know how to do. Find examples in the lexicon or the other LaTeX files provided. (Are you really typing this? Just copy and paste it from the pdf file and then make it look right.)
+\begin{enumerate}
+\item You should know how to do in-line math statements like $A \subseteq B$ or $\sqrt{x_3} \le y^2$.
+\item You should also know how to display a special equation: $$y=e^x \Rightarrow x = \ln y.$$
+\item You should know how to make a series of aligned equations:
+\begin{eqnarray*}
+f(a,b) &=& ab^{-1} \\
+&=& \frac{a}{b}.
+\end{eqnarray*}
+\item You should know how to create a numbered list.
+\item You should know how to put your answer into a proof environment.
+\end{enumerate}
+That's about it. The rest will come with experience, exposure and a little Google searching. 
+\end{proof}
+When you complete this assignment, upload both the .tex file and the .pdf file to the D2L dropbox.
+
+\end{document} 

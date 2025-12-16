@@ -1,0 +1,711 @@
+\documentclass{beamer}
+\usepackage{beamerthemeshadow}
+\usepackage{beamerthemeDarmstadt}
+%\usepackage{pgfpages}
+%\pgfpagesuselayout{resize to}[letterpaper,border shrink=5mm,portrait]
+
+% \usepackage[english]{babel}
+% \usepackage[latin1]{inputenc}
+% \usepackage{times}
+% \usepackage[T1]{fontenc}
+% \usepackage{graphicx,subfigure}
+% \usepackage{color}
+% \usepackage{amsmath}
+% 
+
+
+% user's definition
+
+% \newtheorem{Thm}{Theorem}[section]
+% \newtheorem{Lm}{Lemma}[section]
+% \newtheorem{Prop}{Proposition}[section]
+% \newtheorem{Cry}{Corollary}[section]
+% \newtheorem{Rmk}{Remark}[section]
+
+\newcommand{\bs}{\backslash}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\ds}{\frac{\partial}{\partjial s}}
+\newcommand{\Af}{\mathbb{A}_f}
+\newcommand{\A}{\mathbb{A}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\h}{\mathfrak{h}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\K}{{\cal K}}
+\newcommand{\vpi}{v}
+\newcommand{\RK}{{\cal R}}
+\newcommand{\D}{\mathfrak{D}}
+\newcommand{\Pro}{\mathbb{P}}
+\newcommand{\Po}{\tau}
+\newcommand{\SL}{\text{SL}_2}
+\newcommand{\GL}{\text{GL}_2}
+\newcommand{\PGL}{\text{PGL}_2}
+\newcommand{\M}{\text{M}_2}
+\newcommand{\tr}{\text{tr}}
+\newcommand{\Oh}{\mathcal{O}}
+\newcommand{\X}{\mathcal{X}}
+\newcommand{\Xs}{\mathcal{X}^*}
+\newcommand{\no}{\text{n}}
+\newcommand{\No}{\text{N}}
+\newcommand{\Div}{\text{div}}
+\font\cute=cmitt10 at 12pt
+\font\smallcute=cmitt10 at 9pt
+\newcommand{\kay}{{\text{\cute k}}}
+\newcommand{\smallkay}{{\text{\smallcute k}}}
+\newcommand{\E}{\mathcal{E}}
+\newcommand{\q}{{\bf q}}
+\newcommand{\Ord}{\text{Ord}}
+\newcommand{\ord}{\text{ord}}
+\newcommand{\Chi}{\mathcal{X}}
+\newcommand{\Hom}{\text{Hom}}
+\newcommand{\cond}{\text{cond}}
+\newcommand{\alp}{\mathfrak{a}}
+\newcommand{\I}{\mathfrak{i}}
+\newcommand{\MSL}{\widetilde{\text{SL}_2}}
+\newcommand{\sign}{\text{sign}}
+\newcommand{\expo}{{\bf e}}
+\newcommand{\Weil}{\rho_L}
+\newcommand{\Weilb}{\overline{\rho}_{\Lambda_L}}
+\newcommand{\Go}{\Gamma_0}
+\newcommand{\MGo}{\widetilde{\Gamma_0}}
+\newcommand{\ep}{\epsilon}
+\newcommand{\lam}{\mathfrak{l}}
+
+\title[Singular Moduli of Shimura Curves]
+{\Large Singular Moduli of Shimura Curves}
+
+
+\author[Eric Errthum]
+{Eric Errthum  \\ Winona State University}
+
+\date{\footnotesize March 27, 2008}
+
+\institute[] 
+{%Department of Mathematics\\
+%University of Maryland, College Park\\
+%\vskip 1.0cm
+% Quotation
+Based on dissertation work done while at the\\
+University of Maryland\\
+under the direction of\\
+Stephen Kudla\\
+}
+
+
+% List Outline in the beginning of each section.
+% \AtBeginSection[]
+% {
+%    \begin{frame}
+%        \frametitle{Outline}
+%        \tableofcontents[currentsection]
+%    \end{frame}
+% }
+
+
+
+
+%-------------------------------------------------------------------
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+
+
+%---------------------------------------------------
+\section{Modular Curve}
+
+\subsection{}
+\frame{{\bf Classical Set-Up}
+\begin{columns}
+\begin{column}{8.5cm}
+\begin{itemize}
+\item<2-> $\GL(\R)$ acts on $\h^\pm$, the union of the upper and lower half-planes:
+$$\begin{pmatrix}a & b \\ c & d\end{pmatrix}\cdot \tau = \frac{a \tau+b}{c \tau + d}.$$
+\item<3-> Consider the Riemann surface $\GL(\Z) \bs \h^\pm$.
+\item<4-> Compactify to obtain $\Xs_1$.
+\item<5-> It has {\color{red}genus $0$}, so there is an isomorphism
+\begin{eqnarray*}
+j: \Xs_1 \stackrel{\sim}{\rightarrow} \Pro^1
+\end{eqnarray*}
+\item<7->$j(\tau) = 1/\q + 744 + 196884 \q + ... \in \frac{1}{\q}\Z[[\q]]$\\
+where $\q = e^{2\pi i \tau}$. (Gauss, Dedekind, Klein, etc.)
+\end{itemize}
+\end{column}
+\begin{column}{4.0cm}
+\includegraphics<3-5>{FundamentalDomain.jpg}
+\includegraphics<6-7>{FundamentalDomain2.jpg}
+\includegraphics<8>{FundamentalDomain3.jpg}
+\end{column}
+\end{columns}
+}
+
+\frame{{\bf Complex Multiplication Points}
+\begin{itemize}
+\item<1-> Let $\E$ be the space of isomorphism classes of elliptic curves. Then,
+$$\Xs_1 \stackrel{\sim}{\longleftrightarrow} \E$$
+\begin{definition}<2-> If $\tau$ is associated with an elliptic curve with Complex Multiplication, $\tau$ is called a {\color{red}CM-point}.
+\end{definition}
+\item<3-> A CM-point $\tau$ is the solution to an integral quadratic equation with negative discriminant $\Delta$.
+\end{itemize}
+}
+
+\frame{{\bf Singular Moduli}
+\begin{definition}<1->
+If $\tau_\Delta$ is a CM point, $j(\tau_\Delta)$ is called a {\color{red}singular modulus}.
+\end{definition}
+\begin{theorem}<2->
+Singular moduli are algebraic integers.
+\end{theorem}
+\begin{examples}<3->
+\begin{eqnarray*}&\begin{array}{ccc}
+j\left(\frac{1+\sqrt{-3}}{2}\right)=0, &j(\sqrt{-5})=2^3(25+13\sqrt{5})^3
+\end{array}&\\
+&j(\sqrt{-6})=12^3(1+\sqrt{2})^2(5+2\sqrt{2})^3&\\
+&j(\!\sqrt{-14})\!=\!2^3\!\left(\!323\!+\!228\sqrt{2}\!+\!(231+161\sqrt{2})\sqrt{2\sqrt{2}\!-\!1}\right)^3&\end{eqnarray*}
+\end{examples}
+}
+
+
+\frame{{\bf Gross-Zagier Theorem}
+\begin{itemize}
+\item<1-3,5>
+Since a singular modulus is an algebraic integer, it has rational norm in $\Z$.
+\begin{theorem}[B. Gross and D. Zagier, 1985]<2-3,5>
+\begin{eqnarray*}
+|j(\tau_{\Delta_1})-j(\tau_{\Delta_2})| = \prod_{n \in N(\Delta_1,\Delta_2)} n^{\varepsilon(n)}
+\end{eqnarray*}
+where $n$, $\varepsilon(n) \in \Z$, $N(\Delta_1,\Delta_2) \subset \Z$ can all be defined explicitly.
+\end{theorem}
+\item<3,5> Recall {\color{red} $j\left(\frac{1+\sqrt{-3}}{2}\right)=0$} and {\color{red} $j\left(\sqrt{-1}\right)=12^3$}.
+\item<5> The factorization is a lot of {\color{blue} small primes to large powers}.
+\end{itemize}
+\uncover<4>{
+\vspace{-2.25in}
+\begin{columns}
+\begin{column}{5cm}
+\begin{center}
+\vspace{-1cm}
+\includegraphics{GZTable}
+\end{center}
+\end{column}
+\begin{column}{5cm}
+\begin{examples} 
+\begin{eqnarray*}
+|j(\sqrt{-5})| &=& 2^{12} 5^3 11^3 \\
+|j(\sqrt{-6})| &=& 2^{12} 3^6 17^3 \\
+|j(\!\sqrt{-14})|&=&2^{24} 11^6 17^3 41^3
+\end{eqnarray*}
+\end{examples}
+\end{column}
+\end{columns}
+}
+}
+
+\section{Shimura Curve}
+\subsection{}
+
+\frame{{\bf Quaternion Algebras}
+\vspace{-.25em}
+\begin{definition}<2-> A {\color{red}quaternion algebra} $B$ is given by $\Q(\alpha,\beta)$ where $\alpha^2 = a$, $\beta^2 = b$ and $\alpha\beta=-\beta\alpha$.
+\end{definition}
+\vspace{-.25em}
+\begin{example}<3->Hamiltonians where $a=b=-1$. \end{example}
+\vspace{-.25em}\uncover<4->{For~our~purposes,~we~only~care~about~{\color{red}indefinite~quaternion~algebras.}}
+\begin{example}<5->$B_6$ where $a=5$, $b=6$. \end{example}
+\vspace{-.25em}\begin{itemize}
+\item<6-> There is an embedding $B \hookrightarrow \M(\Q(\sqrt{b}))$ via
+\begin{eqnarray*}
+\begin{array}{lcr}
+\alpha \mapsto \begin{pmatrix} 0 & a \\ 1 & 0\end{pmatrix}, & & \beta \mapsto \begin{pmatrix} \sqrt{b} & 0 \\ 0 & -\sqrt{b} \end{pmatrix}
+\end{array}
+\end{eqnarray*}
+\end{itemize}
+
+}
+
+\frame{{\bf Maximal Orders}
+\begin{definition}<1->
+An {\color{red} order} $\Oh$ is an integral ideal that is a ring. In addition, $\Oh \otimes \Q = B$.
+\end{definition}
+\begin{definition}<2->
+An {\color{red} maximal order} is one that cannot be properly contained in a larger order.
+\end{definition}
+\begin{example}<3-> 
+$\M(\Z) \subset \M(\Q)$ is a maximal order. 
+\end{example}
+\begin{example}<4->
+$\Z[1,\alpha,\beta,\alpha\beta] \uncover<5->{\subset \Z\left[1,\frac{4\alpha-\alpha\beta}{5},
+\frac{5-3\alpha+2\alpha\beta}{10},
+\frac{4\alpha+5\beta-\alpha\beta}{10}\right]}$ in $B_6$.
+\end{example}
+}
+
+\frame{{\bf Shimura Curve}
+\begin{columns}
+\begin{column}{6cm}
+\begin{center}\underline{Modular Curve}\end{center}
+\vspace{-.25cm}
+\begin{itemize}
+\item<2-> $\GL(\R)$ action
+\item<3-> $\Xs_1 = (\GL(\Z) \bs \h^\pm)^\star$ \\
+\vspace{2pt}$\M(\Z)$ max order
+\item<4-> $j:\Xs_1 \stackrel{\sim}{\rightarrow}\Pro^1$
+\item<6-> $j=1/\q+744+...$ at $\infty$ cusp
+\item<7-> CM Points
+\item<8-> $j(\tau_\Delta)$ algebraic {\color{red}integer}
+\item<9-> Gross-Zagier Factorization of the Norm
+\end{itemize}
+\end{column}
+\begin{column}{6cm}
+\begin{center}\underline{Shimura Curve}\end{center}
+\vspace{-.25cm}
+\begin{itemize}
+\item<2-> $B_D^\times \hookrightarrow \GL(\Q(\sqrt{D}))$ action
+\item<3-> $\Xs_D = \No_{B_D^\times}(\Oh) \bs \h^\pm$ \\
+$\Oh$ max order
+\item<4-> $t_D : \Xs_D \stackrel{\uncover<5->{\sim}}{\rightarrow} \Pro^1$
+\item<6-> No cusps, so {\color{red}no $\q$ expansion}
+\item<7-> CM points
+\item<8-> $t_D(\tau_\Delta)$ algebraic
+\item<9-> No known Gross-Zagier formula
+\vspace{14pt}
+\end{itemize}
+\end{column}
+\end{columns}
+\begin{itemize}
+\item[]<10> \begin{center}{\color{red} Goal: Compute $|t_D(\tau_\Delta)|$ for $D>1$.}\end{center}
+\end{itemize}
+}
+
+\frame{{\bf Elkies's Attempt}
+\begin{columns}
+\begin{column}{9cm}
+\begin{itemize}
+\item<2-> Consider the {\color{red}rational} CM points on $\Xs_6$.
+\item<3-> To specify a map $t_6:\Xs_6 \rightarrow \Pro^1$, need only give its zeros and poles and a normalization.
+\item<4-> In this case the image of $\No_{B_6^\times}(\Oh) \hookrightarrow \PGL$ is a triangle group.
+\item<7-> Elkies (1998) uses geometric involutions on the covering curves $\Xs_6(N)$.
+\end{itemize}
+\end{column}
+\begin{column}{3cm}
+\includegraphics<5>{triangle0.jpg}
+\includegraphics<6->{triangle.jpg}
+\end{column}
+\end{columns}
+}
+
+\frame{{\bf Elkies's Results}
+\begin{columns}
+\begin{column}{9cm}
+\begin{itemize}
+\item<1-8,10> Elkies is successful at algebraically determining the coordinates for {\color{red}17 of the 27} rational CM points.
+%\begin{example} $$t_6(\Po_{-312}) = \frac{7^4 23^4}{5^6 11^6}.$$ \end{example}
+\item<2-8,10> Unable to prove the remaining 10 CM points, but makes {\color{red}numerical approximations} and then recognizes them as rational numbers.
+\begin{itemize}
+\item<3-8,10> Small primes to large powers.
+\item<4-8,10> Further recognize through standard transformations\uncover<8,10>{, i.e. $|1-t_6(\tau_\Delta)|$ should also be small primes to large powers.}
+\end{itemize}
+\end{itemize}
+\begin{example}<10> $$t_6(\Po_{-163}) \stackrel{?}{=} \frac{3^{11}7^419^423^4}{2^{10}5^611^617^6}.$$ \end{example}
+\end{column}
+\begin{column}{3cm}
+\includegraphics<5>{triangle.jpg}
+\includegraphics<6>{triangle15.jpg}
+\includegraphics<7-8,10>{triangle2.jpg}
+\end{column}
+\end{columns}
+
+\vspace{-2.75in}
+\uncover<9>{
+\begin{columns}
+\begin{column}{6cm}
+\begin{center} 
+{\tiny 
+Coordinates of Rational CM Points on $\Xs_6$
+\begin{tabular}{|c|c|c|}
+\hline
+$\Delta$ & Numerator & Denominator \\
+\hline
+\rule{0pt}{7pt} $-40$  & $3^7$ & $5^3$             \\
+$-52$  & $2^23^7$ & $5^6$          \\
+$-19$  & $3^7$ & $2^{10}$          \\
+$-84$  & $-2^27^2$ & $3^3$           \\
+$-88$  & $3^77^4$ & $5^611^3$       \\
+$-100$ & $2^43^77^45$ & $11^6$           \\
+$-120$ & $7^4$ & $3^35^3$           \\
+$-132$ & $2^411^2$ & $5^6$ \\
+{\color{orange}$-148$} & {\color{orange}$2^23^77^411^4$} & {\color{orange}$5^617^6$} \\
+$-168$ & $-7^211^4$ & $5^6$ \\
+$-43$  & $3^77^4$ & $2^{10}5^6$    \\
+$-51$  & $-7^4$ & $2^{10}$          \\
+{\color{orange}$-228$} & {\color{orange}$2^67^419^2$} & {\color{orange}$3^65^6$ }\\
+{\color{orange}$-232$} & {\color{orange}$3^77^411^419^4$} & {\color{orange}$5^623^629^3$ }\\
+{\color{orange}$-67$}  & {\color{orange}$3^77^411^4$} & {\color{orange}$2^{16}5^6$ }\\
+$-75$  & $11^4$ & $2^{10}3^35$ \\
+$-312$ & $7^423^4$ & $5^611^6$ \\
+{\color{orange}$-372$} & {\color{orange}$-2^27^419^431^2$} & {\color{orange}$3^35^611^6$ }\\
+{\color{orange}$-408$} & {\color{orange}$-7^411^431^4$} & {\color{orange}$3^65^617^3$ }\\
+{\color{orange}$-123$} & {\color{orange}$-7^419^4$} & {\color{orange}$2^{10}5^6$} \\
+$-147$ & $-11^423^4$ & $2^{10}3^35^67$ \\
+{\color{orange}$-163$} & {\color{orange}$3^{11}7^419^423^4$} & {\color{orange}$2^{10}5^611^617^6$ }\\
+{\color{orange}$-708$} & {\color{orange}$2^87^411^447^459^2$} & {\color{orange}$5^617^629^6$ }\\
+{\color{orange}$-267$} & {\color{orange}$-7^431^443^4$} & {\color{orange}$2^{16}5^611^6$ }\\
+\hline
+\end{tabular}}\end{center}
+\end{column}
+\begin{column}{6cm}
+\begin{center} 
+{\tiny 
+Coordinates of Rational CM Points on $\Xs_{10}$
+\begin{tabular}{|c|c|c|}
+\hline
+$\Delta$ & Numerator & Denominator \\
+\hline
+\rule{0pt}{7pt}$-40$   & $3^3$ & $1$                       \\
+{\color{orange}$-52$}   & {\color{orange}$-2\cdot3^3$ }   & {\color{orange}$5^2$}               \\
+$-72$   & $5^3$ & $3\cdot7^2$                 \\
+$-120$  & $-3^3$ & $7^2$                    \\
+{\color{orange}$-88$}   & {\color{orange}$3^35^3$}        & {\color{orange}$2\cdot7^2$}           \\
+$-27$   & $-2^63$ & $5^2$                     \\
+$-35$   & $2^6$ & $7$                          \\
+{\color{orange}$-148$}  & {\color{orange}$2\cdot3^311^3$} & {\color{orange}$5^27^213^2$    }  \\
+{\color{orange}$-43$}   & {\color{orange}$2^63^3$}        & {\color{orange}$5^27^2$        }          \\
+$-180$  & $-2\cdot11^3$ & $13^2$              \\
+{\color{orange}$-232$}  & {\color{orange}$3^311^317^3$ }  & {\color{orange}$2^25^27^223^2$  }  \\
+{\color{orange}$-67$ }  & {\color{orange}$-2^63^35^3$  }  & {\color{orange}$7^213^2$        }    \\
+{\color{orange}$-280$}  & {\color{orange}$3^311^3$     }  & {\color{orange}$2\cdot7\cdot23^2$}     \\
+{\color{orange}$-340$}  & {\color{orange}$2\cdot3^323^3$} & {\color{orange}$7^229^2$        } \\
+{\color{orange}$-115$}  & {\color{orange}$2^93^3$       } & {\color{orange}$13^223$         }       \\
+{\color{orange}$-520$}  & {\color{orange}$3^329^3$      } & {\color{orange}$2^37^213\cdot47^2$}    \\
+{\color{orange}$-163$}  & {\color{orange}$-2^93^35^311^3$}& {\color{orange}$7^213^229^231^2$} \\
+{\color{orange}$-760$}  & {\color{orange}$3^317^347^3$   }& {\color{orange}$7^231^271^2$     } \\
+{\color{orange}$-235$}  & {\color{orange}$2^63^317^3$    }& {\color{orange}$7^237^247$        } \\
+\hline
+\end{tabular}}\end{center}
+\end{column}
+\end{columns}
+}
+}
+
+
+\section{Borcherds Forms}
+\subsection{}
+\frame{{Vector-valued Modular Forms}
+\vspace{-9pt}
+\begin{definition}<1->
+Suppose $\rho$ is a representation of $\tilde{\Gamma}$ on a finite dimensional complex vector space $\mathcal{V}$. Then  
+$F: \h^\pm \rightarrow \mathcal{V}$ is a {\color{red}vector-valued modular form} on $\tilde{\Gamma}$ of weight $k$  and type $\rho$ if it satsifies, for all $\gamma \in \tilde{\Gamma}$,
+\vspace{-9pt}
+\begin{eqnarray*}
+F(\gamma\tau)=j(\gamma,\tau)^k \rho(\gamma)F(\tau)
+\end{eqnarray*}
+\end{definition}
+\vspace{-6pt}
+\begin{theorem}<2->Let $L$ be a lattice with inner product and $\{e_\lambda\}$ a basis of $\C[L^\vee\!/L]$. Suppose $f$ is a scalar-valued weight $k$ modular form on $\MGo(N)$ with character $\chi_L$. Then
+\begin{eqnarray*}
+F_f(\tau) = \sum\limits_{\gamma \in \MGo(N) \bs \MSL(\Z)}f|^k_\gamma(\tau)\Weil(\gamma^{-1})e_0.
+\end{eqnarray*}
+\noindent is a modular form of weight $k$ and type $\Weil$, the Weil representation.
+\end{theorem}
+}
+
+\frame{{\bf Borcherds Forms}
+\begin{definition}<1->{\color{red}Borcherds Form:} Given a lattice $L$ with an inner product and a modular form $F:\h^\pm \rightarrow \C[L^\vee\!/L]$, Borcherds (1998) constructed
+$$\Psi(F): \Xs_D \rightarrow \Pro^1$$
+\end{definition}
+\uncover<2->{In reality:
+\begin{itemize}
+\item $\Psi(F)$ is a weight $k$ modular form on $\Xs_D$ where $k$ is determined by properties of $F$. So we just make sure it has weight $0$.
+\item $\Psi(F)$ is a regularized theta lift
+\item $\Psi(F)$ is highly incomputable
+\end{itemize}}
+}
+
+\frame{{\bf Properties of Borcherds Forms}
+\begin{theorem}<1-> If $F$ has Fourier expansion
+\begin{eqnarray*}
+F(\tau) = \sum_{\lambda \in L^\vee\!/L} \sum_{m \in \Q} c_\lambda(m) \q^m e_\lambda
+\end{eqnarray*}
+then 
+\begin{itemize}
+\item<2-> The weight of $\Psi(F)$ is $c_0(0)$.
+\item<3-> The divisor of $\Psi(F)$ is given by $$\text{div}(\Psi(F)) = \sum\limits_\lambda\sum\limits_{m<0} c_\lambda(m) Z(-m,\lambda)$$ where the $Z(-m,\lambda)$ are {\color{red}rational quadratic divisors}.
+\end{itemize}
+\end{theorem}
+}
+
+\frame{{\bf Borcherds Forms at CM Points}
+\vspace{-3.5pt}
+\begin{theorem}<1->[J. Schofer, 2005]
+\vspace{-7pt}
+\begin{eqnarray}
+\mathop{\sum_{\text{Galois Orbit}}}_\text{of a CM Point} \log ||\Psi(F)|| = \frac{|Z_\Delta|}{2^{d(B)}}\sum_{\lambda \in L^\vee\!/L} \sum_{m<0} c_\lambda(m) \kappa_\lambda(m) \label{eq1}
+\end{eqnarray}
+
+\vspace{-5pt}
+\noindent where $\kappa_\lambda(m)$ are {\color{red}computable} coefficients of the incoherent Eisenstein series associated to the lattice.
+\end{theorem}
+\vspace{-3.5pt}
+\begin{corollary}<2->[J. Schofer, 2005]
+\uncover<3->{i. The right side is a bunch of small primes to large powers.\\}
+\uncover<4->{ii. The map $j = \Psi(F_1)$ for some $F_1$ and (with some work) Gross-Zagier follows from (1).}
+\end{corollary}
+\vspace{-3.5pt}
+\begin{alertblock}{Theorem (Errthum, 2007)}<5-> The map $t_6$ is a Borcherds form. \uncover<6->{And so is $t_{10}$.}\end{alertblock}
+}
+
+\frame{{\bf The map $t_6$ as a Borcherds Form}
+\begin{itemize}
+\item<1-> Through the vectorization process, the scalar-valued $\Gamma_0(12)$ modular form
+$$-6\frac{\eta_2 \eta_3^2 \eta_4^4 \eta_6^4}{\eta_{12}^{10}}-2\frac{\eta_2^{12} \eta_3}{\eta_1^5 \eta_4^4 \eta_6 \eta_{12}^2}-2\frac{\eta_2^5}{\eta_1^2 \eta_4^2}$$
+where $\eta_m = \eta(m\tau)$ gives rise to $F_6$, a vector-valued modular form \uncover<2->{with
+{\color{red}$$\Div(\Psi(F_6)) = \Div(t_6)$$}}
+\item<3-> This implies there exists a nonzero constant $k_6$ such that {\color{red}$$\Psi(F_6) = k_6t_6.$$}
+\end{itemize}
+}
+
+\frame{{\bf Normalization}
+\vspace{-1em}
+\begin{eqnarray*}
+\mathop{\sum_{\text{Galois Orbit}}}_{\text{of }\Po_{-24}} \log ||\Psi(F_6,\Po)|| &=& \frac{|Z_{-24}|}{2^{d(B_6)}}\sum_{\lambda \in L^\vee\!/L}\ \sum_{m<0} c_\lambda(m) \kappa_\lambda(m) \\
+\uncover<2->{\log ||\Psi(F_6,\Po_{-24})|| &=& \frac{|Z_{-24}|}{2^{d(B_6)}}\sum_{\lambda \in L^\vee\!/L}\ \sum_{m<0} c_\lambda(m) \kappa_\lambda(m)}\\
+\uncover<3->{\log ||k_6^{-1}t_6(\Po_{-24})|| } \uncover<4->{&=& 6 \log(6)}
+\end{eqnarray*}
+\vspace{-1em}
+\begin{itemize}
+\item<5-> By definition, $t_6(\Po_{-24})=1$.
+\end{itemize}
+\begin{theorem}<6->[Errthum, 2007] 
+\vspace{-12pt}
+\begin{eqnarray*}t_6 &=& \uncover<6-7>{\pm} 6^{-6}\Psi(F_6)\\ 
+\uncover<7-8>{ t_{10} &=& \uncover<7>{\pm} 2^{-2}\Psi(F_{10})}
+\end{eqnarray*} 
+\end{theorem}
+}
+
+\frame{{\bf Computing $|t_6(\tau_\Delta)|$}
+\vspace{-1em}
+\hspace{-4em}\begin{eqnarray*}
+\mathop{\sum_{\text{Galois Orbit}}}_{\text{of }\tau_\Delta}\!\!\!\! \log ||t_6(\tau)|| = -h(\!\Delta\!)\log(6^6)\!+\!\frac{|Z_{\Delta}|}{2^{d(B_6)}}\!\sum_{\lambda \in L^\vee\!/L} \sum_{m<0} c_\lambda(m) \kappa_\lambda(m) 
+\end{eqnarray*}
+\begin{itemize}
+\item<2-> Use this to compute $|t_6(\tau_\Delta)|$ for {\color{red} any CM point}.
+\item<3-> Calculation of the $\kappa_\lambda(m)$ is intensive:
+\begin{itemize}
+\item<4-> Needs to be done $p$-adically.
+\item<4-> Explicit formulas exist (if you know where to find them).
+\item<4-> Ultimately programmed in Mathematica due to the sheer number of calculations required.
+\end{itemize}
+\item<5-> No general Gross-Zagier type theorem, but at least calculations can be done.
+\end{itemize}
+}
+
+\section{Summary}
+\subsection{}
+\frame{{\bf Results}
+\begin{itemize}
+\item<1-3,6-> The maps {\color{red}$t_6$ and $t_{10}$ are Borcherds Forms}.
+\item<2-3,6-> Proved all the conjectural values in Elkies's table of rational CM points of $\Xs_6$
+%, including {\color{red}$$t_6(\Po_{-163}) = \frac{3^{11}7^419^423^4}{2^{10}5^611^617^6}.$$}
+\item<3,6-> Also proved all the conjectural values in Elkies's table of rational CM points of $\Xs_{10}$.
+\item<6-> Can compute examples far beyond the scope of Elkies's work, such as norms of {\color{red}irrational} CM points of arbitrary discriminant on $\Xs_6$ and $\Xs_{10}$.\\
+\end{itemize}
+\begin{example}<7->$$|t_6(\Po_{-996})| = \frac{2^{16}7^{12}71^{4}83^{2}}{17^{6}29^{6}41^{6}}.$$
+\end{example}
+
+\vspace{-2.84in}
+\uncover<4>{
+\begin{columns}
+\begin{column}{6cm}
+\begin{center} 
+{\tiny 
+Coordinates of Rational CM Points on $\Xs_6$
+\begin{tabular}{|c|c|c|}
+\hline
+$\Delta$ & Numerator & Denominator \\
+\hline
+\rule{0pt}{7pt} $-40$  & $3^7$ & $5^3$             \\
+$-52$  & $2^23^7$ & $5^6$          \\
+$-19$  & $3^7$ & $2^{10}$          \\
+$-84$  & $-2^27^2$ & $3^3$           \\
+$-88$  & $3^77^4$ & $5^611^3$       \\
+$-100$ & $2^43^77^45$ & $11^6$           \\
+$-120$ & $7^4$ & $3^35^3$           \\
+$-132$ & $2^411^2$ & $5^6$ \\
+{\color{orange}$-148$} & {\color{orange}$2^23^77^411^4$} & {\color{orange}$5^617^6$} \\
+$-168$ & $-7^211^4$ & $5^6$ \\
+$-43$  & $3^77^4$ & $2^{10}5^6$    \\
+$-51$  & $-7^4$ & $2^{10}$          \\
+{\color{orange}$-228$} & {\color{orange}$2^67^419^2$} & {\color{orange}$3^65^6$ }\\
+{\color{orange}$-232$} & {\color{orange}$3^77^411^419^4$} & {\color{orange}$5^623^629^3$ }\\
+{\color{orange}$-67$}  & {\color{orange}$3^77^411^4$} & {\color{orange}$2^{16}5^6$ }\\
+$-75$  & $11^4$ & $2^{10}3^35$ \\
+$-312$ & $7^423^4$ & $5^611^6$ \\
+{\color{orange}$-372$} & {\color{orange}$-2^27^419^431^2$} & {\color{orange}$3^35^611^6$ }\\
+{\color{orange}$-408$} & {\color{orange}$-7^411^431^4$} & {\color{orange}$3^65^617^3$ }\\
+{\color{orange}$-123$} & {\color{orange}$-7^419^4$} & {\color{orange}$2^{10}5^6$} \\
+$-147$ & $-11^423^4$ & $2^{10}3^35^67$ \\
+{\color{orange}$-163$} & {\color{orange}$3^{11}7^419^423^4$} & {\color{orange}$2^{10}5^611^617^6$ }\\
+{\color{orange}$-708$} & {\color{orange}$2^87^411^447^459^2$} & {\color{orange}$5^617^629^6$ }\\
+{\color{orange}$-267$} & {\color{orange}$-7^431^443^4$} & {\color{orange}$2^{16}5^611^6$ }\\
+\hline
+\end{tabular}}\end{center}
+\end{column}
+\begin{column}{6cm}
+\begin{center} 
+{\tiny 
+Coordinates of Rational CM Points on $\Xs_{10}$
+\begin{tabular}{|c|c|c|}
+\hline
+$\Delta$ & Numerator & Denominator \\
+\hline
+\rule{0pt}{7pt}$-40$   & $3^3$ & $1$                       \\
+{\color{orange}$-52$}   & {\color{orange}$-2\cdot3^3$ }   & {\color{orange}$5^2$}               \\
+$-72$   & $5^3$ & $3\cdot7^2$                 \\
+$-120$  & $-3^3$ & $7^2$                    \\
+{\color{orange}$-88$}   & {\color{orange}$3^35^3$}        & {\color{orange}$2\cdot7^2$}           \\
+$-27$   & $-2^63$ & $5^2$                     \\
+$-35$   & $2^6$ & $7$                          \\
+{\color{orange}$-148$}  & {\color{orange}$2\cdot3^311^3$} & {\color{orange}$5^27^213^2$    }  \\
+{\color{orange}$-43$}   & {\color{orange}$2^63^3$}        & {\color{orange}$5^27^2$        }          \\
+$-180$  & $-2\cdot11^3$ & $13^2$              \\
+{\color{orange}$-232$}  & {\color{orange}$3^311^317^3$ }  & {\color{orange}$2^25^27^223^2$  }  \\
+{\color{orange}$-67$ }  & {\color{orange}$-2^63^35^3$  }  & {\color{orange}$7^213^2$        }    \\
+{\color{orange}$-280$}  & {\color{orange}$3^311^3$     }  & {\color{orange}$2\cdot7\cdot23^2$}     \\
+{\color{orange}$-340$}  & {\color{orange}$2\cdot3^323^3$} & {\color{orange}$7^229^2$        } \\
+{\color{orange}$-115$}  & {\color{orange}$2^93^3$       } & {\color{orange}$13^223$         }       \\
+{\color{orange}$-520$}  & {\color{orange}$3^329^3$      } & {\color{orange}$2^37^213\cdot47^2$}    \\
+{\color{orange}$-163$}  & {\color{orange}$-2^93^35^311^3$}& {\color{orange}$7^213^229^231^2$} \\
+{\color{orange}$-760$}  & {\color{orange}$3^317^347^3$   }& {\color{orange}$7^231^271^2$     } \\
+{\color{orange}$-235$}  & {\color{orange}$2^63^317^3$    }& {\color{orange}$7^237^247$        } \\
+\hline
+\end{tabular}}\end{center}
+\end{column}
+\end{columns}
+}
+
+\vspace{-3.11in}
+\uncover<5>{
+\begin{columns}
+\begin{column}{6cm}
+\begin{center} 
+{\tiny 
+Coordinates of Rational CM Points on $\Xs_6$
+\begin{tabular}{|c|c|c|}
+\hline
+$\Delta$ & Numerator & Denominator \\
+\hline
+\rule{0pt}{7pt} $-40$  & $3^7$ & $5^3$             \\
+$-52$  & $2^23^7$ & $5^6$          \\
+$-19$  & $3^7$ & $2^{10}$          \\
+$-84$  & $-2^27^2$ & $3^3$           \\
+$-88$  & $3^77^4$ & $5^611^3$       \\
+$-100$ & $2^43^77^45$ & $11^6$           \\
+$-120$ & $7^4$ & $3^35^3$           \\
+$-132$ & $2^411^2$ & $5^6$ \\
+{\color{black}$-148$} & {\color{black}$2^23^77^411^4$} & {\color{black}$5^617^6$} \\
+$-168$ & $-7^211^4$ & $5^6$ \\
+$-43$  & $3^77^4$ & $2^{10}5^6$    \\
+$-51$  & $-7^4$ & $2^{10}$          \\
+{\color{black}$-228$} & {\color{black}$2^67^419^2$} & {\color{black}$3^65^6$ }\\
+{\color{black}$-232$} & {\color{black}$3^77^411^419^4$} & {\color{black}$5^623^629^3$ }\\
+{\color{black}$-67$}  & {\color{black}$3^77^411^4$} & {\color{black}$2^{16}5^6$ }\\
+$-75$  & $11^4$ & $2^{10}3^35$ \\
+$-312$ & $7^423^4$ & $5^611^6$ \\
+{\color{black}$-372$} & {\color{black}$-2^27^419^431^2$} & {\color{black}$3^35^611^6$ }\\
+{\color{black}$-408$} & {\color{black}$-7^411^431^4$} & {\color{black}$3^65^617^3$ }\\
+{\color{black}$-123$} & {\color{black}$-7^419^4$} & {\color{black}$2^{10}5^6$} \\
+$-147$ & $-11^423^4$ & $2^{10}3^35^67$ \\
+{\color{black}$-163$} & {\color{black}$3^{11}7^419^423^4$} & {\color{black}$2^{10}5^611^617^6$ }\\
+{\color{black}$-708$} & {\color{black}$2^87^411^447^459^2$} & {\color{black}$5^617^629^6$ }\\
+{\color{black}$-267$} & {\color{black}$-7^431^443^4$} & {\color{black}$2^{16}5^611^6$ }\\
+\hline
+\end{tabular}}\end{center}
+\end{column}
+\begin{column}{6cm}
+\begin{center} 
+{\tiny 
+Coordinates of Rational CM Points on $\Xs_{10}$
+\begin{tabular}{|c|c|c|}
+\hline
+$\Delta$ & Numerator & Denominator \\
+\hline
+\rule{0pt}{7pt}$-40$   & $3^3$ & $1$                       \\
+{\color{black}$-52$}   & {\color{black}$-2\cdot3^3$ }   & {\color{black}$5^2$}               \\
+$-72$   & $5^3$ & $3\cdot7^2$                 \\
+$-120$  & $-3^3$ & $7^2$                    \\
+{\color{black}$-88$}   & {\color{black}$3^35^3$}        & {\color{black}$2\cdot7^2$}           \\
+$-27$   & $-2^63$ & $5^2$                     \\
+$-35$   & $2^6$ & $7$                          \\
+{\color{black}$-148$}  & {\color{black}$2\cdot3^311^3$} & {\color{black}$5^27^213^2$    }  \\
+{\color{black}$-43$}   & {\color{black}$2^63^3$}        & {\color{black}$5^27^2$        }          \\
+$-180$  & $-2\cdot11^3$ & $13^2$              \\
+{\color{black}$-232$}  & {\color{black}$3^311^317^3$ }  & {\color{black}$2^25^27^223^2$  }  \\
+{\color{black}$-67$ }  & {\color{black}$-2^63^35^3$  }  & {\color{black}$7^213^2$        }    \\
+{\color{black}$-280$}  & {\color{black}$3^311^3$     }  & {\color{black}$2\cdot7\cdot23^2$}     \\
+{\color{black}$-340$}  & {\color{black}$2\cdot3^323^3$} & {\color{black}$7^229^2$        } \\
+{\color{black}$-115$}  & {\color{black}$2^93^3$       } & {\color{black}$13^223$         }       \\
+{\color{black}$-520$}  & {\color{black}$3^329^3$      } & {\color{black}$2^37^213\cdot47^2$}    \\
+{\color{black}$-163$}  & {\color{black}$-2^93^35^311^3$}& {\color{black}$7^213^229^231^2$} \\
+{\color{black}$-760$}  & {\color{black}$3^317^347^3$   }& {\color{black}$7^231^271^2$     } \\
+{\color{black}$-235$}  & {\color{black}$2^63^317^3$    }& {\color{black}$7^237^247$        } \\
+\hline
+\end{tabular}}\end{center}
+\end{column}
+\end{columns}
+}
+
+}
+
+%\frame{{\bf Thanks}
+%\begin{center}
+%Questions?
+%\end{center}
+%}
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

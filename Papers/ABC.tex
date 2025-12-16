@@ -1,0 +1,506 @@
+\documentclass{beamer}
+\usepackage{beamerthemeshadow}
+\usepackage{beamerthemeDarmstadt}
+\usepackage{multicol}
+%\usepackage{pgfpages}
+%\pgfpagesuselayout{resize to}[letterpaper,border shrink=5mm,portrait]
+
+% \usepackage[english]{babel}
+% \usepackage[latin1]{inputenc}
+% \usepackage{times}
+% \usepackage[T1]{fontenc}
+% \usepackage{graphicx,subfigure}
+% \usepackage{color}
+% \usepackage{amsmath}
+% 
+
+
+% user's definition
+
+% \newtheorem{Thm}{Theorem}[section]
+% \newtheorem{Lm}{Lemma}[section]
+% \newtheorem{Prop}{Proposition}[section]
+% \newtheorem{Cry}{Corollary}[section]
+% \newtheorem{Rmk}{Remark}[section]
+
+\newenvironment{changemargin}[2]{%
+  \begin{list}{}{%
+    \setlength{\topsep}{0pt}%
+    \setlength{\leftmargin}{#1}%
+    \setlength{\rightmargin}{#2}%
+    \setlength{\listparindent}{\parindent}%
+    \setlength{\itemindent}{\parindent}%
+    \setlength{\parsep}{\parskip}%
+  }%
+  \item}{\end{list}}
+
+\newcommand{\rad}{\text{rad}}
+
+\title[Learning Your ABC]
+{\Large Learning Your ABC}
+
+
+\author[Eric Errthum]
+{Eric Errthum  \\ Winona State University}
+
+\date{\footnotesize January 21, 2009}
+
+\institute[] 
+{%Department of Mathematics\\
+%University of Maryland, College Park\\
+%\vskip 1.0cm
+% Quotation
+}
+
+
+% List Outline in the beginning of each section.
+% \AtBeginSection[]
+% {
+%    \begin{frame}
+%        \frametitle{Outline}
+%        \tableofcontents[currentsection]
+%    \end{frame}
+% }
+
+
+
+
+%-------------------------------------------------------------------
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+
+
+%---------------------------------------------------
+\section{Introduction}
+
+\subsection{}
+\frame{
+{\bf Primes!}
+\begin{itemize}
+\item<1-> {\bf Definition:} A prime is a positive whole number that cannot be divided evenly by anything except $1$ and itself. 
+\end{itemize}
+\begin{examples}<2->
+$2,\ 3,\ 5,\ 7,\ 11,\ 13,\ \dots$ \uncover<3->{$2^{32582657}-1,\ \dots$} 
+\end{examples}
+\begin{itemize}
+\item<4-> {\bf Awesome Property:} Every rational number can be written as a product of primes to a power.
+\end{itemize}
+\begin{examples}<5->
+\begin{itemize}
+\item<5-> $662415793599696251 = 239 \cdot 57301 \cdot 94873\cdot 509833$\vspace{1em}
+\item<6-> $\displaystyle\frac{27008742384}{27680640625} = 2^4 \cdot 3^5\cdot 5^{-6}\cdot 11^{-6}\cdot 13\cdot 17^{2}\cdot 43^2$
+\end{itemize}
+\end{examples}
+}
+
+\section{Factorizations}
+\subsection{}
+\frame{
+{\bf Factorizations of Consectutive Numbers}
+\vspace{-1em}
+\uncover<1>{\begin{eqnarray*}
+2 & = & 2 \\
+3 & = & 3 \\
+4 & = & 2^2\\
+5 & = & 5 \\
+6 & = & 2 \cdot 3 \\
+7 & = & 7\\
+8 & = & 2^3\\
+9 & = & 3^2 \\
+10 & = & 2 \cdot 5\\
+11 & = & 11\\
+12 & = & 2^2 \cdot 3 \\
+{\color{white}\rule{60pt}{10pt}} & & {\color{white}\rule{100pt}{10pt}}\\
+\end{eqnarray*}}
+
+\vspace{-250pt}
+\uncover<2>{\begin{eqnarray*}
+22 & = & 2 \cdot 11 \\
+23 & = & 23 \\
+24 & = & 2^3  \cdot 3\\
+25 & = & 5^2 \\
+26 & = & 2 \cdot 23 \\
+27 & = & 3^3\\
+28 & = & 2^2 \cdot 7\\
+29 & = & 29 \\
+30 & = & 2  \cdot 3 \cdot 5\\
+31 & = & 31\\
+32 & = & 2^5\\
+{\color{white}\rule{60pt}{10pt}} & & {\color{white}\rule{100pt}{10pt}}\\
+\end{eqnarray*}}
+
+\vspace{-250pt}
+\uncover<3>{\begin{eqnarray*}
+122 & = & 2 \cdot 61\\
+123 & = & 3 \cdot 41 \\
+124 & = & 2^2 \cdot 31\\
+125 & = & 5^3 \\
+126 & = & 2 \cdot 3^2 \cdot 7 \\
+127 & = & 127\\
+128 & = & 2^7\\
+129 & = & 3 \cdot 43 \\
+130 & = & 2 \cdot 5 13\\
+131 & = & 131\\
+132 & = & 2^2 \cdot 3 \cdot 11\\
+{\color{white}\rule{60pt}{10pt}} & & {\color{white}\rule{100pt}{10pt}}\\
+\end{eqnarray*}}
+
+\vspace{-250pt}
+\uncover<4>{\begin{eqnarray*}
+55122 & = & 2 \cdot 3 \cdot 9187 \\
+55123 & = & 199 \cdot 277 \\
+55124 & = & 2^2 \cdot 13781\\
+55125 & = & 3^2 \cdot 5^4 \cdot 7^2 \\
+55126 & = & 2 \cdot 43 \cdot 641 \\
+55127 & = & 55127\\
+55128 & = & 2^3  \cdot 3 \cdot 2297\\
+55129 & = & 29 \cdot 1901 \\
+55130 & = & 2 \cdot 5  \cdot 37  \cdot 149\\
+55131 & = & 3 \cdot 17 \cdot 23 \cdot 47\\
+55132 & = & 2^2 \cdot 7 \cdot 11 \cdot 179 \\
+{\color{white}\rule{60pt}{10pt}} & & {\color{white}\rule{100pt}{10pt}}\\
+\end{eqnarray*}}
+
+\vspace{-250pt}
+\uncover<5>{\begin{eqnarray*}
+7796955122 & = & 2 \cdot 11 \cdot 354407051 \\
+7796955123 & = & 3^2 \cdot 17 \cdot 50960491 \\
+7796955124 & = & 2^2 \cdot 7 \cdot 12527 \cdot 22229\\
+7796955125 & = & 5^3 \cdot 62375641 \\
+7796955126 & = & 2 \cdot 3 \cdot 1299492521\\
+7796955127 & = & 13 \cdot 23 \cdot 3929 \cdot 6637 \\
+7796955128 & = & 2^3  \cdot 523 \cdot 1863517\\
+7796955129 & = & 3 \cdot 37 \cdot 70242839 \\
+7796955130 & = & 2 \cdot 5  \cdot 2777  \cdot 280769\\
+7796955131 & = & 7 \cdot 229 \cdot 1487 \cdot 3271\\
+7796955132 & = & 2^2 \cdot 3^3 \cdot 2503 \cdot 28843 \\
+{\color{white}\rule{60pt}{10pt}} & & {\color{white}\rule{100pt}{10pt}}\\
+\end{eqnarray*}}
+}
+
+\frame{{\bf Things We Notice}
+\begin{itemize}
+\item<1-> $a$ and $a+1$ have wildly different factorizations
+\item<2-> As $a$ gets really big, the factorizations become mostly "large" primes (like 2503) to a small power (like 1). {\it (Demo)}
+\item<3-> Some rare gems are still ``small'' primes to a ``large'' power, e.g. $55125  =  3^2 \cdot 5^4 \cdot 7^2$ and $55962140625= 3^6 \cdot 5^6\cdot 17^3$.
+\item<4-> We call these numbers {\bf smooth}.
+\end{itemize}
+}
+
+\frame{
+{\bf Relationships of Prime Factorizations}
+\begin{itemize}
+\item<1-> If I know the prime factorization of $a$ and $b$, then it's easy to find the prime factorization of $ab$.
+\begin{example}<2->
+$$
+\begin{array}{rclclclclcl}
+\uncover<2->{\frac{160000}{1058841} = a &=& 2^8 &\cdot& 3^{-2}& \cdot& 5^{4}& \cdot& 7^{-6}}\uncover<3->{&\cdot &11^0}\vspace{.5em}\\
+\uncover<2->{\frac{14235529}{24} = b &=& 2^{-3}& \cdot &3^{-1}}\uncover<3->{&\cdot &5^0} \uncover<2->{&\cdot &7^{6} &\cdot& 11^{2}} \\
+\hline\vspace{-.9em}\\
+\uncover<2->{\frac{2420000}{27} = ab &=& }\uncover<4->{2^5 &\cdot& 3^{-3}& \cdot& 5^4 }\uncover<4>{&\cdot& 7^0&}\uncover<4->{ \cdot& 11^2}
+\end{array}$$
+\end{example}
+\item<6-> But what about $a+b$?
+\end{itemize}
+\begin{example}<7-> $$a+b = 2^{-3} \cdot 3^{-2} \cdot 7^{-6} \cdot 40949 \cdot 122698687$$
+\end{example}
+}
+
+\section{ABCs}
+\subsection{}
+\frame{{\bf ABC Triples}
+\begin{itemize}
+\item<1-12> (smooth)*(smooth) = smooth
+\item<2-> (smooth)+(smooth) = probably not smooth\\
+{\color{white}\rule{100pts}{3pts}} \uncover<3->{BUT SOMETIMES IT IS!}
+\end{itemize}
+\begin{examples}<4->\vspace{-1em}
+\begin{eqnarray*}
+17^2 41^2 47^2 + 2^{10} 3^3 5^6 7 &=& 11^4 23^4\\
+\uncover<5-11>{{\color{blue}{\color{red}2 \cdot }17^2 41^2 47^2 + 2^{10} 3^3 5^6 7} &{\color{blue}{=}}& {\color{blue}\uncover<6-11>{2 \cdot 353 \cdot 7323377}}}
+\end{eqnarray*}\vspace{-4em}
+
+\begin{eqnarray*}
+3^{11} 7^4 19^4 23^4 + 2^{10}5^6 11^6 17^6 &=&13^2 67^2 109^2 139^2 157^2 163\\
+\uncover<7-11>{{\color{blue}3^{{\color{red}12}} 7^4 19^4 23^4 + 2^{10}5^6 11^6 17^6} &{\color{blue}=}&{\color{blue}\uncover<8-11>{37 \cdot 19749002441821462573}}}
+\end{eqnarray*}\vspace{-4em}
+
+\begin{eqnarray*}
+2 + 3^{10}109 &=& 23^5\\
+\uncover<9-11>{{\color{blue}{\color{red}5 \cdot }2 + {\color{red}5 \cdot }3^{10}109 }&{\color{blue}=}&{\color{blue} \uncover<10-11>{5 \cdot 23^5} \uncover<11>{\text{\ \ \ \ Cheating!}}}}
+\end{eqnarray*}
+\end{examples}
+}
+
+\frame{{\bf Judging ABC triples}
+\begin{examples}<1->
+\uncover<3->{{\it Better Example: \uncover<5->{(0.96132)}}}\vspace{-.75em}
+$$17^2 41^2 47^2 + 2^{10} 3^3 5^6 7 = 11^4 23^4$$
+\uncover<2->{{\it Okay Example: \uncover<5->{(0.90013)}}}\vspace{-.75em}
+$$3^{11} 7^4 19^4 23^4 + 2^{10}5^6 11^6 17^6 =13^2 67^2 109^2 139^2 157^2 163$$
+\uncover<4->{{\it Best Example: \uncover<5->{(1.62991)}}}\vspace{-.75em}
+$$2 + 3^{10}109 = 23^5$$
+\uncover<6->{{\it Typical Example: (0.36287)}\vspace{-.75em}
+$$7 \cdot 5701 + 37 \cdot 1361 = 2^3 \cdot 3 \cdot 3761$$}
+\end{examples}
+}
+
+\frame{{\bf Measuring ABC triples}
+\begin{definition}<1->
+The {\bf radical} of a number, $\rad(n)$, is the product of all the primes dividing $n$.
+
+\uncover<2->{{\it Example:} $\rad(2^7 3^4 7^2 101^5) = 2 \cdot 3 \cdot 7 \cdot 101$.}
+\end{definition}
+\begin{definition}<3->
+The {\bf ABC Ratio} of a triple $A+B=C$ is given by
+$$\alpha = \alpha(A,B,C) = \frac{\ln(C)}{\ln(\rad(ABC))}.$$
+\uncover<4->{{\it Example:} $\alpha(2,3^{10}109,23^5) = \displaystyle\frac{\ln(23^5)}{\ln(2\cdot 3 \cdot 23\cdot 109)} = 1.62991$ }
+\end{definition}
+}
+
+\frame{{\bf Good ABC Triples}\vspace{-.5em}
+\begin{itemize}
+\item<1-> {\bf Top three known ABC ratio (verified up to $10^{20}$):} \begin{eqnarray*}
+(2,\ 3^{10}109,\ 23^5) & \text{with}  & \alpha = 1.62991\\
+(11^2,\ 3^25^67^3,\ 2^{21}3)  & \text{with}  & \alpha = 1.62599\\
+(19 \cdot 1307,\ 7 \cdot 29^2 \cdot 31^8,\ 2^83^{22}5^4)  & \text{with}  & \alpha = 1.62349
+\end{eqnarray*}
+\begin{definition}<2->
+A {\bf good ABC triple} is $A+B=C$ where $\alpha(A,B,C) > 1.4$.
+\end{definition}
+\item<3-> {\bf Largest known good ABC triples:} 
+\begin{eqnarray*}
+(2^{24}5^5 47^5 181^2,\ 13^{14} 19 \cdot 103 \cdot 571^2 \cdot 4261,\ 7^{28}17\cdot 37^2) \\ \text{with } \alpha = 1.447420 \text{ and 29 digits}\\
+(5^9 17^2 23^4 37^2 43 \cdot 4817,\ 3^{14} 11^8 61^2 173^4,\ 2^{52} 19^6 127^2)  \\ \text{with } \alpha = 1.419184 \text{ and 28 digits}
+\end{eqnarray*}
+\end{itemize}
+}
+
+\section{ABC Conjecture}
+\subsection{}
+\frame{{\bf ABC Conjecture}\vspace{-1em}
+\begin{eqnarray*}
+\uncover<1->{ \frac{\ln(C)}{\ln(\rad(ABC))} &=&\alpha} \\
+\uncover<2->{\ln(C)&=&\alpha \ln(\rad(ABC))} \uncover<3->{= \ln( (\rad(ABC))^\alpha)} \\
+\uncover<4->{ C & = & (\rad(ABC))^\alpha}
+\end{eqnarray*}\vspace{-1em}
+\begin{alertblock}{ABC Conjecture (Oesterle and Masser, 1985)}<5->
+For every $\eta >1$, there exists only a finite number of ABC triples such that 
+$$C > (\rad(ABC))^\eta$$
+i.e. with $\alpha(A,B,C) > \eta$.
+\end{alertblock}
+}
+
+%\frame{{\bf Examples}
+%\begin{changemargin}{-1cm}{-1cm}
+%\begin{itemize}
+%\item<1-> Consider $(A,B,C)=(17^241^247^2,2^{10}3^35^67,11^423^4)$ with $\alpha = 0.96132$.\\
+%\item<2-> Let $\epsilon = 1$ then $11^423^4 \le K_\epsilon(2\cdot 3\cdot 5\cdot 7 \cdot 11 \cdot 17 \cdot 23 \cdot 41 \cdot 47)^2$, so $K_\epsilon \ge 0.00000000135$
+%\begin{center}
+%\uncover<2->{\begin{tabular}{|c|c|}
+%$\epsilon$ & $K_\epsilon \ge$ \\
+%\hline
+%$0.1$ & $0.28037$\\
+%$0.01$ & $1.90285$\\
+%$0.001$ & $2.30447$\\
+%$0.0001$ & $2.34902$\\
+%\vdots & \vdots\\
+%\uncover<3->{$0$ & $2.35403$}
+%\end{tabular}}
+%\end{center}\vspace{1em}
+%\item<4-> So take $K_\epsilon = 3$? \uncover<5->{NO, it has to work for EVERY ABC triple. }
+%\item<6->For $(A,B,C)=(2,3^{10}109,23^5)$, {\color{blue}$\lim\limits_{\epsilon \rightarrow 0} K_\epsilon = 427.891$}.
+%\item<7->For $(A,B,C)=(2^{24}5^5 47^5 181^2,\ 13^{14} 19 \cdot 103 \cdot 571^2 \cdot 4261,\ 7^{28}17\cdot 37^2)$, {\color{red}$\lim\limits_{\epsilon \rightarrow 0} K_\epsilon = 1.96744 \times 10^{12}$}.
+%\end{itemize}
+%\end{changemargin}
+%}
+
+\frame{{\bf Consequences}
+\begin{corollary}<1->
+There is a largest $\alpha(A,B,C)$. It might be $1.62991$.
+\end{corollary}
+\begin{corollary}<2->
+If the largest $\alpha < 2$, then Fermat's Last Theorem (no integer solutions to $x^n+y^n=z^n$ for $n>2$) is proved.
+\end{corollary}
+\uncover<3->{{\bf Proof:} Suppose there was a solution, then let $A=x^n$, $B=y^n$, $C=z^n$.\\
+Then $\rad(ABC) \le xyz \le z^3$. Applying the conjecture gives $z^n < (\rad(ABC))^2 \le (z^3)^2 = z^6$. Hence $n \le 6$.\\
+The cases of $3 \le n \le 6$ were proved in 1825 by Legendre and Dirichlet.}
+}
+
+\frame{{\bf More Consequences}
+\vspace{-.5em}
+\begin{corollary}<1->
+If the ABC conjecture is true then the following are also proved:
+\vspace{-1em}
+\begin{multicols}{2}
+\begin{itemize}
+\item The generalized Fermat equation
+\item Wieferich primes statement
+\item The Erdos-Woods conjecture
+\item Hall's conjecture
+\item The Erdos-Mollin-Walsh conjecture
+\item Brocard's Problem
+\item Szpiro's conjecture %for elliptic curves
+\item Mordell's conjecture
+\item Roth's theorem
+\item Dressler's conjecture
+\item Bounds for the order of the Tate-Shafarevich group
+\item Vojta's height conjecture %for curves
+\item Greenberg's conjecture
+\item The Schinzel-Tijdeman conjecture
+\item Lang's conjecture 
+\end{itemize}
+\end{multicols}
+\vspace{-2em}
+\begin{center}... and many more!\end{center}
+\end{corollary}
+}
+
+\frame{{\bf How Close Are We to a Proof?}
+\begin{alertblock}{ABC Conjecture (Rephrased)}<2->
+Given $\epsilon>0$, there exists a constant $K_\epsilon$ such that for every $A$, $B$, $C$ coprime integers with $A+B=C$, 
+$$\log C \le K_\epsilon + (1+\epsilon)\log R$$
+where $R=\rad(ABC)$.
+\end{alertblock}
+
+\begin{theorem}[Gyory (2007)]<3->
+Let $A$, $B$, $C$ be coprime integers with $A+B=C$. Let $t$ be the number of prime factors in $R=\rad(ABC)$. Then 
+$$\log C < \frac{2^{10t+22}}{t^{t-4}}R(\log R)^t$$
+\end{theorem}
+}
+
+\section{PQR}
+\subsection{}
+\frame{{\bf An Analogy}
+\begin{itemize}
+\item<1-> Often a strong analogy between integers and polynomials with rational coefficients.
+\item<2-> A {\bf prime polynomial} is one that cannot be factorized into smaller polynomials with rational coefficents.
+\item<3-> {\it Example:} $x^2+1$ is prime, but $x^2-1 = (x+1)(x-1)$ is not. \uncover<4->{(But $x+1$ and $x-1$ are.)}
+\item<5-> Let $\rad(P)$ be the product of all prime polynomials dividing $P$.
+\item<6-> {\it Example: }$\rad((x-1)^2(x^2+1)^3) = (x-1)(x^2+1)$.
+\item<7-> Let $\deg(P)$ be the degree of the polynomial. Notice that $$\deg(PQ)=\deg(P)+\deg(Q)$$ \uncover<8->{which is just like $\ln(AB)=\ln(A)+\ln(B)$.}
+\end{itemize}
+}
+
+\frame{{\bf The PQR Theorem}
+\begin{itemize}
+\item<1-> Replace $A$, $B$, $C$ with polynomials $P$, $Q$, and $R$ and replace $\ln$ with $\deg$.
+\end{itemize}
+\uncover<2->{\begin{block}{PQR Theorem (Hurwitz, Stothers, Mason)}
+Let $P$, $Q$, $R$ be nonconstant relatively-prime polynomials that satisfy $P+Q=R$, then $$\deg(R) < \deg(\rad(PQR)).$$
+\end{block}}
+}
+
+\frame{{\bf PQR Proof}
+\begin{itemize}
+\item<1-> First notice that $\displaystyle\frac{F}{\gcd(F,F')} = \rad(F)$.
+\item<2> {\it Example:}\vspace{-2em}
+\begin{eqnarray*}
+F &=&(x-1)^2(x^2+1)^3\\
+\text{then } F'&=&2(x-1)(x^2+1)^2(4x^2-3x+1)\\
+\text{so } \gcd(F,F') &=& (x-1)(x^2+1)^2\\
+\text{and }\frac{F}{\gcd(F,F')} &=& (x-1)(x^2+1) = \rad(F).
+\end{eqnarray*}\vspace{-9em}
+\item<3-6>$$\begin{array}{rcl}
+\uncover<4-6>{{\color{red}P'}}P + \uncover<4->{{\color{red}P'}}Q & = & \uncover<4-6>{{\color{red}P'}}R\\
+\uncover<5-6>{{\color{red}-\ \ P}}P' + \uncover<5->{{\color{red}P}}Q' & = & \uncover<5-6>{{\color{red}P}}R'\\
+\multicolumn{3}{c}{\uncover<6->{\rule[5pt]{120pt}{.5pt}}}\\
+\uncover<6>{P'Q-PQ' &=& P'R-PR'}
+\end{array}$$\vspace{-7em}
+\item<7-> $P'Q-PQ' = P'R-PR'$.\vspace{.5em}
+\item<8->\ \\ \vspace{-3.5em} $$\gcd(R,R')  \left| \frac{P'Q-PQ'}{\uncover<9->{\gcd(P,P')\gcd(Q,Q')}} \uncover<10->{= \frac{P'\rad(Q)}{\gcd(P,P')}-\frac{Q'\rad(P)}{\gcd(Q,Q')}.}\right.$$
+\end{itemize}\vspace{-1em}
+\noindent\begin{eqnarray*}
+\uncover<11->{\deg(\gcd(R,R')) &<& \deg(\rad(Q)) + \deg(\rad(P))}\\
+\uncover<13->{\deg\left(\frac{R}{\gcd(R,R')}\right) + }\uncover<12->{\deg(\gcd(R,R')) &<& \!\deg(\rad(PQ))} \uncover<13->{+ \deg(\rad(R))}\\
+\uncover<14->{\deg(R) &<& \deg(\rad(PQR))}
+\end{eqnarray*}
+}
+
+\section{My Work}
+\subsection{}
+\frame{{\bf What I Did}
+\vspace{-1em}
+\begin{itemize}
+\item<1-> The ABC Conjecture can be generalized to number fields  $\mathbb{Q}(\zeta)$ where $\zeta$ is the root of a rational polynomial. 
+\uncover<2->{\begin{example}[Dokchitser]
+$\zeta^2-\zeta-3=0 \Rightarrow \zeta =\frac{1+\sqrt{13}}{2} \in \mathbb{Q}(\sqrt{13})$, \vspace{.5em}\\
+then $\underbrace{\zeta}_A+\underbrace{(\zeta+1)^{10}(\zeta-1)}_B = \underbrace{2^9(\zeta+1)^5}_C$ \vspace{.5em}\\
+This triple has algebraic ABC Ratio of 2.029.
+\end{example}}
+\item<3-> There are ``interesting'' surfaces in algebraic geometry with ``special'' points that correspond to algebraic numbers.
+\item<4-> The corresponding algebraic numbers satisfy $\alpha+\beta=\gamma$ and are usually smooth.
+\item<5-> I used some algorithms developed in my thesis to generate 350 of these examples and computed their algebraic ABC ratios.
+\end{itemize}
+}
+
+\frame{{\bf Results}
+\begin{center}
+\uncover<2->{\includegraphics[height=1.5in]{ABCGraph.jpg}}
+\end{center}
+\vspace{-1em}
+\begin{itemize}
+\item<2-> Points given in order of the degree of the defining polynomial.
+\item<3-> None of these ``special'' points correspond to a good ABC example.
+\item<4-> Data does follow a trend. Proof? \uncover<5->{No idea how to even begin.}
+\item<6-> Failure? \uncover<7->{Well, yes, but no.}
+\end{itemize}
+}
+
+\frame{{\bf The End?}
+\begin{center}
+Thanks!
+\end{center}
+\vspace{3em}
+
+More information:\\
+The ABC Conjecture Home Page \\
+http://www.math.unicaen.fr/\~{}nitaj/abc.html
+}
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

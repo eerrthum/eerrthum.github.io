@@ -1,0 +1,72 @@
+\documentclass{article}
+\pagestyle{empty}
+
+\usepackage[left=1cm,top=1cm,right=1cm,nohead,nofoot]{geometry}
+\usepackage{amssymb,amsmath,amsthm,verbatim, bbm, amscd}
+\usepackage{amscd}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{setspace} 
+\usepackage{enumerate}
+\newcommand{\nudge}{\ \ \ \ \ \ \ \ \ }
+
+
+\begin{document}
+\noindent Cryptography Activity
+
+Overview: Make a web-like drawing that you can make public so that anyone can send you information secretly.
+
+Instructions:
+
+\pagebreak
+{\bf Person A:} Follow the steps below to make a hidden perfect network that will allow others to send you a message.
+\begin{enumerate}[Step 1.]
+\item Choose 4 or 5 of the points on your sheet to be your hubs.
+\item Draw a straight line connecting each of the outlier points to one and only one hub. Make sure that:
+\begin{itemize}
+\item Each outlier connects to a hub.
+\item All of the hubs are connected to at least one outlier.
+\item No outliers connect to more than one hub.
+\item No hubs connect directly to another hub.
+\end{itemize}
+\item Randomly add some connections between outliers. (But do NOT make any new connections to hubs.) Add enough so that you can't easily tell where the hubs are.
+\item Lay the transmission sheet over your sheet and make a copy of your connections. Only draw in the straight line connections between the points (do NOT indicate where the secret hubs are). Do this for both copies of the transmission sheets.
+\item Send your transmission sheets to Person B through public channels.
+\item Wait until you get the transmission sheet back.
+\item Add up the numbers in the boxes next to your secret hubs. This is the answer!
+\end{enumerate}
+
+\pagebreak
+{\bf Person B:} Follow the steps below to send the answer to your question back to Person A.
+\begin{enumerate}[Step 1.]
+\item Write down numbers in the boxes next to the dots. The sum of all your boxes should be the number you want to send. Tip: Don't use numbers that are too big and negative numbers are okay to use. So maybe try to use only whole numbers between $-10$ and $10$.
+\item When you get the transmission sheet, lay it over your sheet. For each box next to a point, write (on the transmission sheet) the sum of the numbers (on your sheet) for all the points that are connected to that point (including the point itself).
+\item Send the transmission sheet back to Person A through public channels.
+\item Person A should now have the answer!
+\end{enumerate}
+
+\pagebreak
+
+
+
+Person A: Secret Sheet\\
+\includegraphics[width=8in]{KidKryptoOuter.jpg}
+\pagebreak
+
+Person B: Secret Sheet\\
+\includegraphics[width=8in]{KidKryptoOuter.jpg}
+\pagebreak
+
+Transmission Sheet: Copy 1 (For A and B)\\
+\includegraphics[width=8in]{KidKryptoInner.jpg}
+\pagebreak
+
+Transmission Sheet: Copy 2 (For C)\\
+\includegraphics[width=8in]{KidKryptoInner.jpg}
+\pagebreak
+
+
+
+
+\end{document}

@@ -1,0 +1,15 @@
+140SampleQuiz01withSolutions.pdf	Sample Quiz 1 with Solutions, covers Chapter 1 (with bonus from Section 2.1)
+140SampleQuiz02.pdf	Sample Quiz 2, covers Chapter 2
+140SampleQuiz02Solutions.pdf	Solutions to Sample Quiz 2
+140SampleExamI.pdf	Sample Exam I, covers Chapters 1 and 2
+140SampleQuiz03.pdf	Sample Quiz 3, covers Chapter 3
+140SampleQuiz03Solutions.pdf	Solutions to Sample Quiz 3
+140SampleQuiz04.pdf	Sample Quiz 4, covers Chapter 4
+140SampleQuiz04Solutions.pdf	Solutions to Sample Quiz 4
+140SampleExamII.pdf	Sample Exam II, covers Chapters 3 and 4
+140SampleQuiz05.pdf	Sample Quiz 5, covers Chapter 5
+140SampleQuiz05Solutions.pdf	Solutions to Sample Quiz 5
+140SampleQuiz06.pdf	Sample Quiz 6, covers Chapter 6
+140SampleQuiz06Solutions.pdf	Solutions to Sample Quiz 6
+140SampleExamIII.pdf	Sample Exam III, covers Chapters 5 and 6
+140SampleFinalExam.pdf	Sample Final Exam, covers Chapters 1 through 7

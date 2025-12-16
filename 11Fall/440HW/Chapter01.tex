@@ -1,0 +1,36 @@
+\documentclass{article}
+\pagestyle{empty}
+
+\usepackage[left=1cm,top=1cm,right=1cm,bottom=1cm,nohead,nofoot]{geometry}
+\usepackage{amssymb,amsmath,amsthm,verbatim, bbm, amscd}
+\usepackage{amscd}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{multicol}
+
+\begin{document}
+MATH 440: Chapter 1 Write-Up Problems\vspace{1em}
+
+Name:\vspace{1em}
+\begin{enumerate}
+
+\item For every pair of real numbers $a$ and $b$, define a function $f_{a,b}:\mathbb{R} \to \mathbb{R}$ by the formula $$f_{a,b}(x)=ax+b.$$
+\begin{enumerate}
+\item Show that $f_{1,b} \circ f_{a,0} = f_{a,b}$.
+\item Prove or disprove that $f_{a,b}^{-1}$ exists. (Note: $f_{a,b}^{-1}$ satisfies $f_{a,b}^{-1} \circ f_{a,b} = f_{1,0}$.)
+\end{enumerate}
+%162.B87.26.9
+
+\item Let $M_2(\mathbb{R})$ be the $2\times 2$ matrices with real entries. Set $$A=\begin{pmatrix}1 & 1 \\ 0 & 1\end{pmatrix}$$ and let $$\mathcal{B} = \{ X \in M_2(\mathbb{R}) \mid AX = XA \}.$$
+\begin{enumerate}
+\item Prove or disprove: if $P,Q \in \mathcal{B}$, then $P+Q \in \mathcal{B}$.
+\item Prove or disprove: if $P,Q \in \mathcal{B}$, then $PQ \in \mathcal{B}$.
+\end{enumerate}
+%162.D85.4.2&3
+
+\item Let $f:X \to Y$ be an onto map of sets. For $a,b \in X$, consider the relation $$a \sim b \text{ if and only if } f(a)=f(b).$$ Prove or disprove that this is an equivalence relation.
+%162.D85.4.7
+
+\end{enumerate}
+
+\end{document}

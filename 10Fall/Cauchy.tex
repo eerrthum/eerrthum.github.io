@@ -1,0 +1,58 @@
+\documentclass{article}
+\pagestyle{empty}
+
+\usepackage[left=1cm,top=2cm,right=2.5cm,nohead,nofoot]{geometry}
+\usepackage{amssymb,amsmath,amsthm,verbatim, bbm, amscd}
+\usepackage{amscd}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage[all]{xy}
+\usepackage{setspace} 
+\usepackage{multicol}
+
+\newcommand{\blank}{\underbar{\hspace{70pt}}}
+\newcommand{\no}{\noindent\#}
+\newcommand{\Z}{\mathbb{Z}}
+\newtheorem{axiom}{Axiom}
+\newtheorem{definition}{Def}
+\newtheorem{thm}{Theorem}
+
+
+\begin{document}
+\noindent MATH 210: Construction of the Reals Homework\\
+
+\begin{enumerate}
+\item Let $C^\infty$ be the set of all continuous functions on the interval $[0,1]$. Show that $d(f,g)=\int_0^1|f(x)-g(x)|\ dx$ is a metric on  $C^\infty$.
+
+\item Give two other elements (as Cauchy sequences) of the equivalence class $\{1,\frac{1}{10},\frac{1}{100},\frac{1}{1000}\dots\}/=_C$.
+
+\item Give the element of $\mathbb{R}$ (in standard notation) that corresponds to
+$$\left\{ 1, 1+\frac{1}{1}, 1+\frac{1}{1+\frac{1}{1}}, 1+\frac{1}{1+\frac{1}{1+\frac{1}{1}}},\dots\right\}/=_C$$
+
+
+\item A sequence $\{x_n\}$ is said to be {\bf eventually bounded by  $M$} iff there exists $N$ such that for every $n>N$ we have $|x_n|<M$. Prove that if $\{x_n\}$ is a Cauchy sequence then it is eventually bounded.\\
+(Hint: Since the sequence is Cauchy, it has a limit, call it $L$. Then use the limit definition of $x_n \to L$ to show that there exists $N$ such that for $n>N$ we have $L-1 < x_n <L+1$. Now find the appropriate bound on $|x_n|$.) \label{bounded}
+
+
+\item Suppose $\{r_n\}=_C\{s_n\}$ and $\{t_n\}=_C\{u_n\}$. Show that
+\begin{enumerate}
+\item $\{r_n+t_n\}=_C\{s_n+u_n\}$
+
+
+\item $\{r_nt_n\}=_C\{s_nu_n\}$ (Hint: use  $0=-s_nt_n+s_nt_n$ and Problem \ref{bounded}.)
+
+
+\end{enumerate}
+
+\item Consider the sequence of rationals $\{1, 4, 16, \dots, 4^n, \dots\}$ and the metric  on $\mathbb{Q}$ given by $$d_2(x,y)=2^{(\text{\# of 2's in the denominator of } x-y) -(\text{\# of 2's in the numerator of } x-y) }.$$ 
+\begin{enumerate}
+\item Prove that this sequence is Cauchy under the metric  $d_2(x,y)$.
+
+\item Show that this sequence has limit $L=0$ under the metric $d_2(x,y)$.
+
+\end{enumerate}
+\end{enumerate}
+
+
+\end{document}

@@ -1,0 +1,299 @@
+\documentclass{beamer}
+\usepackage{beamerthemeshadow}
+\usepackage{beamerthemeDarmstadt}
+%\usepackage{pgfpages}
+%\pgfpagesuselayout{resize to}[letterpaper,border shrink=5mm,portrait]
+
+% \usepackage[english]{babel}
+% \usepackage[latin1]{inputenc}
+% \usepackage{times}
+% \usepackage[T1]{fontenc}
+% \usepackage{graphicx,subfigure}
+% \usepackage{color}
+% \usepackage{amsmath}
+% 
+
+
+% user's definition
+
+% \newtheorem{Thm}{Theorem}[section]
+% \newtheorem{Lm}{Lemma}[section]
+% \newtheorem{Prop}{Proposition}[section]
+% \newtheorem{Cry}{Corollary}[section]
+% \newtheorem{Rmk}{Remark}[section]
+
+\newcommand{\bs}{\backslash}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\ds}{\frac{\partial}{\partjial s}}
+\newcommand{\Af}{\mathbb{A}_f}
+\newcommand{\A}{\mathbb{A}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\h}{\mathfrak{h}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\K}{{\cal K}}
+\newcommand{\vpi}{v}
+\newcommand{\RK}{{\cal R}}
+\newcommand{\D}{\mathfrak{D}}
+\newcommand{\Pro}{\mathbb{P}}
+\newcommand{\Po}{\tau}
+\newcommand{\SL}{\text{SL}_2}
+\newcommand{\GL}{\text{GL}_2}
+\newcommand{\PGL}{\text{PGL}_2}
+\newcommand{\M}{\text{M}_2}
+\newcommand{\tr}{\text{tr}}
+\newcommand{\Oh}{\mathcal{O}}
+\newcommand{\X}{\mathcal{X}}
+\newcommand{\Xs}{\mathcal{X}^*}
+\newcommand{\no}{\text{norm}}
+\newcommand{\No}{\text{N}}
+\newcommand{\Div}{\text{div}}
+\font\cute=cmitt10 at 12pt
+\font\smallcute=cmitt10 at 9pt
+\newcommand{\kay}{{\text{\cute k}}}
+\newcommand{\smallkay}{{\text{\smallcute k}}}
+\newcommand{\E}{\mathcal{E}}
+\newcommand{\q}{{\bf q}}
+\newcommand{\Ord}{\text{Ord}}
+\newcommand{\ord}{\text{ord}}
+\newcommand{\Chi}{\mathcal{X}}
+\newcommand{\Hom}{\text{Hom}}
+\newcommand{\cond}{\text{cond}}
+\newcommand{\alp}{\mathfrak{a}}
+\newcommand{\I}{\mathfrak{i}}
+\newcommand{\MSL}{\widetilde{\text{SL}_2}}
+\newcommand{\sign}{\text{sign}}
+\newcommand{\expo}{{\bf e}}
+\newcommand{\Weil}{\rho_L}
+\newcommand{\Weilb}{\overline{\rho}_{\Lambda_L}}
+\newcommand{\Go}{\Gamma_0}
+\newcommand{\MGo}{\widetilde{\Gamma_0}}
+\newcommand{\ep}{\epsilon}
+\newcommand{\lam}{\mathfrak{l}}
+
+\title[Finding Minimal Polynomials with a Norm Calculator]
+{\Large Finding Minimal Polynomials with a Norm Calculator}
+
+
+\author[Eric Errthum]
+{Eric Errthum  \\ Winona State University \\ eerrthum@winona.edu}
+
+\date{\footnotesize October 18, 2008}
+
+\institute[] 
+{%Department of Mathematics\\
+%University of Maryland, College Park\\
+%\vskip 1.0cm
+% Quotation
+}
+
+
+% List Outline in the beginning of each section.
+% \AtBeginSection[]
+% {
+%    \begin{frame}
+%        \frametitle{Outline}
+%        \tableofcontents[currentsection]
+%    \end{frame}
+% }
+
+
+
+
+%-------------------------------------------------------------------
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+
+
+%---------------------------------------------------
+\section{The Problem}
+
+\subsection{}
+\frame{{\bf Algebraic Review}
+\begin{itemize}
+\item<1-> An {\color{red}algebraic number}, $\zeta$, is a root of an irreducible monic polynomial with rational coefficients.
+\begin{examples}<2->\vspace{-1em}
+\begin{eqnarray*}
+\zeta=i & \Rightarrow & x^2+1=0\\
+\zeta=\frac{4}{\sqrt{^3\!\!\!\sqrt{9}+7\ ^3\!\!\!\sqrt{3}}} & \Rightarrow & x^6 + \frac{504}{519} x^4 - \frac{2048}{519} 
+\end{eqnarray*}
+\end{examples}
+
+\item<3-> This polynomial, $M_\zeta(x)$, is called the {\color{red}minimal polynomial} and $$M_\zeta(x) = \prod_i(x-\sigma_i(\zeta))$$ where $\sigma_i \in \text{Gal}(\Q(\zeta)/\Q)$.
+
+\item<4-> The (absolute) {\color{red}norm of $\zeta$}, $\no(\zeta)= \left|\prod \sigma_i(\zeta)\right|$, is the absolute value of the constant term of $M_\zeta(x)$.
+
+\end{itemize}
+}
+
+\frame{{\bf Problem Statement}
+\uncover<1->{{\large Given}
+\begin{itemize}
+\item<1-> A collection of unknown algbraic numbers $\{\zeta_1, \zeta_2, \dots\}$ whose minimal polynomials have known degrees $\{d_1, d_2, \dots\}$.
+\item<2-> An algorithm that can compute the norm of an unknown algebraic number (norm calculator).
+\end{itemize}}
+\uncover<3->{{\large Find}
+\begin{itemize}
+\item The minimal polynomials for (at least some of) the $\zeta_k$'s?
+\end{itemize}}
+}
+
+\section{The Motivation}
+
+\subsection{}
+\frame{{\bf Shimura Curves}
+\begin{itemize}
+\item<1-> The Shimura curve $S_6$ is a Riemannian surface of genus zero.
+\item<2-> An isomorphism $J: S_6 \stackrel{\sim}{\rightarrow} \Pro^1$ exists.
+\item<3-> It can be uniquely specified by choosing the three points that map to $0$, $1$, and $\infty$.
+\item<4-> Due to the properties of Shimura curves, no formula exists for such a map.
+\end{itemize}
+}
+
+\frame{{\bf CM Points on the Shimura Curve}
+\begin{itemize}
+\item<1-> There is a collection of ``special'' points $\{s_k\} \subset S_6$ called complex multiplication (CM) points.
+\item<2-> Three of these, $s_3$, $s_4$, and $s_{24}$, are {\it really} special, so specify \\
+$J$ by $$(s_3,s_4,s_{24}) \stackrel{J}{\rightarrow} (0,1,\infty).$$
+\item<3-> Then $J$ maps all CM points to algebraic numbers.
+\item<4-> There exists an algorithm that calculates $\no(J(s_k))$ for $s_k$ a CM point. (Errthum, 2007)
+\item<5-> Using genus theory of groups, we can calculate $d_k$, the degree of $M_{J(s_k)}(x)$.
+\end{itemize}
+
+\uncover<6->{{\color{blue}{\bf Back to the problem:}} Let $\{\zeta_k\} = \{J(s_k)\}$.}
+
+}
+
+\section{The Solution}
+
+\subsection{}
+\frame{{\bf First Trick}
+\begin{itemize}
+\item<1-> For a finite number of indices $r$, $M_{J(s_r)}(x)$ has degree 1, i.e. $\zeta_r$ is a rational number.
+\item<2-> \ {\color{red}\vspace{-1em}$$\no(\zeta_r)=\pm \zeta_r.$$}
+\item<3-> \vspace{-1em} Use a new $J_1$ by taking $(s_3,s_4,s_{24}) \rightarrow (1,0,\infty)$ instead of $(0,1,\infty)$. $$J_1(s)=1-J(s).$$
+\begin{example}<4->\vspace{-1em}
+\begin{eqnarray*}
+\no(J(s_r)) = 4/5 \text{ and }  \no(1-J(s_r))  =  9/5 \\
+\Rightarrow \zeta_r = J(s_r) = -4/5
+\end{eqnarray*}
+\end{example}
+\item<5-> Can calculate all rational $\zeta_r$ this way.
+\end{itemize}
+}
+
+\frame{{\bf Second Trick}
+\begin{itemize}
+\item<1-> Choose $\zeta_k$ with $d_k$ small.
+\item<2-> For $d_k+1$ choices of $r$, specify $J_r(s) = \zeta_r-J(s)$ by $$(s_3,s_r,s_{24}) \stackrel{J_r}{\rightarrow} (\zeta_r,0,\infty).$$
+\item<3-> \ \vspace{-2em} \begin{eqnarray*}
+\uncover<3->{\no(\zeta_r-J(s_k)) &=& \left| \prod_i\sigma_i(\zeta_r-J(s_k)) \right|\\}
+\uncover<4->{&=& \left| \prod_i\sigma_i(\zeta_r-\zeta_k) \right|\\}
+\uncover<5->{&=& \left| \prod_i\left( \zeta_r-\sigma_i(\zeta_k)\right)\right|\\}
+\uncover<6->{&=& \left| M_{\zeta_k}(\zeta_r) \right|}
+\end{eqnarray*}
+\end{itemize}
+}
+
+\frame{{\bf Brute Force}
+\begin{itemize}
+\item<1-> So we know $d_k+1$ points on the curve $y=\left| M_{\zeta_k}(x) \right|$.
+\item<2-> If it wasn't for the absolute value, we could use a standard polynomial fit and be done. 
+\item<3-> Go through the $2^{d_k}$ combinations of minus signs on the values until you find a monic polynomial.\\ (There's only ever one. Proof?)
+\item<4-> If there are $R$ rational $\zeta_r$, then we can use this method to find the minimal polynomial of any $\zeta_k$ with $d_k \le R-2$.
+\end{itemize}
+}
+
+\frame{{\bf Example}
+\begin{columns}
+\begin{column}{6cm}
+\begin{itemize}
+\item<1-> $\no(\zeta) = \frac{10}{17}$ and $d=3$.
+\item<2-> We use the four CM points that map to $0$, $1$, $\frac{-4}{5}$, and $\frac{2}{3}$ to find the data points:\\
+\uncover<3->{\begin{tabular}{c}
+$\left(0, \no(\zeta) \right)=\left(0, \frac{10}{17} \right)$\vspace{.5em}\\
+$\left(1, \no\left(1-\zeta\right) \right)=\left(1,\frac{25}{102} \right)$\vspace{.5em}\\
+$\left(\frac{-4}{5}, \no\left(\frac{-4}{5}-\zeta\right) \right)=\left(\frac{-4}{5}, \frac{5246}{6375} \right)$\vspace{.5em}\\
+$\left(\frac{2}{3}, \no\left(\frac{2}{3}-\zeta\right) \right)=\left(\frac{2}{3}, \frac{104}{459} \right)$\vspace{.5em}\\
+\end{tabular}}
+\end{itemize}
+\end{column}
+\begin{column}{6.5cm}
+\begin{itemize}
+\item<4-> Possible minimal polynomials:
+{\tiny \begin{eqnarray*}
+y&=&\frac{10}{17}-\frac{3316}{5049} x-\frac{1141}{10098} x^2+\frac{718 }{1683}x^3\\
+y&=&\frac{10}{17}-\frac{124}{561} x-\frac{83}{374} x^2-\frac{73}{187} x^3\\
+y&=&\frac{10}{17}-\frac{812}{459} x-\frac{359}{918} x^2+\frac{278}{153} x^3\\
+{\color{red}y}&{\color{red}=}&{\color{red}\frac{10}{17}-\frac{4}{3} x-\frac{1}{2}x^2+x^3}\\
+y&=&\frac{10}{17}-\frac{7}{51} x-\frac{24}{17} x^2+\frac{41}{34} x^3\\
+y&=&\frac{10}{17}+\frac{137}{459} x-\frac{698}{459} x^2+\frac{7}{18} x^3\\
+y&=&\frac{10}{17}-\frac{701}{561} x-\frac{316}{187} x^2+\frac{971}{374} x^3\\
+y&=&\frac{10}{17}-\frac{4109}{5049} x-\frac{9082}{5049} x^2+\frac{5989}{3366} x^3
+\end{eqnarray*}}
+\end{itemize}
+\end{column}
+\end{columns}\vspace{-.5em}
+
+\uncover<5->{So the minimal polynomial of $\zeta$ is $M_\zeta(x) = \frac{10}{17}-\frac{4}{3} x-\frac{1}{2}x^2+x^3$.}
+
+}
+
+\section*{End}
+\frame{{\bf Thanks}
+
+\begin{center}
+{\large Questions?}\vspace{10em}
+
+eerrthum@winona.edu
+\end{center}
+}
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

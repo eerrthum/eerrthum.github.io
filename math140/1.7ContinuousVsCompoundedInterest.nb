@@ -1,0 +1,250 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 6.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      9859,        240]
+NotebookOptionsPosition[      9530,        224]
+NotebookOutlinePosition[      9872,        239]
+CellTagsIndexPosition[      9829,        236]
+WindowFrame->Normal
+ContainsDynamic->True *)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"If", "[", 
+     RowBox[{"exeqco", ",", 
+      RowBox[{
+       RowBox[{"rceqre", "=", "False"}], ";", 
+       RowBox[{"re", "=", 
+        RowBox[{"n", "*", 
+         RowBox[{"Log", "[", 
+          RowBox[{"1", "+", 
+           RowBox[{"rc", "/", "n"}]}], "]"}]}]}]}]}], "]"}], ";", 
+    RowBox[{"If", "[", 
+     RowBox[{"rceqre", ",", 
+      RowBox[{"rc", "=", "re"}]}], "]"}], ";", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"Plot", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"E", "^", 
+             RowBox[{"(", 
+              RowBox[{"re", "*", "t"}], ")"}]}], ",", 
+            RowBox[{
+             RowBox[{"(", 
+              RowBox[{"1", "+", 
+               RowBox[{"rc", "/", "n"}]}], ")"}], "^", 
+             RowBox[{"(", 
+              RowBox[{"n", "*", "t"}], ")"}]}]}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"t", ",", "0", ",", "10"}], "}"}], ",", 
+          RowBox[{"PlotStyle", "\[Rule]", 
+           RowBox[{"{", 
+            RowBox[{"Red", ",", "Blue"}], "}"}]}], ",", 
+          RowBox[{"PlotRange", "\[Rule]", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"0", ",", "10"}], "}"}], ",", 
+             RowBox[{"{", 
+              RowBox[{"0", ",", "10"}], "}"}]}], "}"}]}], ",", 
+          RowBox[{"ImageSize", "\[Rule]", "500"}]}], "]"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"Style", "[", 
+         RowBox[{
+          RowBox[{"\"\<Continuous Rate: \>\"", "<>", 
+           RowBox[{"ToString", "[", "re", "]"}]}], ",", "Red"}], "]"}], "}"}],
+        ",", 
+       RowBox[{"{", 
+        RowBox[{"Style", "[", 
+         RowBox[{
+          RowBox[{"\"\<Compounded Rate: \>\"", "<>", 
+           RowBox[{"ToString", "[", "rc", "]"}]}], ",", "Blue"}], "]"}], 
+        "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"\"\<Compounded \>\"", "<>", 
+         RowBox[{"ToString", "[", "n", "]"}], "<>", "\"\< times a year\>\""}],
+         "}"}]}], "}"}], "//", "TableForm"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"re", ",", " ", ".01", ",", 
+       RowBox[{"Style", "[", 
+        RowBox[{"\"\<r1\>\"", ",", "Red"}], "]"}]}], "}"}], ",", ".01", ",", 
+     ".25"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"rc", ",", ".01", ",", 
+       RowBox[{"Style", "[", 
+        RowBox[{"\"\<r2\>\"", ",", "Blue"}], "]"}]}], "}"}], ",", ".01", ",", 
+     ".25"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"n", ",", "1", ",", "200", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"rceqre", ",", "False", ",", "\"\<r2=r1 ?\>\""}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"True", ",", "False"}], "}"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"exeqco", ",", "False", ",", "\"\<Cont = Comp?\>\""}], "}"}], 
+     ",", 
+     RowBox[{"{", 
+      RowBox[{"True", ",", " ", "False"}], "}"}]}], "}"}], ",", 
+   RowBox[{"Alignment", "\[Rule]", "Center"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.410101931034152*^9, 3.4101020753034706`*^9}, {
+   3.4101021109762583`*^9, 3.410102199806658*^9}, {3.4101022348231792`*^9, 
+   3.4101023030124245`*^9}, {3.4101024291562786`*^9, 
+   3.4101024670009975`*^9}, {3.4101025074707837`*^9, 
+   3.4101025577064447`*^9}, {3.4101025932386045`*^9, 
+   3.4101026303489294`*^9}, {3.4101026769126215`*^9, 
+   3.4101027992907543`*^9}, {3.410102920653236*^9, 3.410102961748038*^9}, {
+   3.41010305871927*^9, 3.4101030765166006`*^9}, {3.4101040510571737`*^9, 
+   3.4101040864487047`*^9}, {3.4101041227933846`*^9, 
+   3.4101042351243854`*^9}, {3.4101042665939407`*^9, 
+   3.4101042997822905`*^9}, {3.410104342799017*^9, 3.410104373502928*^9}, {
+   3.4101044309731493`*^9, 3.4101046156497517`*^9}, {3.4101046779950976`*^9, 
+   3.4101048190924597`*^9}, {3.4101048967506976`*^9, 3.4101049096416526`*^9}, 
+   3.410104952189617*^9, {3.410104985346716*^9, 3.4101050257539997`*^9}, {
+   3.410105418670308*^9, 3.410105469577862*^9}, {3.4101055093445044`*^9, 
+   3.4101056272225223`*^9}, {3.4101056653172474`*^9, 
+   3.4101057037869825`*^9}, {3.4101057393347673`*^9, 
+   3.4101057633197565`*^9}, {3.410105814727322*^9, 3.410105911776682*^9}, {
+   3.4101060890780954`*^9, 3.4101061037034698`*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`exeqco$$ = False, $CellContext`n$$ = 
+    1, $CellContext`rc$$ = 0.22314355131420976`, $CellContext`rceqre$$ = 
+    True, $CellContext`re$$ = 0.22314355131420976`, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`re$$], 0.01, 
+       Style["r1", 
+        RGBColor[1, 0, 0]]}, 0.01, 0.25}, {{
+       Hold[$CellContext`rc$$], 0.01, 
+       Style["r2", 
+        RGBColor[0, 0, 1]]}, 0.01, 0.25}, {
+      Hold[$CellContext`n$$], 1, 200, 1}, {{
+       Hold[$CellContext`rceqre$$], False, "r2=r1 ?"}, {True, False}}, {{
+       Hold[$CellContext`exeqco$$], False, "Cont = Comp?"}, {True, False}}}, 
+    Typeset`size$$ = {500., {179.5, 184.5}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    True, $CellContext`re$135563$$ = 0, $CellContext`rc$135564$$ = 
+    0, $CellContext`n$135565$$ = 0, $CellContext`rceqre$135566$$ = 
+    False, $CellContext`exeqco$135567$$ = False}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`exeqco$$ = False, $CellContext`n$$ = 
+        1, $CellContext`rc$$ = 0.01, $CellContext`rceqre$$ = 
+        False, $CellContext`re$$ = 0.01}, "ControllerVariables" :> {
+        Hold[$CellContext`re$$, $CellContext`re$135563$$, 0], 
+        Hold[$CellContext`rc$$, $CellContext`rc$135564$$, 0], 
+        Hold[$CellContext`n$$, $CellContext`n$135565$$, 0], 
+        Hold[$CellContext`rceqre$$, $CellContext`rceqre$135566$$, False], 
+        Hold[$CellContext`exeqco$$, $CellContext`exeqco$135567$$, False]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, 
+      "Body" :> (
+       If[$CellContext`exeqco$$, $CellContext`rceqre$$ = 
+          False; $CellContext`re$$ = $CellContext`n$$ 
+           Log[1 + $CellContext`rc$$/$CellContext`n$$]]; 
+       If[$CellContext`rceqre$$, $CellContext`rc$$ = $CellContext`re$$]; 
+       TableForm[{{
+           
+           Plot[{E^($CellContext`re$$ $CellContext`t), (
+              1 + $CellContext`rc$$/$CellContext`n$$)^($CellContext`n$$ \
+$CellContext`t)}, {$CellContext`t, 0, 10}, PlotStyle -> {Red, Blue}, 
+            PlotRange -> {{0, 10}, {0, 10}}, ImageSize -> 500]}, {
+           Style[
+            StringJoin["Continuous Rate: ", 
+             ToString[$CellContext`re$$]], Red]}, {
+           Style[
+            StringJoin["Compounded Rate: ", 
+             ToString[$CellContext`rc$$]], Blue]}, {
+           StringJoin["Compounded ", 
+            ToString[$CellContext`n$$], " times a year"]}}]), 
+      "Specifications" :> {{{$CellContext`re$$, 0.01, 
+          Style["r1", 
+           RGBColor[1, 0, 0]]}, 0.01, 0.25}, {{$CellContext`rc$$, 0.01, 
+          Style["r2", 
+           RGBColor[0, 0, 1]]}, 0.01, 0.25}, {$CellContext`n$$, 1, 200, 
+         1}, {{$CellContext`rceqre$$, False, "r2=r1 ?"}, {
+         True, False}}, {{$CellContext`exeqco$$, False, "Cont = Comp?"}, {
+         True, False}}}, "Options" :> {Alignment -> Center}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{546., {269., 274.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{{3.4101041807636185`*^9, 3.410104235968157*^9}, {
+   3.410104270734672*^9, 3.410104300344805*^9}, {3.4101043497991962`*^9, 
+   3.410104374565455*^9}, {3.4101044316294155`*^9, 3.4101044945372763`*^9}, 
+   3.410104572195514*^9, 3.4101046174466724`*^9, 3.410104826858283*^9, 
+   3.410104910391672*^9, 3.410104953033388*^9, {3.410104991737504*^9, 
+   3.410105026441518*^9}, {3.410105457265046*^9, 3.410105470109125*^9}, {
+   3.410105520001027*^9, 3.410105570049184*^9}, {3.4101056006280913`*^9, 
+   3.410105627660033*^9}, {3.410105677614437*^9, 3.4101057045057507`*^9}, {
+   3.41010574316299*^9, 3.4101057641010265`*^9}, 3.410105815946103*^9, {
+   3.4101058567283974`*^9, 3.410105914214244*^9}, {3.4101060897187366`*^9, 
+   3.4101061040784793`*^9}}]
+}, Open  ]]
+},
+WindowSize->{949, 750},
+WindowMargins->{{Automatic, 43}, {65, Automatic}},
+FrontEndVersion->"6.0 for Microsoft Windows (32-bit) (April 20, 2007)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[590, 23, 4401, 110, 152, "Input"],
+Cell[4994, 135, 4520, 86, 560, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

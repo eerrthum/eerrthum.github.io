@@ -1,0 +1,1255 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?><Production_Data Version="5.10"><HTMLTemplateFile>Template.$[AnyExtension]</HTMLTemplateFile>
+<HTMLTemplateBodyFile>expressShow\SSWFTemplate-body.htm</HTMLTemplateBodyFile>
+<HTMLTemplateHeaderFile>expressShow\SSWFTemplate-header.htm</HTMLTemplateHeaderFile>
+<VideoFilenameWithPath>D:\Data\Camtasia Studio\Math165-Section6-1\Math165-Section6-1.swf</VideoFilenameWithPath>
+<AddIPodFileSize>0 bytes</AddIPodFileSize>
+<AddMP3FileSize>0 bytes</AddMP3FileSize>
+<AddPPTFileSize>263 KB</AddPPTFileSize>
+<ProjectName>Math165-Section6-1</ProjectName>
+<MediaDir></MediaDir>
+<ShouldCreateMediaDir>0</ShouldCreateMediaDir>
+<MaxTimelineWidth>640</MaxTimelineWidth>
+<MaxTimelineHeight>480</MaxTimelineHeight>
+<MaxTimelineFPS>10.00</MaxTimelineFPS>
+<MaxVideoWidth>1280</MaxVideoWidth>
+<MaxVideoHeight>768</MaxVideoHeight>
+<MaxVideoFPS>10.00</MaxVideoFPS>
+<MaxPIPWidth>0</MaxPIPWidth>
+<MaxPIPHeight>0</MaxPIPHeight>
+<MaxPIPFPS>0.00</MaxPIPFPS>
+<VideoDuration>960.60</VideoDuration>
+<PIPVideoDuration>0.00</PIPVideoDuration>
+<VideoFPS>30.00</VideoFPS>
+<PIPVideoFPS>30.00</PIPVideoFPS>
+<VideoWidth>640</VideoWidth>
+<VideoHeight>498</VideoHeight>
+<ActualVideoWidth>640</ActualVideoWidth>
+<ActualVideoHeight>480</ActualVideoHeight>
+<PIPVideoWidth>160</PIPVideoWidth>
+<PIPVideoHeight>120</PIPVideoHeight>
+<TOCWidth>-1</TOCWidth>
+<MinTOCWidth>160</MinTOCWidth>
+<TOCDividerHeight>18</TOCDividerHeight>
+<TimelineHasAudio>1</TimelineHasAudio>
+<TimelineDuration>9606000000</TimelineDuration>
+<SWFControllerTotalHeight>18</SWFControllerTotalHeight>
+<SWFMinWidth>320</SWFMinWidth>
+<SWFTOCXPos>0</SWFTOCXPos>
+<SWFTOCYPos>0</SWFTOCYPos>
+<SWFTOCWidth>160</SWFTOCWidth>
+<SWFTOCHeight>480</SWFTOCHeight>
+<SWFHasPIPOverlay>0</SWFHasPIPOverlay>
+<SWFControllerColor></SWFControllerColor>
+<SWFTimeDispFontColor>0x000000</SWFTimeDispFontColor>
+<SWFPlaybackConfigFileName>Math165-Section6-1_config.xml</SWFPlaybackConfigFileName>
+<SWFPlaybackControllerFileName>Math165-Section6-1_controller.swf</SWFPlaybackControllerFileName>
+<SWFPreloaderFileName></SWFPreloaderFileName>
+<StripWhitespace>0</StripWhitespace>
+<WritingImages>0</WritingImages>
+<WritePreviewXML>0</WritePreviewXML>
+<DisableTOC>0</DisableTOC>
+<AutoPlay>0</AutoPlay>
+<CancelledProduction>0</CancelledProduction>
+<CancelledProdLength>9603000000</CancelledProdLength>
+<Hotspot_Array>
+</Hotspot_Array>
+<AdjGlobalRenderRangeStart>-1</AdjGlobalRenderRangeStart>
+<AdjGlobalRenderRangeStop>-1</AdjGlobalRenderRangeStop>
+<AdjRenderRange_Array>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>0</AdjRenderRangeStart>
+<AdjRenderRangeStop>0</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>0</AdjRenderRangeStart>
+<AdjRenderRangeStop>112000000</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>112000000</AdjRenderRangeStart>
+<AdjRenderRangeStop>239000000</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>239000000</AdjRenderRangeStart>
+<AdjRenderRangeStop>496000000</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>496000000</AdjRenderRangeStart>
+<AdjRenderRangeStop>808000000</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>808000000</AdjRenderRangeStart>
+<AdjRenderRangeStop>1196000000</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>1196000000</AdjRenderRangeStart>
+<AdjRenderRangeStop>1342000000</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>1342000000</AdjRenderRangeStart>
+<AdjRenderRangeStop>1743000000</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>1743000000</AdjRenderRangeStart>
+<AdjRenderRangeStop>2057333333</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>2057333333</AdjRenderRangeStart>
+<AdjRenderRangeStop>2213333333</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>2213333333</AdjRenderRangeStart>
+<AdjRenderRangeStop>2302000000</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>2302000000</AdjRenderRangeStart>
+<AdjRenderRangeStop>2413333333</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>2413333333</AdjRenderRangeStart>
+<AdjRenderRangeStop>2501666667</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>2501666667</AdjRenderRangeStart>
+<AdjRenderRangeStop>2678666667</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>2678666667</AdjRenderRangeStart>
+<AdjRenderRangeStop>2998666667</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>2998666667</AdjRenderRangeStart>
+<AdjRenderRangeStop>3042666667</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>3042666667</AdjRenderRangeStart>
+<AdjRenderRangeStop>3624666667</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>3624666667</AdjRenderRangeStart>
+<AdjRenderRangeStop>3856000000</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>3856000000</AdjRenderRangeStart>
+<AdjRenderRangeStop>4023333333</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>4023333333</AdjRenderRangeStart>
+<AdjRenderRangeStop>4217000000</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>4217000000</AdjRenderRangeStart>
+<AdjRenderRangeStop>4312000000</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>4312000000</AdjRenderRangeStart>
+<AdjRenderRangeStop>4385666667</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>4385666667</AdjRenderRangeStart>
+<AdjRenderRangeStop>4408333333</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>4408333333</AdjRenderRangeStart>
+<AdjRenderRangeStop>4551666667</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>4551666667</AdjRenderRangeStart>
+<AdjRenderRangeStop>5673666667</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>5673666667</AdjRenderRangeStart>
+<AdjRenderRangeStop>5858666667</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>5858666667</AdjRenderRangeStart>
+<AdjRenderRangeStop>5894000000</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>5894000000</AdjRenderRangeStart>
+<AdjRenderRangeStop>5994333333</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>5994333333</AdjRenderRangeStart>
+<AdjRenderRangeStop>6146000000</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>6146000000</AdjRenderRangeStart>
+<AdjRenderRangeStop>6267000000</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>6267000000</AdjRenderRangeStart>
+<AdjRenderRangeStop>6383666667</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>6383666667</AdjRenderRangeStart>
+<AdjRenderRangeStop>6597666667</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>6597666667</AdjRenderRangeStart>
+<AdjRenderRangeStop>6794000000</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>6794000000</AdjRenderRangeStart>
+<AdjRenderRangeStop>7295333333</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>7295333333</AdjRenderRangeStart>
+<AdjRenderRangeStop>7882333333</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>7882333333</AdjRenderRangeStart>
+<AdjRenderRangeStop>8180666667</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>8180666667</AdjRenderRangeStart>
+<AdjRenderRangeStop>8256000000</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>8256000000</AdjRenderRangeStart>
+<AdjRenderRangeStop>8256000000</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>8256000000</AdjRenderRangeStart>
+<AdjRenderRangeStop>8379666667</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>8379666667</AdjRenderRangeStart>
+<AdjRenderRangeStop>8631666667</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>8631666667</AdjRenderRangeStart>
+<AdjRenderRangeStop>8648000000</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>8648000000</AdjRenderRangeStart>
+<AdjRenderRangeStop>8695000000</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>8695000000</AdjRenderRangeStart>
+<AdjRenderRangeStop>8733000000</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>8733000000</AdjRenderRangeStart>
+<AdjRenderRangeStop>8796000000</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>8796000000</AdjRenderRangeStart>
+<AdjRenderRangeStop>9117666667</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>9117666667</AdjRenderRangeStart>
+<AdjRenderRangeStop>9429666667</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>9429666667</AdjRenderRangeStart>
+<AdjRenderRangeStop>9606000000</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+<AdjRenderRange_Obj>
+<AdjRenderRangeStart>9606000000</AdjRenderRangeStart>
+<AdjRenderRangeStop>9606000000</AdjRenderRangeStop>
+</AdjRenderRange_Obj>
+</AdjRenderRange_Array>
+<AdjMarkerDuration_Array>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>0</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>112000000</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>127000000</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>257000000</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>312000000</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>388000000</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>146000000</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>401000000</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>314333333</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>156000000</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>88666667</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>111333333</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>88333333</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>177000000</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>320000000</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>44000000</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>582000000</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>231333333</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>167333333</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>193666667</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>95000000</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>73666667</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>22666667</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>143333333</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>1122000000</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>185000000</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>35333333</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>100333333</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>151666667</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>121000000</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>116666667</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>214000000</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>196333333</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>501333333</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>587000000</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>298333333</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>75333333</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>0</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>123666667</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>252000000</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>16333333</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>47000000</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>38000000</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>63000000</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>321666667</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>312000000</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>176333333</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+<AdjMarkerDuration_Obj>
+<AdjMarkerDuration>0</AdjMarkerDuration>
+</AdjMarkerDuration_Obj>
+</AdjMarkerDuration_Array>
+<AdjMarkerTimes_Array>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>0</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>0</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>112000000</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>239000000</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>496000000</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>808000000</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>1196000000</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>1342000000</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>1743000000</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>2057333333</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>2213333333</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>2302000000</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>2413333333</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>2501666667</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>2678666667</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>2998666667</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>3042666667</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>3624666667</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>3856000000</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>4023333333</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>4217000000</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>4312000000</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>4385666667</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>4408333333</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>4551666667</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>5673666667</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>5858666667</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>5894000000</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>5994333333</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>6146000000</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>6267000000</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>6383666667</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>6597666667</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>6794000000</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>7295333333</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>7882333333</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>8180666667</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>8256000000</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>8256000000</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>8379666667</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>8631666667</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>8648000000</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>8695000000</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>8733000000</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>8796000000</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>9117666667</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>9429666667</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+<AdjMarkerTime_Obj>
+<AdjMarkerTime>9606000000</AdjMarkerTime>
+</AdjMarkerTime_Obj>
+</AdjMarkerTimes_Array>
+<HasQuizQuestions>1</HasQuizQuestions>
+<m_strQuizQuestionOfString>Question @ of @</m_strQuizQuestionOfString>
+<m_strQuizPrevString>Prev</m_strQuizPrevString>
+<m_strQuizSubmitString>Submit</m_strQuizSubmitString>
+<m_strQuizNextString>Next</m_strQuizNextString>
+<m_strQuizDoneString>Done</m_strQuizDoneString>
+<m_strQuizPreviewString>Preview</m_strQuizPreviewString>
+<m_strQuizSendString>Send</m_strQuizSendString>
+<m_strQuizMainMessageString>You have reached the end of the questions and this video. Your answers are ready to be sent.</m_strQuizMainMessageString>
+<m_strQuizEmailContentsString>E-mail Contents</m_strQuizEmailContentsString>
+<m_strQuizEmailToString>E-mail to </m_strQuizEmailToString>
+<m_strQuizAnswersSentString>Your answers have been sent.</m_strQuizAnswersSentString>
+<m_strQuizSummaryString>You have completed @ of @ questions.</m_strQuizSummaryString>
+<m_strQuizScoreString>Score = @/@</m_strQuizScoreString>
+<m_strQuizSummaryTitleString>Answers Summary</m_strQuizSummaryTitleString>
+<Quiz_Array>
+<Quiz_Array_Object>
+               <array>
+               <popup>
+                  <id type="Number">10000</id>
+                  <type>question</type>
+                  <filename>short_ans3.swf</filename>
+                  <time>0.000000</time>
+                  <data>
+                     <title>Name</title>
+                     <question>Please enter your name for video attendance. Also make sure you actually send the email generated at the end of this video.</question>
+                     <answer type="Number">0</answer>
+                     <radio type="Number">1</radio>
+                     <txtanswer>Answer:</txtanswer>
+                     <array>
+                     </array>
+                     <array>
+                     </array>
+                     <incorrect></incorrect>
+                     <submit>Submit</submit>
+                     <numbering type="Number">0</numbering>
+                     <colFore type="Number">0</colFore>
+                     <colBack type="Number">16777215</colBack>
+                     <fontindex type="Number">0</fontindex>
+                     <feedback type="Number">1</feedback>
+                     <survey type="Boolean">1</survey>
+                     <scored type="Number">0</scored>
+                     <correct>Thank you.</correct>
+                  </data>
+               </popup>
+               <popup>
+                  <id type="Number">10001</id>
+                  <type>question</type>
+                  <filename>fitb3.swf</filename>
+                  <time>241.333333</time>
+                  <data>
+                     <title>Example 1</title>
+                     <question>Evaluate 5x^2/2 + x - x^4/4 between 2 and 0.</question>
+                     <answer type="Number">0</answer>
+                     <radio type="Number">1</radio>
+                     <txtanswer>Answer:</txtanswer>
+                     <array>
+                     </array>
+                     <array>
+                        <arrFITBAnswers>18</arrFITBAnswers>
+                     </array>
+                     <incorrect>18</incorrect>
+                     <submit>Submit</submit>
+                     <numbering type="Number">0</numbering>
+                     <colFore type="Number">0</colFore>
+                     <colBack type="Number">16777215</colBack>
+                     <fontindex type="Number">0</fontindex>
+                     <feedback type="Number">1</feedback>
+                     <survey type="Boolean">0</survey>
+                     <scored type="Number">0</scored>
+                     <correct>Correct</correct>
+                  </data>
+               </popup>
+               <popup>
+                  <id type="Number">10002</id>
+                  <type>question</type>
+                  <filename>short_ans3.swf</filename>
+                  <time>304.266667</time>
+                  <data>
+                     <title>Example 2</title>
+                     <question>Solve for x:  x^2-4 = 2-2x^2.</question>
+                     <answer type="Number">0</answer>
+                     <radio type="Number">1</radio>
+                     <txtanswer>Answer:</txtanswer>
+                     <array>
+                     </array>
+                     <array>
+                     </array>
+                     <incorrect></incorrect>
+                     <submit>Submit</submit>
+                     <numbering type="Number">0</numbering>
+                     <colFore type="Number">0</colFore>
+                     <colBack type="Number">16777215</colBack>
+                     <fontindex type="Number">0</fontindex>
+                     <feedback type="Number">1</feedback>
+                     <survey type="Boolean">1</survey>
+                     <scored type="Number">0</scored>
+                     <correct>+/- sqrt(2)</correct>
+                  </data>
+               </popup>
+               <popup>
+                  <id type="Number">10003</id>
+                  <type>question</type>
+                  <filename>short_ans3.swf</filename>
+                  <time>438.566667</time>
+                  <data>
+                     <title>Example 3</title>
+                     <question>Factor x^3+x^2-6x.</question>
+                     <answer type="Number">0</answer>
+                     <radio type="Number">1</radio>
+                     <txtanswer>Answer:</txtanswer>
+                     <array>
+                     </array>
+                     <array>
+                     </array>
+                     <incorrect></incorrect>
+                     <submit>Submit</submit>
+                     <numbering type="Number">0</numbering>
+                     <colFore type="Number">0</colFore>
+                     <colBack type="Number">16777215</colBack>
+                     <fontindex type="Number">0</fontindex>
+                     <feedback type="Number">0</feedback>
+                     <survey type="Boolean">1</survey>
+                     <scored type="Number">0</scored>
+                     <correct></correct>
+                  </data>
+               </popup>
+               <popup>
+                  <id type="Number">10004</id>
+                  <type>question</type>
+                  <filename>short_ans3.swf</filename>
+                  <time>825.600000</time>
+                  <data>
+                     <title>Example 4</title>
+                     <question>Give the two solutions to -y^2+y/2+3/2 = 0.</question>
+                     <answer type="Number">0</answer>
+                     <radio type="Number">1</radio>
+                     <txtanswer>Answer:</txtanswer>
+                     <array>
+                     </array>
+                     <array>
+                     </array>
+                     <incorrect></incorrect>
+                     <submit>Submit</submit>
+                     <numbering type="Number">0</numbering>
+                     <colFore type="Number">0</colFore>
+                     <colBack type="Number">16777215</colBack>
+                     <fontindex type="Number">0</fontindex>
+                     <feedback type="Number">1</feedback>
+                     <survey type="Boolean">1</survey>
+                     <scored type="Number">0</scored>
+                     <correct>Thank you.</correct>
+                  </data>
+               </popup>
+               <popup>
+                  <id type="Number">10005</id>
+                  <type>question</type>
+                  <filename>fitb3.swf</filename>
+                  <time>942.966667</time>
+                  <data>
+                     <title>Example 5</title>
+                     <question>Compute the area bounded between the curves y=3x+1 and y=x+5 between the y values of y=1 and y=5.</question>
+                     <answer type="Number">0</answer>
+                     <radio type="Number">1</radio>
+                     <txtanswer>Answer:</txtanswer>
+                     <array>
+                     </array>
+                     <array>
+                        <arrFITBAnswers>32/3</arrFITBAnswers>
+                        <arrFITBAnswers>10 2/3</arrFITBAnswers>
+                     </array>
+                     <incorrect>32/3</incorrect>
+                     <submit>Submit</submit>
+                     <numbering type="Number">0</numbering>
+                     <colFore type="Number">0</colFore>
+                     <colBack type="Number">16777215</colBack>
+                     <fontindex type="Number">0</fontindex>
+                     <feedback type="Number">1</feedback>
+                     <survey type="Boolean">0</survey>
+                     <scored type="Number">0</scored>
+                     <correct>Correct</correct>
+                  </data>
+               </popup>
+               <popup>
+                  <id type="Number">10006</id>
+                  <type>summary</type>
+                  <filename>summary_page3.swf</filename>
+                  <time type="Number">960.49</time>
+                  <data>
+                     <reportingstyle>EMAIL</reportingstyle>
+                     <txtSCORMdone>Your answers have been submitted.</txtSCORMdone>
+                     <txtSCORMsubmit>Submit for Grading</txtSCORMsubmit>
+                     <txtEMAILsubmit>E-mail my answers</txtEMAILsubmit>
+                     <txtEMAILdlgtitle>E-mail contents</txtEMAILdlgtitle>
+                     <txtEMAILemailto>E-mail to</txtEMAILemailto>
+                     <txtsummary>You have completed @ of @ questions.</txtsummary>
+                     <txtEMAILpreview>Preview e-mail contents</txtEMAILpreview>
+                     <txtSummaryTitle>Answers Summary</txtSummaryTitle>
+                     <txtsummarydone>You have completed all questions.</txtsummarydone>
+                     <emladdr>eerrthum@re.move.me.yahoo.com</emladdr>
+                     <emlsubj>Results for Math165-Section6-1</emlsubj>
+                     <OKlabel>OK</OKlabel>
+                  </data>
+               </popup>
+               </array>
+</Quiz_Array_Object>
+</Quiz_Array>
+<Markers_Array>
+<Marker_Object>
+<MarkerName>Untitled-0</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>0</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Name</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>0</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Slide 2</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>112000000</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Slide 3</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>239000000</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Slide 4</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>496000000</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Slide 5</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>808000000</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Slide 6</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>1196000000</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Slide 7</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>1342000000</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-7</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>1743000000</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-8</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>2057333333</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-9</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>2213333333</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-10</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>2302000000</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Example 1</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>2413333333</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Slide 8</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>2501666667</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Slide 9</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>2678666667</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-13</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>2998666667</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Example 2</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>3042666667</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-14</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>3624666667</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-15</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>3856000000</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Slide 10</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>4023333333</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-17</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>4217000000</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-18</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>4312000000</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Example 3</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>4385666667</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-19</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>4408333333</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-20</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>4551666667</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-21</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>5673666667</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-22</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>5858666667</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-23</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>5894000000</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-24</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>5994333333</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-25</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>6146000000</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-26</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>6267000000</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-27</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>6383666667</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-28</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>6597666667</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-29</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>6794000000</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-30</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>7295333333</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-31</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>7882333333</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-32</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>8180666667</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-33</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>8256000000</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Example 4</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>8256000000</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-34</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>8379666667</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-35</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>8631666667</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-36</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>8648000000</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-37</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>8695000000</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-38</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>8733000000</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Untitled-39</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>8796000000</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Slide 14</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>9117666667</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Example 5</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>9429666667</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>0</ShouldIgnore>
+</Marker_Object>
+<Marker_Object>
+<MarkerName>Answers Summary</MarkerName>
+<MarkerImage></MarkerImage>
+<MarkerTime>9606000000</MarkerTime>
+<IndentLevel>0</IndentLevel>
+<ShouldIgnore>1</ShouldIgnore>
+</Marker_Object>
+</Markers_Array>
+<CaptionPlayerXML_Array>
+</CaptionPlayerXML_Array>
+<CaptionFontHeight>23</CaptionFontHeight>
+<MaxCaptionsCharsPerLine>32</MaxCaptionsCharsPerLine>
+<TimelineCaptionCount>0</TimelineCaptionCount>
+<CaptionHeight>0</CaptionHeight>
+<CloseCaptions_Array>
+</CloseCaptions_Array>
+<NumMetaDataTypes>53</NumMetaDataTypes>
+<MetaData_Array>
+<MetaData_Object>
+<MetaDataType>Date</MetaDataType>
+<MetaDataValue>Tuesday, August 12, 2008</MetaDataValue>
+<MetaDataEmbedName>DC.date</MetaDataEmbedName>
+</MetaData_Object>
+<MetaData_Object>
+<MetaDataType>Language</MetaDataType>
+<MetaDataValue>ENU</MetaDataValue>
+<MetaDataEmbedName>DC.language</MetaDataEmbedName>
+</MetaData_Object>
+<MetaData_Object>
+<MetaDataType>Title</MetaDataType>
+<MetaDataValue>Math165-Section6-1</MetaDataValue>
+<MetaDataEmbedName>DC.title</MetaDataEmbedName>
+</MetaData_Object>
+</MetaData_Array>
+<NumFileTypesUsedByProduction>4</NumFileTypesUsedByProduction>
+<FileTypesUsed_Array>
+<FileTypeUsed_Object>
+<FileTypeName>Video</FileTypeName>
+</FileTypeUsed_Object>
+<FileTypeUsed_Object>
+<FileTypeName>HTMLFile</FileTypeName>
+</FileTypeUsed_Object>
+<FileTypeUsed_Object>
+<FileTypeName>EmbededPlayerJS</FileTypeName>
+</FileTypeUsed_Object>
+<FileTypeUsed_Object>
+<FileTypeName>ProductionInfoXML</FileTypeName>
+</FileTypeUsed_Object>
+</FileTypesUsed_Array>
+<NumFilesTotal>4</NumFilesTotal>
+<ProducedFiles_Array>
+<ProducedFile_Object>
+<FileName>D:\Data\Camtasia Studio\Math165-Section6-1\Math165-Section6-1.swf</FileName>
+<FileSize>4549247</FileSize>
+<FileType>Video</FileType>
+<WhichFilesOfCurType>0</WhichFilesOfCurType>
+<TotalFilesOfCurType>1</TotalFilesOfCurType>
+</ProducedFile_Object>
+<ProducedFile_Object>
+<FileName>D:\Data\Camtasia Studio\Math165-Section6-1\Math165-Section6-1.htm</FileName>
+<FileSize>0</FileSize>
+<FileType>HTMLFile</FileType>
+<WhichFilesOfCurType>0</WhichFilesOfCurType>
+<TotalFilesOfCurType>1</TotalFilesOfCurType>
+</ProducedFile_Object>
+<ProducedFile_Object>
+<FileName>D:\Data\Camtasia Studio\Math165-Section6-1\swfobject.js</FileName>
+<FileSize>0</FileSize>
+<FileType>EmbededPlayerJS</FileType>
+<WhichFilesOfCurType>0</WhichFilesOfCurType>
+<TotalFilesOfCurType>1</TotalFilesOfCurType>
+</ProducedFile_Object>
+<ProducedFile_Object>
+<FileName>D:\Data\Camtasia Studio\Math165-Section6-1\ProductionInfo.xml</FileName>
+<FileSize>0</FileSize>
+<FileType>ProductionInfoXML</FileType>
+<WhichFilesOfCurType>0</WhichFilesOfCurType>
+<TotalFilesOfCurType>1</TotalFilesOfCurType>
+</ProducedFile_Object>
+</ProducedFiles_Array>
+<OutputBasePath>D:\Data\Camtasia Studio\Math165-Section6-1\</OutputBasePath>
+<ProductionFormat>SWF</ProductionFormat>
+<NumVideoSegments>1</NumVideoSegments>
+<NumHTMLFiles>1</NumHTMLFiles>
+<TotalProductionSize>4549247</TotalProductionSize>
+<m_cf_rtRenderRangeStart>-1</m_cf_rtRenderRangeStart>
+<m_cf_rtRenderRangeStop>-1</m_cf_rtRenderRangeStop>
+<m_cf_strTempDir>C:\DOCUME~1\eerrthum\LOCALS~1\Temp\</m_cf_strTempDir>
+<m_cf_bWritePIPFile>0</m_cf_bWritePIPFile>
+<m_cf_bDisablePIPVideo>1</m_cf_bDisablePIPVideo>
+<m_cf_bWriteIndex>1</m_cf_bWriteIndex>
+<m_cf_bWriteMultipleFiles>0</m_cf_bWriteMultipleFiles>
+<m_cf_strHTMLTemplateName>Template.$[AnyExtension]</m_cf_strHTMLTemplateName>
+<m_cf_HTMLAlignment>1</m_cf_HTMLAlignment>
+<m_cf_bSCORMOutput>0</m_cf_bSCORMOutput>
+<m_cf_bController>1</m_cf_bController>
+<m_cf_bAutoPlay>1</m_cf_bAutoPlay>
+<m_cf_bNumberIndexMarkers>0</m_cf_bNumberIndexMarkers>
+<m_cf_bShortenIndexNames>1</m_cf_bShortenIndexNames>
+<m_cf_nShortenedIndexLength>17</m_cf_nShortenedIndexLength>
+<m_cf_bQuizShowFeedback>1</m_cf_bQuizShowFeedback>
+<m_cf_bEMailQuizResults>1</m_cf_bEMailQuizResults>
+<m_cf_bEMailIncludeScore>0</m_cf_bEMailIncludeScore>
+<m_cf_bJavaScriptQuizResults>0</m_cf_bJavaScriptQuizResults>
+<m_cf_bHTMLOutput>1</m_cf_bHTMLOutput>
+<m_cf_SCORMVersion>0</m_cf_SCORMVersion>
+<m_cf_strManifestID>ID-6D300AB6-5517-4F88-9C82-8979B72BBDD9</m_cf_strManifestID>
+<m_cf_strManifestTitle></m_cf_strManifestTitle>
+<m_cf_strDuration>0:16:00.18</m_cf_strDuration>
+<m_cf_strSubject></m_cf_strSubject>
+<m_cf_strManifestDescription></m_cf_strManifestDescription>
+<m_cf_strLanguage>en</m_cf_strLanguage>
+<m_cf_SCORMPackage>2</m_cf_SCORMPackage>
+<m_cf_strSCOTitle></m_cf_strSCOTitle>
+<m_cf_ProductionFormat>8</m_cf_ProductionFormat>
+<m_cf_strTitle>Math165-Section6-1</m_cf_strTitle>
+<m_cf_strAuthor></m_cf_strAuthor>
+<m_cf_strCopyright></m_cf_strCopyright>
+<m_cf_strDescription></m_cf_strDescription>
+<m_cf_MultiFileOutputStyle>0</m_cf_MultiFileOutputStyle>
+<m_cf_strVideoCompressor>Techsmith Screen Capture Codec</m_cf_strVideoCompressor>
+<m_cf_bAddCaption>1</m_cf_bAddCaption>
+<m_cf_bWriteCCInfo>0</m_cf_bWriteCCInfo>
+<m_cf_bOverlayCaption>0</m_cf_bOverlayCaption>
+<m_cf_strCaptionFontFamily>Microsoft Sans Serif</m_cf_strCaptionFontFamily>
+<m_cf_bAddIPODFileToProduction>0</m_cf_bAddIPODFileToProduction>
+<m_cf_bAddMP3FileToProduction>0</m_cf_bAddMP3FileToProduction>
+<m_cf_bAddPPTFileToProduction>0</m_cf_bAddPPTFileToProduction>
+<m_cf_strPPTFileToAddToProduction>D:\Data\Math165Videos\Section 6-1.pptx</m_cf_strPPTFileToAddToProduction>
+<m_cf_bAviEncodeAudio>1</m_cf_bAviEncodeAudio>
+<m_cf_AVIFrameRate>9</m_cf_AVIFrameRate>
+<m_cf_nKeyFrameRate>30</m_cf_nKeyFrameRate>
+<m_cf_PIP_nKeyFrameRate>30</m_cf_PIP_nKeyFrameRate>
+<m_cf_PIP_AVIFrameRate>0</m_cf_PIP_AVIFrameRate>
+<m_cf_SwfPlaybackControls>0</m_cf_SwfPlaybackControls>
+<m_cf_strControllerSkinName>glass</m_cf_strControllerSkinName>
+<m_cf_nSwfTargetVersion>8</m_cf_nSwfTargetVersion>
+<m_cf_bSwfMatchPreloadMovieSize>0</m_cf_bSwfMatchPreloadMovieSize>
+<m_cf_bSwfPauseAtStart>1</m_cf_bSwfPauseAtStart>
+<m_cf_bSwfPreloadAdvanced>1</m_cf_bSwfPreloadAdvanced>
+<m_cf_bSwfSingleSWF>1</m_cf_bSwfSingleSWF>
+<m_cf_nSwfMainMovieLoadPercent>10</m_cf_nSwfMainMovieLoadPercent>
+<m_cf_nSwfPreloadMinDisplayTime>3</m_cf_nSwfPreloadMinDisplayTime>
+<m_cf_clrSwfControlColor>0x00C0C0C0</m_cf_clrSwfControlColor>
+<m_cf_bSwfShowAboutBtn>1</m_cf_bSwfShowAboutBtn>
+<m_cf_strSwfAboutBoxTxt></m_cf_strSwfAboutBoxTxt>
+<m_cf_strSwfAboutBoxInfoTxt></m_cf_strSwfAboutBoxInfoTxt>
+<m_cf_strSwfAboutTitle></m_cf_strSwfAboutTitle>
+<m_cf_strSwfStartTxt></m_cf_strSwfStartTxt>
+<m_cf_SwfAboutBoxWidth>336</m_cf_SwfAboutBoxWidth>
+<m_cf_SwfAboutBoxHeight>270</m_cf_SwfAboutBoxHeight>
+<m_cf_bSwfAboutBoxTabSelected>1</m_cf_bSwfAboutBoxTabSelected>
+<m_cf_strSwfTimeDisplayFormat>MM:SS</m_cf_strSwfTimeDisplayFormat>
+<m_cf_bSwfCCInitiallyVisible>0</m_cf_bSwfCCInitiallyVisible>
+<m_cf_bSwfFullScreen>1</m_cf_bSwfFullScreen>
+<m_cf_bSwfAllowResizing>1</m_cf_bSwfAllowResizing>
+<m_cf_nSwfVolueme>100</m_cf_nSwfVolueme>
+<m_cf_bSwfBrandContextMenu>0</m_cf_bSwfBrandContextMenu>
+<m_cf_SwfTOCType>1</m_cf_SwfTOCType>
+<m_cf_SwfTOCTitle></m_cf_SwfTOCTitle>
+<m_cf_bSwfShowMovieDuration>1</m_cf_bSwfShowMovieDuration>
+<m_cf_bSwfShowTimeElapsed>1</m_cf_bSwfShowTimeElapsed>
+<m_cf_strSwfTimeFont>Arial</m_cf_strSwfTimeFont>
+<m_cf_clrSwfTimeFontColor>0x00000000</m_cf_clrSwfTimeFontColor>
+<m_cf_SwfEndAction>0</m_cf_SwfEndAction>
+<m_cf_strSwfEndActionUrl>http://</m_cf_strSwfEndActionUrl>
+<m_cf_nSwfEndActionTarget>0</m_cf_nSwfEndActionTarget>
+<m_cf_bPauseAfterJump>1</m_cf_bPauseAfterJump>
+<m_cf_rtJumpPoint>0</m_cf_rtJumpPoint>
+<m_cf_strSwfStartLogo></m_cf_strSwfStartLogo>
+<m_cf_strSwfEndLogo></m_cf_strSwfEndLogo>
+<m_cf_strSwfAboutLogo></m_cf_strSwfAboutLogo>
+<m_cf_strSwfAboutTitleLogo></m_cf_strSwfAboutTitleLogo>
+<m_cf_strSwfTocLogo></m_cf_strSwfTocLogo>
+</Production_Data>

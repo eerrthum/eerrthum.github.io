@@ -1,0 +1,558 @@
+\documentclass{beamer}
+\usepackage{beamerthemeshadow}
+\usepackage{beamerthemeDarmstadt}
+%\usepackage{pgfpages}
+%\pgfpagesuselayout{resize to}[letterpaper,border shrink=5mm,portrait]
+
+% \usepackage[english]{babel}
+% \usepackage[latin1]{inputenc}
+% \usepackage{times}
+% \usepackage[T1]{fontenc}
+% \usepackage{graphicx,subfigure}
+% \usepackage{color}
+% \usepackage{amsmath}
+% 
+
+
+% user's definition
+
+% \newtheorem{Thm}{Theorem}[section]
+% \newtheorem{Lm}{Lemma}[section]
+% \newtheorem{Prop}{Proposition}[section]
+% \newtheorem{Cry}{Corollary}[section]
+% \newtheorem{Rmk}{Remark}[section]
+
+\newcommand{\bs}{\backslash}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\ds}{\frac{\partial}{\partjial s}}
+\newcommand{\Af}{\mathbb{A}_f}
+\newcommand{\A}{\mathbb{A}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\h}{\mathfrak{h}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\K}{{\cal K}}
+\newcommand{\vpi}{v}
+\newcommand{\RK}{{\cal R}}
+\newcommand{\D}{\mathfrak{D}}
+\newcommand{\Pro}{\mathbb{P}}
+\newcommand{\Po}{\tau}
+\newcommand{\SL}{\text{SL}_2}
+\newcommand{\GL}{\text{GL}_2}
+\newcommand{\PGL}{\text{PGL}_2}
+\newcommand{\M}{\text{M}_2}
+\newcommand{\tr}{\text{tr}}
+\newcommand{\Oh}{\mathcal{O}}
+\newcommand{\X}{\mathcal{X}}
+\newcommand{\Xs}{\mathcal{X}^*}
+\newcommand{\no}{\text{n}}
+\newcommand{\No}{\text{N}}
+\newcommand{\Div}{\text{div}}
+\font\cute=cmitt10 at 12pt
+\font\smallcute=cmitt10 at 9pt
+\newcommand{\kay}{{\text{\cute k}}}
+\newcommand{\smallkay}{{\text{\smallcute k}}}
+\newcommand{\E}{\mathcal{E}}
+\newcommand{\q}{{\bf q}}
+\newcommand{\Ord}{\text{Ord}}
+\newcommand{\ord}{\text{ord}}
+\newcommand{\Chi}{\mathcal{X}}
+\newcommand{\Hom}{\text{Hom}}
+\newcommand{\cond}{\text{cond}}
+\newcommand{\alp}{\mathfrak{a}}
+\newcommand{\I}{\mathfrak{i}}
+\newcommand{\MSL}{\widetilde{\text{SL}_2}}
+\newcommand{\sign}{\text{sign}}
+\newcommand{\expo}{{\bf e}}
+\newcommand{\Weil}{\rho_{\Lambda_L}}
+\newcommand{\Weilb}{\overline{\rho}_{\Lambda_L}}
+\newcommand{\Go}{\Gamma_0}
+\newcommand{\MGo}{\widetilde{\Gamma_0}}
+\newcommand{\ep}{\epsilon}
+\newcommand{\lam}{\mathfrak{l}}
+
+\title[Singular Moduli of Shimura Curves]
+{\Large Singular Moduli of Shimura Curves}
+
+
+\author[Eric Errthum]
+{Eric Errthum}
+
+\institute[University of Maryland] 
+{%Department of Mathematics\\
+%University of Maryland, College Park\\
+%\vskip 1.0cm
+% Quotation
+Final Phd Defense\\
+Committee:\\
+Dr. Stephen Kudla, Chair\\
+Dr. Alex Dragt\\
+Dr. Thomas Haines\\
+Dr. Niranjan Ramachandran \\
+Dr. Lawrence Washington\\
+}
+\date{\footnotesize April 19, 2007}
+
+
+% List Outline in the beginning of each section.
+% \AtBeginSection[]
+% {
+%    \begin{frame}
+%        \frametitle{Outline}
+%        \tableofcontents[currentsection]
+%    \end{frame}
+% }
+
+
+
+
+%-------------------------------------------------------------------
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+
+
+%---------------------------------------------------
+\section{Modular Curve}
+
+\subsection{}
+\frame{{\bf Classical Set-Up}
+\begin{columns}
+\begin{column}{8.5cm}
+\begin{itemize}
+\item<2-> $\GL(\R)$ acts on $\h^\pm$, the union of the upper and lower half-planes:
+$$\begin{pmatrix}a & b \\ c & d\end{pmatrix}\cdot \tau = \frac{a \tau+b}{c \tau + d}.$$
+\item<3-> Consider the Riemann surface $\GL(\Z) \bs \h^\pm$.
+\item<4-> Compactify to obtain $\Xs_1$.
+\item<5-> It has {\color{red}genus $0$}, so there is an isomorphism
+\begin{eqnarray*}
+j: \Xs_1 \stackrel{\sim}{\rightarrow} \Pro^1
+\end{eqnarray*}
+\item<7->$j(\tau) = 1/\q + 744 + 196884 \q + ... \in \frac{1}{\q}\Z[[\q]]$\\
+where $\q = e^{2\pi i \tau}$. (Gauss, Dedekind, Klein, etc.)
+\end{itemize}
+\end{column}
+\begin{column}{4.0cm}
+\includegraphics<3-5>{FundamentalDomain.jpg}
+\includegraphics<6-7>{FundamentalDomain2.jpg}
+\includegraphics<8>{FundamentalDomain3.jpg}
+\end{column}
+\end{columns}
+}
+
+\frame{{\bf Complex Multiplication Points}
+\begin{itemize}
+\item<1-> Let $\E$ be the space of isomorphism classes of elliptic curves. Then,
+$$\Xs_1 \stackrel{\sim}{\longleftrightarrow} \E$$
+\begin{definition}<2-> If $\tau$ is associated with an elliptic curve with Complex Multiplication, $\tau$ is called a {\color{red}CM-point}.
+\end{definition}
+\item<3-> A CM-point $\tau$ is the solution to an integral quadratic equation with negative discriminant $\Delta$.
+\end{itemize}
+}
+
+\frame{{\bf Singular Moduli}
+\begin{definition}<1->
+If $\tau_\Delta$ is a CM point, $j(\tau_\Delta)$ is called a {\color{red}singular modulus}.
+\end{definition}
+\begin{theorem}<2->
+Singular moduli are algebraic integers.
+\end{theorem}
+\begin{examples}<3->
+\begin{eqnarray*}&\begin{array}{ccc}
+j\left(\frac{1+\sqrt{-3}}{2}\right)=0, &j(\sqrt{-5})=2^3(25+13\sqrt{5})^3
+\end{array}&\\
+&j(\sqrt{-6})=12^3(1+\sqrt{2})^2(5+2\sqrt{2})^3&\\
+&j(\!\sqrt{-14})\!=\!2^3\!\left(\!323\!+\!228\sqrt{2}\!+\!(231+161\sqrt{2})\sqrt{2\sqrt{2}\!-\!1}\right)^3&\end{eqnarray*}
+\end{examples}
+}
+
+
+\frame{{\bf Gross-Zagier Theorem}
+\begin{itemize}
+\item<1->
+Since a singular modulus is an algebraic integer, it has rational norm in $\Z$.
+\begin{theorem}[B. Gross and D. Zagier, 1985]<2->
+\begin{eqnarray*}
+|j(a)-j(b)| = \prod_{n \in N(a,b)} n^{\varepsilon(n)}
+\end{eqnarray*}
+where $n$, $\varepsilon(n) \in \Z$.
+\end{theorem}
+\item<3-> Recall {\color{red} $j\left(\frac{1+\sqrt{-3}}{2}\right)=0$} and {\color{red} $j\left(\sqrt{-1}\right)=12^3$}.
+\item<0> The factorization is a lot of {\color{blue} small primes to large powers}.
+\end{itemize}
+}
+
+\frame{%{\bf Gross-Zagier Theorem}
+\begin{columns}
+\begin{column}{5cm}
+\begin{center}
+\vspace{-1cm}
+\includegraphics{GZTable}
+\end{center}
+\end{column}
+\begin{column}{5cm}
+\begin{examples} 
+\begin{eqnarray*}
+|j(\sqrt{-5})| &=& 2^{12} 5^3 11^3 \\
+|j(\sqrt{-6})| &=& 2^{12} 3^6 17^3 \\
+|j(\!\sqrt{-14})|&=&2^{24} 11^6 17^3 41^3
+\end{eqnarray*}
+\end{examples}
+\end{column}
+\end{columns}
+}
+
+\frame{{\bf Gross-Zagier Theorem}
+\begin{itemize}
+\item<1->
+Since a singular modulus is an algebraic integer, it has rational norm in $\Z$.
+\begin{theorem}[B. Gross and D. Zagier, 1985]<1->
+\begin{eqnarray*}
+|j(a)-j(b)| = \prod_{n \in N(a,b)} n^{\varepsilon(n)}
+\end{eqnarray*}
+where $n$, $\varepsilon(n) \in \Z$.
+\end{theorem}
+\item<1-> Recall {\color{red} $j\left(\frac{1+\sqrt{-3}}{2}\right)=0$} and {\color{red} $j\left(\sqrt{-1}\right)=12^3$}.
+\item<1-> The factorization is a lot of {\color{blue} small primes to large powers}.
+\end{itemize}
+}
+
+\section{Shimura Curve}
+\subsection{}
+
+\frame{{\bf Quaternion Algebras}
+\begin{definition}<2-> A {\color{red}quaternion algebra} $B$ is given by $\Q(\alpha,\beta)$ where $\alpha^2 = a$, $\beta^2 = b$ and $\alpha\beta=-\beta\alpha$.
+\end{definition}
+%\begin{example}<3->$\M(\Q)$ where $a=1$, $b=-1$. \end{example}
+\begin{example}<3->Hamiltonians where $a=b=-1$. \end{example}
+\begin{example}<4->$B_6$ where $a=5$, $b=6$. \end{example}
+\begin{itemize}
+\item<5-> There is an embedding $B \hookrightarrow \M(\Q(\sqrt{b}))$ via
+\begin{eqnarray*}
+\begin{array}{lcr}
+\alpha \mapsto \begin{pmatrix} 0 & a \\ 1 & 0\end{pmatrix}, & & \beta \mapsto \begin{pmatrix} \sqrt{b} & 0 \\ 0 & -\sqrt{b} \end{pmatrix}
+\end{array}
+\end{eqnarray*}
+\end{itemize}
+
+}
+
+\frame{{\bf Maximal Orders}
+\begin{definition}<1->
+An {\color{red} order} $\Oh$ is an integral ideal that is a ring. In addition, $\Oh \otimes \Q = B$.
+\end{definition}
+\begin{definition}<2->
+An {\color{red} maximal order} is one that cannot be properly contained in a larger order.
+\end{definition}
+\begin{example}<3-> 
+$\M(\Z) \subset \M(\Q)$ is a maximal order. 
+\end{example}
+\begin{example}<4->
+$\Z[1,\alpha,\beta,\alpha\beta] \uncover<5->{\subset \Z\left[1,\alpha,\beta,\frac{1+\alpha+\beta+\alpha\beta}{2}\right]$} in the Hamiltonians.
+\end{example}
+}
+
+\frame{{\bf Shimura Curve}
+\begin{columns}
+\begin{column}{6cm}
+\begin{center}\underline{Modular Curve}\end{center}
+\vspace{-.25cm}
+\begin{itemize}
+\item<2-> $\GL(\R)$ action
+\item<3-> $\Xs_1 = (\GL(\Z) \bs \h^\pm)^\star$ \\
+\vspace{2pt}$\M(\Z)$ max order
+\item<4-> $j:\Xs_1 \stackrel{\sim}{\rightarrow}\Pro^1$
+\item<6-> $j=1/\q+744+...$ at $\infty$ cusp
+\item<7-> CM Points
+\item<8-> $j(\tau_\Delta)$ algebraic {\color{red}integer}
+\item<9-> Gross-Zagier Factorization of the Norm
+\end{itemize}
+\end{column}
+\begin{column}{6cm}
+\begin{center}\underline{Shimura Curve}\end{center}
+\vspace{-.25cm}
+\begin{itemize}
+\item<2-> $B_D^\times \hookrightarrow \GL(\Q(\sqrt{D}))$ action
+\item<3-> $\Xs_D = \No_{B_D^\times}(\Oh) \bs \h^\pm$ \\
+$\Oh$ max order
+\item<4-> $t_D : \Xs_D \stackrel{\uncover<5->{\sim}}{\rightarrow} \Pro^1$
+\item<6-> No cusps, so {\color{red}no $\q$ expansion}
+\item<7-> CM points
+\item<8-> $t_D(\tau_\Delta)$ algebraic
+\item<9-> No known Gross-Zagier formula
+\vspace{14pt}
+\end{itemize}
+\end{column}
+\end{columns}
+\begin{itemize}
+\item[]<10> \begin{center}{\color{red} Q: How do you compute $|t_D(\tau_\Delta)|$ ?}\end{center}
+\end{itemize}
+}
+
+\frame{{\bf Elkies's Attempt}
+\begin{columns}
+\begin{column}{9cm}
+\begin{itemize}
+\item<2-> Consider the {\color{red}rational} CM points on $\Xs_6$.
+\item<3-> To specify a map $t_6:\Xs_6 \rightarrow \Pro^1$, need only give its zeros and poles and a normalization.
+\item<4-> In this case the image of $\No_{B_6^\times}(\Oh) \hookrightarrow \PGL$ is a triangle group.
+\item<7-> Elkies (1998) uses geometric involutions on the covering curves $\Xs_6(N)$.
+\end{itemize}
+\end{column}
+\begin{column}{3cm}
+\includegraphics<5>{triangle0.jpg}
+\includegraphics<6->{triangle.jpg}
+\end{column}
+\end{columns}
+}
+
+\frame{{\bf Elkies's Results}
+\begin{columns}
+\begin{column}{9cm}
+\begin{itemize}
+\item<1-> Elkies is successful at algebraically determining the coordinates for {\color{red}17 of the 27} rational CM points.
+%\begin{example} $$t_6(\Po_{-312}) = \frac{7^4 23^4}{5^6 11^6}.$$ \end{example}
+\item<2-> Unable to prove the remaining 10 CM points, but makes {\color{red}numerical approximations} and then recognizes them as rational numbers.
+\begin{itemize}
+\item<3-> Small primes to large powers.
+\item<4-> Further recognize through standard transformations\uncover<8->{, i.e. $(1-t_6)$ should also be small primes to large powers.}
+\end{itemize}
+\end{itemize}
+\begin{example}<9-> $$t_6(\Po_{-163}) \stackrel{?}{=} \frac{3^{11}7^419^423^4}{2^{10}5^611^617^6}.$$ \end{example}
+\end{column}
+\begin{column}{3cm}
+\includegraphics<5>{triangle.jpg}
+\includegraphics<6>{triangle15.jpg}
+\includegraphics<7->{triangle2.jpg}
+\end{column}
+\end{columns}
+}
+
+
+\section{My Method}
+\subsection{}
+
+\frame{{\bf Borcherds Forms}
+\begin{definition}<2->{\color{red}Borcherds Form:} Given a modular form $F:\h^\pm \rightarrow \C[L^\vee/L]$, Borcherds (1998) constructed
+$$\Psi(F): \Xs_D \rightarrow \Pro^1$$
+\end{definition}
+%\begin{itemize}
+%\item<2->Highly incomputable
+%\end{itemize}
+\begin{theorem}<3-> If $F$ has Fourier expansion
+\begin{eqnarray*}
+F(\tau) = \sum_{\lambda \in L^\vee/L} \sum_{m \in \Q} c_\lambda(m) \q^m e_\lambda
+\end{eqnarray*}
+then the divisor of $\Psi(F)$ is given in terms of the $c_\lambda(m)$ for $m<0$ and {\color{red}rational quadratic divisors}.
+\end{theorem}
+}
+
+\frame{{\bf Borcherds Forms at CM Points}
+\begin{theorem}<1->[J. Schofer, 2005]
+\begin{eqnarray}
+\mathop{\sum_{\text{Galois Orbit}}}_\text{of a CM Point} \log ||\Psi(F)|| = |Z_\Delta|\sum_{\lambda \in L^\vee/L} \sum_{m<0} c_\lambda(m) \kappa_\lambda(m) \label{eq1}
+\end{eqnarray}
+where $\kappa_\lambda(m)$ are {\color{red}computable} coefficients of an Eisenstein series.
+\end{theorem}
+\begin{corollary}<2->[J. Schofer, 2005]
+The map $j = \Psi(F_1)$ for some $F_1$ and Gross-Zagier is a specific case of (1).
+\end{corollary}
+\begin{alertblock}{Theorem}<3->The map $t_6$ is a Borcherds form, too.\end{alertblock}
+}
+
+\frame{{\bf The map $t_6$ as a Borcherds Form}
+\begin{itemize}
+\item<1-> Through a vectorization process, the scalar-valued $\Gamma_0(12)$ modular form
+$$-6\frac{\eta_2 \eta_3^2 \eta_4^4 \eta_6^4}{\eta_{12}^{10}}-2\frac{\eta_2^{12} \eta_3}{\eta_1^5 \eta_4^4 \eta_6 \eta_{12}^2}-2\frac{\eta_2^5}{\eta_1^2 \eta_4^2}$$
+where $\eta_m = \eta(m\tau)$ gives rise to $F_6$, a vector-valued modular form \uncover<2->{with
+{\color{red}$$\Div(\Psi(F_6)) = \Div(t_6)$$}}
+\item<3-> This implies there exists a nonzero constant $k_6$ such that {\color{red}$$\Psi(F_6) = k_6t_6.$$}
+\end{itemize}
+}
+
+\frame{{\bf Normalization}
+\begin{itemize}
+\item<1> {\color{white}.}
+\vspace{-14pt}
+\begin{eqnarray*}
+\mathop{\sum_{\text{Galois Orbit}}}_{\text{of }\Po_{-24}} \log ||\Psi(F_6,\Po)|| &=& |Z_{-24}|\sum_{\lambda \in L^\vee/L} \sum_{m<0} c_\lambda(m) \kappa_\lambda(m) \\
+\end{eqnarray*}
+\vspace{-80.5pt}
+\item<2-> {\color{white}.}
+\vspace{-14pt}
+\begin{eqnarray*}
+\uncover<2->{\rule{29pt}{0pt} \log ||\Psi(F_6,\Po_{-24})|| &=& |Z_{-24}|\sum_{\lambda \in L^\vee/L} \sum_{m<0} c_\lambda(m) \kappa_\lambda(m)}\\
+\uncover<3->{&=& 6 \log(6)}
+\end{eqnarray*}
+\item<4-> By definition, $t_6(\Po_{-24})=1$.
+\end{itemize}
+\begin{theorem}<5-> 
+$$ t_6 = 6^{-6}\Psi(F_6)$$ 
+\end{theorem}
+\begin{theorem}<6-> 
+$$ t_{10} = 2^{-2}\Psi(F_{10})$$ 
+\end{theorem}
+}
+
+\frame{{\bf Computing $|t_6(\tau_\Delta)|$}
+\begin{itemize}
+\item<1-> {\color{white}.}
+\vspace{-25pt}
+\begin{eqnarray*}
+\mathop{\sum_{\text{Galois Orbit}}}_\text{of a CM Point} \log ||\Psi(F_6)|| = |Z_\Delta|\sum_{\lambda \in L^\vee/L} \sum_{m<0} c_\lambda(m) \kappa_\lambda(m) 
+\end{eqnarray*}
+\item<2-> Use this to compute $|t_6(\tau_\Delta)|$ for {\color{red} any CM point}.
+\item<3-> Calculation of the $\kappa_\lambda(m)$ is intensive and was programmed in Mathematica.
+\end{itemize}
+}
+
+\section{Summary}
+\subsection{}
+\frame{{\bf Results}
+\begin{itemize}
+\item<1-> The maps {\color{red}$t_6$ and $t_{10}$ are Borcherds Forms}.
+\item<2-> Proved all the conjectural values in Elkies's table of rational CM points of $\Xs_6$
+%, including {\color{red}$$t_6(\Po_{-163}) = \frac{3^{11}7^419^423^4}{2^{10}5^611^617^6}.$$}
+\item<3-> Also proved all the conjectural values in Elkies's table of rational CM points of $\Xs_{10}$.
+\item<0> Can compute examples far beyond the scope of Elkies's work, such as norms of {\color{red}irrational} CM points of arbitrary discriminant on $\Xs_6$ and $\Xs_{10}$.\\
+\end{itemize}
+\begin{example}<0>$$|t_6(\Po_{-996})| = \frac{2^{16}7^{12}71^{4}83^{2}}{17^{6}29^{6}41^{6}}.$$
+\end{example}
+}
+
+\frame{
+\begin{columns}
+\begin{column}{6cm}
+\begin{center} 
+{\tiny 
+Coordinates of Rational CM Points on $\Xs_6$
+\begin{tabular}{|c|c|c|}
+\hline
+$\Delta$ & Numerator & Denominator \\
+\hline
+\rule{0pt}{7pt} $-40$  & $3^7$ & $5^3$             \\
+$-52$  & $2^23^7$ & $5^6$          \\
+$-19$  & $3^7$ & $2^{10}$          \\
+$-84$  & $-2^27^2$ & $3^3$           \\
+$-88$  & $3^77^4$ & $5^611^3$       \\
+$-100$ & $2^43^77^45$ & $11^6$           \\
+$-120$ & $7^4$ & $3^35^3$           \\
+$-132$ & $2^411^2$ & $5^6$ \\
+{\color{red}$-148$} & {\color{red}$2^23^77^411^4$} & {\color{red}$5^617^6$} \\
+$-168$ & $-7^211^4$ & $5^6$ \\
+$-43$  & $3^77^4$ & $2^{10}5^6$    \\
+$-51$  & $-7^4$ & $2^{10}$          \\
+{\color{red}$-228$} & {\color{red}$2^67^419^2$} & {\color{red}$3^65^6$ }\\
+{\color{red}$-232$} & {\color{red}$3^77^411^419^4$} & {\color{red}$5^623^629^3$ }\\
+{\color{red}$-67$}  & {\color{red}$3^77^411^4$} & {\color{red}$2^{16}5^6$ }\\
+$-75$  & $11^4$ & $2^{10}3^35$ \\
+$-312$ & $7^423^4$ & $5^611^6$ \\
+{\color{red}$-372$} & {\color{red}$-2^27^419^431^2$} & {\color{red}$3^35^611^6$ }\\
+{\color{red}$-408$} & {\color{red}$-7^411^431^4$} & {\color{red}$3^65^617^3$ }\\
+{\color{red}$-123$} & {\color{red}$-7^419^4$} & {\color{red}$2^{10}5^6$} \\
+$-147$ & $-11^423^4$ & $2^{10}3^35^67$ \\
+{\color{red}$-163$} & {\color{red}$3^{11}7^419^423^4$} & {\color{red}$2^{10}5^611^617^6$ }\\
+{\color{red}$-708$} & {\color{red}$2^87^411^447^459^2$} & {\color{red}$5^617^629^6$ }\\
+{\color{red}$-267$} & {\color{red}$-7^431^443^4$} & {\color{red}$2^{16}5^611^6$ }\\
+\hline
+\end{tabular}}\end{center}
+\end{column}
+\begin{column}{6cm}
+\begin{center} 
+{\tiny 
+Coordinates of Rational CM Points on $\Xs_{10}$
+\begin{tabular}{|c|c|c|}
+\hline
+$\Delta$ & Numerator & Denominator \\
+\hline
+\rule{0pt}{7pt}$-40$   & $3^3$ & $1$                       \\
+{\color{red}$-52$}   & {\color{red}$-2\cdot3^3$ }   & {\color{red}$5^2$}               \\
+$-72$   & $5^3$ & $3\cdot7^2$                 \\
+$-120$  & $-3^3$ & $7^2$                    \\
+{\color{red}$-88$}   & {\color{red}$3^35^3$}        & {\color{red}$2\cdot7^2$}           \\
+$-27$   & $-2^63$ & $5^2$                     \\
+$-35$   & $2^6$ & $7$                          \\
+{\color{red}$-148$}  & {\color{red}$2\cdot3^311^3$} & {\color{red}$5^27^213^2$    }  \\
+{\color{red}$-43$}   & {\color{red}$2^63^3$}        & {\color{red}$5^27^2$        }          \\
+$-180$  & $-2\cdot11^3$ & $13^2$              \\
+{\color{red}$-232$}  & {\color{red}$3^311^317^3$ }  & {\color{red}$2^25^27^223^2$  }  \\
+{\color{red}$-67$ }  & {\color{red}$-2^63^35^3$  }  & {\color{red}$7^213^2$        }    \\
+{\color{red}$-280$}  & {\color{red}$3^311^3$     }  & {\color{red}$2\cdot7\cdot23^2$}     \\
+{\color{red}$-340$}  & {\color{red}$2\cdot3^323^3$} & {\color{red}$7^229^2$        } \\
+{\color{red}$-115$}  & {\color{red}$2^93^3$       } & {\color{red}$13^223$         }       \\
+{\color{red}$-520$}  & {\color{red}$3^329^3$      } & {\color{red}$2^37^213\cdot47^2$}    \\
+{\color{red}$-163$}  & {\color{red}$-2^93^35^311^3$}& {\color{red}$7^213^229^231^2$} \\
+{\color{red}$-760$}  & {\color{red}$3^317^347^3$   }& {\color{red}$7^231^271^2$     } \\
+{\color{red}$-235$}  & {\color{red}$2^63^317^3$    }& {\color{red}$7^237^247$        } \\
+\hline
+\end{tabular}}\end{center}
+\end{column}
+\end{columns}
+}
+
+\frame{{\bf Results}
+\begin{itemize}
+\item<1-> The maps {\color{red}$t_6$ and $t_{10}$ are Borcherds Forms}.
+\item<1-> Proved all the conjectural values in Elkies's table of rational CM points of $\Xs_6$
+%, including {\color{red}$$t_6(\Po_{-163}) = \frac{3^{11}7^419^423^4}{2^{10}5^611^617^6}.$$}
+\item<1-> Also proved all the conjectural values in Elkies's table of rational CM points of $\Xs_{10}$.
+\item<1-> Can compute examples far beyond the scope of Elkies's work, such as norms of {\color{red}irrational} CM points of arbitrary discriminant on $\Xs_6$ and $\Xs_{10}$.\\
+\end{itemize}
+\begin{example}<2->$$|t_6(\Po_{-996})| = \frac{2^{16}7^{12}71^{4}83^{2}}{17^{6}29^{6}41^{6}}.$$
+\end{example}
+}
+
+\frame{{\bf Thanks}
+\begin{center}
+Questions?
+\end{center}
+}
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

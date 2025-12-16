@@ -1,0 +1,53 @@
+\documentclass{article}
+\oddsidemargin=.25in
+\evensidemargin=.25in
+\topmargin=-.5in
+\textwidth=6in
+\textheight=9in
+\pagestyle{empty}
+\usepackage{amsmath,amssymb,amsthm}
+
+\begin{document}
+\begin{center}
+\bf\Large \LaTeX: Why, What, Where and How?
+\end{center}
+
+\section{Why use it?}
+
+\LaTeX\ (pronounced lay-tek) is a program that was created specifically for typesetting mathematical documents, and it does it beautifully. \LaTeX\ is the standard method of mathematical typesetting (and thus communication) used by mathematicians (and most physicists, astronomers, etc.) all over the world.
+
+\section{What is it?}
+\LaTeX\ is a computer program that takes a text file foo.tex and compiles it into a typeset document
+foo.pdf, foo.ps, or foo.dvi for viewing or printing. It is {\it not} a ``WYSIWYG'' (what you see is what
+you get) program like Word or Works, where what you type and how you format your type in the
+document is exactly what is printed in the final document. What you type in a \LaTeX\ document
+resembles a very simple computer program written in plain text, and by compiling with \LaTeX\ a
+very different-looking typeset document is created. For example, if you type \verb=$\sqrt{\sin x^2}$= in
+a Word document and print it, you will see exactly what you typed: \verb=$\sqrt{\sin x^2}$=. If you
+type the same thing in a \LaTeX\ document and compile it, it will be typeset as $\sqrt{\sin x^2}$.
+
+\section{Where can I get it?}
+\begin{itemize}
+\item {\bf Windows:} To use \LaTeX\ on your own Windows machine using TeXnic Center, see the very detailed instructions ``Setup and Tutorial for Using \LaTeX\ with TeXnicCenter/MiKTeX/Yap'' on the course webpage: \verb=http://course1.winona.edu/eerrthum/LaTeX=.
+\item {\bf Mac:} The best option is the fantastic, free, OS X-compatible program {\it TeXShop}, available
+for download at \verb=http://www.uoregon.edu/~koch/texshop/obtaining.html=. It is helpful to read and/or print the notes on the website concerning ``Installing'' (including the notes
+on ``Installing teTeX/TeXLive'', ``Installing TeXShop'', and ``Where's My Stuff?'') before beginning the installation procedure.
+
+\end{itemize}
+
+\section{How can I learn to use it?}
+For this class you will only need to typeset very simple \LaTeX\ documents, so you can probably pick
+up everything you need to know from the sample document I've handed out. Probably the first thing
+you should do after installing and opening a \LaTeX\ compiler is to open up the sample document and
+compile it. Then compare what is written in the text document with the result displayed in the
+typeset document. Your text editor should ``colorize'' comments in red or green or some other color so that
+they stand out from the \LaTeX\ code. If you skip this step of comparing the text document to the
+typeset document and reading comments, then you will miss a lot of important information and I
+will not be impressed when later on you ask me about it.
+
+\section{Help! I'm still confused}
+For further information, one of the best online resources is \verb=www.ctan.org= (but it can sometimes be {\it too} helpful). If you need help beyond
+that, try a Google search for ``latex introduction'' or ``latex help'' or whatever command, symbol,
+style, or format you need to know about. There is {\it a lot} of online \LaTeX\ documentation. Of course, you can also ask me in person or via email. Just be aware that I might not check my email or be in my office at 2AM the night before an assignment is due.
+
+\end{document}

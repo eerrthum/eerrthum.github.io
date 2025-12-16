@@ -1,0 +1,925 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 6.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[     35999,        916]
+NotebookOptionsPosition[     34507,        858]
+NotebookOutlinePosition[     35103,        882]
+CellTagsIndexPosition[     35060,        879]
+WindowFrame->Normal
+ContainsDynamic->True *)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Riemann Sums", "Section",
+ CellFrameColor->RGBColor[
+  0.6449835965514611, 0.758632791638056, 0.2516823071641108],
+ FontColor->RGBColor[
+  0.6449835965514611, 0.758632791638056, 0.2516823071641108]],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"LeftValue", "[", 
+    RowBox[{"f_", ",", 
+     RowBox[{"{", 
+      RowBox[{"x_", ",", "a_", ",", "b_"}], "}"}]}], "]"}], ":=", 
+   RowBox[{"N", "[", 
+    RowBox[{"f", "/.", 
+     RowBox[{"x", "\[Rule]", "a"}]}], "]"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"MidpointValue", "[", 
+    RowBox[{"f_", ",", 
+     RowBox[{"{", 
+      RowBox[{"x_", ",", "a_", ",", "b_"}], "}"}]}], "]"}], ":=", 
+   RowBox[{"N", "[", 
+    RowBox[{"f", "/.", 
+     RowBox[{"x", "\[Rule]", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"a", "+", "b"}], ")"}], "/", "2"}]}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"RightValue", "[", 
+    RowBox[{"f_", ",", 
+     RowBox[{"{", 
+      RowBox[{"x_", ",", "a_", ",", "b_"}], "}"}]}], "]"}], ":=", 
+   RowBox[{"N", "[", 
+    RowBox[{"f", "/.", 
+     RowBox[{"x", "\[Rule]", "b"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"Sample", "[", 
+    RowBox[{"f_", ",", 
+     RowBox[{"{", 
+      RowBox[{"x_", ",", "a_", ",", "b_"}], "}"}], ",", "type_"}], "]"}], " ",
+    ":=", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"LeftValue", "[", 
+       RowBox[{"f", ",", 
+        RowBox[{"{", 
+         RowBox[{"x", ",", "a", ",", "b"}], "}"}]}], "]"}], ",", " ", 
+      RowBox[{"MidpointValue", "[", 
+       RowBox[{"f", ",", 
+        RowBox[{"{", 
+         RowBox[{"x", ",", "a", ",", "b"}], "}"}]}], "]"}], ",", 
+      RowBox[{"RightValue", "[", 
+       RowBox[{"f", ",", 
+        RowBox[{"{", 
+         RowBox[{"x", ",", "a", ",", "b"}], "}"}]}], "]"}]}], " ", "}"}], "[",
+     
+    RowBox[{"[", "type", "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"BlockCoords", "[", 
+    RowBox[{"a_", ",", "b_", ",", "h_"}], "]"}], ":=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"a", ",", "0"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"a", ",", "h"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"b", ",", "h"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"b", ",", "0"}], "}"}]}], "}"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"IsReal", "[", "x_", "]"}], ":=", 
+   RowBox[{"Module", "[", 
+    RowBox[{
+     RowBox[{"{", "}"}], ",", 
+     RowBox[{
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"!", 
+          RowBox[{"NumericQ", "[", "x", "]"}]}], "||", 
+         RowBox[{
+          RowBox[{"Im", "[", "x", "]"}], "\[NotEqual]", "0"}]}], ",", 
+        RowBox[{
+        "Throw", "[", "\"\<One or more samples are outside the domain.\>\"", 
+         "]"}]}], "]"}], ";", "x"}]}], "]"}]}], ";"}]}], "Input",
+ CellOpen->False,
+ CellChangeTimes->{
+  3.35696210375764*^9, {3.36852849233726*^9, 3.3685285130074*^9}, {
+   3.36852871450169*^9, 3.3685287155629*^9}, {3.36852892106691*^9, 
+   3.36852892230832*^9}, {3.36852910971823*^9, 3.36852914512455*^9}, {
+   3.36853172643109*^9, 3.36853172772296*^9}, {3.377027162695786*^9, 
+   3.377027172070786*^9}},
+ CellID->298483812],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"FunctionF", "[", "x_", "]"}], ":=", " ", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", 
+     RowBox[{"x", "^", "2"}], " ", ",", 
+     RowBox[{"x", " ", "-", "3"}], ",", 
+     RowBox[{"Log", "[", 
+      RowBox[{"x", "+", "1"}], "]"}], ",", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"1", "-", "x"}], ")"}], "^", "2"}], ",", " ", 
+     RowBox[{"Abs", "[", 
+      RowBox[{"x", "-", "5"}], "]"}], ",", 
+     RowBox[{"Cos", "[", "x", "]"}], ",", 
+     RowBox[{"Sqrt", "[", 
+      RowBox[{"Abs", "[", 
+       RowBox[{"x", "-", "1"}], "]"}], "]"}]}], "}"}]}], ";"}]], "Input",
+ CellOpen->False,
+ CellChangeTimes->{
+  3.35696210375764*^9, {3.36757864985415*^9, 3.36757876313704*^9}, {
+   3.3675805158513*^9, 3.36758054238946*^9}, {3.36768178574318*^9, 
+   3.36768179120031*^9}, {3.36794476150503*^9, 3.36794481276078*^9}, {
+   3.36794509249417*^9, 3.36794511376561*^9}, {3.36794520309762*^9, 
+   3.36794529273008*^9}, {3.36794537679432*^9, 3.36794537747532*^9}, {
+   3.36794961489245*^9, 3.36794986669959*^9}, {3.36818378759731*^9, 
+   3.36818381399166*^9}, {3.36818459809326*^9, 3.36818472851511*^9}, {
+   3.36818541586296*^9, 3.3681854165722*^9}, {3.36818561593066*^9, 
+   3.36818565282151*^9}, 3.36821942473438*^9, {3.36821957254688*^9, 
+   3.36821957321875*^9}, {3.36836352898799*^9, 3.36836357156091*^9}, {
+   3.36836361210082*^9, 3.36836361266165*^9}, {3.36836367832869*^9, 
+   3.36836368804305*^9}, {3.36836375840703*^9, 3.36836376348454*^9}, {
+   3.36836382089939*^9, 3.36836383624206*^9}, {3.36836391674198*^9, 
+   3.36836392082827*^9}, {3.36837123480514*^9, 3.3683712621653*^9}, {
+   3.36853361903079*^9, 3.36853365970969*^9}, {3.36853421015354*^9, 
+   3.36853421072462*^9}, {3.370116796859375*^9, 3.370116801984375*^9}, {
+   3.370538868703125*^9, 3.37053887459375*^9}, {3.4022560658731356`*^9, 
+   3.402256115078026*^9}, {3.4022587185421658`*^9, 3.402258718776173*^9}},
+ CellID->431400026],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"FunctionText", " ", "=", 
+   RowBox[{"{", 
+    RowBox[{
+    "\"\<x\>\"", ",", "\"\<\!\(\*SuperscriptBox[\(x\), \(2\)]\)\>\"", ",", 
+     "\"\<x - 3\>\"", ",", "\"\<log( x + 1 )\>\"", ",", 
+     "\"\<( 1 - x \!\(\*SuperscriptBox[\()\), \(2\)]\)\>\"", ",", " ", 
+     "\"\<\[LeftBracketingBar] x - 5 \[RightBracketingBar]\>\"", ",", 
+     "\"\<cos( x )\>\"", ",", 
+     "\"\<\!\(\*SqrtBox[\(\[LeftBracketingBar]\\\ x - \
+1\[RightBracketingBar]\)]\)\>\""}], "}"}]}], ";"}]], "Input",
+ CellOpen->False,
+ CellChangeTimes->{
+  3.35696210375764*^9, {3.36836460462163*^9, 3.36836467340603*^9}, {
+   3.36836472060767*^9, 3.36836473142408*^9}, {3.36837125221069*^9, 
+   3.36837126820416*^9}, 3.3683737575531*^9, 3.368533563921*^9, {
+   3.36853362137419*^9, 3.36853366276411*^9}, {3.36853421423127*^9, 
+   3.36853421452182*^9}, {3.37011659790625*^9, 3.37011661471875*^9}, {
+   3.37011665671875*^9, 3.370116692140625*^9}, {3.370116723578125*^9, 
+   3.370116769515625*^9}, {3.370116806015625*^9, 3.370116812015625*^9}, {
+   3.370116956625*^9, 3.37011697125*^9}, {3.370538772234375*^9, 
+   3.370538831375*^9}, {3.402256116827533*^9, 3.4022561248096595`*^9}, {
+   3.402258721443858*^9, 3.4022587217246675`*^9}},
+ CellID->41403860],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"FunctionButtons", " ", "=", 
+   RowBox[{"Map", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"#", "[", 
+        RowBox[{"[", "1", "]"}], "]"}], "\[Rule]", " ", 
+       RowBox[{"#", "[", 
+        RowBox[{"[", "2", "]"}], "]"}]}], "&"}], ",", 
+     RowBox[{"Transpose", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Range", "[", 
+         RowBox[{"Length", "[", "FunctionText", "]"}], "]"}], ",", 
+        "FunctionText"}], "}"}], "]"}]}], "]"}]}], ";"}]], "Input",
+ CellOpen->False,
+ CellChangeTimes->{
+  3.35696210375764*^9, 3.36853356561345*^9, {3.36853368857148*^9, 
+   3.36853369787495*^9}},
+ CellID->35507033],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"RiemannBlocks", "[", 
+   RowBox[{"f_", ",", 
+    RowBox[{"{", 
+     RowBox[{"x_", ",", "a_", ",", "b_", ",", "n_"}], "}"}], ",", "type_"}], 
+   "]"}], ":=", 
+  RowBox[{"Plot", "[", 
+   RowBox[{"f", ",", 
+    RowBox[{"{", 
+     RowBox[{"x", ",", "a", ",", "b"}], "}"}], ",", 
+    RowBox[{"PlotRange", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"0", ",", "10"}], "}"}], ",", 
+       RowBox[{"Module", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"fmin", ",", "fmax"}], "}"}], ",", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"fmin", ",", "fmax"}], "}"}], "=", 
+           RowBox[{
+            RowBox[{"AbsoluteOptions", "[", 
+             RowBox[{
+              RowBox[{"Plot", "[", 
+               RowBox[{"f", ",", 
+                RowBox[{"{", 
+                 RowBox[{"x", ",", "0", ",", "10"}], "}"}], ",", 
+                RowBox[{"PlotRange", "\[Rule]", "Automatic"}]}], "]"}], ",", 
+              "PlotRange"}], "]"}], "[", 
+            RowBox[{"[", 
+             RowBox[{"1", ",", "2", ",", "2"}], "]"}], "]"}]}], ";", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"Min", "[", 
+             RowBox[{"0", ",", "fmin"}], "]"}], ",", "fmax"}], "}"}]}]}], 
+        "]"}]}], "}"}]}], ",", 
+    RowBox[{"Prolog", "\[Rule]", " ", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"GrayLevel", "[", "0.8", "]"}], ",", 
+              RowBox[{"Polygon", "[", "#1", "]"}]}], "}"}], ",", 
+            RowBox[{"Line", "[", 
+             RowBox[{"Append", "[", 
+              RowBox[{"#1", ",", 
+               RowBox[{"#1", "[", 
+                RowBox[{"[", "1", "]"}], "]"}]}], "]"}], "]"}]}], "}"}], 
+          "&"}], ")"}], "[", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"BlockCoords", "[", 
+            RowBox[{"#1", ",", "#2", ",", 
+             RowBox[{"Sample", "[", 
+              RowBox[{"f", ",", 
+               RowBox[{"{", 
+                RowBox[{"x", ",", "#1", ",", "#2"}], "}"}], ",", "type"}], 
+              "]"}]}], "]"}], "&"}], ")"}], "[", 
+         RowBox[{
+          RowBox[{"a", "+", 
+           RowBox[{"i", "*", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"(", 
+               RowBox[{"b", "-", "a"}], ")"}], "/", "n"}], ")"}]}]}], ",", 
+          RowBox[{"a", "+", 
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{"i", "+", "1"}], ")"}], "*", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"(", 
+               RowBox[{"b", "-", "a"}], ")"}], "/", "n"}], ")"}]}]}]}], "]"}],
+         "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"i", ",", "0", ",", 
+         RowBox[{"n", "-", "1"}]}], "}"}]}], "]"}]}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"ImagePadding", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"25", ",", "25"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"25", ",", "50"}], "}"}]}], "}"}]}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"PlotLabel", " ", "\[Rule]", " ", 
+     RowBox[{"\"\<estimated area = \>\"", "<>", 
+      RowBox[{"ToString", "[", 
+       RowBox[{"NumberForm", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"b", "-", "a"}], ")"}], "*", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"Sum", "[", 
+             RowBox[{
+              RowBox[{"IsReal", "[", 
+               RowBox[{"Sample", "[", 
+                RowBox[{"f", ",", "\[IndentingNewLine]", 
+                 RowBox[{"{", 
+                  RowBox[{"x", ",", 
+                   RowBox[{"a", "+", 
+                    RowBox[{"i", "*", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{"b", "-", "a"}], ")"}], "/", "n"}], ")"}]}]}], 
+                   ",", 
+                   RowBox[{"a", "+", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{"i", "+", "1"}], ")"}], "*", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{"b", "-", "a"}], ")"}], "/", "n"}], ")"}]}]}]}], 
+                  "}"}], ",", "type"}], "]"}], "]"}], ",", 
+              RowBox[{"{", 
+               RowBox[{"i", ",", "0", ",", 
+                RowBox[{"n", "-", "1"}]}], "}"}]}], "]"}], "/", "n"}], 
+           ")"}]}], ",", 
+         RowBox[{"{", 
+          RowBox[{"7", ",", "4"}], "}"}], ",", 
+         RowBox[{"NumberPadding", "\[Rule]", 
+          RowBox[{"{", 
+           RowBox[{"\"\<\>\"", ",", "\"\<0\>\""}], "}"}]}]}], "]"}], "]"}], 
+      "\[IndentingNewLine]", "<>", "\"\<\\n\>\"", "<>", 
+      "\"\<actual area = \>\"", "<>", 
+      RowBox[{"ToString", "[", 
+       RowBox[{"NumberForm", "[", 
+        RowBox[{
+         RowBox[{"Check", "[", 
+          RowBox[{
+           RowBox[{"Chop", "[", 
+            RowBox[{"NIntegrate", "[", 
+             RowBox[{"f", ",", 
+              RowBox[{"{", 
+               RowBox[{"x", ",", "a", ",", "b"}], "}"}], ",", 
+              RowBox[{"AccuracyGoal", "\[Rule]", "12"}]}], "]"}], "]"}], ",", 
+           "I"}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"7", ",", "4"}], "}"}], ",", 
+         RowBox[{"NumberPadding", "\[Rule]", 
+          RowBox[{"{", 
+           RowBox[{"\"\<\>\"", ",", "\"\<0\>\""}], "}"}]}]}], "]"}], 
+       "]"}]}]}]}], "]"}]}]], "Input",
+ CellOpen->False,
+ CellChangeTimes->{
+  3.35696210375764*^9, 3.36852834928872*^9, {3.36852852298194*^9, 
+   3.36852855000133*^9}, {3.36853084141119*^9, 3.36853087250511*^9}, {
+   3.36853127229384*^9, 3.36853132216576*^9}, {3.36853154024151*^9, 
+   3.36853157832665*^9}, {3.36853169784971*^9, 3.3685317035079*^9}, {
+   3.3685318517614*^9, 3.36853186499043*^9}, {3.36853196440337*^9, 
+   3.36853197249501*^9}, {3.36853202335815*^9, 3.36853202986751*^9}, {
+   3.36853219581613*^9, 3.36853220696216*^9}, {3.36853328621067*^9, 
+   3.36853331872126*^9}, {3.36853423759558*^9, 3.36853425369611*^9}, {
+   3.36853436209167*^9, 3.36853438101756*^9}, {3.370116840828125*^9, 
+   3.370116845140625*^9}, {3.370117041046875*^9, 3.3701170471875*^9}, {
+   3.3701170854375*^9, 3.370117139671875*^9}, 3.370538905390625*^9, {
+   3.41656671533503*^9, 3.416566730882303*^9}, 3.4165667948058147`*^9, {
+   3.4165669404345427`*^9, 3.41656694716909*^9}, {3.416566997248497*^9, 
+   3.416566998029767*^9}, {3.416569399153734*^9, 3.416569443920505*^9}, {
+   3.4165695835490794`*^9, 3.416569621143792*^9}, 3.4165696523633413`*^9, {
+   3.416569702802132*^9, 3.4165697083960257`*^9}, {3.4165698401962748`*^9, 
+   3.416569849352759*^9}, {3.4165698996509213`*^9, 3.4165699635900583`*^9}, {
+   3.4165700058255143`*^9, 3.4165700222946863`*^9}, {3.41657007870238*^9, 
+   3.4165701016717176`*^9}, {3.41657031209898*^9, 3.416570314458415*^9}},
+ CellID->57429812],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"If", "[", 
+     RowBox[{
+      RowBox[{"start", "\[GreaterEqual]", "end"}], ",", 
+      RowBox[{"start", "=", 
+       RowBox[{"end", "-", ".01"}]}]}], "]"}], ";", 
+    RowBox[{"RiemannBlocks", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"FunctionF", "[", "x", "]"}], "[", 
+       RowBox[{"[", "fff", "]"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"x", ",", "start", ",", "end", ",", "blocks"}], "}"}], ",", 
+      "type"}], "]"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"start", ",", "0", ",", "\"\<Start\>\""}], "}"}], ",", "0", ",",
+      "10", ",", ".1", ",", 
+     RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"end", ",", "10", ",", "\"\<End\>\""}], "}"}], ",", "0", ",", 
+     "10", ",", ".1", ",", 
+     RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"blocks", ",", "5", ",", "\"\<number of rectangles\>\""}], 
+      "}"}], ",", "4", ",", "70", ",", "1", ",", 
+     RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"type", ",", "1", ",", "\"\<height\>\""}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"1", "\[Rule]", "\"\<left\>\""}], ",", 
+       RowBox[{"2", "\[Rule]", "\"\<midpoint\>\""}], ",", 
+       RowBox[{"3", "\[Rule]", "\"\<right\>\""}]}], "}"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"fff", ",", "2", ",", "\"\<function\>\""}], "}"}], ",", 
+     "FunctionButtons", ",", 
+     RowBox[{"ControlType", "\[Rule]", "Setter"}]}], "}"}], ",", 
+   RowBox[{"SaveDefinitions", "\[Rule]", " ", "True"}]}], "]"}]], "Input",
+ CellOpen->False,
+ CellChangeTimes->{
+  3.35757176568782*^9, 3.36673356653348*^9, {3.3675787771572*^9, 
+   3.36757879260942*^9}, {3.36757885019222*^9, 3.36757899932667*^9}, 
+   3.36758039460696*^9, {3.36758071623944*^9, 3.36758072101631*^9}, 
+   3.36758075151016*^9, {3.36794477877055*^9, 3.36794478606132*^9}, 
+   3.36794481616581*^9, {3.36794485213897*^9, 3.36794485467272*^9}, {
+   3.36794512441134*^9, 3.3679451578808*^9}, {3.36794538773048*^9, 
+   3.36794538899234*^9}, {3.36794799690911*^9, 3.3679483369484*^9}, {
+   3.3679483729323*^9, 3.36794837701842*^9}, {3.36794885299131*^9, 
+   3.36794893509428*^9}, {3.36794957268924*^9, 3.36794958424655*^9}, {
+   3.3679498772554*^9, 3.36794993172699*^9}, {3.36818480837665*^9, 
+   3.36818481199194*^9}, 3.3681848602288*^9, 3.36818543754994*^9, {
+   3.36818548748695*^9, 3.36818548846591*^9}, {3.36818567758524*^9, 
+   3.36818572840131*^9}, {3.36821927732813*^9, 3.3682192966875*^9}, {
+   3.36821934840625*^9, 3.36821937607813*^9}, {3.36821943378125*^9, 
+   3.368219449375*^9}, {3.36836298430346*^9, 3.36836300689798*^9}, {
+   3.36836303808562*^9, 3.36836309160738*^9}, {3.36836333957808*^9, 
+   3.36836337913654*^9}, {3.36836397603315*^9, 3.36836399184747*^9}, {
+   3.36836402890445*^9, 3.36836403792832*^9}, {3.36836516304112*^9, 
+   3.36836517132237*^9}, {3.36836613376985*^9, 3.36836616590413*^9}, {
+   3.36837091415447*^9, 3.3683709299777*^9}, {3.36837100257426*^9, 
+   3.36837100824258*^9}, {3.36837365962154*^9, 3.36837366950684*^9}, {
+   3.36837374889971*^9, 3.36837374983116*^9}, {3.36837383094669*^9, 
+   3.36837385853939*^9}, {3.36837393347536*^9, 3.36837398245116*^9}, {
+   3.36837401695456*^9, 3.36837415832333*^9}, 3.36837565790426*^9, {
+   3.3683757053238*^9, 3.36837577075353*^9}, {3.36838116604771*^9, 
+   3.36838150207069*^9}, {3.3683815826782*^9, 3.36838165949094*^9}, {
+   3.36844331996595*^9, 3.36844341258957*^9}, {3.36844357262862*^9, 
+   3.36844375237971*^9}, {3.36844380201772*^9, 3.36844380320111*^9}, {
+   3.36844406115933*^9, 3.36844409678475*^9}, {3.36844413566648*^9, 
+   3.36844414165599*^9}, {3.36844419657317*^9, 3.3684442410037*^9}, {
+   3.36844428738733*^9, 3.36844431949831*^9}, {3.3684453313546*^9, 
+   3.36844546764096*^9}, {3.36844562164543*^9, 3.36844562661332*^9}, {
+   3.36844577878489*^9, 3.36844581688537*^9}, {3.36844598318938*^9, 
+   3.36844600954121*^9}, {3.36846361301616*^9, 3.36846365689274*^9}, {
+   3.36846407418774*^9, 3.36846413123294*^9}, {3.3684642506003*^9, 
+   3.3684642512111*^9}, {3.36846656271815*^9, 3.36846661638887*^9}, {
+   3.36846899577616*^9, 3.36846905971938*^9}, {3.3685289924448*^9, 
+   3.3685290016168*^9}, {3.36852904994002*^9, 3.36852905100141*^9}, {
+   3.36852918439593*^9, 3.36852919181564*^9}, {3.36852981216195*^9, 
+   3.36852981265306*^9}, {3.36852984818389*^9, 3.36852990007192*^9}, {
+   3.36853021845333*^9, 3.36853028108838*^9}, 3.36853088601551*^9, 
+   3.36853134667124*^9, {3.3685313877407*^9, 3.3685313974047*^9}, {
+   3.36853162271092*^9, 3.3685316230414*^9}, {3.36853189849861*^9, 
+   3.36853191535284*^9}, {3.36853203909077*^9, 3.36853208303396*^9}, {
+   3.36853211717305*^9, 3.36853213295574*^9}, {3.36853301525717*^9, 
+   3.36853303463035*^9}, {3.36853330747722*^9, 3.36853332672125*^9}, {
+   3.36853344107313*^9, 3.36853348305391*^9}, {3.36853357297411*^9, 
+   3.36853357472664*^9}, 3.3685337624885*^9, 3.3685342676626*^9, {
+   3.36853446706073*^9, 3.36853449900131*^9}, {3.37011642028125*^9, 
+   3.370116464359375*^9}, {3.37919982065625*^9, 3.379199826046875*^9}, {
+   3.38196950503125*^9, 3.381969506859375*^9}, {3.4022568043557525`*^9, 
+   3.4022568050738125`*^9}, {3.402257052110525*^9, 3.4022570728737583`*^9}, {
+   3.4165666582710695`*^9, 3.4165666943188667`*^9}, {3.416566810337462*^9, 
+   3.4165668487603207`*^9}, 3.4165669544661517`*^9, {3.4165669915764766`*^9, 
+   3.4165670787037067`*^9}, {3.4165701303599524`*^9, 3.4165702708479238`*^9}},
+ 
+ CellID->1496021318],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`blocks$$ = 5, $CellContext`end$$ = 
+    10., $CellContext`fff$$ = 2, $CellContext`start$$ = 
+    0., $CellContext`type$$ = 1, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`start$$], 0, "Start"}, 0, 10, 0.1}, {{
+       Hold[$CellContext`end$$], 10, "End"}, 0, 10, 0.1}, {{
+       Hold[$CellContext`blocks$$], 5, "number of rectangles"}, 4, 70, 1}, {{
+       Hold[$CellContext`type$$], 1, "height"}, {
+      1 -> "left", 2 -> "midpoint", 3 -> "right"}}, {{
+       Hold[$CellContext`fff$$], 2, "function"}, {
+      1 -> "x", 2 -> "\!\(\*SuperscriptBox[\(x\), \(2\)]\)", 3 -> "x - 3", 4 -> 
+       "log( x + 1 )", 5 -> "( 1 - x \!\(\*SuperscriptBox[\()\), \(2\)]\)", 6 -> 
+       "\[LeftBracketingBar] x - 5 \[RightBracketingBar]", 7 -> "cos( x )", 8 -> 
+       "\!\(\*SqrtBox[\(\[LeftBracketingBar]\\ x - \
+1\[RightBracketingBar]\)]\)"}}}, Typeset`size$$ = {360., {131., 136.}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    False, $CellContext`start$66979$$ = 0, $CellContext`end$66980$$ = 
+    0, $CellContext`blocks$66981$$ = 0, $CellContext`type$66982$$ = 
+    False, $CellContext`fff$66983$$ = False}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`blocks$$ = 5, $CellContext`end$$ = 
+        10, $CellContext`fff$$ = 2, $CellContext`start$$ = 
+        0, $CellContext`type$$ = 1}, "ControllerVariables" :> {
+        Hold[$CellContext`start$$, $CellContext`start$66979$$, 0], 
+        Hold[$CellContext`end$$, $CellContext`end$66980$$, 0], 
+        Hold[$CellContext`blocks$$, $CellContext`blocks$66981$$, 0], 
+        Hold[$CellContext`type$$, $CellContext`type$66982$$, False], 
+        Hold[$CellContext`fff$$, $CellContext`fff$66983$$, False]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, 
+      "Body" :> (
+       If[$CellContext`start$$ >= $CellContext`end$$, $CellContext`start$$ = \
+$CellContext`end$$ - 0.01]; $CellContext`RiemannBlocks[
+         Part[
+          $CellContext`FunctionF[$CellContext`x], $CellContext`fff$$], \
+{$CellContext`x, $CellContext`start$$, $CellContext`end$$, \
+$CellContext`blocks$$}, $CellContext`type$$]), 
+      "Specifications" :> {{{$CellContext`start$$, 0, "Start"}, 0, 10, 0.1, 
+         Appearance -> "Labeled"}, {{$CellContext`end$$, 10, "End"}, 0, 10, 
+         0.1, Appearance -> 
+         "Labeled"}, {{$CellContext`blocks$$, 5, "number of rectangles"}, 4, 
+         70, 1, Appearance -> 
+         "Labeled"}, {{$CellContext`type$$, 1, "height"}, {
+         1 -> "left", 2 -> "midpoint", 3 -> "right"}}, {{$CellContext`fff$$, 
+          2, "function"}, {
+         1 -> "x", 2 -> "\!\(\*SuperscriptBox[\(x\), \(2\)]\)", 3 -> "x - 3", 
+          4 -> "log( x + 1 )", 5 -> 
+          "( 1 - x \!\(\*SuperscriptBox[\()\), \(2\)]\)", 6 -> 
+          "\[LeftBracketingBar] x - 5 \[RightBracketingBar]", 7 -> "cos( x )",
+           8 -> "\!\(\*SqrtBox[\(\[LeftBracketingBar]\\ x - 1\
+\[RightBracketingBar]\)]\)"}, ControlType -> Setter}}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{406., {224., 229.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    Initialization:>({$CellContext`RiemannBlocks[
+         Pattern[$CellContext`f, 
+          Blank[]], {
+          Pattern[$CellContext`x, 
+           Blank[]], 
+          Pattern[$CellContext`a, 
+           Blank[]], 
+          Pattern[$CellContext`b, 
+           Blank[]], 
+          Pattern[$CellContext`n, 
+           Blank[]]}, 
+         Pattern[$CellContext`type, 
+          Blank[]]] := 
+       Plot[$CellContext`f, {$CellContext`x, $CellContext`a, $CellContext`b}, 
+         PlotRange -> {{0, 10}, 
+           
+           Module[{$CellContext`fmin, $CellContext`fmax}, {$CellContext`fmin, \
+$CellContext`fmax} = Part[
+               AbsoluteOptions[
+                
+                Plot[$CellContext`f, {$CellContext`x, 0, 10}, PlotRange -> 
+                 Automatic], PlotRange], 1, 2, 2]; {
+              Min[0, $CellContext`fmin], $CellContext`fmax}]}, Prolog -> 
+         Table[
+           ({{
+             GrayLevel[0.8], 
+             Polygon[#]}, 
+            Line[
+             Append[#, 
+              Part[#, 1]]]}& )[
+            ($CellContext`BlockCoords[#, #2, 
+             $CellContext`Sample[$CellContext`f, {$CellContext`x, #, #2}, \
+$CellContext`type]]& )[$CellContext`a + $CellContext`i (($CellContext`b - \
+$CellContext`a)/$CellContext`n), $CellContext`a + ($CellContext`i + 
+               1) (($CellContext`b - $CellContext`a)/$CellContext`n)]], \
+{$CellContext`i, 0, $CellContext`n - 1}], 
+         ImagePadding -> {{25, 25}, {25, 50}}, PlotLabel -> 
+         StringJoin["estimated area = ", 
+           ToString[
+            NumberForm[($CellContext`b - $CellContext`a) (Sum[
+                $CellContext`IsReal[
+                 $CellContext`Sample[$CellContext`f, {$CellContext`x, \
+$CellContext`a + $CellContext`i (($CellContext`b - \
+$CellContext`a)/$CellContext`n), $CellContext`a + ($CellContext`i + 
+                    1) (($CellContext`b - $CellContext`a)/$CellContext`n)}, \
+$CellContext`type]], {$CellContext`i, 0, $CellContext`n - 
+                 1}]/$CellContext`n), {7, 4}, NumberPadding -> {"", "0"}]], 
+           "\n", "actual area = ", 
+           ToString[
+            NumberForm[
+             Check[
+              Chop[
+               
+               NIntegrate[$CellContext`f, {$CellContext`x, $CellContext`a, \
+$CellContext`b}, AccuracyGoal -> 12]], I], {7, 4}, 
+             NumberPadding -> {"", "0"}]]]], 
+       Attributes[PlotRange] = {ReadProtected}, $CellContext`BlockCoords[
+         Pattern[$CellContext`a, 
+          Blank[]], 
+         Pattern[$CellContext`b, 
+          Blank[]], 
+         Pattern[$CellContext`h, 
+          Blank[]]] := {{$CellContext`a, 
+          0}, {$CellContext`a, $CellContext`h}, {$CellContext`b, \
+$CellContext`h}, {$CellContext`b, 0}}, $CellContext`Sample[
+         Pattern[$CellContext`f, 
+          Blank[]], {
+          Pattern[$CellContext`x, 
+           Blank[]], 
+          Pattern[$CellContext`a, 
+           Blank[]], 
+          Pattern[$CellContext`b, 
+           Blank[]]}, 
+         Pattern[$CellContext`type, 
+          Blank[]]] := Part[{
+          $CellContext`LeftValue[$CellContext`f, {$CellContext`x, \
+$CellContext`a, $CellContext`b}], 
+          $CellContext`MidpointValue[$CellContext`f, {$CellContext`x, \
+$CellContext`a, $CellContext`b}], 
+          $CellContext`RightValue[$CellContext`f, {$CellContext`x, \
+$CellContext`a, $CellContext`b}]}, $CellContext`type], $CellContext`LeftValue[
+        
+         Pattern[$CellContext`f, 
+          Blank[]], {
+          Pattern[$CellContext`x, 
+           Blank[]], 
+          Pattern[$CellContext`a, 
+           Blank[]], 
+          Pattern[$CellContext`b, 
+           Blank[]]}] := N[
+         ReplaceAll[$CellContext`f, $CellContext`x -> $CellContext`a]], \
+$CellContext`MidpointValue[
+         Pattern[$CellContext`f, 
+          Blank[]], {
+          Pattern[$CellContext`x, 
+           Blank[]], 
+          Pattern[$CellContext`a, 
+           Blank[]], 
+          Pattern[$CellContext`b, 
+           Blank[]]}] := N[
+         ReplaceAll[$CellContext`f, $CellContext`x -> ($CellContext`a + \
+$CellContext`b)/2]], $CellContext`RightValue[
+         Pattern[$CellContext`f, 
+          Blank[]], {
+          Pattern[$CellContext`x, 
+           Blank[]], 
+          Pattern[$CellContext`a, 
+           Blank[]], 
+          Pattern[$CellContext`b, 
+           Blank[]]}] := N[
+         ReplaceAll[$CellContext`f, $CellContext`x -> $CellContext`b]], \
+$CellContext`IsReal[
+         Pattern[$CellContext`x, 
+          Blank[]]] := Module[{}, If[
+           Or[
+            Not[
+             NumericQ[$CellContext`x]], Im[$CellContext`x] != 0], 
+           Throw[
+           "One or more samples are outside the domain."]]; $CellContext`x], \
+$CellContext`FunctionF[
+         Pattern[$CellContext`x, 
+          Blank[]]] := {$CellContext`x, $CellContext`x^2, $CellContext`x - 3, 
+         
+         Log[$CellContext`x + 1], (1 - $CellContext`x)^2, 
+         Abs[$CellContext`x - 5], 
+         Cos[$CellContext`x], 
+         Sqrt[
+          Abs[$CellContext`x - 1]]}}; Typeset`initDone$$ = True),
+    SynchronousInitialization->True,
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{
+  3.402256071605896*^9, 3.402256128496121*^9, 3.4022568065411525`*^9, {
+   3.4022570536259756`*^9, 3.4022570739830055`*^9}, 3.402258726358016*^9, {
+   3.416566660177368*^9, 3.4165666702557507`*^9}, 3.4165667345386467`*^9, {
+   3.416566797837142*^9, 3.416566849385337*^9}, {3.416566949903535*^9, 
+   3.4165669550442915`*^9}, {3.41656699231087*^9, 3.416567003983044*^9}, {
+   3.4165670645783453`*^9, 3.416567082250673*^9}, 3.4165694671398497`*^9, {
+   3.416569595565012*^9, 3.4165696249251385`*^9}, 3.4165696628011084`*^9, 
+   3.4165697109742165`*^9, 3.416570028076084*^9, 3.41657010448429*^9, {
+   3.4165701536105475`*^9, 3.4165701605482254`*^9}, 3.416570274129258*^9, 
+   3.4165703166459713`*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["THIS NOTEBOOK IS THE SOURCE CODE FROM", "Text",
+ CellFrame->{{0, 0}, {0, 1}},
+ CellMargins->{{48, 10}, {4, 28}},
+ CellGroupingRules->{"SectionGrouping", 25},
+ CellFrameMargins->{{48, 48}, {6, 5}},
+ CellFrameColor->RGBColor[0.691905, 0.790311, 0.300252],
+ FontFamily->"Helvetica",
+ FontSize->10,
+ FontWeight->"Bold",
+ FontColor->RGBColor[0.691905, 0.790311, 0.300252]],
+
+Cell[TextData[{
+ "\"",
+ ButtonBox["Riemann Sums",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/RiemannSums/"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/RiemannSums/"],
+ "\"",
+ " from ",
+ ButtonBox["The Wolfram Demonstrations Project",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/"],
+ "\[ParagraphSeparator]\[NonBreakingSpace]",
+ ButtonBox["http://demonstrations.wolfram.com/RiemannSums/",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/RiemannSums/"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/RiemannSums/"]
+}], "Text",
+ CellMargins->{{48, Inherited}, {0, Inherited}},
+ FontFamily->"Verdana",
+ FontSize->10,
+ FontColor->GrayLevel[0.5]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "Text",
+ CellFrame->{{0, 0}, {0, 1}},
+ CellMargins->{{48, 10}, {4, 28}},
+ CellGroupingRules->{"SectionGrouping", 25},
+ CellFrameMargins->{{48, 48}, {6, 5}},
+ CellFrameColor->RGBColor[0.691905, 0.790311, 0.300252],
+ FontFamily->"Helvetica",
+ FontSize->10,
+ FontWeight->"Bold",
+ FontColor->RGBColor[0.691905, 0.790311, 0.300252]],
+
+Cell[TextData[{
+ "Contributed by: ",
+ ButtonBox["Ed Pegg Jr",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/author.html?author=Ed+Pegg+Jr"], 
+    None},
+  ButtonNote->
+   "http://demonstrations.wolfram.com/author.html?author=Ed+Pegg+Jr"]
+}], "Text",
+ CellDingbat->"\[FilledSmallSquare]",
+ CellMargins->{{66, 48}, {2, 4}},
+ FontFamily->"Verdana",
+ FontSize->10,
+ FontColor->GrayLevel[0.6],
+ CellID->138166315],
+
+Cell[TextData[{
+ "A full-function Wolfram ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " 6 system is required to edit or run this notebook.\[IndentingNewLine](",
+ StyleBox["Mathematica Player",
+  FontSlant->"Italic"],
+ " runs only Demonstrations published on this site.)\n",
+ StyleBox[ButtonBox["GET WOLFRAM MATHEMATICA 6 \[RightGuillemet]",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://www.wolfram.com/products/mathematica/"], None},
+  ButtonNote->"http://www.wolfram.com/products/mathematica/"],
+  FontFamily->"Helvetica",
+  FontWeight->"Bold",
+  FontSlant->"Italic",
+  FontColor->RGBColor[1, 0.42, 0]]
+}], "Text",
+ CellFrame->True,
+ CellMargins->{{48, 68}, {8, 28}},
+ CellFrameMargins->12,
+ CellFrameColor->RGBColor[0.865507, 0.90634, 0.680751],
+ CellChangeTimes->{3.3750111182355957`*^9},
+ ParagraphSpacing->{1., 1.},
+ FontFamily->"Verdana",
+ FontSize->10,
+ FontColor->GrayLevel[0.411765],
+ Background->RGBColor[0.986023, 0.991363, 0.969818]],
+
+Cell[TextData[{
+ "\[Copyright] ",
+ StyleBox[ButtonBox["The Wolfram Demonstrations Project & Contributors",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/"],
+  FontColor->GrayLevel[0.6]],
+ "\[ThickSpace]\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+ StyleBox[ButtonBox["Terms of Use",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/termsofuse.html"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/termsofuse.html"],
+  FontColor->GrayLevel[0.6]],
+ "\[ThickSpace]\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+ StyleBox[ButtonBox["Make a new version of this Demonstration \
+\[RightGuillemet]",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/participate/upload.jsp?id=\
+RiemannSums"], None},
+  ButtonNote->None],
+  FontColor->GrayLevel[0.6]]
+}], "Text",
+ CellFrame->{{0, 0}, {0, 0.5}},
+ CellMargins->{{48, 10}, {20, 50}},
+ CellFrameMargins->{{6, 0}, {6, 6}},
+ CellFrameColor->GrayLevel[0.6],
+ FontFamily->"Verdana",
+ FontSize->9,
+ FontColor->GrayLevel[0.6]]
+}, Open  ]]
+},
+Editable->True,
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{876, 836},
+WindowMargins->{{Automatic, 115}, {Automatic, 0}},
+WindowElements->{
+ "StatusArea", "MemoryMonitor", "MagnificationPopUp", "VerticalScrollBar", 
+  "MenuBar"},
+WindowTitle->"Riemann Sums - Source",
+DockedCells->{},
+CellContext->Notebook,
+FrontEndVersion->"6.0 for Microsoft Windows (32-bit) (April 20, 2007)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[590, 23, 204, 4, 71, "Section"],
+Cell[797, 29, 3043, 95, 20, "Input",
+ CellOpen->False,
+ CellID->298483812],
+Cell[3843, 126, 1940, 39, 20, "Input",
+ CellOpen->False,
+ CellID->431400026],
+Cell[5786, 167, 1250, 24, 20, "Input",
+ CellOpen->False,
+ CellID->41403860],
+Cell[7039, 193, 678, 21, 20, "Input",
+ CellOpen->False,
+ CellID->35507033],
+Cell[7720, 216, 7081, 179, 20, "Input",
+ CellOpen->False,
+ CellID->57429812],
+Cell[CellGroupData[{
+Cell[14826, 399, 5781, 109, 20, "Input",
+ CellOpen->False,
+ CellID->1496021318],
+Cell[20610, 510, 9628, 209, 470, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[30287, 725, 373, 9, 50, "Text",
+ CellGroupingRules->{"SectionGrouping", 25}],
+Cell[30663, 736, 844, 24, 34, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[31544, 765, 337, 9, 50, "Text",
+ CellGroupingRules->{"SectionGrouping", 25}],
+Cell[31884, 776, 447, 15, 18, "Text",
+ CellID->138166315],
+Cell[32334, 793, 967, 27, 114, "Text"],
+Cell[33304, 822, 1187, 33, 88, "Text"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

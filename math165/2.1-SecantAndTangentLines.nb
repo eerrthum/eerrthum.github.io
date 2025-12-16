@@ -1,0 +1,632 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 6.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[     22713,        623]
+NotebookOptionsPosition[     21563,        579]
+NotebookOutlinePosition[     22199,        604]
+CellTagsIndexPosition[     22156,        601]
+WindowFrame->Normal
+ContainsDynamic->True *)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Secant and Tangent Lines", "Section",
+ CellFrameColor->RGBColor[
+  0.6449835965514611, 0.758632791638056, 0.2516823071641108],
+ FontColor->RGBColor[
+  0.6449835965514611, 0.758632791638056, 0.2516823071641108]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"f", "[", "x_", "]"}], "=", 
+    RowBox[{
+     RowBox[{"-", 
+      RowBox[{"(", 
+       RowBox[{"x", "^", "3"}], ")"}]}], " ", "+", " ", 
+     RowBox[{"(", 
+      RowBox[{"x", "^", "2"}], ")"}], " ", "+", " ", 
+     RowBox[{"(", 
+      RowBox[{"12", "*", "x"}], ")"}], " ", "-", " ", "3"}]}], ";"}], 
+  "\[IndentingNewLine]", "      ", "\n", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "define", " ", "a", " ", "function", " ", "of", " ", "x", " ", "here"}], 
+   " ", "*)"}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"xmin", " ", "=", " ", 
+    RowBox[{"-", "6"}]}], ";"}], "                              ", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "function", " ", "max", " ", "and", " ", "min", " ", "x", " ", "values", 
+    " ", "set", " ", "here"}], " ", "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"xmax", " ", "=", " ", "6"}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"astart", " ", "=", " ", 
+    RowBox[{"-", "3"}]}], ";"}], "      ", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "point", " ", "of", " ", "tangency", " ", "starting", " ", "point", " ", 
+    "value"}], " ", "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"amin", " ", "=", " ", 
+    RowBox[{"-", "4.3"}]}], ";"}], "      ", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "point", " ", "of", " ", "tangency", " ", "minimum", " ", "value"}], " ", 
+   "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"amax", "=", " ", "5"}], ";"}], "          ", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "point", " ", "of", " ", "tangency", " ", "maximum", " ", "value"}], " ", 
+   "*)"}], "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"hstart", " ", "=", " ", "0"}], ";"}], "      ", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "Secant", " ", "line", " ", "intersection", " ", "starting", " ", 
+    "point"}], " ", "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"hmin", " ", "=", " ", 
+    RowBox[{"-", "4"}]}], ";"}], "      ", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "Secant", " ", "line", " ", "intersection", " ", "minimum", " ", "value"}],
+    " ", "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"hmax", " ", "=", " ", "4"}], ";"}], "       ", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "Secant", " ", "line", " ", "intersection", " ", "maximum", " ", "value"}],
+    " ", "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"If", "[", 
+     RowBox[{
+      RowBox[{"h", "\[Equal]", "0"}], ",", 
+      RowBox[{"h", "=", ".001"}]}], "]"}], ";", 
+    RowBox[{"Grid", "[", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"Plot", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"f", "[", "x", "]"}], ",", 
+            RowBox[{
+             RowBox[{"f", "[", "a", "]"}], "+", 
+             RowBox[{
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"D", "[", 
+                 RowBox[{
+                  RowBox[{"f", "[", "t", "]"}], ",", "t"}], "]"}], "/.", 
+                RowBox[{"t", "\[Rule]", "a"}]}], ")"}], "*", 
+              RowBox[{"(", 
+               RowBox[{"x", "-", "a"}], ")"}]}]}], ",", " ", 
+            RowBox[{"If", "[", 
+             RowBox[{"tl", ",", 
+              RowBox[{
+               RowBox[{"f", "[", "a", "]"}], "+", 
+               RowBox[{
+                RowBox[{"(", 
+                 RowBox[{
+                  RowBox[{"(", 
+                   RowBox[{
+                    RowBox[{"f", "[", 
+                    RowBox[{"a", "+", "h"}], "]"}], "-", 
+                    RowBox[{"f", "[", "a", "]"}]}], ")"}], "/", "h"}], ")"}], 
+                "*", 
+                RowBox[{"(", 
+                 RowBox[{"x", "-", "a"}], ")"}]}]}]}], "]"}]}], "}"}], " ", 
+          ",", " ", 
+          RowBox[{"{", 
+           RowBox[{"x", ",", "xmin", ",", "xmax"}], "}"}], ",", " ", 
+          RowBox[{"PlotStyle", "\[Rule]", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"Thickness", "[", ".005", "]"}], ",", "Black"}], "}"}],
+              ",", 
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"Thickness", "[", ".004", "]"}], ",", "Blue"}], "}"}], 
+             ",", " ", 
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"Thickness", "[", ".004", "]"}], ",", "Red"}], "}"}]}],
+             "}"}]}], ",", 
+          RowBox[{"PlotRange", "\[Rule]", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"15", "*", "xmin"}], ",", 
+             RowBox[{
+              RowBox[{"(", 
+               RowBox[{"8", "*", "xmax"}], ")"}], " ", "+", " ", "2"}]}], 
+            "}"}]}], ",", " ", 
+          RowBox[{"ImageSize", "\[Rule]", 
+           RowBox[{"{", 
+            RowBox[{"475", ",", "325"}], "}"}]}], ",", 
+          RowBox[{"PlotLabel", " ", "\[Rule]", 
+           RowBox[{"Style", "[", 
+            RowBox[{
+             RowBox[{"Row", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{"Style", "[", 
+                 RowBox[{"\"\<f(x)\>\"", ",", "Italic"}], "]"}], ",", 
+                "\"\< = \>\"", ",", 
+                RowBox[{"ToString", "[", 
+                 RowBox[{
+                  StyleBox[
+                   RowBox[{
+                    RowBox[{"-", " ", 
+                    RowBox[{"x", "^", "3"}]}], "+", " ", 
+                    RowBox[{"x", "^", "2"}], "+", " ", 
+                    RowBox[{"12", " ", "x"}], " ", "-", " ", "3"}], 
+                   "WarholOrange"], ",", "TraditionalForm"}], 
+                 StyleBox["]", "WarholOrange"]}]}], "}"}], "]"}], ",", "20"}],
+             "]"}]}], ",", 
+          RowBox[{"AxesLabel", "\[Rule]", " ", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"Style", "[", 
+              RowBox[{"\"\<x\>\"", ",", "16", ",", "Italic"}], "]"}], ",", 
+             RowBox[{"Style", "[", 
+              RowBox[{"\"\<y\>\"", ",", "16", ",", "Italic"}], "]"}]}], 
+            "}"}]}], ",", 
+          RowBox[{"Prolog", "\[Rule]", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"PointSize", "[", ".02", "]"}], ",", 
+               RowBox[{"If", "[", 
+                RowBox[{"tl", ",", "Blue", ",", "Red"}], "]"}], ",", " ", 
+               RowBox[{"Point", "[", 
+                RowBox[{"{", 
+                 RowBox[{"a", ",", 
+                  RowBox[{"f", "[", "a", "]"}]}], "}"}], "]"}]}], "}"}], ",", 
+             
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"PointSize", "[", ".02", "]"}], ",", "Red", ",", " ", 
+               RowBox[{"Point", "[", 
+                RowBox[{"{", 
+                 RowBox[{
+                  RowBox[{"a", "+", "h"}], ",", 
+                  RowBox[{"f", "[", 
+                   RowBox[{"a", "+", "h"}], "]"}]}], "}"}], "]"}]}], "}"}]}], 
+            "}"}]}]}], "]"}], "}"}], ",", 
+       RowBox[{
+        StyleBox["{",
+         FontColor->GrayLevel[0]], 
+        RowBox[{
+         StyleBox["Row",
+          FontColor->GrayLevel[0]], 
+         StyleBox["[",
+          FontColor->GrayLevel[0]], 
+         RowBox[{
+          RowBox[{
+           StyleBox["{",
+            FontColor->GrayLevel[0]], 
+           RowBox[{
+            StyleBox[
+             RowBox[{"Style", "[", 
+              RowBox[{
+               RowBox[{"Text", "[", 
+                RowBox[{"\"\<tangent slope = \>\"", "<>", 
+                 RowBox[{"ToString", "[", 
+                  RowBox[{
+                   RowBox[{"D", "[", 
+                    RowBox[{
+                    RowBox[{"f", "[", "t", "]"}], ",", "t"}], "]"}], "/.", 
+                   RowBox[{"t", "\[Rule]", "a"}]}], "]"}]}], "]"}], ",", " ", 
+               "Blue", ",", " ", "20"}], "]"}],
+             FontColor->GrayLevel[0]], 
+            StyleBox[",",
+             FontColor->GrayLevel[0]], 
+            RowBox[{"If", "[", 
+             RowBox[{"tl", ",", 
+              StyleBox[
+               RowBox[{"Style", "[", 
+                RowBox[{
+                 RowBox[{"Text", "[", 
+                  RowBox[{"\"\<secant slope =  \>\"", "<>", 
+                   RowBox[{"ToString", "[", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"f", "[", 
+                    RowBox[{"a", "+", "h"}], "]"}], "-", 
+                    RowBox[{"f", "[", "a", "]"}]}], ")"}], "/", "h"}], 
+                    "]"}]}], "]"}], ",", " ", "Red", ",", " ", "20"}], "]"}],
+               FontColor->GrayLevel[0]]}], 
+             StyleBox["]",
+              FontColor->GrayLevel[0]]}]}], 
+           StyleBox["}",
+            FontColor->GrayLevel[0]]}], 
+          StyleBox[",",
+           FontColor->GrayLevel[0]], 
+          StyleBox["\"\<    \>\"",
+           FontColor->GrayLevel[0]]}], 
+         StyleBox["]",
+          FontColor->GrayLevel[0]]}], 
+        StyleBox["}",
+         FontColor->GrayLevel[0]]}]}], 
+      StyleBox["}",
+       FontColor->GrayLevel[0]]}], 
+     StyleBox["]",
+      FontColor->GrayLevel[0]]}]}], ",", " ", "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "a", ",", " ", "astart", ",", 
+       "\"\<\!\(\*SubscriptBox[\(x\), \(0\)]\)\>\""}], "}"}], ",", "amin", 
+     ",", "amax"}], "}"}], ",", "\[IndentingNewLine]", " ", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"h", ",", "hstart", ",", "\"\<h\>\""}], "}"}], ",", " ", "hmin",
+      ",", "hmax", ",", ".01"}], "}"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"tl", ",", "False", ",", "\"\<secant line\>\""}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"True", ",", "False"}], "}"}]}], "}"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"TrackedSymbols", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "h", ",", "tl"}], "}"}]}], ",", " ", 
+   RowBox[{"SaveDefinitions", "\[Rule]", "True"}]}], "]"}]}], "Input",
+ CellOpen->False,
+ InitializationCell->True,
+ CellChangeTimes->{
+  3.35696210375764*^9, 3.397916549907625*^9, {3.398015652762125*^9, 
+   3.3980157131832266`*^9}, {3.398015744167205*^9, 3.398015780713612*^9}, {
+   3.398015818510003*^9, 3.398015898993348*^9}, {3.398015940789688*^9, 
+   3.398015961883168*^9}, {3.3980160413509007`*^9, 3.3980160586944284`*^9}, 
+   3.3981008493325195`*^9, {3.3981672026993537`*^9, 3.398167205527424*^9}, {
+   3.398167794516115*^9, 3.398167828812332*^9}, {3.4084696736928005`*^9, 
+   3.4084696871933193`*^9}, {3.408469746773732*^9, 3.4084698495589285`*^9}, {
+   3.4084700660203657`*^9, 3.4084700776614375`*^9}, 3.4084701152878823`*^9, {
+   3.4084706321983557`*^9, 3.4084706336671624`*^9}},
+ CellID->20969382],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`a$$ = -3, $CellContext`h$$ = 
+    0.001, $CellContext`tl$$ = False, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`a$$], -3, 
+       "\!\(\*SubscriptBox[\(x\), \(0\)]\)"}, -4.3, 5}, {{
+       Hold[$CellContext`h$$], 0, "h"}, -4, 4, 0.01}, {{
+       Hold[$CellContext`tl$$], False, "secant line"}, {True, False}}}, 
+    Typeset`size$$ = {475., {173.5, 178.5}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    False, $CellContext`a$270571$$ = 0, $CellContext`h$270572$$ = 
+    0, $CellContext`tl$270573$$ = False}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`a$$ = -3, $CellContext`h$$ = 
+        0, $CellContext`tl$$ = False}, "ControllerVariables" :> {
+        Hold[$CellContext`a$$, $CellContext`a$270571$$, 0], 
+        Hold[$CellContext`h$$, $CellContext`h$270572$$, 0], 
+        Hold[$CellContext`tl$$, $CellContext`tl$270573$$, False]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, 
+      "Body" :> (If[$CellContext`h$$ == 0, $CellContext`h$$ = 0.001]; Grid[{{
+           Plot[{
+             $CellContext`f[$CellContext`x], $CellContext`f[$CellContext`a$$] + 
+             ReplaceAll[
+                D[
+                 $CellContext`f[$CellContext`t], $CellContext`t], \
+$CellContext`t -> $CellContext`a$$] ($CellContext`x - $CellContext`a$$), 
+             
+             If[$CellContext`tl$$, $CellContext`f[$CellContext`a$$] + \
+(($CellContext`f[$CellContext`a$$ + $CellContext`h$$] - \
+$CellContext`f[$CellContext`a$$])/$CellContext`h$$) ($CellContext`x - \
+$CellContext`a$$)]}, {$CellContext`x, $CellContext`xmin, $CellContext`xmax}, 
+            PlotStyle -> {{
+               Thickness[0.005], Black}, {
+               Thickness[0.004], Blue}, {
+               Thickness[0.004], Red}}, 
+            PlotRange -> {15 $CellContext`xmin, 8 $CellContext`xmax + 2}, 
+            ImageSize -> {475, 325}, PlotLabel -> Style[
+              Row[{
+                Style["f(x)", Italic], " = ", 
+                
+                ToString[-$CellContext`x^3 + $CellContext`x^2 + 
+                 12 $CellContext`x - 3, TraditionalForm]}], 20], 
+            AxesLabel -> {
+              Style["x", 16, Italic], 
+              Style["y", 16, Italic]}, Prolog -> {{
+               PointSize[0.02], 
+               If[$CellContext`tl$$, Blue, Red], 
+               Point[{$CellContext`a$$, 
+                 $CellContext`f[$CellContext`a$$]}]}, {
+               PointSize[0.02], Red, 
+               Point[{$CellContext`a$$ + $CellContext`h$$, 
+                 $CellContext`f[$CellContext`a$$ + $CellContext`h$$]}]}}]}, {
+           Row[{
+             Style[
+              Text[
+               StringJoin["tangent slope = ", 
+                ToString[
+                 ReplaceAll[
+                  D[
+                   $CellContext`f[$CellContext`t], $CellContext`t], \
+$CellContext`t -> $CellContext`a$$]]]], Blue, 20], 
+             If[$CellContext`tl$$, 
+              Style[
+               Text[
+                StringJoin["secant slope =  ", 
+                 
+                 ToString[($CellContext`f[$CellContext`a$$ + \
+$CellContext`h$$] - $CellContext`f[$CellContext`a$$])/$CellContext`h$$]]], 
+               Red, 20]]}, "    "]}}]), 
+      "Specifications" :> {{{$CellContext`a$$, -3, 
+          "\!\(\*SubscriptBox[\(x\), \(0\)]\)"}, -4.3, 
+         5}, {{$CellContext`h$$, 0, "h"}, -4, 4, 
+         0.01}, {{$CellContext`tl$$, False, "secant line"}, {True, False}}}, 
+      "Options" :> {
+       TrackedSymbols -> {$CellContext`a$$, $CellContext`h$$, \
+$CellContext`tl$$}}, "DefaultOptions" :> {}],
+     ImageSizeCache->{521., {241., 246.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    Initialization:>({$CellContext`f[$CellContext`x] = -3 + 
+        12 $CellContext`x + $CellContext`x^2 - $CellContext`x^3, \
+$CellContext`f[2 + $CellContext`x] = 2 + $CellContext`x, $CellContext`f[
+         Pattern[$CellContext`x, 
+          Blank[]]] = -3 + 
+        12 $CellContext`x + $CellContext`x^2 - $CellContext`x^3, \
+$CellContext`xmin = -6, $CellContext`xmax = 6, 
+       Attributes[PlotRange] = {ReadProtected}}; Typeset`initDone$$ = True),
+    SynchronousInitialization->True,
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{
+  3.408469689865297*^9, 3.408469749539463*^9, 3.4084698599187016`*^9, 
+   3.4084699985177736`*^9, {3.408470043378871*^9, 3.40847015766451*^9}, {
+   3.40847019999426*^9, 3.4084703410153*^9}, 3.40847044570682*^9, {
+   3.408470603478503*^9, 3.4084706216979527`*^9}, 3.408470738249303*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["THIS NOTEBOOK IS THE SOURCE CODE FROM", "Text",
+ CellFrame->{{0, 0}, {0, 1}},
+ CellMargins->{{48, 10}, {4, 28}},
+ CellGroupingRules->{"SectionGrouping", 25},
+ CellFrameMargins->{{48, 48}, {6, 5}},
+ CellFrameColor->RGBColor[0.691905, 0.790311, 0.300252],
+ FontFamily->"Helvetica",
+ FontSize->10,
+ FontWeight->"Bold",
+ FontColor->RGBColor[0.691905, 0.790311, 0.300252]],
+
+Cell[TextData[{
+ "\"",
+ ButtonBox["Secant and Tangent Lines",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/SecantAndTangentLines/"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/SecantAndTangentLines/"],
+ "\"",
+ " from ",
+ ButtonBox["The Wolfram Demonstrations Project",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/"],
+ "\[ParagraphSeparator]\[NonBreakingSpace]",
+ ButtonBox["http://demonstrations.wolfram.com/SecantAndTangentLines/",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/SecantAndTangentLines/"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/SecantAndTangentLines/"]
+}], "Text",
+ CellMargins->{{48, Inherited}, {0, Inherited}},
+ FontFamily->"Verdana",
+ FontSize->10,
+ FontColor->GrayLevel[0.5]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "Text",
+ CellFrame->{{0, 0}, {0, 1}},
+ CellMargins->{{48, 10}, {4, 28}},
+ CellGroupingRules->{"SectionGrouping", 25},
+ CellFrameMargins->{{48, 48}, {6, 5}},
+ CellFrameColor->RGBColor[0.691905, 0.790311, 0.300252],
+ FontFamily->"Helvetica",
+ FontSize->10,
+ FontWeight->"Bold",
+ FontColor->RGBColor[0.691905, 0.790311, 0.300252]],
+
+Cell[TextData[{
+ "Contributed by: ",
+ ButtonBox["Joshua Fritz, Angela Sharp,",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/author.html?author=Joshua+Fritz%2C+\
+Angela+Sharp%2C"], None},
+  ButtonNote->
+   "http://demonstrations.wolfram.com/author.html?author=Joshua+Fritz%2C+\
+Angela+Sharp%2C"],
+ " and ",
+ ButtonBox["Chad Pierson",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/author.html?author=Chad+Pierson"], 
+    None},
+  ButtonNote->
+   "http://demonstrations.wolfram.com/author.html?author=Chad+Pierson"]
+}], "Text",
+ CellDingbat->"\[FilledSmallSquare]",
+ CellMargins->{{66, 48}, {2, 4}},
+ FontFamily->"Verdana",
+ FontSize->10,
+ FontColor->GrayLevel[0.6]],
+
+Cell[TextData[{
+ "A full-function Wolfram ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " 6 system is required to edit or run this notebook.\[IndentingNewLine](",
+ StyleBox["Mathematica Player",
+  FontSlant->"Italic"],
+ " runs only Demonstrations published on this site.)\n",
+ StyleBox[ButtonBox["GET WOLFRAM MATHEMATICA 6 \[RightGuillemet]",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://www.wolfram.com/products/mathematica/"], None},
+  ButtonNote->"http://www.wolfram.com/products/mathematica/"],
+  FontFamily->"Helvetica",
+  FontWeight->"Bold",
+  FontSlant->"Italic",
+  FontColor->RGBColor[1, 0.42, 0]]
+}], "Text",
+ CellFrame->True,
+ CellMargins->{{48, 68}, {8, 28}},
+ CellFrameMargins->12,
+ CellFrameColor->RGBColor[0.865507, 0.90634, 0.680751],
+ CellChangeTimes->{3.3750111182355957`*^9},
+ ParagraphSpacing->{1., 1.},
+ FontFamily->"Verdana",
+ FontSize->10,
+ FontColor->GrayLevel[0.411765],
+ Background->RGBColor[0.986023, 0.991363, 0.969818]],
+
+Cell[TextData[{
+ "\[Copyright] ",
+ StyleBox[ButtonBox["The Wolfram Demonstrations Project & Contributors",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/"],
+  FontColor->GrayLevel[0.6]],
+ "\[ThickSpace]\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+ StyleBox[ButtonBox["Terms of Use",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/termsofuse.html"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/termsofuse.html"],
+  FontColor->GrayLevel[0.6]],
+ "\[ThickSpace]\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+ StyleBox[ButtonBox["Make a new version of this Demonstration \
+\[RightGuillemet]",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/participate/upload.jsp?id=\
+SecantAndTangentLines"], None},
+  ButtonNote->None],
+  FontColor->GrayLevel[0.6]]
+}], "Text",
+ CellFrame->{{0, 0}, {0, 0.5}},
+ CellMargins->{{48, 10}, {20, 50}},
+ CellFrameMargins->{{6, 0}, {6, 6}},
+ CellFrameColor->GrayLevel[0.6],
+ FontFamily->"Verdana",
+ FontSize->9,
+ FontColor->GrayLevel[0.6]]
+}, Open  ]]
+},
+AutoGeneratedPackage->None,
+Editable->True,
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{710, 650},
+WindowMargins->{{281, Automatic}, {Automatic, 0}},
+WindowElements->{
+ "StatusArea", "MemoryMonitor", "MagnificationPopUp", "VerticalScrollBar", 
+  "MenuBar"},
+WindowTitle->"Secant and Tangent Lines - Source",
+DockedCells->{},
+CellContext->Notebook,
+FrontEndVersion->"6.0 for Microsoft Windows (32-bit) (April 20, 2007)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[590, 23, 216, 4, 71, "Section"],
+Cell[CellGroupData[{
+Cell[831, 31, 10894, 292, 20, "Input",
+ CellOpen->False,
+ InitializationCell->True,
+ CellID->20969382],
+Cell[11728, 325, 5199, 107, 504, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16976, 438, 373, 9, 50, "Text",
+ CellGroupingRules->{"SectionGrouping", 25}],
+Cell[17352, 449, 906, 24, 34, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18295, 478, 337, 9, 50, "Text",
+ CellGroupingRules->{"SectionGrouping", 25}],
+Cell[18635, 489, 742, 23, 18, "Text"],
+Cell[19380, 514, 967, 27, 114, "Text"],
+Cell[20350, 543, 1197, 33, 88, "Text"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
