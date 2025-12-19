@@ -1,1126 +1,398 @@
-<html xmlns:v="urn:schemas-microsoft-com:vml"
-xmlns:o="urn:schemas-microsoft-com:office:office"
-xmlns:w="urn:schemas-microsoft-com:office:word"
-xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
-xmlns="http://www.w3.org/TR/REC-html40">
+<html>
 
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
-<meta name=ProgId content=Word.Document>
-<meta name=Generator content="Microsoft Word 14">
-<meta name=Originator content="Microsoft Word 14">
-<link rel=File-List href="11FallMath440_files/filelist.xml">
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
 <title>MATH 440-01 Abstract Algebra</title>
-<!--[if gte mso 9]><xml>
- <o:DocumentProperties>
-  <o:LastAuthor>setup</o:LastAuthor>
-  <o:Revision>28</o:Revision>
-  <o:TotalTime>5066</o:TotalTime>
-  <o:Created>2011-10-03T14:46:00Z</o:Created>
-  <o:LastSaved>2011-11-21T03:44:00Z</o:LastSaved>
-  <o:Pages>3</o:Pages>
-  <o:Words>2573</o:Words>
-  <o:Characters>14637</o:Characters>
-  <o:Company>The Errthums</o:Company>
-  <o:Lines>121</o:Lines>
-  <o:Paragraphs>34</o:Paragraphs>
-  <o:CharactersWithSpaces>17176</o:CharactersWithSpaces>
-  <o:Version>14.00</o:Version>
- </o:DocumentProperties>
-</xml><![endif]-->
-<link rel=themeData href="11FallMath440_files/themedata.thmx">
-<link rel=colorSchemeMapping href="11FallMath440_files/colorschememapping.xml">
-<!--[if gte mso 9]><xml>
- <w:WordDocument>
-  <w:Zoom>90</w:Zoom>
-  <w:SpellingState>Clean</w:SpellingState>
-  <w:GrammarState>Clean</w:GrammarState>
-  <w:TrackMoves/>
-  <w:TrackFormatting/>
-  <w:ValidateAgainstSchemas/>
-  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
-  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
-  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
-  <w:DoNotPromoteQF/>
-  <w:LidThemeOther>EN-US</w:LidThemeOther>
-  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
-  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
-  <w:Compatibility>
-   <w:BreakWrappedTables/>
-   <w:SnapToGridInCell/>
-   <w:WrapTextWithPunct/>
-   <w:UseAsianBreakRules/>
-   <w:DontGrowAutofit/>
-   <w:SplitPgBreakAndParaMark/>
-   <w:DontVertAlignCellWithSp/>
-   <w:DontBreakConstrainedForcedTables/>
-   <w:DontVertAlignInTxbx/>
-   <w:Word11KerningPairs/>
-   <w:CachedColBalance/>
-  </w:Compatibility>
-  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
-  <m:mathPr>
-   <m:mathFont m:val="Cambria Math"/>
-   <m:brkBin m:val="before"/>
-   <m:brkBinSub m:val="&#45;-"/>
-   <m:smallFrac m:val="off"/>
-   <m:dispDef/>
-   <m:lMargin m:val="0"/>
-   <m:rMargin m:val="0"/>
-   <m:defJc m:val="centerGroup"/>
-   <m:wrapIndent m:val="1440"/>
-   <m:intLim m:val="subSup"/>
-   <m:naryLim m:val="undOvr"/>
-  </m:mathPr></w:WordDocument>
-</xml><![endif]--><!--[if gte mso 9]><xml>
- <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
-  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
-  LatentStyleCount="267">
-  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
-  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
-  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
-  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
-  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
-  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
-  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
-  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
-  <w:LsdException Locked="false" Priority="0" Name="Plain Text"/>
-  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Table Grid"/>
-  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
-  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
-  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Shading"/>
-  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light List"/>
-  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Grid"/>
-  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 1"/>
-  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 2"/>
-  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 1"/>
-  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 2"/>
-  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 1"/>
-  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 2"/>
-  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 3"/>
-  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Dark List"/>
-  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Shading"/>
-  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful List"/>
-  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Grid"/>
-  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
-  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light List Accent 1"/>
-  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
-  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
-  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
-  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
-  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
-  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
-  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
-  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
-  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
-  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
-  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
-  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
-  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
-  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
-  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light List Accent 2"/>
-  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
-  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
-  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
-  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
-  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
-  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
-  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
-  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
-  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
-  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
-  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light List Accent 3"/>
-  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
-  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
-  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
-  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
-  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
-  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
-  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
-  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
-  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
-  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
-  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light List Accent 4"/>
-  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
-  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
-  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
-  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
-  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
-  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
-  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
-  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
-  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
-  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
-  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light List Accent 5"/>
-  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
-  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
-  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
-  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
-  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
-  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
-  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
-  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
-  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
-  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
-  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light List Accent 6"/>
-  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
-  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
-  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
-  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
-  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
-  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
-  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
-  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
-  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
-  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
-  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
-  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
-  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
-  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
-  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
-  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
- </w:LatentStyles>
-</xml><![endif]-->
 <style>
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Cambria;
-	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:roman;
-	mso-font-pitch:variable;
-	mso-font-signature:-536870145 1073743103 0 0 415 0;}
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
 	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:-520092929 1073786111 9 0 415 0;}
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
 	{font-family:Tahoma;
-	panose-1:2 11 6 4 3 5 4 4 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:-520081665 -1073717157 41 0 66047 0;}
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-parent:"";
-	margin:0in;
-	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
+	{margin:0in;
 	font-size:12.0pt;
-	font-family:"Times New Roman","serif";
-	mso-fareast-font-family:"Times New Roman";}
+	font-family:"Times New Roman",serif;}
 h1
-	{mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-link:"Heading 1 Char";
-	mso-style-next:Normal;
+	{mso-style-link:"Heading 1 Char";
 	margin-top:24.0pt;
 	margin-right:0in;
 	margin-bottom:0in;
 	margin-left:0in;
-	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan lines-together;
 	page-break-after:avoid;
-	mso-outline-level:1;
 	font-size:14.0pt;
-	font-family:"Cambria","serif";
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;
-	color:#365F91;
-	mso-font-kerning:0pt;}
+	font-family:"Cambria",serif;
+	color:#365F91;}
 a:link, span.MsoHyperlink
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	color:blue;
-	text-decoration:underline;
-	text-underline:single;}
-a:visited, span.MsoHyperlinkFollowed
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	color:purple;
-	mso-themecolor:followedhyperlink;
-	text-decoration:underline;
-	text-underline:single;}
-p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
-	{mso-style-noshow:yes;
-	mso-style-link:"Plain Text Char";
-	margin:0in;
-	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:10.0pt;
-	font-family:"Courier New";
-	mso-fareast-font-family:"Times New Roman";}
-p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-link:"Balloon Text Char";
-	margin:0in;
-	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:8.0pt;
-	font-family:"Tahoma","sans-serif";
-	mso-fareast-font-family:"Times New Roman";}
+	{color:blue;
+	text-decoration:underline;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{mso-style-priority:34;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	margin-top:0in;
+	{margin-top:0in;
 	margin-right:0in;
 	margin-bottom:0in;
 	margin-left:.5in;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	mso-pagination:widow-orphan;
 	font-size:12.0pt;
-	font-family:"Times New Roman","serif";
-	mso-fareast-font-family:"Times New Roman";}
+	font-family:"Times New Roman",serif;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{mso-style-priority:34;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-type:export-only;
-	margin-top:0in;
+	{margin-top:0in;
 	margin-right:0in;
 	margin-bottom:0in;
 	margin-left:.5in;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	mso-pagination:widow-orphan;
 	font-size:12.0pt;
-	font-family:"Times New Roman","serif";
-	mso-fareast-font-family:"Times New Roman";}
+	font-family:"Times New Roman",serif;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{mso-style-priority:34;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-type:export-only;
-	margin-top:0in;
+	{margin-top:0in;
 	margin-right:0in;
 	margin-bottom:0in;
 	margin-left:.5in;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	mso-pagination:widow-orphan;
 	font-size:12.0pt;
-	font-family:"Times New Roman","serif";
-	mso-fareast-font-family:"Times New Roman";}
+	font-family:"Times New Roman",serif;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{mso-style-priority:34;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-type:export-only;
-	margin-top:0in;
+	{margin-top:0in;
 	margin-right:0in;
 	margin-bottom:0in;
 	margin-left:.5in;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	mso-pagination:widow-orphan;
 	font-size:12.0pt;
-	font-family:"Times New Roman","serif";
-	mso-fareast-font-family:"Times New Roman";}
+	font-family:"Times New Roman",serif;}
 span.Heading1Char
 	{mso-style-name:"Heading 1 Char";
-	mso-style-unhide:no;
-	mso-style-locked:yes;
 	mso-style-link:"Heading 1";
-	mso-ansi-font-size:14.0pt;
-	mso-bidi-font-size:14.0pt;
-	font-family:"Cambria","serif";
-	mso-ascii-font-family:Cambria;
-	mso-hansi-font-family:Cambria;
+	font-family:"Cambria",serif;
 	color:#365F91;
 	font-weight:bold;}
-span.PlainTextChar
-	{mso-style-name:"Plain Text Char";
-	mso-style-noshow:yes;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Plain Text";
-	font-family:"Courier New";
-	mso-ascii-font-family:"Courier New";
-	mso-hansi-font-family:"Courier New";
-	mso-bidi-font-family:"Courier New";}
-span.BalloonTextChar
-	{mso-style-name:"Balloon Text Char";
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Balloon Text";
-	mso-ansi-font-size:8.0pt;
-	mso-bidi-font-size:8.0pt;
-	font-family:"Tahoma","sans-serif";
-	mso-ascii-font-family:Tahoma;
-	mso-hansi-font-family:Tahoma;
-	mso-bidi-font-family:Tahoma;}
-p.syllabusheading2, li.syllabusheading2, div.syllabusheading2
-	{mso-style-name:syllabusheading2;
-	mso-style-unhide:no;
-	margin-top:12.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:0in;
-	margin-bottom:.0001pt;
-	text-align:center;
-	mso-pagination:widow-orphan;
-	font-size:10.0pt;
-	font-family:"Cambria","serif";
-	mso-fareast-font-family:Calibri;
-	mso-fareast-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	font-weight:bold;}
-span.SpellE
-	{mso-style-name:"";
-	mso-spl-e:yes;}
-span.GramE
-	{mso-style-name:"";
-	mso-gram-e:yes;}
 .MsoChpDefault
-	{mso-style-type:export-only;
-	mso-default-props:yes;
-	font-size:10.0pt;
-	mso-ansi-font-size:10.0pt;
-	mso-bidi-font-size:10.0pt;}
+	{font-size:10.0pt;}
 @page WordSection1
 	{size:8.5in 11.0in;
-	margin:.5in .5in .5in .5in;
-	mso-header-margin:.5in;
-	mso-footer-margin:.5in;
-	mso-paper-source:0;}
+	margin:.5in .5in .5in .5in;}
 div.WordSection1
 	{page:WordSection1;}
  /* List Definitions */
- @list l0
-	{mso-list-id:542526733;
-	mso-list-type:hybrid;
-	mso-list-template-ids:-1114723390 -1321804354 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
-@list l0:level1
-	{mso-level-start-at:0;
-	mso-level-number-format:bullet;
-	mso-level-text:•;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:39.35pt;
-	text-indent:-.25in;
-	font-family:"Arial","sans-serif";
-	mso-fareast-font-family:"Times New Roman";
-	mso-bidi-font-family:"Times New Roman";}
-@list l0:level2
-	{mso-level-tab-stop:1.0in;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l0:level3
-	{mso-level-tab-stop:1.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l0:level4
-	{mso-level-tab-stop:2.0in;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l0:level5
-	{mso-level-tab-stop:2.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l0:level6
-	{mso-level-tab-stop:3.0in;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l0:level7
-	{mso-level-tab-stop:3.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l0:level8
-	{mso-level-tab-stop:4.0in;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l0:level9
-	{mso-level-tab-stop:4.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l1
-	{mso-list-id:925965475;
-	mso-list-type:hybrid;
-	mso-list-template-ids:-1755649798 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
-@list l1:level1
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	font-family:Symbol;}
-@list l1:level2
-	{mso-level-tab-stop:1.0in;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l1:level3
-	{mso-level-tab-stop:1.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l1:level4
-	{mso-level-tab-stop:2.0in;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l1:level5
-	{mso-level-tab-stop:2.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l1:level6
-	{mso-level-tab-stop:3.0in;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l1:level7
-	{mso-level-tab-stop:3.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l1:level8
-	{mso-level-tab-stop:4.0in;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l1:level9
-	{mso-level-tab-stop:4.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l2
-	{mso-list-id:1088580114;
-	mso-list-type:hybrid;
-	mso-list-template-ids:-1043671586 -1321804354 -1321804354 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
-@list l2:level1
-	{mso-level-start-at:0;
-	mso-level-number-format:bullet;
-	mso-level-text:•;
-	mso-level-tab-stop:.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	font-family:"Arial","sans-serif";
-	mso-fareast-font-family:"Times New Roman";
-	mso-bidi-font-family:"Times New Roman";}
-@list l2:level2
-	{mso-level-start-at:0;
-	mso-level-number-format:bullet;
-	mso-level-text:•;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:1.25in;
-	text-indent:-.5in;
-	font-family:"Arial","sans-serif";
-	mso-fareast-font-family:"Times New Roman";
-	mso-bidi-font-family:"Times New Roman";}
-@list l2:level3
-	{mso-level-tab-stop:1.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-bidi-font-family:"Times New Roman";}
-@list l2:level4
-	{mso-level-tab-stop:2.0in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-bidi-font-family:"Times New Roman";}
-@list l2:level5
-	{mso-level-tab-stop:2.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-bidi-font-family:"Times New Roman";}
-@list l2:level6
-	{mso-level-tab-stop:3.0in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-bidi-font-family:"Times New Roman";}
-@list l2:level7
-	{mso-level-tab-stop:3.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-bidi-font-family:"Times New Roman";}
-@list l2:level8
-	{mso-level-tab-stop:4.0in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-bidi-font-family:"Times New Roman";}
-@list l2:level9
-	{mso-level-tab-stop:4.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-bidi-font-family:"Times New Roman";}
-ol
+ ol
 	{margin-bottom:0in;}
 ul
 	{margin-bottom:0in;}
 -->
 </style>
-<!--[if gte mso 10]>
-<style>
- /* Style Definitions */
- table.MsoNormalTable
-	{mso-style-name:"Table Normal";
-	mso-tstyle-rowband-size:0;
-	mso-tstyle-colband-size:0;
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-parent:"";
-	mso-padding-alt:0in 5.4pt 0in 5.4pt;
-	mso-para-margin:0in;
-	mso-para-margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:10.0pt;
-	font-family:"Times New Roman","serif";}
-</style>
-<![endif]--><!--[if gte mso 9]><xml>
- <o:shapedefaults v:ext="edit" spidmax="1026"/>
-</xml><![endif]--><!--[if gte mso 9]><xml>
- <o:shapelayout v:ext="edit">
-  <o:idmap v:ext="edit" data="1"/>
- </o:shapelayout></xml><![endif]-->
+
 </head>
 
-<body lang=EN-US link=blue vlink=purple style='tab-interval:.5in'>
+<body lang=EN-US link=blue vlink="#96607D" style='word-wrap:break-word'>
 
 <div class=WordSection1>
 
-<p class=MsoNormal align=center style='margin-bottom:8.0pt;text-align:center'><b
-style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt'>MATH 440-01
-Abstract Algebra<br>
-</span>Syllabus for <span class=GramE>Fall</span> 2011<o:p></o:p></b></p>
+<p class=MsoNormal align=center style='margin-bottom:8.0pt;text-align:center'><b><span
+style='font-size:14.0pt'>MATH 440-01 Abstract Algebra<br>
+</span>Syllabus for Fall 2011</b></p>
 
-<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
-normal'>Mon, Wed, &amp; Fri, 10:00 – 10:50am<o:p></o:p></b></p>
+<p class=MsoNormal align=center style='text-align:center'><b>Mon, Wed, &amp;
+Fri, 10:00 â€“ 10:50am</b></p>
 
-<p class=MsoNormal align=center style='text-align:center'><span class=SpellE><b
-style='mso-bidi-font-weight:normal'>Gildemeister</b></span><b style='mso-bidi-font-weight:
-normal'> 326<o:p></o:p></b></p>
+<p class=MsoNormal align=center style='text-align:center'><b>Gildemeister 326</b></p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>Prerequisite: </b>Technically just MATH210,
-though MATH310 helps a lot.</p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Prerequisite:
+</b>Technically just MATH210, though MATH310 helps a lot.</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>About This Course:<span style='mso-tab-count:
-1'>  </span></b>This course develops the foundational ideas of groups and
-rings. It focuses on the algebraic structures that accompany sets with binary
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>About This
+Course:Â  </b>This course develops the foundational ideas of groups and rings.
+It focuses on the algebraic structures that accompany sets with binary
 operations.</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>Expectations:<span style='mso-tab-count:
-1'> </span></b>Students who complete this course with a passing grade are
-expected to be able to demonstrate the following skills: (<span class=SpellE>i</span>)
-Mastery of prerequisite material, (ii) Demonstrate knowledge (i.e.
-memorization) of pertinent definitions and theorems, (iii) Construct valid
-proofs and reason in a variety of forms, (iv) Critical analysis of conjectures
-through examples and/or counter-examples, (v) Communicate mathematics correctly,
-clearly, and concisely.</p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Expectations: </b>Students
+who complete this course with a passing grade are expected to be able to
+demonstrate the following skills: (i) Mastery of prerequisite material, (ii)
+Demonstrate knowledge (i.e. memorization) of pertinent definitions and
+theorems, (iii) Construct valid proofs and reason in a variety of forms, (iv)
+Critical analysis of conjectures through examples and/or counter-examples, (v)
+Communicate mathematics correctly, clearly, and concisely.</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
-margin-left:99.0pt;text-indent:-99.0pt;tab-stops:.75in'><b style='mso-bidi-font-weight:
-normal'>Text:<span style='mso-tab-count:1'>         </span></b><a
-href="http://abstract.ups.edu/download.html"><i style='mso-bidi-font-style:
-normal'>Abstract Algebra</i>: Theory and Applications, Thomas Judson, 2011
-edition (free download)</a></p>
+margin-left:99.0pt;text-indent:-99.0pt'><b>Text:Â Â Â Â Â Â Â Â  </b><a
+href="http://abstract.ups.edu/download.html"><i>Abstract Algebra</i>: Theory
+and Applications, Thomas Judson, 2011 edition (free download)</a></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
-margin-left:99.0pt;text-indent:-99.0pt;tab-stops:99.0pt'><b style='mso-bidi-font-weight:
-normal'>Course Website:<span style='mso-tab-count:1'>     </span></b><a
+margin-left:99.0pt;text-indent:-99.0pt'><b>Course Website:Â Â Â  </b><a
 href="http://course1.winona.edu/eerrthum/math440">http://course1.winona.edu/eerrthum/math440</a></p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>Instructor: </b>Dr. Eric <span
-class=SpellE>Errthum</span><span style='mso-tab-count:3'>                          </span><b
-style='mso-bidi-font-weight:normal'>Office: </b>124A <span class=SpellE>Gildemeister</span></p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Instructor:
+</b>Dr. Eric ErrthumÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  <b>Office: </b>124A Gildemeister</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>Winona Email Username: </b><span
-class=SpellE>eerrthum</span><span style='mso-tab-count:2'>             </span><b
-style='mso-bidi-font-weight:normal'>Office Phone: </b>474-5775</p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Winona
+Email Username: </b>eerrthumÂ Â Â Â Â Â Â Â Â Â Â  <b>Office Phone: </b>474-5775</p>
 
-<p class=MsoNormal style='margin-bottom:6.0pt;tab-stops:right 121.5pt left 135.0pt center 297.0pt'><b
-style='mso-bidi-font-weight:normal'>Office Hours:<span
-style='mso-spacerun:yes'>  </span></b>See schedule on <a
-href="http://course1.winona.edu/eerrthum">my home page</a>. <span class=GramE>Or
-by appointment on any day.</span></p>
+<p class=MsoNormal style='margin-bottom:6.0pt'><b>Office Hours:Â  </b>See
+schedule on <a href="http://course1.winona.edu/eerrthum">my home page</a>. Or
+by appointment on any day.</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;tab-stops:58.5pt decimal 283.5pt dashed 355.5pt'><b
-style='mso-bidi-font-weight:normal'>Grading:<span style='mso-tab-count:1'>    </span></b>Problem
-Write-Ups (scaled as needed)<span style='mso-tab-count:1'>        </span>105
-points<span style='mso-tab-count:1 dashed'>----- </span> 14.0%<br>
-<b style='mso-bidi-font-weight:normal'><span style='mso-tab-count:1'>                    </span></b>Quizzes
-(8 @ 15 points, drop lowest)<span style='mso-tab-count:1'>         </span>105
-points<span style='mso-tab-count:1 dashed'>------ </span>14.0%<br>
-<span style='mso-tab-count:1'>                    </span>Midterms (2 @ 100
-points)<span style='mso-tab-count:1'>                          </span>200
-points<span style='mso-tab-count:1 dashed'>------ </span>26.7%<br>
-<span style='mso-tab-count:1'>                    </span>Essay Reflections (3 @
-30 points)<span style='mso-tab-count:1'>                 </span>90 points<span
-style='mso-tab-count:1 dashed'>------ </span>12.0%<br>
-<span style='mso-tab-count:1'>                    </span>Portfolio<span
-style='mso-tab-count:1'>                                                         </span>50
-points<span style='mso-tab-count:1 dashed'>------- </span>6.6%<br>
-<span style='mso-tab-count:1'>                    </span>Final<span
-style='mso-tab-count:1'>                                                             </span>200
-points<span style='mso-tab-count:1 dashed'>------ </span>26.7%<br>
-<span style='mso-tab-count:2'>                                                                                     </span>--------<br>
-<span style='mso-tab-count:2'>                                                                                         </span>750
+<p class=MsoNormal style='margin-bottom:8.0pt'><b>Grading:Â Â Â  </b>Problem
+Write-Ups (scaled as needed)Â Â Â Â Â Â  105 points-----  14.0%<br>
+<b>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </b>Quizzes (8 @ 15 points, drop lowest)Â Â Â Â Â Â Â Â  105
+points------ 14.0%<br>
+Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  Midterms (2 @ 100 points)Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  200
+points------ 26.7%<br>
+Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  Essay Reflections (3 @ 30 points)Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  90 points------ 12.0%<br>
+Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  PortfolioÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  50
+points------- 6.6%<br>
+Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  FinalÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  200
+points------ 26.7%<br>
+Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  --------<br>
+Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  750
 points total</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>Grades:</b><span style='mso-spacerun:yes'> 
-</span>A = 90% (675 <span class=SpellE>pts</span>), B = 80% (600 <span
-class=SpellE>pts</span>), C = 70% (525 <span class=SpellE>pts</span>), D = 60%
-(450 <span class=SpellE>pts</span>). There will be <b style='mso-bidi-font-weight:
-normal'><i style='mso-bidi-font-style:normal'>no curving</i></b> of individual
-exams, quizzes or assignments.</p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Grades:</b>Â 
+A = 90% (675 pts), B = 80% (600 pts), C = 70% (525 pts), D = 60% (450 pts).
+There will be <b><i>no curving</i></b> of individual exams, quizzes or
+assignments.</p>
 
-<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
-normal'>Problem Write-Ups:<span style='mso-tab-count:1'>  </span></b>For each
-chapter, a collection of problems will be assigned (see WU links in the
+<p class=MsoNormal style='text-align:justify'><b>Problem Write-Ups: </b>For
+each chapter, a collection of problems will be assigned (see WU links in the
 schedule below). </p>
 
-<p class=MsoListParagraphCxSpFirst style='margin-bottom:8.0pt;mso-add-space:
-auto;text-align:justify;text-indent:-.25in;mso-list:l1 level1 lfo2'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>These problems are to be typed and printed out
-to be handed in. No hand-written or email submissions will be allowed. Students
-can use <span class=SpellE>LaTeX</span>, Microsoft Word, or any other appropriate
-software. (<a href="../LaTeX">Here are some <span class=SpellE>LaTeX</span>
-resources</a>.) </p>
+<p class=MsoListParagraphCxSpFirst style='margin-bottom:8.0pt;text-align:justify;
+text-indent:-.25in'><span style='font-family:Symbol'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>These problems are to be typed and printed out to be handed in.
+No hand-written or email submissions will be allowed. Students can use LaTeX,
+Microsoft Word, or any other appropriate software. (<a href="../LaTeX">Here are
+some LaTeX resources</a>.) </p>
 
-<p class=MsoListParagraphCxSpMiddle style='margin-bottom:8.0pt;mso-add-space:
-auto;text-align:justify;text-indent:-.25in;mso-list:l1 level1 lfo2'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Proper punctuation, grammar, fonts, and
-formatting are expected (in other words, it should look like something from a
-textbook: important equations centered and on their own line, multi-line
-formulas or equalities properly <span class=GramE>aligned,</span> variables
-italicized, standard notation, etc.). Write-ups should contain the problem
-numbers and statement of the problem in addition to the solution. For more
-details, refer to these <a
+<p class=MsoListParagraphCxSpMiddle style='margin-bottom:8.0pt;text-align:justify;
+text-indent:-.25in'><span style='font-family:Symbol'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Proper punctuation, grammar, fonts, and formatting are expected
+(in other words, it should look like something from a textbook: important
+equations centered and on their own line, multi-line formulas or equalities
+properly aligned, variables italicized, standard notation, etc.). Write-ups
+should contain the problem numbers and statement of the problem in addition to
+the solution. For more details, refer to these <a
 href="http://course1.winona.edu/eerrthum/LaTeX/WritingGuides.pdf">Writing
 Guidelines</a>.</p>
 
-<p class=MsoListParagraphCxSpMiddle style='margin-bottom:8.0pt;mso-add-space:
-auto;text-align:justify;text-indent:-.25in;mso-list:l1 level1 lfo2'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Problems will be worth 5 points apiece: 2 points
-for correct mathematical idea, 2 points for correct mathematical exposition, 1
-point for formatting/grammar. </p>
+<p class=MsoListParagraphCxSpMiddle style='margin-bottom:8.0pt;text-align:justify;
+text-indent:-.25in'><span style='font-family:Symbol'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Problems will be worth 5 points apiece: 2 points for correct
+mathematical idea, 2 points for correct mathematical exposition, 1 point for
+formatting/grammar. </p>
 
-<p class=MsoListParagraphCxSpMiddle style='margin-bottom:8.0pt;mso-add-space:
-auto;text-align:justify;text-indent:-.25in;mso-list:l1 level1 lfo2'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Many of these problems are posed as “prove or
-disprove”. In the event of a “disproof”, students must adequately disprove the
-original statement. In addition, though, students can earn 1 extra credit point
-for rephrasing the statement into something true (if possible) and another 1
-extra credit point for a correct proof of this revised statement.</p>
+<p class=MsoListParagraphCxSpMiddle style='margin-bottom:8.0pt;text-align:justify;
+text-indent:-.25in'><span style='font-family:Symbol'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Many of these problems are posed as â€œprove or disproveâ€. In the
+event of a â€œdisproofâ€, students must adequately disprove the original
+statement. In addition, though, students can earn 1 extra credit point for
+rephrasing the statement into something true (if possible) and another 1 extra
+credit point for a correct proof of this revised statement.</p>
 
-<p class=MsoListParagraphCxSpMiddle style='margin-bottom:8.0pt;mso-add-space:
-auto;text-align:justify;text-indent:-.25in;mso-list:l1 level1 lfo2'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Students may submit up to 3 attempts on a
-problem; your final grade for the problem will be the average of all
-submissions. When you submit a revision, include any previous submissions. </p>
+<p class=MsoListParagraphCxSpMiddle style='margin-bottom:8.0pt;text-align:justify;
+text-indent:-.25in'><span style='font-family:Symbol'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Students may submit up to 3 attempts on a problem; your final
+grade for the problem will be the average of all submissions. When you submit a
+revision, include any previous submissions. </p>
 
-<p class=MsoListParagraphCxSpLast style='margin-bottom:8.0pt;mso-add-space:
-auto;text-align:justify;text-indent:-.25in;mso-list:l1 level1 lfo2'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>This work should be considered <b
-style='mso-bidi-font-weight:normal'>individual work</b> and near-identical
-submissions will result in a score of zero for both students.</p>
+<p class=MsoListParagraphCxSpLast style='margin-bottom:8.0pt;text-align:justify;
+text-indent:-.25in'><span style='font-family:Symbol'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>This work should be considered <b>individual work</b> and
+near-identical submissions will result in a score of zero for both students.</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>Portfolio:<span style='mso-tab-count:1'>        </span></b>At
-the end of the semester, students will submit the drafts and final submission of
-5 problem write-ups along with a reflection of what they learned from each
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Portfolio:Â Â Â Â Â Â  </b>At
+the end of the semester, students will submit the drafts and final submission
+of 5 problem write-ups along with a reflection of what they learned from each
 problem and/or a narrative of how revising each problem changed their
-subsequent work. Students can choose any 5 problems from the semester, but no more
-than 2 problems from the same chapter. The rubric will be based on 10 points
-per problem: 2 for final mathematical correctness, 2 for exposition of
+subsequent work. Students can choose any 5 problems from the semester, but no
+more than 2 problems from the same chapter. The rubric will be based on 10
+points per problem: 2 for final mathematical correctness, 2 for exposition of
 solution, and 6 for depth of reflection. November 28<sup>th</sup> is the last
 day to hand in problems to be revised and returned before the last day of
-class. Portfolios are due (in the box outside my office) at <b
-style='mso-bidi-font-weight:normal'>11am on Thursday, December 8.</b></p>
+class. Portfolios are due (in the box outside my office) at <b>11am on
+Thursday, December 8.</b></p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify;tab-stops:
-.75in'><b style='mso-bidi-font-weight:normal'>Quizzes:</b> <span
-style='mso-tab-count:1'>   </span>We will have a short (approx. 15-minute) quiz
-periodically (about once a week, see schedule below). Each quiz will count for
-15 points and the lowest quiz will be dropped from your grade. Quiz problems
-will be drawn solely from the Quiz Preparation (QP) questions from the Judson
-text listed in the schedule below (extra credit questions might not be).
-Students are encouraged to work together on these problems outside of class.</p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Quizzes:</b>
+Â  We will have a short (approx. 15-minute) quiz periodically (about once a
+week, see schedule below). Each quiz will count for 15 points and the lowest
+quiz will be dropped from your grade. Quiz problems will be drawn solely from
+the Quiz Preparation (QP) questions from the Judson text listed in the schedule
+below (extra credit questions might not be). Students are encouraged to work
+together on these problems outside of class.</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify;tab-stops:
-.75in'><b style='mso-bidi-font-weight:normal'>Exams:</b><span style='mso-tab-count:
-1'>     </span>There will be two in-class exams and one comprehensive final exam,
-potentially with take-home portions. Exam dates are tentative until officially
-announced in class. The final exam is tentatively scheduled for <b
-style='mso-bidi-font-weight:normal'>Wednesday, December 7, 8:00am – 10:00am</b>.</p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Exams:</b>Â Â Â Â  There
+will be two in-class exams and one comprehensive final exam, potentially with
+take-home portions. Exam dates are tentative until officially announced in
+class. The final exam is tentatively scheduled for <b>Wednesday, December 7,
+8:00am â€“ 10:00am</b>.</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify;tab-stops:
-.75in'><b style='mso-bidi-font-weight:normal'>Essay Reflections:<span
-style='mso-tab-count:1'>     </span></b>Students will write a 1-2 page (size 12
-font, single spaced, 1” margins) reflection on each of three essays on current
-issues in mathematics:</p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Essay
+Reflections:Â Â Â Â  </b>Students will write a 1-2 page (size 12 font, single
+spaced, 1â€ margins) reflection on each of three essays on current issues in
+mathematics:</p>
 
 <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-margin-bottom:8.0pt;margin-left:39.35pt;mso-add-space:auto;text-align:justify;
-text-indent:-.25in;mso-list:l0 level1 lfo4;tab-stops:.75in'><![if !supportLists]><span
-style='font-family:"Arial","sans-serif";mso-fareast-font-family:Arial'><span
-style='mso-list:Ignore'>•<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Essay 1: <a
-href="http://www.maa.org/devlin/devlin_06_10.html">“In Math You Have to
-Remember, In Other Subjects You Can Think About It” by Keith Devlin</a></p>
+margin-bottom:8.0pt;margin-left:39.35pt;text-align:justify;text-indent:-.25in'><span
+style='font-family:"Arial",sans-serif'>â€¢<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Essay 1: <a href="http://www.maa.org/devlin/devlin_06_10.html">â€œIn
+Math You Have to Remember, In Other Subjects You Can Think About Itâ€ by Keith
+Devlin</a></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-margin-bottom:8.0pt;margin-left:39.35pt;mso-add-space:auto;text-align:justify;
-text-indent:-.25in;mso-list:l0 level1 lfo4;tab-stops:.75in'><![if !supportLists]><span
-style='font-family:"Arial","sans-serif";mso-fareast-font-family:Arial'><span
-style='mso-list:Ignore'>•<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Essay 2: <a
-href="http://www.maa.org/devlin/LockhartsLament.pdf">“A Mathematician’s Lament”
-by Paul Lockhart</a>.</p>
+margin-bottom:8.0pt;margin-left:39.35pt;text-align:justify;text-indent:-.25in'><span
+style='font-family:"Arial",sans-serif'>â€¢<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Essay 2: <a href="http://www.maa.org/devlin/LockhartsLament.pdf">â€œA
+Mathematicianâ€™s Lamentâ€ by Paul Lockhart</a>.</p>
 
 <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-margin-bottom:8.0pt;margin-left:39.35pt;mso-add-space:auto;text-align:justify;
-text-indent:-.25in;mso-list:l0 level1 lfo4;tab-stops:.75in'><![if !supportLists]><span
-style='font-family:"Arial","sans-serif";mso-fareast-font-family:Arial'><span
-style='mso-list:Ignore'>•<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Essay 3: <a href="math%20vision.pdf">“Visions of
-Mathematics” by Ben Daley</a> … and <a
-href="http://www.ted.com/talks/arthur_benjamin_s_formula_for_changing_math_education.html">“Arthur
-Benjamin's formula for changing math education” by Art Benjamin</a></p>
+margin-bottom:8.0pt;margin-left:39.35pt;text-align:justify;text-indent:-.25in'><span
+style='font-family:"Arial",sans-serif'>â€¢<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Essay 3: <a href="math%20vision.pdf">â€œVisions of Mathematicsâ€ by
+Ben Daley</a> â€¦ and <a
+href="http://www.ted.com/talks/arthur_benjamin_s_formula_for_changing_math_education.html">â€œArthur
+Benjamin's formula for changing math educationâ€ by Art Benjamin</a></p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify;tab-stops:
-.75in'>The due dates are given in the schedule below. Grades will be determined
-by the level and depth of your reflection as well as on readability/grammar. If
-you having <span class=GramE>trouble getting</span> started, consider these <a
-href="../ReflectionPrompts.pdf">optional prompts</a>. However, the reflection
-is to be written as one coherent piece, not just answers to questions.</p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'>The due dates
+are given in the schedule below. Grades will be determined by the level and
+depth of your reflection as well as on readability/grammar. If you having
+trouble getting started, consider these <a href="../ReflectionPrompts.pdf">optional
+prompts</a>. However, the reflection is to be written as one coherent piece,
+not just answers to questions.</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>Late/Missed Work: </b>Late homework or
-missed quizzes will result in a score of zero. Make-up quizzes and make-up
-exams <b style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:
-normal'>before the time of the normal quiz or exam </i></b>will be given at the
-discretion of the instructor. If you miss class, it is your responsibility to
-obtain notes and assignments from fellow students. If you have an unavoidable
-absence, please inform the instructor beforehand.</p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Late/Missed
+Work: </b>Late homework or missed quizzes will result in a score of zero.
+Make-up quizzes and make-up exams <b><i>before the time of the normal quiz or
+exam </i></b>will be given at the discretion of the instructor. If you miss
+class, it is your responsibility to obtain notes and assignments from fellow
+students. If you have an unavoidable absence, please inform the instructor
+beforehand.</p>
 
-<p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>Desire2Learn:<span style='mso-tab-count:
-1'>            </span></b>Many course materials can be found on <a
-href="https://winona.ims.mnscu.edu/">D2L</a> including solutions to quizzes and
-exams and <b style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:
-normal'>approximate</i> </b>grades. If at any point during the semester you
-would like to know your exact grade, please email the instructor.</p>
+<p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'><b>Desire2Learn:Â Â Â Â Â Â Â Â Â Â  </b>Many
+course materials can be found on <a href="https://winona.ims.mnscu.edu/">D2L</a>
+including solutions to quizzes and exams and <b><i>approximate</i> </b>grades.
+If at any point during the semester you would like to know your exact grade,
+please email the instructor.</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>Resources:</b><span style='mso-tab-count:
-1'>      </span>All students are advised to read these general <a
-href="../ProofTips.pdf">Tips for Proof Writing</a>. Also, you are encouraged to
-visit me in my office (see schedule on <a
-href="http://course1.winona.edu/eerrthum">my home page</a>, or by appointment
-on any day) or e-mail me. </p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Resources:</b>Â Â Â Â  All
+students are advised to read these general <a href="../ProofTips.pdf">Tips for
+Proof Writing</a>. Also, you are encouraged to visit me in my office (see
+schedule on <a href="http://course1.winona.edu/eerrthum">my home page</a>, or
+by appointment on any day) or e-mail me. </p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>Academic Dishonesty:<span
-style='mso-spacerun:yes'>  </span></b>Any type of academic dishonesty
-(cheating, copying, using solution manuals, etc.) will result in failure and
-will be reported to school authorities. If you are having trouble with an
-assignment, please see the instructor first.</p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Academic
+Dishonesty:Â  </b>Any type of academic dishonesty (cheating, copying, using
+solution manuals, etc.) will result in failure and will be reported to school
+authorities. If you are having trouble with an assignment, please see the
+instructor first.</p>
 
-<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
-normal'>Note:<span style='mso-tab-count:1'>   </span></b>This syllabus is
+<p class=MsoNormal style='text-align:justify'><b>Note:Â Â  </b>This syllabus is
 subject to change if deemed necessary by the instructor.</p>
 
-<span style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
-"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
-mso-bidi-language:AR-SA'><br clear=all style='page-break-before:always'>
-</span>
+<br clear=all style='page-break-before:always'>
 
 <p class=MsoNormal align=center style='text-align:center'><span
-style='font-size:14.0pt'>Tentative Schedule of Events – Math 440<o:p></o:p></span></p>
+style='font-size:14.0pt'>Tentative Schedule of Events â€“ Math 440</span></p>
 
-<p class=MsoNormal align=center style='text-align:center'>(<span class=GramE>subject</span>
-to change)</p>
+<p class=MsoNormal align=center style='text-align:center'>(subject to change)</p>
 
-<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+<p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
 
 <div align=center>
 
-<table class=MsoNormalTable border=1 cellpadding=0 width="74%"
- style='width:74.52%;mso-cellspacing:1.5pt;border:outset 1.5pt;mso-yfti-tbllook:
- 1184;mso-padding-alt:0in 5.75pt 0in 5.75pt'>
- <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+<table class=MsoNormalTable border=1 cellspacing=3 cellpadding=0 width="74%"
+ style='width:74.52%;border:outset 1.5pt'>
+ <tr>
   <td width="12%" style='width:12.18%;border:inset 1.0pt;border-top:inset 1.5pt;
-  mso-border-alt:inset windowtext .75pt;mso-border-top-alt:inset windowtext 1.5pt;
   padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Week Beginning</p>
   </td>
   <td width="27%" style='width:27.06%;border:inset 1.0pt;border-top:inset 1.5pt;
-  mso-border-alt:inset windowtext .75pt;mso-border-top-alt:inset windowtext 1.5pt;
   padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Monday</p>
   </td>
   <td width="28%" style='width:28.16%;border:inset 1.0pt;border-top:inset 1.5pt;
-  mso-border-alt:inset windowtext .75pt;mso-border-top-alt:inset windowtext 1.5pt;
   padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Wednesday</p>
   </td>
   <td width="31%" style='width:31.62%;border:inset 1.0pt;border-top:inset 1.5pt;
-  mso-border-alt:inset windowtext .75pt;mso-border-top-alt:inset windowtext 1.5pt;
   padding:0in 5.75pt 0in 5.75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Friday</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:1'>
+ <tr>
   <td width="12%" style='width:12.18%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>8/22</p>
   </td>
   <td width="27%" style='width:27.06%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Introductions</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>1.1</p>
   <p class=MsoNormal align=center style='text-align:center'>1.2</p>
-  <p class=MsoNormal align=center style='text-align:center'>(pages 1 – 5)</p>
+  <p class=MsoNormal align=center style='text-align:center'>(pages 1 â€“ 5)</p>
   </td>
   <td width="28%" style='width:28.16%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>1.2, <span
-  class=SpellE>cont</span><br>
-  (pages 6 – 12)</p>
+  <p class=MsoNormal align=center style='text-align:center'>1.2, cont<br>
+  (pages 6 â€“ 12)</p>
   </td>
   <td width="31%" style='width:31.62%;padding:0in 5.75pt 0in 5.75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>1.2, <span
-  class=SpellE>cont</span><br>
-  (pages 12 – 18)</p>
+  <p class=MsoNormal align=center style='text-align:center'>1.2, cont<br>
+  (pages 12 â€“ 18)</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:2'>
+ <tr>
   <td width="12%" style='width:12.18%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>8/29</p>
   </td>
   <td width="27%" style='width:27.06%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>WU: <a href="440HW/Chapter01.pdf">Chapter
-  1</a> ( <a href="440HW/Chapter01.tex"><span class=SpellE>tex</span></a> ) Due</b><span
-  style='font-size:10.0pt'> </span></p>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Quiz (Chapter 1)</b><span
-  class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-  text-underline:none'><o:p></o:p></span></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>WU: <a
+  href="440HW/Chapter01.pdf">Chapter 1</a> ( <a href="440HW/Chapter01.tex">tex</a>
+  ) Due</b><span style='font-size:10.0pt'> </span></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>Quiz (Chapter 1)</b></p>
   <p class=MsoNormal align=center style='text-align:center'>QP: 4-16, 20-22,
   24-25</p>
   <p class=MsoNormal align=center style='text-align:center'>2.1<br>
-  (pages 23 – 25)<span class=MsoHyperlink><b style='mso-bidi-font-weight:normal'><span
-  style='color:windowtext;text-decoration:none;text-underline:none'><o:p></o:p></span></b></span></p>
+  (pages 23 â€“ 25)</p>
   </td>
   <td width="28%" style='width:28.16%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>2.1, <span
-  class=SpellE>cont</span></p>
+  <p class=MsoNormal align=center style='text-align:center'>2.1, cont</p>
   <p class=MsoNormal align=center style='text-align:center'>2.2<br>
-  (pages 26 – 30)</p>
+  (pages 26 â€“ 30)</p>
   </td>
   <td width="31%" style='width:31.62%;padding:0in 5.75pt 0in 5.75pt'>
   <p class=MsoNormal align=center style='text-align:center'>2.2, cont.</p>
   <p class=MsoNormal align=center style='text-align:center'>3.1</p>
-  <p class=MsoNormal align=center style='text-align:center'>(pages 31 – 32, 37
-  – 40)</p>
+  <p class=MsoNormal align=center style='text-align:center'>(pages 31 â€“ 32, 37
+  â€“ 40)</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:3'>
+ <tr>
   <td width="12%" style='width:12.18%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>9/5</p>
   </td>
   <td width="27%" style='width:27.06%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
-  style='color:#4F81BD;mso-themecolor:accent1'>Labor Day<br>
+  style='color:#156082'>Labor Day<br>
   No Class</span></p>
   </td>
   <td width="28%" style='width:28.16%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'><b>WU: <a
-  href="440HW/Chapter02.pdf">Chapter 2</a> ( <a href="440HW/Chapter02.tex"><span
-  class=SpellE>tex</span></a> ) Due<span class=MsoHyperlink><span
-  style='color:windowtext;text-decoration:none;text-underline:none'><o:p></o:p></span></span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b>Quiz (Chapter 2)</b><span
-  class=MsoHyperlink><span style='color:windowtext;mso-bidi-font-weight:bold;
-  text-decoration:none;text-underline:none'><o:p></o:p></span></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-bidi-font-weight:bold'>QP: 1-6, 9-10, 15ab, 16, 18, 24-27<span
-  class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-  text-underline:none'><o:p></o:p></span></span></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-bidi-font-weight:bold'>3.1, <span class=SpellE>cont</span><span
-  class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-  text-underline:none'><o:p></o:p></span></span></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-bidi-font-weight:bold'>(pages 40 – 42)</span></p>
+  href="440HW/Chapter02.pdf">Chapter 2</a> ( <a href="440HW/Chapter02.tex">tex</a>
+  ) Due</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>Quiz (Chapter 2)</b></p>
+  <p class=MsoNormal align=center style='text-align:center'>QP: 1-6, 9-10,
+  15ab, 16, 18, 24-27</p>
+  <p class=MsoNormal align=center style='text-align:center'>3.1, cont</p>
+  <p class=MsoNormal align=center style='text-align:center'>(pages 40 â€“ 42)</p>
   </td>
   <td width="31%" style='width:31.62%;padding:0in 5.75pt 0in 5.75pt'>
   <p class=MsoNormal align=center style='text-align:center'>3.2<br>
-  (pages 42 – 46)<span class=MsoHyperlink><span style='color:windowtext;
-  mso-bidi-font-weight:bold;text-decoration:none;text-underline:none'><o:p></o:p></span></span></p>
+  (pages 42 â€“ 46)</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:4'>
+ <tr>
   <td width="12%" style='width:12.18%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>9/12</p>
   </td>
@@ -1128,31 +400,24 @@ to change)</p>
   <p class=MsoNormal align=center style='text-align:center'>Group Activity</p>
   </td>
   <td width="28%" style='width:28.16%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-spacerun:yes'> </span>3.2, <span class=SpellE>cont</span></p>
+  <p class=MsoNormal align=center style='text-align:center'>Â 3.2, cont</p>
   <p class=MsoNormal align=center style='text-align:center'>3.3</p>
-  <p class=MsoNormal align=center style='text-align:center'>(pages 46 – 50)</p>
+  <p class=MsoNormal align=center style='text-align:center'>(pages 46 â€“ 50)</p>
   </td>
   <td width="31%" style='width:31.62%;padding:0in 5.75pt 0in 5.75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-spacerun:yes'> </span>3.3, <span class=SpellE>cont</span></p>
-  <p class=MsoNormal align=center style='text-align:center'>(pages 50 – 51)</p>
+  <p class=MsoNormal align=center style='text-align:center'>Â 3.3, cont</p>
+  <p class=MsoNormal align=center style='text-align:center'>(pages 50 â€“ 51)</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:5'>
+ <tr>
   <td width="12%" style='width:12.18%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>9/19</p>
   </td>
   <td width="27%" style='width:27.06%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>WU: <a href="440HW/Chapter03.pdf">Chapter
-  3</a> ( <a href="440HW/Chapter03.tex"><span class=SpellE>tex</span></a> ) Due<span
-  class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-  text-underline:none'><o:p></o:p></span></span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Quiz (Chapter 3)</b><span
-  class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-  text-underline:none'><o:p></o:p></span></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>WU: <a
+  href="440HW/Chapter03.pdf">Chapter 3</a> ( <a href="440HW/Chapter03.tex">tex</a>
+  ) Due</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>Quiz (Chapter 3)</b></p>
   <p class=MsoNormal align=center style='text-align:center'>QP: 1, 3, 6-14, 24,
   30-32, 40-42, 48-52</p>
   <p class=MsoNormal align=center style='text-align:center'>Exam Review<b> </b></p>
@@ -1162,237 +427,174 @@ to change)</p>
   </td>
   <td width="31%" style='width:31.62%;padding:0in 5.75pt 0in 5.75pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><a
-  href="http://www.maa.org/devlin/devlin_06_10.html">Essay 1</a> Reflection Due<span
-  class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-  text-underline:none'><o:p></o:p></span></span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-bidi-font-weight:bold'>4.1<br>
-  (pages 59 – 63)<span class=MsoHyperlink><b><span style='color:windowtext;
-  text-decoration:none;text-underline:none'><o:p></o:p></span></b></span></span></p>
+  href="http://www.maa.org/devlin/devlin_06_10.html">Essay 1</a> Reflection Due</b></p>
+  <p class=MsoNormal align=center style='text-align:center'>4.1<br>
+  (pages 59 â€“ 63)</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:6'>
+ <tr>
   <td width="12%" style='width:12.18%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>9/26</p>
   </td>
   <td width="27%" style='width:27.06%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>4.2<br>
-  (pages 63 – 68)<span class=MsoHyperlink><span style='color:windowtext;
-  mso-bidi-font-weight:bold;text-decoration:none;text-underline:none'><o:p></o:p></span></span></p>
+  (pages 63 â€“ 68)</p>
   </td>
   <td width="28%" style='width:28.16%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>WU: <a href="440HW/Chapter04.pdf">Chapter
-  4</a> ( <a href="440HW/Chapter04.tex"><span class=SpellE>tex</span></a> ) Due</b>
-  </p>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Quiz (Chapter 4)</b><span
-  class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-  text-underline:none'><o:p></o:p></span></span></p>
-  <p class=MsoNormal align=center style='text-align:center'>QP: 1, 3 – 6, 9 –
-  21, 23 – 27, 29 – 33, 39, 43 – 44</p>
-  <p class=MsoNormal align=center style='text-align:center'>5.1<span
-  class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-  text-underline:none'><o:p></o:p></span></span></p>
-  <p class=MsoNormal align=center style='text-align:center'>(pages 76 – 78)</p>
+  <p class=MsoNormal align=center style='text-align:center'><b>WU: <a
+  href="440HW/Chapter04.pdf">Chapter 4</a> ( <a href="440HW/Chapter04.tex">tex</a>
+  ) Due</b> </p>
+  <p class=MsoNormal align=center style='text-align:center'><b>Quiz (Chapter 4)</b></p>
+  <p class=MsoNormal align=center style='text-align:center'>QP: 1, 3 â€“ 6, 9 â€“
+  21, 23 â€“ 27, 29 â€“ 33, 39, 43 â€“ 44</p>
+  <p class=MsoNormal align=center style='text-align:center'>5.1</p>
+  <p class=MsoNormal align=center style='text-align:center'>(pages 76 â€“ 78)</p>
   </td>
   <td width="31%" style='width:31.62%;padding:0in 5.75pt 0in 5.75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>5.1, <span
-  class=SpellE>cont</span></p>
-  <p class=MsoNormal align=center style='text-align:center'>(pages 78 – 83)<span
-  class=MsoHyperlink><span style='color:#4F81BD;mso-themecolor:accent1;
-  mso-bidi-font-weight:bold;text-decoration:none;text-underline:none'><o:p></o:p></span></span></p>
+  <p class=MsoNormal align=center style='text-align:center'>5.1, cont</p>
+  <p class=MsoNormal align=center style='text-align:center'>(pages 78 â€“ 83)</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:7'>
+ <tr>
   <td width="12%" style='width:12.18%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>10/3</p>
   </td>
   <td width="27%" style='width:27.06%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-bidi-font-weight:bold'>5.1, <span class=SpellE>cont</span><span
-  class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-  text-underline:none'><o:p></o:p></span></span></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-bidi-font-weight:bold'>5.2<span class=MsoHyperlink><span
-  style='color:windowtext;text-decoration:none;text-underline:none'><o:p></o:p></span></span></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-bidi-font-weight:bold'>(pages 84 – 90)</span></p>
+  <p class=MsoNormal align=center style='text-align:center'>5.1, cont</p>
+  <p class=MsoNormal align=center style='text-align:center'>5.2</p>
+  <p class=MsoNormal align=center style='text-align:center'>(pages 84 â€“ 90)</p>
   </td>
   <td width="28%" style='width:28.16%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-bidi-font-weight:bold'>Permutation Groups <br>
-  Group Activity</span></p>
+  <p class=MsoNormal align=center style='text-align:center'>Permutation Groups <br>
+  Group Activity</p>
   </td>
   <td width="31%" style='width:31.62%;padding:0in 5.75pt 0in 5.75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>WU: <a href="440HW/Chapter05.pdf">Chapter
-  5</a> ( <a href="440HW/Chapter05.tex"><span class=SpellE>tex</span></a> ) Due</b>
-  </p>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Quiz (Chapter 5)</b><span
-  class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-  text-underline:none'><o:p></o:p></span></span></p>
-  <p class=MsoNormal align=center style='text-align:center'>QP: 1 – 4, 6, 12 –
-  14, 16 – 24, 27, 30 – 35<br>
-  6.1<span class=MsoHyperlink><span style='color:windowtext;text-decoration:
-  none;text-underline:none'><o:p></o:p></span></span></p>
-  <p class=MsoNormal align=center style='text-align:center'>(pages 94 – 96)<span
-  class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-  text-underline:none'><o:p></o:p></span></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>WU: <a
+  href="440HW/Chapter05.pdf">Chapter 5</a> ( <a href="440HW/Chapter05.tex">tex</a>
+  ) Due</b> </p>
+  <p class=MsoNormal align=center style='text-align:center'><b>Quiz (Chapter 5)</b></p>
+  <p class=MsoNormal align=center style='text-align:center'>QP: 1 â€“ 4, 6, 12 â€“
+  14, 16 â€“ 24, 27, 30 â€“ 35<br>
+  6.1</p>
+  <p class=MsoNormal align=center style='text-align:center'>(pages 94 â€“ 96)</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:8'>
+ <tr>
   <td width="12%" style='width:12.18%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>10/10</p>
   </td>
   <td width="27%" style='width:27.06%;padding:0in 5.75pt 0in 5.75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-bidi-font-weight:bold'>6.1, <span class=SpellE>cont</span><span
-  class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-  text-underline:none'><o:p></o:p></span></span></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-bidi-font-weight:bold'>6.2, 6.3<span class=MsoHyperlink><span
-  style='color:windowtext;text-decoration:none;text-underline:none'><o:p></o:p></span></span></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-bidi-font-weight:bold'>pages (96 – 100)</span></p>
+  <p class=MsoNormal align=center style='text-align:center'>6.1, cont</p>
+  <p class=MsoNormal align=center style='text-align:center'>6.2, 6.3</p>
+  <p class=MsoNormal align=center style='text-align:center'>pages (96 â€“ 100)</p>
   </td>
   <td width="28%" style='width:28.16%;padding:0in 5.75pt 0in 5.75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-bidi-font-weight:bold'>9.1</span><span class=MsoHyperlink><span
-  style='color:windowtext;text-decoration:none;text-underline:none'><o:p></o:p></span></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-bidi-font-weight:bold'>(pages 142 – 147)<span class=MsoHyperlink><span
-  style='color:windowtext;text-decoration:none;text-underline:none'><o:p></o:p></span></span></span></p>
+  <p class=MsoNormal align=center style='text-align:center'>9.1</p>
+  <p class=MsoNormal align=center style='text-align:center'>(pages 142 â€“ 147)</p>
   </td>
   <td width="31%" style='width:31.62%;padding:0in 5.75pt 0in 5.75pt'>
   <p class=MsoNormal align=center style='text-align:center'>9.2</p>
-  <p class=MsoNormal align=center style='text-align:center'>(pages 147 – 152)<span
-  class=MsoHyperlink><span style='color:windowtext;mso-bidi-font-weight:bold;
-  text-decoration:none;text-underline:none'><o:p></o:p></span></span></p>
+  <p class=MsoNormal align=center style='text-align:center'>(pages 147 â€“ 152)</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:9'>
+ <tr>
   <td width="12%" style='width:12.18%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>10/17</p>
   </td>
   <td width="27%" style='width:27.06%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE>Cosets</span>
-  and <span class=SpellE>Isomorphisms</span> <br>
+  <p class=MsoNormal align=center style='text-align:center'>Cosets and
+  Isomorphisms <br>
   Group Activity</p>
   </td>
   <td width="28%" style='width:28.16%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>WU: <a href="440HW/Chapters06&amp;09.pdf">Chapter
-  6 &amp; 9</a> ( <a href="440HW/Chapters06&amp;09.tex"><span class=SpellE>tex</span></a>
-  ) Due<span class=MsoHyperlink><span style='color:windowtext;text-decoration:
-  none;text-underline:none'><o:p></o:p></span></span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-spacerun:yes'> </span><b style='mso-bidi-font-weight:normal'>Quiz
-  (Chapters 6 &amp; 9)<span class=MsoHyperlink><span style='color:windowtext;
-  text-decoration:none;text-underline:none'><o:p></o:p></span></span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'>QP: (Chapter 6) 1 –
-  6, 11 – 12, 16 – 20<br>
-  (Chapter 9) 1 – 3, 5 – 7, 9, 13 – 14, 16, 22, 27 – 28, 31, 34 – 39, 44</p>
+  <p class=MsoNormal align=center style='text-align:center'><b>WU: <a
+  href="440HW/Chapters06&amp;09.pdf">Chapter 6 &amp; 9</a> ( <a
+  href="440HW/Chapters06&amp;09.tex">tex</a> ) Due</b></p>
+  <p class=MsoNormal align=center style='text-align:center'>Â <b>Quiz (Chapters
+  6 &amp; 9)</b></p>
+  <p class=MsoNormal align=center style='text-align:center'>QP: (Chapter 6) 1 â€“
+  6, 11 â€“ 12, 16 â€“ 20<br>
+  (Chapter 9) 1 â€“ 3, 5 â€“ 7, 9, 13 â€“ 14, 16, 22, 27 â€“ 28, 31, 34 â€“ 39, 44</p>
   <p class=MsoNormal align=center style='text-align:center'>10.1</p>
-  <p class=MsoNormal align=center style='text-align:center'>(pages 156 – 158)</p>
+  <p class=MsoNormal align=center style='text-align:center'>(pages 156 â€“ 158)</p>
   </td>
   <td width="31%" style='width:31.62%;padding:0in 5.75pt 0in 5.75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>10.1, cont.<span
-  class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-  text-underline:none'><o:p></o:p></span></span></p>
-  <p class=MsoNormal align=center style='text-align:center'>(pages 158 – 159)</p>
+  <p class=MsoNormal align=center style='text-align:center'>10.1, cont.</p>
+  <p class=MsoNormal align=center style='text-align:center'>(pages 158 â€“ 159)</p>
   <p class=MsoNormal align=center style='text-align:center'>11.1</p>
-  <p class=MsoNormal align=center style='text-align:center'>(pages 166 – 168)</p>
+  <p class=MsoNormal align=center style='text-align:center'>(pages 166 â€“ 168)</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:10'>
+ <tr>
   <td width="12%" style='width:12.18%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>10/24</p>
   </td>
   <td width="27%" style='width:27.06%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>11.2</p>
-  <p class=MsoNormal align=center style='text-align:center'>(pages 168 – 172)<b
-  style='mso-bidi-font-weight:normal'> </b><span class=MsoHyperlink><span
-  style='color:windowtext;text-decoration:none;text-underline:none'><o:p></o:p></span></span></p>
+  <p class=MsoNormal align=center style='text-align:center'>(pages 168 â€“ 172)<b>
+  </b></p>
   </td>
   <td width="28%" style='width:28.16%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='mso-spacerun:yes'> </span></b>11.2
+  <p class=MsoNormal align=center style='text-align:center'><b>Â </b>11.2
   wrap-up<br>
-  Exam Review<span class=MsoHyperlink><span style='color:windowtext;text-decoration:
-  none;text-underline:none'><o:p></o:p></span></span></p>
+  Exam Review</p>
   </td>
   <td width="31%" style='width:31.62%;padding:0in 5.75pt 0in 5.75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Exam II</b> </p>
+  <p class=MsoNormal align=center style='text-align:center'><b>Exam II</b> </p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:11'>
+ <tr>
   <td width="12%" style='width:12.18%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>10/31</p>
   </td>
   <td width="27%" style='width:27.06%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><a
+  <p class=MsoNormal align=center style='text-align:center'><b><a
   href="http://www.maa.org/devlin/LockhartsLament.pdf">Essay 2</a> Reflection
-  Due<span class=MsoHyperlink><span style='color:windowtext;text-decoration:
-  none;text-underline:none'><o:p></o:p></span></span></b></p>
+  Due</b></p>
   <p class=MsoNormal align=center style='text-align:center'>16.1</p>
-  <p class=MsoNormal align=center style='text-align:center'>(pages 240 – 243)<span
-  class=MsoHyperlink><span style='color:#4F81BD;mso-themecolor:accent1;
-  text-decoration:none;text-underline:none'><o:p></o:p></span></span></p>
+  <p class=MsoNormal align=center style='text-align:center'>(pages 240 â€“ 243)</p>
   </td>
   <td width="28%" style='width:28.16%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>16.2</p>
-  <p class=MsoNormal align=center style='text-align:center'>(pages 243 – 246)</p>
+  <p class=MsoNormal align=center style='text-align:center'>(pages 243 â€“ 246)</p>
   </td>
   <td width="31%" style='width:31.62%;padding:0in 5.75pt 0in 5.75pt'>
   <p class=MsoNormal align=center style='text-align:center'>16.3</p>
-  <p class=MsoNormal align=center style='text-align:center'>(pages 246 – 248)</p>
+  <p class=MsoNormal align=center style='text-align:center'>(pages 246 â€“ 248)</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:12'>
+ <tr>
   <td width="12%" style='width:12.18%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>11/7</p>
   </td>
   <td width="27%" style='width:27.06%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>16.3, <span
-  class=SpellE>cont</span></p>
-  <p class=MsoNormal align=center style='text-align:center'>(pages 248 – 253)<span
-  class=MsoHyperlink><span style='color:#4F81BD;mso-themecolor:accent1;
-  text-decoration:none;text-underline:none'><o:p></o:p></span></span></p>
+  <p class=MsoNormal align=center style='text-align:center'>16.3, cont</p>
+  <p class=MsoNormal align=center style='text-align:center'>(pages 248 â€“ 253)</p>
   </td>
   <td width="28%" style='width:28.16%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>WU: <a href="440HW/Chapter16.pdf">Chapter
-  16</a> ( <a href="440HW/Chapter16.tex"><span class=SpellE>tex</span></a> )
-  Due</b> </p>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Quiz (Chapter 16)</b><span
-  class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-  text-underline:none'><o:p></o:p></span></span></p>
-  <p class=MsoNormal align=center style='text-align:center'>QP: 1 – 13, 16 –
-  19, 21 – 22, 24 – 30, 34 – 35, 38 – 41</p>
-  <p class=MsoNormal align=center style='text-align:center'>17.1<span
-  class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-  text-underline:none'><o:p></o:p></span></span></p>
-  <p class=MsoNormal align=center style='text-align:center'>(pages 264 – 266)</p>
+  <p class=MsoNormal align=center style='text-align:center'><b>WU: <a
+  href="440HW/Chapter16.pdf">Chapter 16</a> ( <a href="440HW/Chapter16.tex">tex</a>
+  ) Due</b> </p>
+  <p class=MsoNormal align=center style='text-align:center'><b>Quiz (Chapter
+  16)</b></p>
+  <p class=MsoNormal align=center style='text-align:center'>QP: 1 â€“ 13, 16 â€“
+  19, 21 â€“ 22, 24 â€“ 30, 34 â€“ 35, 38 â€“ 41</p>
+  <p class=MsoNormal align=center style='text-align:center'>17.1</p>
+  <p class=MsoNormal align=center style='text-align:center'>(pages 264 â€“ 266)</p>
   </td>
   <td width="31%" style='width:31.62%;padding:0in 5.75pt 0in 5.75pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
-  style='color:#4F81BD;mso-themecolor:accent1'>Veteran’s Day<br>
-  No Class</span><span class=MsoHyperlink><span style='color:windowtext;
-  mso-bidi-font-weight:bold;text-decoration:none;text-underline:none'><o:p></o:p></span></span></p>
+  style='color:#156082'>Veteranâ€™s Day<br>
+  No Class</span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:13'>
+ <tr>
   <td width="12%" style='width:12.18%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>11/14</p>
   </td>
   <td width="27%" style='width:27.06%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>17.2, 17.3</p>
-  <p class=MsoNormal align=center style='text-align:center'>(pages 269 – 278)</p>
+  <p class=MsoNormal align=center style='text-align:center'>(pages 269 â€“ 278)</p>
   </td>
   <td width="28%" style='width:28.16%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Activity:</p>
@@ -1401,71 +603,55 @@ to change)</p>
   </td>
   <td width="31%" style='width:31.62%;padding:0in 5.75pt 0in 5.75pt'>
   <p class=MsoNormal align=center style='text-align:center'>17.3, cont.</p>
-  <p class=MsoNormal align=center style='text-align:center'>(pages 273 – 278)</p>
+  <p class=MsoNormal align=center style='text-align:center'>(pages 273 â€“ 278)</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:14'>
+ <tr>
   <td width="12%" style='width:12.18%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>11/21</p>
   </td>
   <td width="27%" style='width:27.06%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>WU: <a href="440HW/Chapter17.pdf">Chapter
-  17</a> ( <a href="440HW/Chapter17.tex"><span class=SpellE>tex</span></a> )
-  Due</b> </p>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Quiz (Chapter 17)</b><span
-  class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-  text-underline:none'><o:p></o:p></span></span></p>
-  <p class=MsoNormal align=center style='text-align:center'>QP: 1 – 7, 9 – 13,
-  15 – 18, 20 – 24(<span class=SpellE>abcd</span>), 25 – 28<br
-  style='mso-special-character:line-break'>
-  <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
-  <![endif]><span class=MsoHyperlink><span style='color:windowtext;text-decoration:
-  none;text-underline:none'><o:p></o:p></span></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>WU: <a
+  href="440HW/Chapter17.pdf">Chapter 17</a> ( <a href="440HW/Chapter17.tex">tex</a>
+  ) Due</b> </p>
+  <p class=MsoNormal align=center style='text-align:center'><b>Quiz (Chapter
+  17)</b></p>
+  <p class=MsoNormal align=center style='text-align:center'>QP: 1 â€“ 7, 9 â€“ 13,
+  15 â€“ 18, 20 â€“ 24(abcd), 25 â€“ 28<br>
+  <br>
+  </p>
   <p class=MsoNormal align=center style='text-align:center'><span
-  class=MsoHyperlink><span style='color:windowtext;mso-bidi-font-weight:bold;
-  text-decoration:none;text-underline:none'>20.1</span></span><span
-  style='mso-bidi-font-weight:bold'><br>
-  <span class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-  text-underline:none'>Vector Spaces<o:p></o:p></span></span></span></p>
+  class=MsoHyperlink><span style='color:windowtext;text-decoration:none'>20.1</span></span><br>
+  <span class=MsoHyperlink><span style='color:windowtext;text-decoration:none'>Vector
+  Spaces</span></span></p>
   </td>
   <td width="59%" colspan=2 style='width:59.98%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
-  style='color:#4F81BD;mso-themecolor:accent1'>Thanksgiving Break<br>
-  No Class<span class=MsoHyperlink><span style='color:#4F81BD;mso-themecolor:
-  accent1;text-decoration:none;text-underline:none'><o:p></o:p></span></span></span></p>
+  style='color:#156082'>Thanksgiving Break<br>
+  No Class</span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:15;mso-yfti-lastrow:yes'>
+ <tr>
   <td width="12%" style='width:12.18%;border:inset 1.0pt;border-bottom:inset 1.5pt;
-  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:inset windowtext 1.5pt;
   padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>11/28</p>
   </td>
   <td width="27%" style='width:27.06%;border:inset 1.0pt;border-bottom:inset 1.5pt;
-  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:inset windowtext 1.5pt;
   padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Essay 3 Reflection Due<span
-  class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-  text-underline:none'><o:p></o:p></span></span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-bidi-font-weight:bold'><br>
-  </span><span class=MsoHyperlink><span style='color:windowtext;text-decoration:
-  none;text-underline:none'>21.1</span></span><br>
-  <span class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-  text-underline:none'>Field Extensions<span style='mso-bidi-font-weight:bold'><o:p></o:p></span></span></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>Essay 3
+  Reflection Due</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><br>
+  <span class=MsoHyperlink><span style='color:windowtext;text-decoration:none'>21.1</span></span><br>
+  <span class=MsoHyperlink><span style='color:windowtext;text-decoration:none'>Field
+  Extensions</span></span></p>
   </td>
   <td width="28%" style='width:28.16%;border:inset 1.0pt;border-bottom:inset 1.5pt;
-  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:inset windowtext 1.5pt;
   padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
-  class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-  text-underline:none'>Geometric Constructions (Activity?)<o:p></o:p></span></span></p>
+  class=MsoHyperlink><span style='color:windowtext;text-decoration:none'>Geometric
+  Constructions (Activity?)</span></span></p>
   </td>
   <td width="31%" style='width:31.62%;border:inset 1.0pt;border-bottom:inset 1.5pt;
-  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:inset windowtext 1.5pt;
   padding:0in 5.75pt 0in 5.75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Final Review</p>
   </td>
@@ -1474,333 +660,236 @@ to change)</p>
 
 </div>
 
-<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
-normal'><span style='font-size:20.0pt'>Final Exam (i.e. Exam III + a tad more)</span></b><span
-class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-text-underline:none'><o:p></o:p></span></span></p>
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:20.0pt'>Final Exam (i.e. Exam III + a tad more)</span></b></p>
 
-<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
-normal'><span style='font-size:20.0pt'>Wednesday, December 7<span
-class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-text-underline:none'><o:p></o:p></span></span></span></b></p>
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:20.0pt'>Wednesday, December 7</span></b></p>
 
-<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
-normal'><span style='font-size:20.0pt'>8:00am – 10:00am<span
-class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-text-underline:none'><o:p></o:p></span></span></span></b></p>
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:20.0pt'>8:00am â€“ 10:00am</span></b></p>
 
-<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
-normal'><span style='font-size:16.0pt'>Welcome to college math!</span></b><span
-class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-text-underline:none'><o:p></o:p></span></span></p>
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:16.0pt'>Welcome to college math!</span></b></p>
 
 <p class=MsoNormal style='text-align:justify'>If this is your first math class
 taken in college, there are some important things you need to know. College
 math classes are run very differently from high school math classes. On the
 surface it may seem they are similar as you listen to the lecture and take
 notes, but there are significant underlying differences. Knowing these ahead of
-time can help you make the most of this coming semester.<span
-class=MsoHyperlink><b style='mso-bidi-font-weight:normal'><span
-style='font-size:14.0pt;color:windowtext;text-decoration:none;text-underline:
-none'><o:p></o:p></span></b></span></p>
+time can help you make the most of this coming semester.</p>
 
 <p class=MsoNormal style='text-align:justify'>#1: College math classes
 generally stay on the schedule in the syllabus. If there is one day allotted to
 the topic that is probably all of the class time that will be spent on it, even
-if “most” of the students “don’t get it.”<span class=MsoHyperlink><span
-style='color:windowtext;text-decoration:none;text-underline:none'><o:p></o:p></span></span></p>
+if â€œmostâ€ of the students â€œdonâ€™t get it.â€</p>
 
 <p class=MsoNormal style='text-align:justify'>#2: It is expected that you will
 read the text and do the problems in order to learn the material, even if no
 one checks up on you. The instructor might never collect the homework, but that
-doesn’t mean it doesn’t affect your grade.<span class=MsoHyperlink><span
-style='color:windowtext;text-decoration:none;text-underline:none'><o:p></o:p></span></span></p>
+doesnâ€™t mean it doesnâ€™t affect your grade.</p>
 
 <p class=MsoNormal style='text-align:justify'>#3: You will sometimes be
 responsible for material in the textbook that is not covered in class. If there
 is a text reading and/or homework problems covering a concept that was not
-discussed in class, you are still expected to learn it. If you don’t understand
-it, make an appointment with your instructor for help.<span class=MsoHyperlink><span
-style='color:windowtext;text-decoration:none;text-underline:none'><o:p></o:p></span></span></p>
+discussed in class, you are still expected to learn it. If you donâ€™t understand
+it, make an appointment with your instructor for help.</p>
 
 <p class=MsoNormal style='text-align:justify'>#4: Some material is covered only
 in class, is not in the textbook, and may not have any homework problems on it.
 If you miss class, you may miss content that you are responsible to know. If
 you have an unavoidable absence, be sure to get the notes and any announcements
-from a classmate.<span class=MsoHyperlink><span style='color:windowtext;
-text-decoration:none;text-underline:none'><o:p></o:p></span></span></p>
+from a classmate.</p>
 
 <p class=MsoNormal style='text-align:justify'>#5: There will be test questions
-that don’t look “just like the homework.” In college, you are expected to focus
-on learning the concepts, not just memorizing how to do certain types of problems.
-These concepts can – and will – appear in very different forms on tests and
-quizzes.<span class=MsoHyperlink><span style='color:windowtext;text-decoration:
-none;text-underline:none'><o:p></o:p></span></span></p>
+that donâ€™t look â€œjust like the homework.â€ In college, you are expected to focus
+on learning the concepts, not just memorizing how to do certain types of
+problems. These concepts can â€“ and will â€“ appear in very different forms on
+tests and quizzes.</p>
 
 <p class=MsoNormal style='text-align:justify'>#6: At times you will be expected
-to be able to explain <i style='mso-bidi-font-style:normal'>why</i> a problem
-is done a certain way in addition to being expected to do the problem. As you
-work on problems in class and on homework, don’t be satisfied with getting the
-correct answer; ask yourself why that method is logical, and how you could
-explain that logic to someone else.<span class=MsoHyperlink><span
-style='color:windowtext;text-decoration:none;text-underline:none'><o:p></o:p></span></span></p>
+to be able to explain <i>why</i> a problem is done a certain way in addition to
+being expected to do the problem. As you work on problems in class and on
+homework, donâ€™t be satisfied with getting the correct answer; ask yourself why
+that method is logical, and how you could explain that logic to someone else.</p>
 
 <p class=MsoNormal style='text-align:justify'>#7: Most importantly, you are
 responsible for your own learning. If you attend class faithfully, get the
 notes and announcements if you have an unavoidable absence, read the text, do
-the homework and question yourself (as in #6), and still don’t understand
+the homework and question yourself (as in #6), and still donâ€™t understand
 something, it is up to you to get the extra help you need. Visit the instructor
 during office hours or make a special appointment to ask questions, form a
 study group, etc. There are many resources and people willing and happy to
-help, but you need to take the initiative and seek out the help you need.<span
-class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-text-underline:none'><o:p></o:p></span></span></p>
+help, but you need to take the initiative and seek out the help you need.</p>
 
-<p class=MsoNormal style='text-align:justify'>Good luck on a happy and successful
-semester!<span class=MsoHyperlink><span style='color:windowtext;text-decoration:
-none;text-underline:none'><o:p></o:p></span></span></p>
+<p class=MsoNormal style='text-align:justify'>Good luck on a happy and
+successful semester!</p>
 
 <p class=MsoNormal style='margin-top:6.0pt'><u><span style='font-size:10.0pt'>Commitment
-to Inclusive Excellence:<span style='mso-spacerun:yes'>  </span>WSU recognizes
-that our individual differences can deepen our understanding of one another and
-the world around us, rather than divide us. In this class, people of all
-ethnicities, genders and gender identities, religions, ages, sexual
-orientations, disabilities, socioeconomic backgrounds, regions, and
-nationalities are strongly encouraged to share their rich array of perspectives
-and experiences.<span style='mso-spacerun:yes'>  </span>If you feel your differences
-may in some way isolate you from WSU’s community or if you have a need of any
+to Inclusive Excellence:Â  WSU recognizes that our individual differences can
+deepen our understanding of one another and the world around us, rather than
+divide us. In this class, people of all ethnicities, genders and gender
+identities, religions, ages, sexual orientations, disabilities, socioeconomic
+backgrounds, regions, and nationalities are strongly encouraged to share their
+rich array of perspectives and experiences.Â  If you feel your differences may
+in some way isolate you from WSUâ€™s community or if you have a need of any
 specific accommodations, please speak with the instructor early in the semester
 about your concerns and what we can do together to help you become an active
-and engaged member of our class and community.<span style='mso-spacerun:yes'> 
-</span></span></u><span class=MsoHyperlink><span style='color:windowtext;
-text-decoration:none;text-underline:none'><o:p></o:p></span></span></p>
+and engaged member of our class and community.Â  </span></u></p>
 
 <h1 align=center style='margin-top:0in;text-align:center'><span
-style='font-size:11.0pt;mso-fareast-font-family:Calibri'>Winona Campus
-Resources</span><span class=MsoHyperlink><span style='mso-fareast-font-family:
-Calibri;color:#365F91;text-decoration:none;text-underline:none'><o:p></o:p></span></span></h1>
+style='font-size:11.0pt'>Winona Campus Resources</span></h1>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
-margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in;mso-list:l2 level1 lfo6;
-tab-stops:list .25in .5in'><![if !supportLists]><span class=MsoHyperlink><span
-style='font-size:10.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
-Arial;color:windowtext;text-decoration:none;text-underline:none'><span
-style='mso-list:Ignore'>•<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span></span><![endif]><span style='font-size:10.0pt'>Student
-Support Services, Krueger Library 219, 457-5465
-(www.winona.edu/studentsupportservices/) </span><span class=MsoHyperlink><span
-style='font-size:10.0pt;mso-fareast-font-family:Calibri;color:windowtext;
-text-decoration:none;text-underline:none'><o:p></o:p></span></span></p>
+margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+class=MsoHyperlink><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:windowtext;text-decoration:none'>â€¢<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><span style='font-size:10.0pt'>Student Support Services,
+Krueger Library 219, 457-5465 (www.winona.edu/studentsupportservices/) </span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
-margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in;mso-list:l2 level1 lfo6;
-tab-stops:list .25in .5in'><![if !supportLists]><span class=MsoHyperlink><span
-style='font-size:10.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
-Arial;color:windowtext;text-decoration:none;text-underline:none'><span
-style='mso-list:Ignore'>•<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span></span><![endif]><span style='font-size:10.0pt'>Inclusion
-and Diversity Office, <span class=SpellE>Kryzsko</span> Commons Room 122,
-457-5595 (www.winona.edu/culturaldiversity/) <span class=MsoHyperlink><span
-style='color:windowtext;text-decoration:none;text-underline:none'><o:p></o:p></span></span></span></p>
+margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+class=MsoHyperlink><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:windowtext;text-decoration:none'>â€¢<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><span style='font-size:10.0pt'>Inclusion and Diversity
+Office, Kryzsko Commons Room 122, 457-5595 (www.winona.edu/culturaldiversity/) </span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
-margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in;mso-list:l2 level1 lfo6;
-tab-stops:list .25in .5in'><![if !supportLists]><span class=MsoHyperlink><span
-style='font-size:10.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
-Arial;color:windowtext;text-decoration:none;text-underline:none'><span
-style='mso-list:Ignore'>•<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span></span><![endif]><span style='font-size:10.0pt'>Disability
-Services, Maxwell 314, 457-5878 (www.winona.edu/disabilityservices/) <span
-class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-text-underline:none'><o:p></o:p></span></span></span></p>
+margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+class=MsoHyperlink><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:windowtext;text-decoration:none'>â€¢<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><span style='font-size:10.0pt'>Disability Services,
+Maxwell 314, 457-5878 (www.winona.edu/disabilityservices/) </span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
-margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in;mso-list:l2 level1 lfo6;
-tab-stops:list .25in .5in'><![if !supportLists]><span class=MsoHyperlink><span
-style='font-size:10.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
-Arial;color:windowtext;text-decoration:none;text-underline:none'><span
-style='mso-list:Ignore'>•<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span></span><![endif]><span style='font-size:10.0pt'>Counseling
-and Wellness Services, Integrated Wellness Center 222, 457-5330
-(www.winona.edu/counselingcenter/)<span class=MsoHyperlink><span
-style='color:windowtext;text-decoration:none;text-underline:none'><o:p></o:p></span></span></span></p>
+margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+class=MsoHyperlink><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:windowtext;text-decoration:none'>â€¢<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><span style='font-size:10.0pt'>Counseling and Wellness
+Services, Integrated Wellness Center 222, 457-5330
+(www.winona.edu/counselingcenter/)</span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
-margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in;mso-list:l2 level1 lfo6;
-tab-stops:list .25in .5in'><![if !supportLists]><span class=MsoHyperlink><span
-style='font-size:10.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
-Arial;color:windowtext;text-decoration:none;text-underline:none'><span
-style='mso-list:Ignore'>•<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span></span><![endif]><span style='font-size:10.0pt'>GLBTA
-Advocate, contact Counseling and Wellness Services for name and number of the
-current<span style='mso-spacerun:yes'>  </span>Advocate <span
-class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-text-underline:none'><o:p></o:p></span></span></span></p>
+margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+class=MsoHyperlink><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:windowtext;text-decoration:none'>â€¢<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><span style='font-size:10.0pt'>GLBTA Advocate, contact
+Counseling and Wellness Services for name and number of the currentÂ  Advocate </span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
-margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in;mso-list:l2 level1 lfo6;
-tab-stops:list .25in .5in'><![if !supportLists]><span class=MsoHyperlink><span
-style='font-size:10.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
-Arial;color:windowtext;text-decoration:none;text-underline:none'><span
-style='mso-list:Ignore'>•<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span></span><![endif]><span style='font-size:10.0pt'>Tutoring
-Services, Krueger Library 220, 457-5680 (http://www.winona.edu/tutoring/)<span
-style='mso-spacerun:yes'>  </span><span class=MsoHyperlink><span
-style='color:windowtext;text-decoration:none;text-underline:none'><o:p></o:p></span></span></span></p>
+margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+class=MsoHyperlink><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:windowtext;text-decoration:none'>â€¢<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><span style='font-size:10.0pt'>Tutoring Services, Krueger
+Library 220, 457-5680 (http://www.winona.edu/tutoring/)Â  </span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
-margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in;mso-list:l2 level1 lfo6;
-tab-stops:list .25in .5in'><![if !supportLists]><span class=MsoHyperlink><span
-style='font-size:10.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
-Arial;color:windowtext;text-decoration:none;text-underline:none'><span
-style='mso-list:Ignore'>•<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span></span><![endif]><span style='font-size:10.0pt'>Writing
-Center, <span class=SpellE>Minné</span> Hall 348, 457-5505
-(www.winona.edu/writingcenter/) <span class=MsoHyperlink><span
-style='color:windowtext;text-decoration:none;text-underline:none'><o:p></o:p></span></span></span></p>
+margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+class=MsoHyperlink><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:windowtext;text-decoration:none'>â€¢<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><span style='font-size:10.0pt'>Writing Center, MinnÃ© Hall
+348, 457-5505 (www.winona.edu/writingcenter/) </span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
-margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in;mso-list:l2 level1 lfo6;
-tab-stops:list .25in .5in'><![if !supportLists]><span class=MsoHyperlink><span
-style='font-size:10.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
-Arial;color:windowtext;text-decoration:none;text-underline:none'><span
-style='mso-list:Ignore'>•<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span></span><![endif]><span style='font-size:10.0pt'>Math
-Achievement Center, Tau 313, 457-5370<span class=MsoHyperlink><span
-style='color:windowtext;text-decoration:none;text-underline:none'><o:p></o:p></span></span></span></p>
+margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+class=MsoHyperlink><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:windowtext;text-decoration:none'>â€¢<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><span style='font-size:10.0pt'>Math Achievement Center,
+Tau 313, 457-5370</span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
-margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in;mso-list:l2 level1 lfo6;
-tab-stops:list .25in .5in'><![if !supportLists]><span class=MsoHyperlink><span
-style='font-size:10.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
-Arial;color:windowtext;text-decoration:none;text-underline:none'><span
-style='mso-list:Ignore'>•<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span></span><![endif]><span style='font-size:10.0pt'>Advising
-Services, Maxwell 314, 457-5878 (www.winona.edu/advising/)<span
-class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-text-underline:none'><o:p></o:p></span></span></span></p>
+margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+class=MsoHyperlink><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:windowtext;text-decoration:none'>â€¢<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><span style='font-size:10.0pt'>Advising Services, Maxwell
+314, 457-5878 (www.winona.edu/advising/)</span></p>
 
 <h1 align=center style='margin-top:0in;text-align:center'><span
-style='font-size:11.0pt;mso-fareast-font-family:Calibri'>Details about Campus
-Resources</span><span class=MsoHyperlink><span style='mso-fareast-font-family:
-Calibri;color:#365F91;text-decoration:none;text-underline:none'><o:p></o:p></span></span></h1>
+style='font-size:11.0pt'>Details about Campus Resources</span></h1>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
-margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in;mso-list:l2 level1 lfo6;
-tab-stops:list .25in .5in'><![if !supportLists]><span class=MsoHyperlink><span
-style='font-size:10.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
-Arial;color:windowtext;text-decoration:none;text-underline:none'><span
-style='mso-list:Ignore'>•<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span></span><![endif]><span style='font-size:10.0pt'>Two good
-places to help you find resources of all kinds on campus are Student Support
-Services and the Inclusion and Diversity Office.<span
-style='mso-spacerun:yes'>  </span>Both offices are dedicated to helping
-students of all races, ethnicities, economic backgrounds, nationalities, and
-sexual orientations.<span style='mso-spacerun:yes'>  </span>They can facilitate
-tutoring and point you to a wide range of resources.<span
-style='mso-spacerun:yes'>  </span>Student Support Services is in Krueger
-Library 219, and they can be reached at 457-5465.<span
-style='mso-spacerun:yes'>  </span>The Inclusion and Diversity Office is in <span
-class=SpellE>Kryzsko</span> Commons Room 122, and they can be reached at
-457-5595. </span><span class=MsoHyperlink><span style='font-size:10.0pt;
-mso-fareast-font-family:Calibri;color:windowtext;text-decoration:none;
-text-underline:none'><o:p></o:p></span></span></p>
+margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+class=MsoHyperlink><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:windowtext;text-decoration:none'>â€¢<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><span style='font-size:10.0pt'>Two good places to help you
+find resources of all kinds on campus are Student Support Services and the
+Inclusion and Diversity Office.Â  Both offices are dedicated to helping students
+of all races, ethnicities, economic backgrounds, nationalities, and sexual
+orientations.Â  They can facilitate tutoring and point you to a wide range of
+resources.Â  Student Support Services is in Krueger Library 219, and they can be
+reached at 457-5465.Â  The Inclusion and Diversity Office is in Kryzsko Commons
+Room 122, and they can be reached at 457-5595. </span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
-margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in;mso-list:l2 level1 lfo6;
-tab-stops:list .25in .5in'><![if !supportLists]><span class=MsoHyperlink><span
-style='font-size:10.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
-Arial;color:windowtext;text-decoration:none;text-underline:none'><span
-style='mso-list:Ignore'>•<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span></span><![endif]><span style='font-size:10.0pt'>If you
-have a disability, the Disability Services office can document it for your
-professors and facilitate accommodation. Their office is in Maxwell Hall, 3<sup>rd</sup>
-floor, and they can be reached at 457-5878.<span style='mso-spacerun:yes'> 
-</span>If you have a documented disability that requires accommodation, please
-let me know as soon as possible. If you suspect you may have a disability, you
-are encouraged to visit Disability Services as soon as possible. <span
-class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-text-underline:none'><o:p></o:p></span></span></span></p>
+margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+class=MsoHyperlink><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:windowtext;text-decoration:none'>â€¢<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><span style='font-size:10.0pt'>If you have a disability,
+the Disability Services office can document it for your professors and
+facilitate accommodation. Their office is in Maxwell Hall, 3<sup>rd</sup>
+floor, and they can be reached at 457-5878.Â  If you have a documented
+disability that requires accommodation, please let me know as soon as possible.
+If you suspect you may have a disability, you are encouraged to visit
+Disability Services as soon as possible. </span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
-margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in;mso-list:l2 level1 lfo6;
-tab-stops:list .25in .5in'><![if !supportLists]><span class=MsoHyperlink><span
-style='font-size:10.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
-Arial;color:windowtext;text-decoration:none;text-underline:none'><span
-style='mso-list:Ignore'>•<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span></span><![endif]><span style='font-size:10.0pt'>College
-can be very stressful.<span style='mso-spacerun:yes'>  </span>The Counseling
-Center is there to help you with a wide range of difficulties, ranging from
-sexual assault, depression, and grief after the loss of a loved one to stress
-management, anxiety, general adjustment to college, and many others.<span
-style='mso-spacerun:yes'>  </span>Their office is located in the Integrated
-Wellness Center (room 222) and they can be reached at 457-5330. <span
-class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-text-underline:none'><o:p></o:p></span></span></span></p>
+margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+class=MsoHyperlink><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:windowtext;text-decoration:none'>â€¢<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><span style='font-size:10.0pt'>College can be very
+stressful.Â  The Counseling Center is there to help you with a wide range of
+difficulties, ranging from sexual assault, depression, and grief after the loss
+of a loved one to stress management, anxiety, general adjustment to college, and
+many others.Â  Their office is located in the Integrated Wellness Center (room
+222) and they can be reached at 457-5330. </span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
-margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in;mso-list:l2 level1 lfo6;
-tab-stops:list .25in .5in'><![if !supportLists]><span class=MsoHyperlink><span
-style='font-size:10.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
-Arial;color:windowtext;text-decoration:none;text-underline:none'><span
-style='mso-list:Ignore'>•<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span></span><![endif]><span style='font-size:10.0pt'>For help
-with understanding the concepts of a particular class or understanding the
-requirements of an assignment, Tutoring Services offers three types of
-tutoring: drop-in appointments, 1-on-1 tutoring, and group sessions. You can
-visit them in the Library in room 220, or go on-line and use the <span
-class=SpellE>TutorTrac</span> program to schedule a session.<span
-class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-text-underline:none'><o:p></o:p></span></span></span></p>
+margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+class=MsoHyperlink><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:windowtext;text-decoration:none'>â€¢<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><span style='font-size:10.0pt'>For help with understanding
+the concepts of a particular class or understanding the requirements of an
+assignment, Tutoring Services offers three types of tutoring: drop-in
+appointments, 1-on-1 tutoring, and group sessions. You can visit them in the
+Library in room 220, or go on-line and use the TutorTrac program to schedule a
+session.</span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt;text-indent:-9.0pt;mso-list:l2 level2 lfo6'><![if !supportLists]><span
-class=MsoHyperlink><span style='font-size:10.0pt;font-family:"Arial","sans-serif";
-mso-fareast-font-family:Arial;color:windowtext;text-decoration:none;text-underline:
-none'><span style='mso-list:Ignore'>•<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-</span></span></span></span><![endif]><span style='font-size:10.0pt'>For help
-specifically with writing and the development of papers, the English department
-has a Writing Center available to students and staffed by trained graduate
-students pursuing their Master’s degree in English.<span
-style='mso-spacerun:yes'>  </span>The Writing Center is located in <span
-class=SpellE>Minné</span> Hall 348.<span style='mso-spacerun:yes'>  </span>You
-can make an appointment on the sign-up sheet on the door or call 457-5505.<span
-class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
-text-underline:none'><o:p></o:p></span></span></span></p>
+margin-left:.5in;margin-bottom:.0001pt;text-indent:-9.0pt'><span
+class=MsoHyperlink><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:windowtext;text-decoration:none'>â€¢<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><span style='font-size:10.0pt'>For help specifically with
+writing and the development of papers, the English department has a Writing
+Center available to students and staffed by trained graduate students pursuing
+their Masterâ€™s degree in English.Â  The Writing Center is located in MinnÃ© Hall
+348.Â  You can make an appointment on the sign-up sheet on the door or call
+457-5505.</span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt;text-indent:-9.0pt;mso-list:l2 level2 lfo6'><![if !supportLists]><span
-class=MsoHyperlink><span style='font-size:10.0pt;font-family:"Arial","sans-serif";
-mso-fareast-font-family:Arial;color:windowtext;text-decoration:none;text-underline:
-none'><span style='mso-list:Ignore'>•<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-</span></span></span></span><![endif]><span style='font-size:10.0pt'>For help
-specifically with understanding math concepts and solving math problems, the
-Math Achievement Center (MAC) is staffed with friendly undergraduate tutors who
-will help you work through difficult material.&nbsp; The MAC is located in Tau
-313 and provides free tutoring for all students in math, statistics, or math
-education courses.&nbsp; The center is open 1pm-10pm Mon-Thurs, 1pm-5pm Fri,
-and 4pm-8pm Sun.&nbsp; <span class=MsoHyperlink><span style='color:windowtext;
-text-decoration:none;text-underline:none'><o:p></o:p></span></span></span></p>
+margin-left:.5in;margin-bottom:.0001pt;text-indent:-9.0pt'><span
+class=MsoHyperlink><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:windowtext;text-decoration:none'>â€¢<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><span style='font-size:10.0pt'>For help specifically with
+understanding math concepts and solving math problems, the Math Achievement
+Center (MAC) is staffed with friendly undergraduate tutors who will help you
+work through difficult material.&nbsp; The MAC is located in Tau 313 and
+provides free tutoring for all students in math, statistics, or math education
+courses.&nbsp; The center is open 1pm-10pm Mon-Thurs, 1pm-5pm Fri, and 4pm-8pm
+Sun.&nbsp; </span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
-margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in;mso-list:l2 level1 lfo6;
-tab-stops:list .25in .5in'><![if !supportLists]><span class=MsoHyperlink><span
-style='font-size:11.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
-Arial;color:windowtext;text-decoration:none;text-underline:none'><span
-style='mso-list:Ignore'>•<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span></span><![endif]><span style='font-size:10.0pt'>The GLBTA
-Advocate is responsible for documenting homophobic and <span class=SpellE>transphobic</span>
-incidents on campus and working with the appropriate channels to get these
-incidents resolved. In addition, the advocate can direct people to GLBT
-resources on campus and in Winona.</span><span class=MsoHyperlink><span
-style='font-size:11.0pt;font-family:"Calibri","sans-serif";mso-fareast-font-family:
-Calibri;color:windowtext;text-decoration:none;text-underline:none'><o:p></o:p></span></span></p>
+margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+class=MsoHyperlink><span style='font-size:11.0pt;font-family:"Arial",sans-serif;
+color:windowtext;text-decoration:none'>â€¢<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><span style='font-size:10.0pt'>The GLBTA Advocate is
+responsible for documenting homophobic and transphobic incidents on campus and
+working with the appropriate channels to get these incidents resolved. In
+addition, the advocate can direct people to GLBT resources on campus and in Winona.</span></p>
 
 <p class=MsoNormal style='margin-bottom:6.0pt'><span style='font-size:11.0pt;
-font-family:"Arial","sans-serif";color:black'>The <a
+font-family:"Arial",sans-serif;color:black'>The <a
 href="http://www.math.vt.edu/people/brown/disclaim.htm">Standard Disclaimer</a>
-applies.</span><span class=MsoHyperlink><span style='color:black;text-decoration:
-none;text-underline:none'><o:p></o:p></span></span></p>
+applies.</span></p>
 
 </div>
 

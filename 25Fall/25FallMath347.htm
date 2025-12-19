@@ -1,1073 +1,190 @@
-<html xmlns:v="urn:schemas-microsoft-com:vml"
-xmlns:o="urn:schemas-microsoft-com:office:office"
-xmlns:w="urn:schemas-microsoft-com:office:word"
-xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
-xmlns="http://www.w3.org/TR/REC-html40">
+<html>
 
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
-<meta name=ProgId content=Word.Document>
-<meta name=Generator content="Microsoft Word 15">
-<meta name=Originator content="Microsoft Word 15">
-<link rel=File-List href="25FallMath347_files/filelist.xml">
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
 <title>MATH 347 -- Number Theory</title>
-<!--[if gte mso 9]><xml>
- <o:DocumentProperties>
-  <o:Author>Eric &amp; Kate Errthum</o:Author>
-  <o:LastAuthor>Errthum, Eric</o:LastAuthor>
-  <o:Revision>6</o:Revision>
-  <o:TotalTime>2888</o:TotalTime>
-  <o:LastPrinted>2021-08-23T15:51:00Z</o:LastPrinted>
-  <o:Created>2025-08-19T18:33:00Z</o:Created>
-  <o:LastSaved>2025-10-10T21:03:00Z</o:LastSaved>
-  <o:Pages>6</o:Pages>
-  <o:Words>1719</o:Words>
-  <o:Characters>9256</o:Characters>
-  <o:Company>The Errthums</o:Company>
-  <o:Lines>77</o:Lines>
-  <o:Paragraphs>21</o:Paragraphs>
-  <o:CharactersWithSpaces>10954</o:CharactersWithSpaces>
-  <o:Version>16.00</o:Version>
- </o:DocumentProperties>
-</xml><![endif]-->
-<link rel=themeData href="25FallMath347_files/themedata.thmx">
-<link rel=colorSchemeMapping href="25FallMath347_files/colorschememapping.xml">
-<!--[if gte mso 9]><xml>
- <w:WordDocument>
-  <w:View>Print</w:View>
-  <w:TrackMoves/>
-  <w:TrackFormatting/>
-  <w:ValidateAgainstSchemas/>
-  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
-  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
-  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
-  <w:DoNotPromoteQF/>
-  <w:LidThemeOther>EN-US</w:LidThemeOther>
-  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
-  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
-  <w:Compatibility>
-   <w:BreakWrappedTables/>
-   <w:SnapToGridInCell/>
-   <w:WrapTextWithPunct/>
-   <w:UseAsianBreakRules/>
-   <w:DontGrowAutofit/>
-   <w:SplitPgBreakAndParaMark/>
-   <w:DontVertAlignCellWithSp/>
-   <w:DontBreakConstrainedForcedTables/>
-   <w:DontVertAlignInTxbx/>
-   <w:Word11KerningPairs/>
-   <w:CachedColBalance/>
-  </w:Compatibility>
-  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
-  <m:mathPr>
-   <m:mathFont m:val="Cambria Math"/>
-   <m:brkBin m:val="before"/>
-   <m:brkBinSub m:val="&#45;-"/>
-   <m:smallFrac m:val="off"/>
-   <m:dispDef/>
-   <m:lMargin m:val="0"/>
-   <m:rMargin m:val="0"/>
-   <m:defJc m:val="centerGroup"/>
-   <m:wrapIndent m:val="1440"/>
-   <m:intLim m:val="subSup"/>
-   <m:naryLim m:val="undOvr"/>
-  </m:mathPr></w:WordDocument>
-</xml><![endif]--><!--[if gte mso 9]><xml>
- <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
-  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
-  LatentStyleCount="376">
-  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 6"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 7"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 8"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 9"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 1"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 2"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 3"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 4"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 5"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 6"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 7"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 8"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 9"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Normal Indent"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="footnote text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="annotation text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="header"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="footer"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index heading"/>
-  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="table of figures"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="envelope address"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="envelope return"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="footnote reference"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="annotation reference"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="line number"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="page number"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="endnote reference"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="endnote text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="table of authorities"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="macro"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="toa heading"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Bullet"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Number"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Bullet 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Bullet 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Bullet 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Bullet 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Number 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Number 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Number 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Number 5"/>
-  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Closing"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Signature"/>
-  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
-   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text Indent"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Continue"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Continue 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Continue 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Continue 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Continue 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Message Header"/>
-  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Salutation"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Date"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text First Indent"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text First Indent 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Note Heading"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text Indent 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text Indent 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Block Text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Hyperlink"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="FollowedHyperlink"/>
-  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
-  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Document Map"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Plain Text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="E-mail Signature"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Top of Form"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Bottom of Form"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Normal (Web)"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Acronym"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Address"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Cite"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Code"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Definition"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Keyboard"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Preformatted"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Sample"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Typewriter"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Variable"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Normal Table"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="annotation subject"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="No List"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Outline List 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Outline List 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Outline List 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Simple 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Simple 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Simple 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Classic 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Classic 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Classic 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Classic 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Colorful 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Colorful 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Colorful 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Columns 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Columns 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Columns 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Columns 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Columns 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 6"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 7"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 8"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 6"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 7"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 8"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table 3D effects 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table 3D effects 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table 3D effects 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Contemporary"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Elegant"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Professional"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Subtle 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Subtle 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Web 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Web 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Web 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Balloon Text"/>
-  <w:LsdException Locked="false" Priority="59" Name="Table Grid"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Theme"/>
-  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
-  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
-  <w:LsdException Locked="false" Priority="34" QFormat="true"
-   Name="List Paragraph"/>
-  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
-  <w:LsdException Locked="false" Priority="30" QFormat="true"
-   Name="Intense Quote"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
-  <w:LsdException Locked="false" Priority="19" QFormat="true"
-   Name="Subtle Emphasis"/>
-  <w:LsdException Locked="false" Priority="21" QFormat="true"
-   Name="Intense Emphasis"/>
-  <w:LsdException Locked="false" Priority="31" QFormat="true"
-   Name="Subtle Reference"/>
-  <w:LsdException Locked="false" Priority="32" QFormat="true"
-   Name="Intense Reference"/>
-  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
-  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
-   UnhideWhenUsed="true" Name="Bibliography"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
-  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
-  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
-  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
-  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
-  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
-  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
-  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
-  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
-  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 1"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 1"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 1"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 2"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 2"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 2"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 3"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 3"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 3"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 4"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 4"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 4"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 5"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 5"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 5"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 6"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 6"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 6"/>
-  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
-  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
-  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 1"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 1"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 1"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 2"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 2"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 2"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 3"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 3"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 3"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 4"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 4"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 4"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 5"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 5"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 5"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 6"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 6"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 6"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Mention"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Smart Hyperlink"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Hashtag"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Unresolved Mention"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Smart Link"/>
- </w:LatentStyles>
-</xml><![endif]-->
 <style>
 <!--
  /* Font Definitions */
  @font-face
 	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:roman;
-	mso-font-pitch:variable;
-	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
-@font-face
-	{font-family:Tahoma;
-	panose-1:2 11 6 4 3 5 4 4 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:-520081665 -1073717157 41 0 66047 0;}
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-parent:"";
-	margin:0in;
-	mso-pagination:widow-orphan;
+	{margin:0in;
 	font-size:12.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";}
-h5
-	{mso-style-noshow:yes;
-	mso-style-priority:9;
-	mso-style-qformat:yes;
-	mso-style-link:"Heading 5 Char";
-	mso-style-next:Normal;
-	margin-top:2.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:0in;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:5;
-	font-size:12.0pt;
-	font-family:"Cambria",serif;
-	mso-ascii-font-family:Cambria;
-	mso-ascii-theme-font:major-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:Cambria;
-	mso-hansi-theme-font:major-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#365F91;
-	mso-themecolor:accent1;
-	mso-themeshade:191;
-	font-weight:normal;}
+	font-family:"Times New Roman",serif;}
 a:link, span.MsoHyperlink
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	color:blue;
-	text-decoration:underline;
-	text-underline:single;}
-a:visited, span.MsoHyperlinkFollowed
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	color:purple;
-	mso-themecolor:followedhyperlink;
-	text-decoration:underline;
-	text-underline:single;}
-p
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-margin-top-alt:auto;
-	margin-right:0in;
-	mso-margin-bottom-alt:auto;
-	margin-left:0in;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";}
-p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-link:"Balloon Text Char";
-	margin:0in;
-	mso-pagination:widow-orphan;
-	font-size:8.0pt;
-	font-family:"Tahoma",sans-serif;
-	mso-fareast-font-family:"Times New Roman";}
-p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{mso-style-noshow:yes;
-	mso-style-priority:34;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	mso-add-space:auto;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";}
-p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{mso-style-noshow:yes;
-	mso-style-priority:34;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-type:export-only;
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	mso-add-space:auto;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";}
-p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{mso-style-noshow:yes;
-	mso-style-priority:34;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-type:export-only;
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	mso-add-space:auto;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";}
-p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{mso-style-noshow:yes;
-	mso-style-priority:34;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-type:export-only;
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	mso-add-space:auto;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";}
-span.Heading5Char
-	{mso-style-name:"Heading 5 Char";
-	mso-style-noshow:yes;
-	mso-style-priority:9;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Heading 5";
-	mso-ansi-font-size:12.0pt;
-	mso-bidi-font-size:12.0pt;
-	font-family:"Cambria",serif;
-	mso-ascii-font-family:Cambria;
-	mso-ascii-theme-font:major-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:Cambria;
-	mso-hansi-theme-font:major-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#365F91;
-	mso-themecolor:accent1;
-	mso-themeshade:191;}
-p.msonormal0, li.msonormal0, div.msonormal0
-	{mso-style-name:msonormal;
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-margin-top-alt:auto;
-	margin-right:0in;
-	mso-margin-bottom-alt:auto;
-	margin-left:0in;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";}
-span.BalloonTextChar
-	{mso-style-name:"Balloon Text Char";
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Balloon Text";
-	mso-ansi-font-size:8.0pt;
-	mso-bidi-font-size:8.0pt;
-	font-family:"Tahoma",sans-serif;
-	mso-ascii-font-family:Tahoma;
-	mso-hansi-font-family:Tahoma;
-	mso-bidi-font-family:Tahoma;}
+	{color:blue;
+	text-decoration:underline;}
 .MsoChpDefault
-	{mso-style-type:export-only;
-	mso-default-props:yes;
-	font-size:10.0pt;
-	mso-ansi-font-size:10.0pt;
-	mso-bidi-font-size:10.0pt;
-	mso-font-kerning:0pt;
-	mso-ligatures:none;}
+	{font-size:10.0pt;}
 @page WordSection1
 	{size:8.5in 11.0in;
-	margin:.5in 1.0in 31.5pt 1.0in;
-	mso-header-margin:.5in;
-	mso-footer-margin:.5in;
-	mso-paper-source:0;}
+	margin:.5in 1.0in 31.5pt 1.0in;}
 div.WordSection1
 	{page:WordSection1;}
 -->
 </style>
-<!--[if gte mso 10]>
-<style>
- /* Style Definitions */
- table.MsoNormalTable
-	{mso-style-name:"Table Normal";
-	mso-tstyle-rowband-size:0;
-	mso-tstyle-colband-size:0;
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-parent:"";
-	mso-padding-alt:0in 5.4pt 0in 5.4pt;
-	mso-para-margin:0in;
-	mso-pagination:widow-orphan;
-	font-size:10.0pt;
-	font-family:"Times New Roman",serif;}
-</style>
-<![endif]--><!--[if gte mso 9]><xml>
- <o:shapedefaults v:ext="edit" spidmax="1026"/>
-</xml><![endif]--><!--[if gte mso 9]><xml>
- <o:shapelayout v:ext="edit">
-  <o:idmap v:ext="edit" data="1"/>
- </o:shapelayout></xml><![endif]-->
+
 </head>
 
-<body lang=EN-US link=blue vlink=purple style='tab-interval:.5in;word-wrap:
-break-word'>
+<body lang=EN-US link=blue vlink="#96607D" style='word-wrap:break-word'>
 
 <div class=WordSection1>
 
-<p class=MsoNormal align=center style='margin-bottom:8.0pt;text-align:center'><b
-style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt'>MATH 347
-Number Theory<br>
-</span>Syllabus for Fall 2025<o:p></o:p></b></p>
+<p class=MsoNormal align=center style='margin-bottom:8.0pt;text-align:center'><b><span
+style='font-size:14.0pt'>MATH 347 Number Theory<br>
+</span>Syllabus for Fall 2025</b></p>
 
-<p class=MsoNormal align=center style='margin-bottom:8.0pt;text-align:center'><b
-style='mso-bidi-font-weight:normal'>Mondays, Wednesdays and Fridays,
-10:00-10:50am<o:p></o:p></b></p>
+<p class=MsoNormal align=center style='margin-bottom:8.0pt;text-align:center'><b>Mondays,
+Wednesdays and Fridays, 10:00-10:50am</b></p>
 
-<p class=MsoNormal align=center style='margin-bottom:8.0pt;text-align:center'><b
-style='mso-bidi-font-weight:normal'>Gildemeister Hall 326<o:p></o:p></b></p>
+<p class=MsoNormal align=center style='margin-bottom:8.0pt;text-align:center'><b>Gildemeister
+Hall 326</b></p>
 
-<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.0pt'><b
-style='mso-bidi-font-weight:normal'>Instructor: </b>Dr. Eric Errthum<span
-style='mso-tab-count:2'>             </span><b style='mso-bidi-font-weight:
-normal'>Winona Email: </b>eerrthum [at] winona [dot] edu<span style='mso-tab-count:
-2'>                   </span><b style='mso-bidi-font-weight:normal'>Office: </b>310
-Gildemeister Hall<span style='mso-tab-count:1'>        </span><b
-style='mso-bidi-font-weight:normal'>Office Hours:<span
-style='mso-spacerun:yes'>  </span></b>See <a href="../index.html">homepage</a>.
-Or by appointment on any day.</p>
+<p class=MsoNormal style='margin-bottom:8.0pt'><b>Instructor: </b>Dr. Eric
+Errthum&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<b>Winona Email: </b>eerrthum [at] winona [dot]
+edu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<b>Office: </b>310 Gildemeister
+Hall&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Office
+Hours:&nbsp; </b>See <a href="../index.html">homepage</a>. Or by appointment on
+any day.</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
-margin-left:1.0in;text-indent:-1.0in'><b style='mso-bidi-font-weight:normal'>Text:<span
-style='mso-tab-count:1'>               </span></b>“Introduction to Number
-Theory” by Peter Schumer. This book is out of print, a pdf version is available
-in D2L. Old used versions of the text can sometimes be found through Amazon.com
-or other sites ranging in price from ~$12 to ~$100.</p>
+margin-left:1.0in;text-indent:-1.0in'><b>Text:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</b>â€œIntroduction to Number Theoryâ€ by Peter Schumer. This book is out of
+print, a pdf version is available in D2L. Old used versions of the text can
+sometimes be found through Amazon.com or other sites ranging in price from ~$12
+to ~$100.</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
-margin-left:1.0in;text-indent:-1.0in'><b style='mso-bidi-font-weight:normal'>Calculator:</b><span
-style='mso-tab-count:1'>     </span>You are allowed at most times to use a
-calculator, but you must show work. At times you will be prohibited from doing
-specific calculations on your calculator.<br>
+margin-left:1.0in;text-indent:-1.0in'><b>Calculator:</b>&nbsp;&nbsp;&nbsp; You
+are allowed at most times to use a calculator, but you must show work. At times
+you will be prohibited from doing specific calculations on your calculator.<br>
 You are not allowed to use your cell phone, laptop, or any other device capable
-of electronic communication in place of a calculator.<i style='mso-bidi-font-style:
-normal'><o:p></o:p></i></p>
+of electronic communication in place of a calculator.</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
-margin-left:99.0pt;text-indent:-99.0pt;tab-stops:99.0pt'><b style='mso-bidi-font-weight:
-normal'>Course Website:<span style='mso-tab-count:1'>     </span></b><a
+margin-left:99.0pt;text-indent:-99.0pt'><b>Course Website:&nbsp;&nbsp;&nbsp; </b><a
 href="http://course1.winona.edu/eerrthum/math347">http://course1.winona.edu/eerrthum/math347</a></p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>Prerequisite: </b>Foundations of
-Mathematics (MATH327).</p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Prerequisite:
+</b>Foundations of Mathematics (MATH327).</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>About This Course:<span style='mso-tab-count:
-1'>  </span></b>A study of primes, divisibility, congruences, number-theoretic
-functions, Diophantine equations, and continued fractions.</p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>About This
+Course:&nbsp; </b>A study of primes, divisibility, congruences,
+number-theoretic functions, Diophantine equations, and continued fractions.</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>Expectations:<span style='mso-tab-count:
-1'> </span></b>Students who complete this course with a passing grade are
-expected to be able to demonstrate the following skills: (i) Mastery of
-prerequisite material, (ii) Proficient modular computing and equation solving,
-(iii) Logical reasoning with regard to whole numbers, (iv) Mastery of the
-Euclidean algorithm and its applications, (v) Solving Diophantine equations,
-(vi) Determining the properties of arithmetic functions</p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Expectations:
+</b>Students who complete this course with a passing grade are expected to be
+able to demonstrate the following skills: (i) Mastery of prerequisite material,
+(ii) Proficient modular computing and equation solving, (iii) Logical reasoning
+with regard to whole numbers, (iv) Mastery of the Euclidean algorithm and its
+applications, (v) Solving Diophantine equations, (vi) Determining the
+properties of arithmetic functions</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;tab-stops:1.0in decimal 333.0pt dashed 405.0pt'><b
-style='mso-bidi-font-weight:normal'>Grading:<span style='mso-tab-count:1'>        </span></b>Quizzes
-(7 @ 20 points each, drop lowest, scaled)<span style='mso-tab-count:1'> </span>120
-points<span style='mso-tab-count:1 dashed'>------- </span>20.0%<br>
-<span style='mso-tab-count:1'>                        </span>Oral Homework
-(scaled as needed)<span style='mso-tab-count:1'>                           </span>65
-points<span style='mso-tab-count:1 dashed'>------- </span>10.8%<br>
-<span style='mso-tab-count:1'>                        </span>Written Homework
-(scaled as needed)<span style='mso-tab-count:1'>                      </span>65
-points<span style='mso-tab-count:1 dashed'>------- </span>10.8%<br>
-<span style='mso-tab-count:1'>                        </span>Midterms (2 @ 100
-points)<span style='mso-tab-count:1'>                                     </span>200
-points<span style='mso-tab-count:1 dashed'>------- </span>33.4%<br>
-<span style='mso-tab-count:1'>                        </span>Final<span
-style='mso-tab-count:1'>                                                                         </span>150
-points<span style='mso-tab-count:1 dashed'>------- </span>25.0%<br>
-<span style='mso-tab-count:2'>                                                                                                     </span>--------<br>
-<span style='mso-tab-count:2'>                                                                                                         </span>600
-points total</p>
+<p class=MsoNormal style='margin-bottom:8.0pt'><b>Grading:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</b>Quizzes (7 @ 20 points each, drop lowest, scaled) 120 points---- 20.0%<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Oral Homework (scaled as
+needed)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+65 points---- 10.8%<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Written Homework (scaled as
+needed)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+65 points---- 10.8%<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Midterms (2 @ 100
+points)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+200 points---- 33.4%<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Final&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+150 points---- 25.0%<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+--------<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+600 points total</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>Grades:</b><span style='mso-spacerun:yes'> 
-</span>A = 90% (540 pts), B = 80% (480 pts), C = 70% (420 pts), D = 60% (360
-pts)</p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Grades:</b>&nbsp;
+A = 90% (540 pts), B = 80% (480 pts), C = 70% (420 pts), D = 60% (360 pts)</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>Homework:<span style='mso-tab-count:1'>    </span></b>Homework
-will be completed in two ways. <u>Oral Homework</u>: According to the schedule
-below, on Oral Homework Days students will be chosen randomly to present
-solutions to problems from the oral homework. Students will be graded a 0, 1,
-or 2 out of 2 corresponding to their level of <i style='mso-bidi-font-style:
-normal'>preparedness</i> (not necessarily correctness). When presenting a
-solution, you should be prepared to answer questions clarifying your work. It
-is not acceptable to write out a whole solution, but then when asked about a
-particular step to say “I don’t know.” To me this indicates you copied the
-homework from someone else without understanding it. <u>Written Homework</u>:
-The written portion of the homework is due the period after an Oral Homework
-Day. This work should be written nicely or typed, stapled, and presented in
-order. Each problem will be graded out of 2 corresponding to its level of
-correctness and clarity.</p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Homework:&nbsp;&nbsp;
+</b>Homework will be completed in two ways. <u>Oral Homework</u>: According to
+the schedule below, on Oral Homework Days students will be chosen randomly to
+present solutions to problems from the oral homework. Students will be graded a
+0, 1, or 2 out of 2 corresponding to their level of <i>preparedness</i> (not
+necessarily correctness). When presenting a solution, you should be prepared to
+answer questions clarifying your work. It is not acceptable to write out a
+whole solution, but then when asked about a particular step to say â€œI donâ€™t
+know.â€ To me this indicates you copied the homework from someone else without
+understanding it. <u>Written Homework</u>: The written portion of the homework
+is due the period after an Oral Homework Day. This work should be written
+nicely or typed, stapled, and presented in order. Each problem will be graded
+out of 2 corresponding to its level of correctness and clarity.</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify;tab-stops:
-.75in'><b style='mso-bidi-font-weight:normal'>Quizzes:</b> <span
-style='mso-tab-count:1'>  </span>We will have seven (~20 minute) quizzes (see
-schedule below). Each quiz will count for 20 points and the lowest quiz score
-will be dropped from your grade. There will possibly be problems on the quizzes
-that did not show up explicitly in the homework. For this reason you are
-encouraged to work more problems than what is just assigned for homework and to
-ensure that you understand the concepts and calculations required in each
-section.</p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Quizzes:</b>
+&nbsp; We will have seven (~20 minute) quizzes (see schedule below). Each quiz
+will count for 20 points and the lowest quiz score will be dropped from your
+grade. There will possibly be problems on the quizzes that did not show up
+explicitly in the homework. For this reason you are encouraged to work more
+problems than what is just assigned for homework and to ensure that you
+understand the concepts and calculations required in each section.</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify;tab-stops:
-.75in'><b style='mso-bidi-font-weight:normal'>Exams:</b><span style='mso-tab-count:
-1'>     </span>There will be three in-class exams and one comprehensive final
-exam. Exam dates are tentative until officially announced in class. The final
-exam is tentatively scheduled for <b style='mso-bidi-font-weight:normal'>Wednesday,
-December 10, 8:00 – 10:00am</b>. The final exam may or may not include an oral
-exam to be scheduled during finals week.</p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Exams:</b>&nbsp;&nbsp;&nbsp;&nbsp;
+There will be three in-class exams and one comprehensive final exam. Exam dates
+are tentative until officially announced in class. The final exam is
+tentatively scheduled for <b>Wednesday, December 10, 8:00 â€“ 10:00am</b>. The
+final exam may or may not include an oral exam to be scheduled during finals
+week.</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>Reclaiming Points: </b><span
-style='mso-bidi-font-weight:bold'>If you miss points on a quiz, you are allowed
-to come to my office during office hours (or by appointment) and request
-another try to reclaim the lost points. Note: requests will be granted or
-denied by discretion of the instructor. In particular, requests will be denied
-if: problems are of a memorization nature, the problem involves proving a
-statement that is not easily altered, it is a bonus problem, or you already got
-80% or better on the problem.<o:p></o:p></span></p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Reclaiming
+Points: </b>If you miss points on a quiz, you are allowed to come to my office
+during office hours (or by appointment) and request another try to reclaim the
+lost points. Note: requests will be granted or denied by discretion of the
+instructor. In particular, requests will be denied if: problems are of a
+memorization nature, the problem involves proving a statement that is not
+easily altered, it is a bonus problem, or you already got 80% or better on the
+problem.</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>Late/Missed Work: </b>Late homework or
-missed quizzes will result in a score of zero. There are no make-up quizzes.
-Make-up exams will be given at the discretion of the instructor. If you miss
-class, it is your responsibility to obtain notes and assignments from fellow
-students. If you have an unavoidable absence, please inform the instructor
-beforehand<span style='mso-bidi-font-style:italic'>.</span></p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Late/Missed
+Work: </b>Late homework or missed quizzes will result in a score of zero. There
+are no make-up quizzes. Make-up exams will be given at the discretion of the
+instructor. If you miss class, it is your responsibility to obtain notes and
+assignments from fellow students. If you have an unavoidable absence, please
+inform the instructor beforehand.</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>Desire2Learn:<span style='mso-tab-count:
-1'>            </span></b>Course materials can be found on <a
-href="https://winona.ims.mnscu.edu/">D2L/Brightspace</a> including <b
-style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:normal'>approximate</i></b>
-grades. If you ever want an exact look at your grade, email the instructor
-directly.</p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Desire2Learn:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</b>Course materials can be found on <a href="https://winona.ims.mnscu.edu/">D2L/Brightspace</a>
+including <b><i>approximate</i></b> grades. If you ever want an exact look at
+your grade, email the instructor directly.</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>Academic Dishonesty:<span
-style='mso-spacerun:yes'>  </span></b>Any type of academic dishonesty
-(including cheating, copying, plagiarism, AI assistance, using a solutions
-manual to do homework, etc.) will result in failure and will be reported to
-school authorities. If you are having trouble with an assignment, please see
-the instructor first. <b style='mso-bidi-font-weight:normal'>Note: using
-tests/quizzes from a previous semester to study without instructor permission
-is a form of cheating.</b></p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Academic
+Dishonesty:&nbsp; </b>Any type of academic dishonesty (including cheating,
+copying, plagiarism, AI assistance, using a solutions manual to do homework,
+etc.) will result in failure and will be reported to school authorities. If you
+are having trouble with an assignment, please see the instructor first. <b>Note:
+using tests/quizzes from a previous semester to study without instructor
+permission is a form of cheating.</b></p>
 
-<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
-normal'>Note:<span style='mso-tab-count:1'>   </span></b>This syllabus is
-subject to change if deemed necessary by the instructor.</p>
+<p class=MsoNormal style='text-align:justify'><b>Note:&nbsp;&nbsp; </b>This
+syllabus is subject to change if deemed necessary by the instructor.</p>
 
-<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+<p class=MsoNormal style='text-align:justify'>&nbsp;</p>
 
-<p class=MsoNormal align=center style='text-align:center;tab-stops:right 3.25in decimal 3.75in'><span
-style='font-size:14.0pt'>Tentative Schedule of Events – Math 347<o:p></o:p></span></p>
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:14.0pt'>Tentative Schedule of Events â€“ Math 347</span></p>
 
-<p class=MsoNormal align=center style='text-align:center'>(subject to change)<br
-style='mso-special-character:line-break'>
-<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
-<![endif]></p>
+<p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'>(subject
+to change)</p>
 
 <div align=center>
 
-<table class=MsoNormalTable border=1 cellpadding=0 width="90%"
- style='width:90.0%;mso-cellspacing:1.5pt;border:outset 1.5pt;mso-yfti-tbllook:
- 1184;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
- <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+<table class=MsoNormalTable border=1 cellspacing=3 cellpadding=0 width="90%"
+ style='width:90.0%;border:outset 1.5pt'>
+ <tr>
   <td width="12%" style='width:12.5%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Week Beginning </p>
   </td>
@@ -1081,7 +198,7 @@ style='mso-special-character:line-break'>
   <p class=MsoNormal align=center style='text-align:center'>Friday</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:1'>
+ <tr>
   <td width="12%" style='width:12.5%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Aug 25</p>
   </td>
@@ -1091,20 +208,16 @@ style='mso-special-character:line-break'>
   <p class=MsoNormal align=center style='text-align:center'><br>
   <u>Oral HW</u><br>
   1.1 (pg 4): 10, 14</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'><u>Written HW<br>
   </u>1.1 (pg 4): 22, 24</p>
   </td>
   <td width="25%" style='width:25.02%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>1.2
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'>1.2
   Induction/Well-Ordering<br>
-  1.3 Divisibility, Division Algorithm, Congruences<br style='mso-special-character:
-  line-break'>
-  <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
-  <![endif]></p>
+  1.3 Divisibility, Division Algorithm, Congruences</p>
   <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u><br>
-  1.2 (pg 10): 8, 11 (do <b style='mso-bidi-font-weight:normal'><i
-  style='mso-bidi-font-style:normal'><u>not</u></i></b> use Binet’s formula)<br>
+  1.2 (pg 10): 8, 11 (do <b><i><u>not</u></i></b> use Binetâ€™s formula)<br>
   <br>
   <u>Written HW<br>
   </u>1.2 (pg 10): 9a, 12, 23</p>
@@ -1123,7 +236,7 @@ style='mso-special-character:line-break'>
   <p class=MsoNormal align=center style='text-align:center'>1.4 (pg 20): 9</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:2'>
+ <tr>
   <td width="12%" style='width:12.5%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Sep 1<span
   style='color:red'> </span></p>
@@ -1131,24 +244,21 @@ style='mso-special-character:line-break'>
   <td width="24%" style='width:24.86%;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='color:red'>No Class<br>
-  Labor Day</span><b style='mso-bidi-font-weight:normal'><o:p></o:p></b></p>
+  Labor Day</span></p>
   </td>
   <td width="25%" style='width:25.02%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Oral Homework Day (1.1 – 1.4)<o:p></o:p></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>Oral Homework
+  Day (1.1 â€“ 1.4)</b></p>
   </td>
   <td width="37%" style='width:37.02%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Written Homework Due (1.1 – 1.4)<o:p></o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Quiz 1</b><br style='mso-special-character:
-  line-break'>
-  <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
-  <![endif]></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>Written Homework
+  Due (1.1 â€“ 1.4)</b></p>
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'><b>Quiz
+  1</b></p>
   <p class=MsoNormal align=center style='text-align:center'>Algorithm Analysis</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:3'>
+ <tr>
   <td width="12%" style='width:12.5%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Sep 8</p>
   </td>
@@ -1157,10 +267,8 @@ style='mso-special-character:line-break'>
   Euclidean Algorithm</p>
   <p class=MsoNormal align=center style='text-align:center'><br>
   <u>Oral HW</u></p>
-  <p class=MsoNormal align=center style='text-align:center'>2.1 (pg 28): 1, 2,
-  4, 18ad, 19a, 24<br style='mso-special-character:line-break'>
-  <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
-  <![endif]></p>
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'>2.1
+  (pg 28): 1, 2, 4, 18ad, 19a, 24</p>
   <p class=MsoNormal align=center style='text-align:center'><u>Written HW</u></p>
   <p class=MsoNormal align=center style='text-align:center'>2.1 (pg 28): 12,
   15, 18bc, 19bd</p>
@@ -1170,36 +278,32 @@ style='mso-special-character:line-break'>
   Equations<br>
   Solving Linear Congruences</p>
   <p class=MsoNormal align=center style='text-align:center'>Linear Diophantine
-  Equations<b style='mso-bidi-font-weight:normal'><o:p></o:p></b></p>
+  Equations</p>
   </td>
   <td width="37%" style='width:37.02%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>2.2, cont.<br>
-  Chinese Remainder Theorem<br style='mso-special-character:line-break'>
-  <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
-  <![endif]><u><o:p></o:p></u></p>
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'>2.2,
+  cont.<br>
+  Chinese Remainder Theorem</p>
   <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u><br>
-  2.2 (pg 36):<span style='mso-spacerun:yes'>  </span>2, 4, 5, 7, 9a, 10, 18<br>
+  2.2 (pg 36):&nbsp; 2, 4, 5, 7, 9a, 10, 18<br>
   <br>
   <u>Written HW</u><br>
   2.2 (pg 36): 6, 14, 15, 17</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:4'>
+ <tr>
   <td width="12%" style='width:12.5%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Sep 15</p>
   </td>
   <td width="24%" style='width:24.86%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Oral Homework Day (2.1 – 2.2)</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>Oral Homework
+  Day (2.1 â€“ 2.2)</b></p>
   </td>
   <td width="25%" style='width:25.02%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Written Homework Due (2.1 – 2.2)<o:p></o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Quiz 2</b><br style='mso-special-character:
-  line-break'>
-  <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
-  <![endif]></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>Written Homework
+  Due (2.1 â€“ 2.2)</b></p>
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'><b>Quiz
+  2</b></p>
   <p class=MsoNormal align=center style='text-align:center'>2.3 Prime vs.
   Irreducible</p>
   <p class=MsoNormal align=center style='text-align:center'><br>
@@ -1211,111 +315,91 @@ style='mso-special-character:line-break'>
   Theorem of Arithmetic <br>
   2.4 Sieve of Eratosthenes <br>
   and Primality Testing</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW<o:p></o:p></u></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u></p>
   <p class=MsoNormal align=center style='text-align:center'><a
   href="../math347/SectionX.1.pdf">X.1: 1, 2</a> <br>
   2.3 (pg 41): 2, 6, 14, 17b</p>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><o:p>&nbsp;</o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Written HW<o:p></o:p></u></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Written HW</u></p>
   <p class=MsoNormal align=center style='text-align:center'><a
   href="../math347/SectionX.1.pdf">X.1: 3, 4, 5</a><br>
   2.3 (pg 41): 3b, 9, 13</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:5'>
+ <tr>
   <td width="12%" style='width:12.5%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Sep 22</p>
   </td>
   <td width="24%" style='width:24.86%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'>2.5 Euler Phi
-  Function, Euler-Fermat Theorem<br style='mso-special-character:line-break'>
-  <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
-  <![endif]></p>
-  <p class=MsoNormal align=center style='text-align:center'><u><span
-  style='mso-bidi-font-weight:bold'>Oral HW<br>
-  </span></u><span style='mso-bidi-font-weight:bold'>2.5 (pg 51): 1, 5, 6<br>
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'>2.5
+  Euler Phi Function, Euler-Fermat Theorem</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW<br>
+  </u>2.5 (pg 51): 1, 5, 6<br>
   <br>
   <u>Written HW<br>
-  </u>2.5 (pg 51): 8, 9, 10<o:p></o:p></span></p>
+  </u>2.5 (pg 51): 8, 9, 10</p>
   </td>
   <td width="25%" style='width:25.02%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Introduction to
   Cryptology</p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-bidi-font-weight:bold'>X.2 Diffie-Helman Key Exchange</span> <br
-  style='mso-special-character:line-break'>
-  <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
-  <![endif]><span style='mso-bidi-font-weight:bold'><o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><u><span
-  style='mso-bidi-font-weight:bold'>Oral HW</span></u><span style='mso-bidi-font-weight:
-  bold'><o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-bidi-font-weight:bold'><a href="../Math347/SectionX.2.pdf">X.2: 1</a><br>
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'>X.2
+  Diffie-Helman Key Exchange </p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u></p>
+  <p class=MsoNormal align=center style='text-align:center'><a
+  href="../Math347/SectionX.2.pdf">X.2: 1</a><br>
   <br>
   <u>Written HW</u><br>
-  <a href="../Math347/SectionX.2.pdf">X.2: 2</a><o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-bidi-font-weight:bold'>Note: <a
+  <a href="../Math347/SectionX.2.pdf">X.2: 2</a></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>Note: <a
   href="http://www.wolframalpha.com/input/?i=PowerMod%5b5832%2C16381%2C31861%5d">See
-  here for how to use Wolfram Alpha to compute exponentiation mod m.</a><o:p></o:p></span></p>
+  here for how to use Wolfram Alpha to compute exponentiation mod m.</a></p>
   </td>
   <td width="37%" style='width:37.02%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>7.7 RSA
   Cryptography</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><u><span
-  style='mso-bidi-font-weight:bold'>Oral HW<br>
-  </span></u><span style='mso-bidi-font-weight:bold'>7.7 (pg 196): 5, 9<br>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW<br>
+  </u>7.7 (pg 196): 5, 9<br>
   <br>
   <u>Written HW<br>
-  </u>7.7 (pg 196): 1, 10, 14<o:p></o:p></span></p>
+  </u>7.7 (pg 196): 1, 10, 14</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:6'>
+ <tr>
   <td width="12%" style='width:12.5%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Sep 29</p>
   </td>
   <td width="24%" style='width:24.86%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Oral Homework Day (2.3, X.1, 2.5, X.2
-  &amp; 7.7)<o:p></o:p></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>Oral Homework
+  Day (2.3, X.1, 2.5, X.2 &amp; 7.7)</b></p>
   </td>
   <td width="25%" style='width:25.02%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Written Homework Due (2.3, X.1, 2.5, X.2
-  &amp; 7.7)<o:p></o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Quiz 3</b><br style='mso-special-character:
-  line-break'>
-  <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
-  <![endif]></p>
-  <p class=MsoNormal align=center style='text-align:center'>Exam Review<b
-  style='mso-bidi-font-weight:normal'><o:p></o:p></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>Written Homework
+  Due (2.3, X.1, 2.5, X.2 &amp; 7.7)</b></p>
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'><b>Quiz
+  3</b></p>
+  <p class=MsoNormal align=center style='text-align:center'>Exam Review</p>
   </td>
   <td width="37%" style='width:37.02%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b>EXAM I</b><b
-  style='mso-bidi-font-weight:normal'><o:p></o:p></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>EXAM I</b></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:7'>
+ <tr>
   <td width="12%" style='width:12.5%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Oct 6</p>
   </td>
   <td width="24%" style='width:24.86%;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'>3.1 Arithmetic
   Functions<br>
-  3.2 Multiplicativity<b style='mso-bidi-font-weight:normal'><o:p></o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><o:p>&nbsp;</o:p></b></p>
+  3.2 Multiplicativity</p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
   <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u><br>
-  <span style='mso-bidi-font-weight:bold'>3.1 (pg 58): 1<br>
+  3.1 (pg 58): 1<br>
   <br>
-  </span><u>Written HW</u><br>
-  <span style='mso-bidi-font-weight:bold'>3.1 (pg 58): 4, 12</span></p>
+  <u>Written HW</u><br>
+  3.1 (pg 58): 4, 12</p>
   </td>
   <td width="25%" style='width:25.02%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
@@ -1326,62 +410,55 @@ style='mso-special-character:line-break'>
   <p class=MsoNormal align=center style='text-align:center'>3.2, cont</p>
   <p class=MsoNormal align=center style='text-align:center'>3.3 Mobius
   Inversion</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u><span
-  style='mso-bidi-font-weight:bold'><br>
-  </span>3.2 (pg 62): 3, 4b, 5, 13<span style='mso-bidi-font-weight:bold'><br>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u><br>
+  3.2 (pg 62): 3, 4b, 5, 13<br>
   <br>
-  </span><u>Written HW</u> <br>
+  <u>Written HW</u> <br>
   3.2 (pg 62): 6, 12, 14, 17</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:8'>
+ <tr>
   <td width="12%" style='width:12.5%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Oct 13</p>
   </td>
   <td width="24%" style='width:24.86%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-bidi-font-weight:bold'>3.3, cont<o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'>3.3, cont</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u><br>
-  <span style='mso-bidi-font-weight:bold'>3.3 (pg 66): 1, 10, 14<br>
+  3.3 (pg 66): 1, 10, 14<br>
   <a href="../math347/SectionX.6.pdf">X.6: 1, 2</a><br>
   <br>
-  </span><u>Written HW</u><br>
-  <span style='mso-bidi-font-weight:bold'>3.3 (pg 66): 4, 6, 12<br>
-  <a href="../math347/SectionX.6.pdf">X.6: 3, 4</a></span></p>
+  <u>Written HW</u><br>
+  3.3 (pg 66): 4, 6, 12<br>
+  <a href="../math347/SectionX.6.pdf">X.6: 3, 4</a></p>
   </td>
   <td width="25%" style='width:25.02%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Oral Homework Day (3.1 – 3.3)</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>Oral Homework
+  Day (3.1 â€“ 3.3)</b></p>
   </td>
   <td width="37%" style='width:37.02%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Quiz 4<br>
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'><b>Quiz
+  4<br>
   <br>
-  </b>Read Section 6.1: Finite Simple Continued Fractions<br style='mso-special-character:
-  line-break'>
-  <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
-  <![endif]></p>
+  </b>Read Section 6.1: Finite Simple Continued Fractions</p>
   <p class=MsoNormal align=center style='text-align:center'>Then see link in
   D2L for summary video.</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:9'>
+ <tr>
   <td width="12%" style='width:12.5%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Oct 20</p>
   </td>
   <td width="24%" style='width:24.86%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Written Homework Due (3.1 – 3.3)<o:p></o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><o:p>&nbsp;</o:p></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>Written Homework
+  Due (3.1 â€“ 3.3)</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
   <p class=MsoNormal align=center style='text-align:center'>6.1 overview</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>6.3 Infinite Simple
   Continued Fractions</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u><br>
   6.1 (pg 133): 1, 4, 6<br>
   <br>
@@ -1390,8 +467,7 @@ style='mso-special-character:line-break'>
   </td>
   <td width="25%" style='width:25.02%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>6.3, cont.</p>
-  <p class=MsoNormal align=center style='text-align:center'><u><o:p><span
-   style='text-decoration:none'>&nbsp;</span></o:p></u></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u><br>
   6.3 (pg 144): 1, 2, 4, 8<br>
   <br>
@@ -1401,8 +477,7 @@ style='mso-special-character:line-break'>
   <td width="37%" style='width:37.02%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>6.4 Rational
   Approximation of Irrationals.</p>
-  <p class=MsoNormal align=center style='text-align:center'><u><o:p><span
-   style='text-decoration:none'>&nbsp;</span></o:p></u></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u><br>
   6.4 (pg 152): 3, 4, 6, 8<br>
   <br>
@@ -1410,7 +485,7 @@ style='mso-special-character:line-break'>
   6.4 (pg 152): 7, 9</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:10'>
+ <tr>
   <td width="12%" style='width:12.5%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Oct 27</p>
   </td>
@@ -1420,24 +495,23 @@ style='mso-special-character:line-break'>
   Continued Fractions</p>
   <p class=MsoNormal align=center style='text-align:center'>Pade Approximation</p>
   <p class=MsoNormal align=center style='text-align:center'><br>
-  “<a href="http://arxiv.org/PS_cache/math/pdf/0601/0601660v3.pdf">A Short
-  Proof of the Simple Continued Fraction Expansion of e</a>”<br>
+  â€œ<a href="http://arxiv.org/PS_cache/math/pdf/0601/0601660v3.pdf">A Short
+  Proof of the Simple Continued Fraction Expansion of e</a>â€<br>
   by Henry Cohn</p>
   </td>
   <td width="25%" style='width:25.02%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Oral Homework Day (6.1, 6.3 – 6.4)</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>Oral Homework
+  Day (6.1, 6.3 â€“ 6.4)</b></p>
   </td>
   <td width="37%" style='width:37.02%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Written Homework Due (6.1, 6.3 – 6.4)<o:p></o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Quiz 5<o:p></o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>Written Homework
+  Due (6.1, 6.3 â€“ 6.4)</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>Quiz 5</b></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>Review for Exam</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:11'>
+ <tr>
   <td width="12%" style='width:12.5%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Nov 3</p>
   </td>
@@ -1445,15 +519,12 @@ style='mso-special-character:line-break'>
   <p class=MsoNormal align=center style='text-align:center'><b>EXAM II</b></p>
   </td>
   <td width="25%" style='width:25.02%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-bidi-font-weight:bold'>4.1 Primitive Roots</span></p>
+  <p class=MsoNormal align=center style='text-align:center'>4.1 Primitive Roots</p>
   </td>
   <td width="37%" style='width:37.02%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>4.1, cont.<br>
-  <span style='mso-spacerun:yes'> </span>Using Primitive Roots<br
-  style='mso-special-character:line-break'>
-  <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
-  <![endif]></p>
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'>4.1,
+  cont.<br>
+  &nbsp;Using Primitive Roots</p>
   <p class=MsoNormal align=center style='text-align:center'><u>Oral HW<br>
   </u>4.1 (pg 80): 3, 5a, 9, 10, 12, 20<br>
   <br>
@@ -1461,7 +532,7 @@ style='mso-special-character:line-break'>
   </u>4.1 (pg 80): 15, 21, 26, 27</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:12'>
+ <tr>
   <td width="12%" style='width:12.5%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Nov 10</p>
   </td>
@@ -1470,107 +541,91 @@ style='mso-special-character:line-break'>
   Residues</p>
   <p class=MsoNormal align=center style='text-align:center'><br>
   <u>Oral HW<br>
-  </u><span style='mso-bidi-font-weight:bold'>4.2 (pg 84): 8, 11, 12<o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-bidi-font-weight:bold'><br>
-  </span><u>Written HW<br>
-  </u><span style='mso-bidi-font-weight:bold'>4.2 (pg 84): 13, 14<br
-  style='mso-special-character:line-break'>
-  <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
-  <![endif]></span></p>
+  </u>4.2 (pg 84): 8, 11, 12</p>
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'><br>
+  <u>Written HW<br>
+  </u>4.2 (pg 84): 13, 14</p>
   </td>
   <td width="25%" style='width:25.02%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>4.3 Legendre Symbol</p>
-  <p class=MsoNormal align=center style='text-align:center'>4.4 Quadratic
-  Reciprocity (Statement and Application)<br style='mso-special-character:line-break'>
-  <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
-  <![endif]></p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u><span
-  style='mso-bidi-font-weight:bold'><o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-bidi-font-weight:bold'>4.3 (pg 89): 2, 3, 10<br>
-  </span>4.4 (pg 96): 1, 2</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Written HW</u><span
-  style='mso-bidi-font-weight:bold'> <br>
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'>4.4
+  Quadratic Reciprocity (Statement and Application)</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u></p>
+  <p class=MsoNormal align=center style='text-align:center'>4.3 (pg 89): 2, 3,
+  10<br>
+  4.4 (pg 96): 1, 2</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Written HW</u> <br>
   4.3 (pg 89): 4, 19a<br>
-  </span>4.4 (pg 96): 4</p>
+  4.4 (pg 96): 4</p>
   </td>
   <td width="37%" style='width:37.02%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>X.3 Solvability of
   Quadratic Equations<br>
   X.3 Computing Square Roots for p = 3 mod 4</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'><a
   href="../math347/SquareRoots.pdf">Square Roots for General p</a></p>
   <p class=MsoNormal align=center style='text-align:center'>(from Daniel E.
   Otero)</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u><span
-  style='mso-bidi-font-weight:bold'><o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u></p>
   <p class=MsoNormal align=center style='text-align:center'><a
   href="../Math347/SectionX.3.pdf">X.3: 1</a><br>
-  <span style='mso-bidi-font-weight:bold'><br>
-  </span><u>Written HW</u><span style='mso-bidi-font-weight:bold'> <br>
-  </span><a href="../Math347/SectionX.3.pdf">X.3: 2</a></p>
+  <br>
+  <u>Written HW</u> <br>
+  <a href="../Math347/SectionX.3.pdf">X.3: 2</a></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:13'>
+ <tr>
   <td width="12%" style='width:12.5%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Nov 17</p>
   </td>
   <td width="24%" style='width:24.86%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Oral Homework Day (4.1 – 4.4, X.3)</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>Oral Homework
+  Day (4.1 â€“ 4.4, X.3)</b></p>
   </td>
   <td width="25%" style='width:25.02%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Written Homework Due (4.1 – 4.4, X.3)<o:p></o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Quiz 6</b><br>
+  <p class=MsoNormal align=center style='text-align:center'><b>Written Homework
+  Due (4.1 â€“ 4.4, X.3)</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>Quiz 6</b><br>
   <br>
   X.4 Computations mod n via<br>
   CRT and Lifting</p>
   </td>
   <td width="37%" style='width:37.02%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='mso-spacerun:yes'> </span></b>X.4,
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'><b>&nbsp;</b>X.4,
   cont.<br>
   2.6 Hensel's Lemma<br>
   <br>
   <u>Oral HW</u><br>
   <a href="../Math347/SectionX.4.pdf">X.4: 1, 2</a><br>
-  2.6: 1, 3<br style='mso-special-character:line-break'>
-  <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
-  <![endif]></p>
+  2.6: 1, 3</p>
   <p class=MsoNormal align=center style='text-align:center'><u>Written HW</u><br>
   <a href="../Math347/SectionX.4.pdf">X.4: 3, 4</a><br>
-  2.6: 9, 10<b style='mso-bidi-font-weight:normal'><o:p></o:p></b></p>
+  2.6: 9, 10</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:14'>
+ <tr>
   <td width="12%" style='width:12.5%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Nov 24</p>
   </td>
   <td width="24%" style='width:24.86%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'>X.5 Computations
-  base p <br>
-  and Changing Bases<br style='mso-special-character:line-break'>
-  <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
-  <![endif]><u><o:p></o:p></u></p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW<o:p></o:p></u></p>
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'>X.5
+  Computations base p <br>
+  and Changing Bases</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u></p>
   <p class=MsoNormal align=center style='text-align:center'><a
   href="../Math347/SectionX.5.pdf">X.5: 1, 2, 3, 4</a></p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Written HW<o:p></o:p></u></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Written HW</u></p>
   <p class=MsoNormal align=center style='text-align:center'><a
-  href="../Math347/SectionX.5.pdf">X.5: 5, 6</a><b style='mso-bidi-font-weight:
-  normal'><o:p></o:p></b></p>
+  href="../Math347/SectionX.5.pdf">X.5: 5, 6</a></p>
   </td>
   <td width="25%" style='width:25.02%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='color:red'>NO CLASS<br>
-  Thanksgiving Break</span><b style='mso-bidi-font-weight:normal'><o:p></o:p></b></p>
+  Thanksgiving Break</span></p>
   </td>
   <td width="37%" style='width:37.02%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
@@ -1578,26 +633,23 @@ style='mso-special-character:line-break'>
   Thanksgiving Break</span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:15;mso-yfti-lastrow:yes'>
+ <tr>
   <td width="12%" style='width:12.5%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Dec 1</p>
   </td>
   <td width="24%" style='width:24.86%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Activity: <i
-  style='mso-bidi-font-style:normal'>p</i>-adic numbers</p>
+  <p class=MsoNormal align=center style='text-align:center'>Activity: <i>p</i>-adic
+  numbers</p>
   </td>
   <td width="25%" style='width:25.02%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Oral Homework Day (X.4 &amp; X.5, 2.6)</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>Oral Homework
+  Day (X.4 &amp; X.5, 2.6)</b></p>
   </td>
   <td width="37%" style='width:37.02%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Written Homework Due (X.4 &amp; X.5, 2.6)<o:p></o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'>Quiz 7</b><br style='mso-special-character:
-  line-break'>
-  <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
-  <![endif]></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>Written Homework
+  Due (X.4 &amp; X.5, 2.6)</b></p>
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'><b>Quiz
+  7</b></p>
   <p class=MsoNormal align=center style='text-align:center'>Final Review</p>
   </td>
  </tr>
@@ -1605,66 +657,57 @@ style='mso-special-character:line-break'>
 
 </div>
 
-<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+<p class=MsoNormal>&nbsp;</p>
 
-<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
-normal'><span style='font-size:20.0pt'>Exam III, Final Exam<o:p></o:p></span></b></p>
-
-<p class=MsoNormal align=center style='text-align:center'><span
-style='font-size:20.0pt'>Wednesday, December 10<o:p></o:p></span></p>
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:20.0pt'>Exam III, Final Exam</span></b></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
-style='font-size:20.0pt'>8:00 – 10:00am<o:p></o:p></span></p>
+style='font-size:20.0pt'>Wednesday, December 10</span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
-style='font-size:20.0pt'><o:p>&nbsp;</o:p></span></p>
+style='font-size:20.0pt'>8:00 â€“ 10:00am</span></p>
 
-<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
-mso-outline-level:3'><b><span style='font-size:13.5pt'>Commitment to Inclusive
-Excellence <o:p></o:p></span></b></p>
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:20.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt'>Commitment to Inclusive
+Excellence </span></b></p>
 
 <p class=MsoNormal>WSU recognizes that our individual differences can deepen
 our understanding of one another and the world around us, rather than divide
 us. </p>
 
-<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+<p class=MsoNormal>&nbsp;</p>
 
 <p class=MsoNormal>In this class, people of all ethnicities, genders and gender
 identities, religions, ages, sexual orientations, disabilities, socioeconomic
 backgrounds, regions, and nationalities are strongly encouraged to share their
 rich array of perspectives and experiences.&nbsp; </p>
 
-<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+<p class=MsoNormal>&nbsp;</p>
 
 <p class=MsoNormal>If you feel your differences may in some way isolate you
-from WSU’s community or if you have a need for any specific accommodations,
+from WSUâ€™s community or if you have a need for any specific accommodations,
 please speak with the instructor early in the semester about your concerns and
 what we can do together to help you become an active and engaged member of our
 class and community. </p>
 
-<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+<p class=MsoNormal>&nbsp;</p>
 
 <p class=MsoNormal>If you or a friend has been a victim of sexual assault,
 dating violence, domestic violence, or stalking, you can talk to a trained,
 confidential advocate by calling 507.457.5610. </p>
 
-<p class=MsoNormal style='margin-bottom:6.0pt'><b><span style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></b></p>
+<p class=MsoNormal style='margin-bottom:6.0pt'><b><span style='font-size:13.5pt'>&nbsp;</span></b></p>
 
 <p class=MsoNormal style='margin-bottom:6.0pt'><span style='font-size:11.0pt;
 font-family:"Arial",sans-serif;color:black'>The <a href="../Disclaimer.htm">Standard
-Disclaimer</a> applies.<o:p></o:p></span></p>
+Disclaimer</a> applies.</span></p>
 
 <p class=MsoNormal style='margin-bottom:6.0pt'><span style='font-size:11.0pt;
-font-family:"Arial",sans-serif;color:black'>© Eric Errthum, </span><!--[if supportFields]><span
-style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'><span
-style='mso-element:field-begin'></span><span
-style='mso-spacerun:yes'> </span>DATE<span style='mso-spacerun:yes'>  </span>\@
-&quot;MMMM yyyy&quot; <span style='mso-element:field-separator'></span></span><![endif]--><span
-style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'><span
-style='mso-no-proof:yes'>October 2025</span></span><!--[if supportFields]><span
-style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'><span
-style='mso-element:field-end'></span></span><![endif]--><span style='font-size:
-11.0pt;font-family:"Arial",sans-serif;color:black'>, all rights reserved.<o:p></o:p></span></p>
+font-family:"Arial",sans-serif;color:black'>Â© Eric Errthum, December 2025, all
+rights reserved.</span></p>
 
 </div>
 
