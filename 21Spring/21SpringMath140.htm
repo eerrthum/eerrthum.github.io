@@ -1,1239 +1,224 @@
-<html xmlns:v="urn:schemas-microsoft-com:vml"
-xmlns:o="urn:schemas-microsoft-com:office:office"
-xmlns:w="urn:schemas-microsoft-com:office:word"
-xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
-xmlns="http://www.w3.org/TR/REC-html40">
+<html>
 
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
-<meta name=ProgId content=Word.Document>
-<meta name=Generator content="Microsoft Word 15">
-<meta name=Originator content="Microsoft Word 15">
-<link rel=File-List href="21SpringMath140_files/filelist.xml">
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
 <title>MATH 140 Applied Calculus</title>
-<!--[if gte mso 9]><xml>
- <o:DocumentProperties>
-  <o:Author>Errthum, Eric</o:Author>
-  <o:LastAuthor>Errthum, Eric</o:LastAuthor>
-  <o:Revision>29</o:Revision>
-  <o:TotalTime>5638</o:TotalTime>
-  <o:Created>2020-12-28T18:21:00Z</o:Created>
-  <o:LastSaved>2021-04-14T16:40:00Z</o:LastSaved>
-  <o:Pages>5</o:Pages>
-  <o:Words>1938</o:Words>
-  <o:Characters>10522</o:Characters>
-  <o:Company>The Errthums</o:Company>
-  <o:Lines>87</o:Lines>
-  <o:Paragraphs>24</o:Paragraphs>
-  <o:CharactersWithSpaces>12436</o:CharactersWithSpaces>
-  <o:Version>16.00</o:Version>
- </o:DocumentProperties>
-</xml><![endif]-->
-<link rel=themeData href="21SpringMath140_files/themedata.thmx">
-<link rel=colorSchemeMapping href="21SpringMath140_files/colorschememapping.xml">
-<!--[if gte mso 9]><xml>
- <w:WordDocument>
-  <w:View>Print</w:View>
-  <w:TrackMoves/>
-  <w:TrackFormatting/>
-  <w:ValidateAgainstSchemas/>
-  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
-  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
-  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
-  <w:DoNotPromoteQF/>
-  <w:LidThemeOther>EN-US</w:LidThemeOther>
-  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
-  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
-  <w:Compatibility>
-   <w:BreakWrappedTables/>
-   <w:SnapToGridInCell/>
-   <w:WrapTextWithPunct/>
-   <w:UseAsianBreakRules/>
-   <w:DontGrowAutofit/>
-   <w:SplitPgBreakAndParaMark/>
-   <w:DontVertAlignCellWithSp/>
-   <w:DontBreakConstrainedForcedTables/>
-   <w:DontVertAlignInTxbx/>
-   <w:Word11KerningPairs/>
-   <w:CachedColBalance/>
-  </w:Compatibility>
-  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
-  <m:mathPr>
-   <m:mathFont m:val="Cambria Math"/>
-   <m:brkBin m:val="before"/>
-   <m:brkBinSub m:val="&#45;-"/>
-   <m:smallFrac m:val="off"/>
-   <m:dispDef/>
-   <m:lMargin m:val="0"/>
-   <m:rMargin m:val="0"/>
-   <m:defJc m:val="centerGroup"/>
-   <m:wrapIndent m:val="1440"/>
-   <m:intLim m:val="subSup"/>
-   <m:naryLim m:val="undOvr"/>
-  </m:mathPr></w:WordDocument>
-</xml><![endif]--><!--[if gte mso 9]><xml>
- <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
-  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
-  LatentStyleCount="376">
-  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 6"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 7"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 8"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 9"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 1"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 2"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 3"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 4"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 5"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 6"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 7"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 8"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 9"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Normal Indent"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="footnote text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="annotation text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="header"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="footer"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index heading"/>
-  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="table of figures"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="envelope address"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="envelope return"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="footnote reference"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="annotation reference"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="line number"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="page number"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="endnote reference"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="endnote text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="table of authorities"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="macro"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="toa heading"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Bullet"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Number"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Bullet 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Bullet 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Bullet 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Bullet 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Number 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Number 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Number 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Number 5"/>
-  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Closing"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Signature"/>
-  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
-   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text Indent"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Continue"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Continue 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Continue 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Continue 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Continue 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Message Header"/>
-  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Salutation"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Date"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text First Indent"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text First Indent 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Note Heading"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text Indent 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text Indent 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Block Text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Hyperlink"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="FollowedHyperlink"/>
-  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
-  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Document Map"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Plain Text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="E-mail Signature"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Top of Form"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Bottom of Form"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Normal (Web)"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Acronym"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Address"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Cite"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Code"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Definition"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Keyboard"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Preformatted"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Sample"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Typewriter"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Variable"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Normal Table"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="annotation subject"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="No List"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Outline List 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Outline List 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Outline List 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Simple 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Simple 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Simple 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Classic 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Classic 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Classic 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Classic 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Colorful 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Colorful 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Colorful 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Columns 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Columns 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Columns 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Columns 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Columns 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 6"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 7"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 8"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 6"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 7"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 8"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table 3D effects 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table 3D effects 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table 3D effects 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Contemporary"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Elegant"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Professional"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Subtle 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Subtle 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Web 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Web 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Web 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Balloon Text"/>
-  <w:LsdException Locked="false" Priority="59" Name="Table Grid"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Theme"/>
-  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
-  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
-  <w:LsdException Locked="false" Priority="34" QFormat="true"
-   Name="List Paragraph"/>
-  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
-  <w:LsdException Locked="false" Priority="30" QFormat="true"
-   Name="Intense Quote"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
-  <w:LsdException Locked="false" Priority="19" QFormat="true"
-   Name="Subtle Emphasis"/>
-  <w:LsdException Locked="false" Priority="21" QFormat="true"
-   Name="Intense Emphasis"/>
-  <w:LsdException Locked="false" Priority="31" QFormat="true"
-   Name="Subtle Reference"/>
-  <w:LsdException Locked="false" Priority="32" QFormat="true"
-   Name="Intense Reference"/>
-  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
-  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
-   UnhideWhenUsed="true" Name="Bibliography"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
-  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
-  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
-  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
-  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
-  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
-  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
-  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
-  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
-  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 1"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 1"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 1"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 2"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 2"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 2"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 3"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 3"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 3"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 4"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 4"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 4"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 5"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 5"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 5"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 6"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 6"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 6"/>
-  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
-  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
-  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 1"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 1"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 1"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 2"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 2"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 2"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 3"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 3"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 3"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 4"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 4"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 4"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 5"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 5"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 5"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 6"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 6"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 6"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Mention"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Smart Hyperlink"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Hashtag"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Unresolved Mention"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Smart Link"/>
- </w:LatentStyles>
-</xml><![endif]-->
 <style>
 <!--
  /* Font Definitions */
  @font-face
 	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;
-	mso-font-charset:2;
-	mso-generic-font-family:auto;
-	mso-font-pitch:variable;
-	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
 @font-face
 	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:roman;
-	mso-font-pitch:variable;
-	mso-font-signature:3 0 0 0 1 0;}
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
 	{font-family:Cambria;
-	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:roman;
-	mso-font-pitch:variable;
-	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
 	{font-family:Tahoma;
-	panose-1:2 11 6 4 3 5 4 4 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:-520081665 -1073717157 41 0 66047 0;}
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-parent:"";
-	margin:0in;
-	mso-pagination:widow-orphan;
+	{margin:0in;
 	font-size:12.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";}
-h2
-	{mso-style-noshow:yes;
-	mso-style-priority:9;
-	mso-style-qformat:yes;
-	mso-style-link:"Heading 2 Char";
-	mso-style-next:Normal;
-	margin-top:10.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:0in;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:2;
-	font-size:13.0pt;
-	font-family:"Cambria",serif;
-	mso-ascii-font-family:Cambria;
-	mso-ascii-theme-font:major-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:Cambria;
-	mso-hansi-theme-font:major-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#4F81BD;
-	mso-themecolor:accent1;
-	font-weight:bold;}
+	font-family:"Times New Roman",serif;}
 a:link, span.MsoHyperlink
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	color:blue;
-	text-decoration:underline;
-	text-underline:single;}
-a:visited, span.MsoHyperlinkFollowed
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	color:purple;
-	mso-themecolor:followedhyperlink;
-	text-decoration:underline;
-	text-underline:single;}
-p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-link:"Plain Text Char";
-	margin:0in;
-	mso-pagination:widow-orphan;
-	font-size:10.0pt;
-	font-family:"Courier New";
-	mso-fareast-font-family:"Times New Roman";}
-p
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-margin-top-alt:auto;
-	margin-right:0in;
-	mso-margin-bottom-alt:auto;
-	margin-left:0in;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";}
-p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-link:"Balloon Text Char";
-	margin:0in;
-	mso-pagination:widow-orphan;
-	font-size:8.0pt;
-	font-family:"Tahoma",sans-serif;
-	mso-fareast-font-family:"Times New Roman";}
+	{color:blue;
+	text-decoration:underline;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{mso-style-noshow:yes;
-	mso-style-priority:34;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	margin-top:0in;
+	{margin-top:0in;
 	margin-right:0in;
 	margin-bottom:0in;
 	margin-left:.5in;
-	mso-add-space:auto;
-	mso-pagination:widow-orphan;
 	font-size:12.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";}
+	font-family:"Times New Roman",serif;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{mso-style-noshow:yes;
-	mso-style-priority:34;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-type:export-only;
-	margin-top:0in;
+	{margin-top:0in;
 	margin-right:0in;
 	margin-bottom:0in;
 	margin-left:.5in;
-	mso-add-space:auto;
-	mso-pagination:widow-orphan;
 	font-size:12.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";}
+	font-family:"Times New Roman",serif;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{mso-style-noshow:yes;
-	mso-style-priority:34;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-type:export-only;
-	margin-top:0in;
+	{margin-top:0in;
 	margin-right:0in;
 	margin-bottom:0in;
 	margin-left:.5in;
-	mso-add-space:auto;
-	mso-pagination:widow-orphan;
 	font-size:12.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";}
+	font-family:"Times New Roman",serif;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{mso-style-noshow:yes;
-	mso-style-priority:34;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-type:export-only;
-	margin-top:0in;
+	{margin-top:0in;
 	margin-right:0in;
 	margin-bottom:0in;
 	margin-left:.5in;
-	mso-add-space:auto;
-	mso-pagination:widow-orphan;
 	font-size:12.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";}
-span.Heading2Char
-	{mso-style-name:"Heading 2 Char";
-	mso-style-noshow:yes;
-	mso-style-priority:9;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Heading 2";
-	mso-ansi-font-size:13.0pt;
-	mso-bidi-font-size:13.0pt;
-	font-family:"Cambria",serif;
-	mso-ascii-font-family:Cambria;
-	mso-ascii-theme-font:major-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:Cambria;
-	mso-hansi-theme-font:major-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#4F81BD;
-	mso-themecolor:accent1;
-	font-weight:bold;}
-p.msonormal0, li.msonormal0, div.msonormal0
-	{mso-style-name:msonormal;
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-margin-top-alt:auto;
-	margin-right:0in;
-	mso-margin-bottom-alt:auto;
-	margin-left:0in;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;}
-span.PlainTextChar
-	{mso-style-name:"Plain Text Char";
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Plain Text";
-	font-family:"Courier New";
-	mso-ascii-font-family:"Courier New";
-	mso-hansi-font-family:"Courier New";
-	mso-bidi-font-family:"Courier New";}
-span.BalloonTextChar
-	{mso-style-name:"Balloon Text Char";
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Balloon Text";
-	mso-ansi-font-size:8.0pt;
-	mso-bidi-font-size:8.0pt;
-	font-family:"Tahoma",sans-serif;
-	mso-ascii-font-family:Tahoma;
-	mso-hansi-font-family:Tahoma;
-	mso-bidi-font-family:Tahoma;}
-p.syllabusheading2, li.syllabusheading2, div.syllabusheading2
-	{mso-style-name:syllabusheading2;
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	margin-top:12.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:0in;
-	text-align:center;
-	mso-pagination:widow-orphan;
-	font-size:10.0pt;
-	font-family:"Cambria",serif;
-	mso-fareast-font-family:Calibri;
-	mso-fareast-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	font-weight:bold;}
+	font-family:"Times New Roman",serif;}
 .MsoChpDefault
-	{mso-style-type:export-only;
-	mso-default-props:yes;
-	font-size:10.0pt;
-	mso-ansi-font-size:10.0pt;
-	mso-bidi-font-size:10.0pt;}
+	{font-size:10.0pt;}
 @page WordSection1
 	{size:8.5in 11.0in;
-	margin:.5in .5in .5in .5in;
-	mso-header-margin:.5in;
-	mso-footer-margin:.5in;
-	mso-paper-source:0;}
+	margin:.5in .5in .5in .5in;}
 div.WordSection1
 	{page:WordSection1;}
  /* List Definitions */
- @list l0
-	{mso-list-id:436098912;
-	mso-list-type:hybrid;
-	mso-list-template-ids:689964500 633522616 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
-@list l0:level1
-	{mso-level-start-at:850;
-	mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:.75in;
-	text-indent:-.25in;
-	font-family:Symbol;
-	mso-fareast-font-family:"Times New Roman";
-	mso-bidi-font-family:"Times New Roman";}
-@list l0:level2
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:1.25in;
-	text-indent:-.25in;
-	font-family:"Courier New";}
-@list l0:level3
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:1.75in;
-	text-indent:-.25in;
-	font-family:Wingdings;}
-@list l0:level4
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:2.25in;
-	text-indent:-.25in;
-	font-family:Symbol;}
-@list l0:level5
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:2.75in;
-	text-indent:-.25in;
-	font-family:"Courier New";}
-@list l0:level6
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:3.25in;
-	text-indent:-.25in;
-	font-family:Wingdings;}
-@list l0:level7
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:3.75in;
-	text-indent:-.25in;
-	font-family:Symbol;}
-@list l0:level8
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:4.25in;
-	text-indent:-.25in;
-	font-family:"Courier New";}
-@list l0:level9
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:4.75in;
-	text-indent:-.25in;
-	font-family:Wingdings;}
-ol
+ ol
 	{margin-bottom:0in;}
 ul
 	{margin-bottom:0in;}
 -->
 </style>
-<!--[if gte mso 10]>
-<style>
- /* Style Definitions */
- table.MsoNormalTable
-	{mso-style-name:"Table Normal";
-	mso-tstyle-rowband-size:0;
-	mso-tstyle-colband-size:0;
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-parent:"";
-	mso-padding-alt:0in 5.4pt 0in 5.4pt;
-	mso-para-margin:0in;
-	mso-pagination:widow-orphan;
-	font-size:10.0pt;
-	font-family:"Times New Roman",serif;}
-table.MsoTableGrid
-	{mso-style-name:"Table Grid";
-	mso-tstyle-rowband-size:0;
-	mso-tstyle-colband-size:0;
-	mso-style-priority:59;
-	mso-style-unhide:no;
-	border:solid black 1.0pt;
-	mso-border-themecolor:text1;
-	mso-border-alt:solid black .5pt;
-	mso-border-themecolor:text1;
-	mso-padding-alt:0in 5.4pt 0in 5.4pt;
-	mso-border-insideh:.5pt solid black;
-	mso-border-insideh-themecolor:text1;
-	mso-border-insidev:.5pt solid black;
-	mso-border-insidev-themecolor:text1;
-	mso-para-margin:0in;
-	mso-pagination:widow-orphan;
-	font-size:10.0pt;
-	font-family:"Times New Roman",serif;}
-</style>
-<![endif]--><!--[if gte mso 9]><xml>
- <o:shapedefaults v:ext="edit" spidmax="1026"/>
-</xml><![endif]--><!--[if gte mso 9]><xml>
- <o:shapelayout v:ext="edit">
-  <o:idmap v:ext="edit" data="1"/>
- </o:shapelayout></xml><![endif]-->
+
 </head>
 
-<body lang=EN-US link=blue vlink=purple style='tab-interval:.5in;word-wrap:
-break-word'>
+<body lang=EN-US link=blue vlink="#96607D" style='word-wrap:break-word'>
 
 <div class=WordSection1>
 
-<p class=MsoNormal align=center style='margin-bottom:8.0pt;text-align:center'><b
-style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt'>MATH 140
-Applied Calculus<br>
-</span>Syllabus for Spring 2021<o:p></o:p></b></p>
+<p class=MsoNormal align=center style='margin-bottom:8.0pt;text-align:center'><b><span
+style='font-size:14.0pt'>MATH 140 Applied Calculus<br>
+</span>Syllabus for Spring 2021</b></p>
 
-<p class=MsoNormal align=center style='margin-bottom:8.0pt;text-align:center'><b
-style='mso-bidi-font-weight:normal'>Section 01: Tues, Thurs, 9:30am – 10:50am<br>
-Section 03: Mon, Wed, Fri, 2:00pm – 2:50pm<br>
-Section 05: Mon, Wed, Fri, 10:00am – 10:50am<o:p></o:p></b></p>
+<p class=MsoNormal align=center style='margin-bottom:8.0pt;text-align:center'><b>Section
+01: Tues, Thurs, 9:30am â€“ 10:50am<br>
+Section 03: Mon, Wed, Fri, 2:00pm â€“ 2:50pm<br>
+Section 05: Mon, Wed, Fri, 10:00am â€“ 10:50am</b></p>
 
-<p class=MsoNormal align=center style='margin-bottom:8.0pt;text-align:center'><b
-style='mso-bidi-font-weight:normal'>Semi-synchronous Online<o:p></o:p></b></p>
+<p class=MsoNormal align=center style='margin-bottom:8.0pt;text-align:center'><b>Semi-synchronous
+Online</b></p>
 
-<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.0pt;
-tab-stops:right 7.5in'><b style='mso-bidi-font-weight:normal'>Instructor: </b>Dr.
-Eric Errthum<span style='mso-tab-count:1'>                                                                      </span><b
-style='mso-bidi-font-weight:normal'>Winona Email Username: </b>eerrthum<br>
+<p class=MsoNormal style='margin-bottom:6.0pt'><b>Instructor: </b>Dr. Eric
+ErrthumÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  <b>Winona Email Username: </b>eerrthum<br>
 <b>Office Hours: </b>Times listed in schedule below, otherwise email me to set
-up a time.<span style='mso-tab-count:1'>                                           </span></p>
+up a time.Â Â Â Â  </p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;tab-stops:.75in'><a
-name="_Hlk60908309"><b style='mso-bidi-font-weight:normal'>Office Hour Zoom
-Info:<span style='mso-tab-count:1'>       </span></b></a><a
-href="https://minnstate.zoom.us/j/96962375284"><span style='mso-bookmark:_Hlk60908309'><b
-style='mso-bidi-font-weight:normal'>https://minnstate.zoom.us/j/96962375284</b></span><span
-style='mso-bookmark:_Hlk60908309'></span></a><span style='mso-bookmark:_Hlk60908309'><b
-style='mso-bidi-font-weight:normal'> <span style='mso-tab-count:2'>             </span><u>Meeting
-ID: 969 6237 5284</u><span style='mso-tab-count:5'>                                                    </span><u><span
-style='color:red'>Passcode: 141421</span></u><o:p></o:p></b></span></p>
+<p class=MsoNormal style='margin-bottom:8.0pt'><a name="_Hlk60908309"><b>Office
+Hour Zoom Info:Â Â Â Â Â Â  </b></a><a href="https://minnstate.zoom.us/j/96962375284"><b>https://minnstate.zoom.us/j/96962375284</b></a><b>
+ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  <u>Meeting ID: 969 6237 5284</u>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  <u><span
+style='color:red'>Passcode: 141421</span></u></b></p>
 
-<span style='mso-bookmark:_Hlk60908309'></span>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Text:Â Â  </b>Applied
+Calculus (6<sup>th</sup> Ed) by Hughes-Hallet provided through WileyPLUS (see
+info below)</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Text:<span
-style='mso-tab-count:1'>   </span></b>Applied Calculus (6<sup>th</sup> Ed) by
-Hughes-Hallet provided through WileyPLUS (see info below)</p>
-
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>Prerequisite: </b>MATH 112, MATH115 or<b
-style='mso-bidi-font-weight:normal'> </b>MATH 120 or a qualifying score on the
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Prerequisite:
+</b>MATH 112, MATH115 or<b> </b>MATH 120 or a qualifying score on the
 mathematics placement exam.</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>About This Course:</b><span
-style='mso-tab-count:1'>  </span>This course is intended to provide the student
-with a clear understanding of the ideas of calculus. Unlike “traditional”
-calculus classes that concentrate on the symbolic computations, this course
-specifically strives towards applying the mathematics to real-life situations
-(often in business/finance) and emphasizes the understanding and communication
-of the concepts and ideas (although it’ll also have its fair share of symbolic
-and numerical calculations). In other words, compared to other calculus courses
-you may have taken or heard about, in this course you will do less formulaic
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>About This
+Course:</b>Â  This course is intended to provide the student with a clear
+understanding of the ideas of calculus. Unlike â€œtraditionalâ€ calculus classes
+that concentrate on the symbolic computations, this course specifically strives
+towards applying the mathematics to real-life situations (often in
+business/finance) and emphasizes the understanding and communication of the
+concepts and ideas (although itâ€™ll also have its fair share of symbolic and
+numerical calculations). In other words, compared to other calculus courses you
+may have taken or heard about, in this course you will do less formulaic
 operations and much more explanation, application, and communication.</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>Expectations:<span style='mso-tab-count:
-1'> </span></b>Students who complete this course with a passing grade are
-expected to be able to demonstrate the following skills: (i) Mastery of
-prerequisite material, (ii) Use technology to perform the basic calculations of
-calculus, (iii) Apply the correct calculus techniques and/or technology in the
-appropriate situations, (iv) Understand the connections between visual, tabular,
-and algebraic data and how calculus applies to each, (v) Communicate clearly
-what aspect of calculus (or mathematics in general) is required of a given
-situation and why.</p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Expectations: </b>Students
+who complete this course with a passing grade are expected to be able to
+demonstrate the following skills: (i) Mastery of prerequisite material, (ii)
+Use technology to perform the basic calculations of calculus, (iii) Apply the
+correct calculus techniques and/or technology in the appropriate situations,
+(iv) Understand the connections between visual, tabular, and algebraic data and
+how calculus applies to each, (v) Communicate clearly what aspect of calculus
+(or mathematics in general) is required of a given situation and why.</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;tab-stops:58.5pt decimal 283.5pt dashed 355.5pt'><b
-style='mso-bidi-font-weight:normal'>Schedule/Organization:</b><span
-style='mso-bidi-font-weight:bold'> A detailed schedule is below and available
-on D2L. There are three units, each containing about two chapters of the text.
-A homework set is assigned for each section of the text and is usually due <u>every
-Monday at 4am</u>. Each chapter ends with a quiz, each unit ends with an exam.
-Content will be delivered via Zoom lectures that are recorded and then posted
-to D2L.<o:p></o:p></span></p>
+<p class=MsoNormal style='margin-bottom:8.0pt'><b>Schedule/Organization:</b> A
+detailed schedule is below and available on D2L. There are three units, each
+containing about two chapters of the text. A homework set is assigned for each
+section of the text and is usually due <u>every Monday at 4am</u>. Each chapter
+ends with a quiz, each unit ends with an exam. Content will be delivered via
+Zoom lectures that are recorded and then posted to D2L.</p>
 
 <p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Errors and
-Mistakes:</b><span style='mso-tab-count:1'>            </span>This is the first
-time this course is being offered online. <span style='font-size:14.0pt;
-color:red'>If you see anything that looks wrong (weird due date, missing file,
-etc.), please email me right away so we can minimize everyone’s frustration and
-confusion.</span></p>
+Mistakes:</b>Â Â Â Â Â Â Â Â Â Â  This is the first time this course is being offered
+online. <span style='font-size:14.0pt;color:red'>If you see anything that looks
+wrong (weird due date, missing file, etc.), please email me right away so we
+can minimize everyoneâ€™s frustration and confusion.</span></p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;tab-stops:58.5pt 76.5pt decimal 261.0pt dashed 333.0pt'><b
-style='mso-bidi-font-weight:normal'>Grading:<span style='mso-tab-count:1'>    </span></b>Homework
-(scaled as needed)<span style='mso-tab-count:1'>             </span>150 points<span
-style='mso-tab-count:1 dashed'>------- </span>21.43%<br>
-<span style='mso-tab-count:1'>                    </span>Quizzes (6 @ 20
-points, drop lowest)<span style='mso-tab-count:1'>  </span>100 points<span
-style='mso-tab-count:1 dashed'>------- </span>14.28%<br>
-<span style='mso-tab-count:1'>                    </span>Midterms (3 @ 100
-points)<span style='mso-tab-count:1'>                  </span>300 points<span
-style='mso-tab-count:1 dashed'>------- </span>42.86%<br>
-<span style='mso-tab-count:1'>                    </span>Final<span
-style='mso-tab-count:1'>                                                     </span>150
-points<span style='mso-tab-count:1 dashed'>------- </span>21.43%<br>
-<span style='mso-tab-count:3'>                                                                              </span>-------<br>
-<span style='mso-tab-count:3'>                                                                                 </span>700
+<p class=MsoNormal style='margin-bottom:8.0pt'><b>Grading:Â Â Â  </b>Homework
+(scaled as needed)Â Â Â Â Â Â Â Â Â Â Â Â  150 points------ 21.43%<br>
+Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  Quizzes (6 @ 20 points, drop lowest)Â  100 points------ 14.28%<br>
+Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  Midterms (3 @ 100 points)Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  300 points------ 42.86%<br>
+Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  FinalÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  150
+points------ 21.43%<br>
+Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  -------<br>
+Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  700
 points total</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>Grades:</b> <span
-style='mso-spacerun:yes'> </span>A = 90% (630 pts), B = 80% (560 pts), C = 70%
-(490 pts), D = 60% (420 pts). <a name="_Hlk60741521">There will be no curving
-of individual assessments. Grades will be available through D2L but may not
-always be up to date. If at any point during the semester you would like to know
-your exact current grade, please email the instructor.</a></p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Grades:</b>Â 
+A = 90% (630 pts), B = 80% (560 pts), C = 70% (490 pts), D = 60% (420 pts). <a
+name="_Hlk60741521">There will be no curving of individual assessments. Grades
+will be available through D2L but may not always be up to date. If at any point
+during the semester you would like to know your exact current grade, please
+email the instructor.</a></p>
 
-<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
-normal'><o:p>&nbsp;</o:p></b></p>
+<p class=MsoNormal style='text-align:justify'><b>&nbsp;</b></p>
 
-<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
-normal'><o:p>&nbsp;</o:p></b></p>
+<p class=MsoNormal style='text-align:justify'><b>&nbsp;</b></p>
 
-<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
-normal'>Note:<span style='mso-tab-count:1'>   </span></b>This syllabus is
-subject to change if deemed necessary by the instructor.<b style='mso-bidi-font-weight:
-normal'><br clear=all style='mso-special-character:line-break;page-break-before:
-always'>
+<p class=MsoNormal style='text-align:justify'><b>Note:Â Â  </b>This syllabus is
+subject to change if deemed necessary by the instructor.<b><br clear=all
+style='page-break-before:always'>
 </b></p>
 
-<p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>Technology:<span style='mso-tab-count:1'>   </span></b><span
-style='mso-bidi-font-weight:bold'>A mathematical computation device will be
-necessary for this course and is <u>required</u> during quizzes and exams.
-Computational technology options:<o:p></o:p></span></p>
+<p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'><b>Technology:Â Â  </b>A
+mathematical computation device will be necessary for this course and is <u>required</u>
+during quizzes and exams. Computational technology options:</p>
 
 <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-margin-bottom:6.0pt;margin-left:.75in;mso-add-space:auto;text-align:justify;
-text-indent:-.25in;mso-list:l0 level1 lfo2'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span style='mso-bidi-font-weight:bold'><span
-style='mso-spacerun:yes'> </span>A</span> <a
+margin-bottom:6.0pt;margin-left:.75in;text-align:justify;text-indent:-.25in'><span
+style='font-family:Symbol'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Â A <a
 href="https://www.amazon.com/Texas-Instruments-Titanium-Calculator-packaging/dp/B0001EMLZ2/">Texas
-Instrument TI-89</a> or TI-92 graphing calculator. <span style='mso-tab-count:
-1'>           </span><br>
-<i><span style='color:red'>Other TI’s (e.g TI-83, TI-84, TI-87, etc.) will <b><u>not</u></b>
+Instrument TI-89</a> or TI-92 graphing calculator. Â Â Â Â Â Â Â Â Â Â  <br>
+<i><span style='color:red'>Other TIâ€™s (e.g TI-83, TI-84, TI-87, etc.) will <b><u>not</u></b>
 be sufficient.</span></i> </p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-margin-bottom:6.0pt;margin-left:.75in;mso-add-space:auto;text-align:justify;
-text-indent:-.25in;mso-list:l0 level1 lfo2'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Use the <a href="https://ti89-simulator.com/">TI-89
-online simulator</a>.</p>
+margin-bottom:6.0pt;margin-left:.75in;text-align:justify;text-indent:-.25in'><span
+style='font-family:Symbol'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Use the <a href="https://ti89-simulator.com/">TI-89 online
+simulator</a>.</p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-margin-bottom:6.0pt;margin-left:.75in;mso-add-space:auto;text-align:justify;
-text-indent:-.25in;mso-list:l0 level1 lfo2'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Download and install the <a
+margin-bottom:6.0pt;margin-left:.75in;text-align:justify;text-indent:-.25in'><span
+style='font-family:Symbol'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Download and install the <a
 href="https://home.adelphi.edu/~mo17502/VirtualTi89.html">Virtual TI-89</a> for
 your laptop.</p>
 
 <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-margin-bottom:6.0pt;margin-left:.75in;mso-add-space:auto;text-align:justify;
-text-indent:-.25in;mso-list:l0 level1 lfo2'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Use a computational software website such as <a
-href="https://www.symbolab.com/">SymboLab</a>. <span style='mso-tab-count:1'>        </span><br>
-(Note: You may <b><u>NOT</u></b> use a “homework help” website where another
+margin-bottom:6.0pt;margin-left:.75in;text-align:justify;text-indent:-.25in'><span
+style='font-family:Symbol'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Use a computational software website such as <a
+href="https://www.symbolab.com/">SymboLab</a>. Â Â Â Â Â Â Â  <br>
+(Note: You may <b><u>NOT</u></b> use a â€œhomework helpâ€ website where another
 human answers your question.)</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify;tab-stops:
-.75in'><b style='mso-bidi-font-weight:normal'>Lectures:</b><span
-style='mso-bidi-font-weight:bold'><span style='mso-tab-count:1'>  </span>The
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Lectures:</b>Â  The
 bulk of the material covered in the course will be delivered via video
 lectures. Live Zoom lectures (see schedule below) will be recorded and posted
-on D2L. Attendance at live Zoom sessions is optional and t</span>he slides used
-in the video lectures will also be available on D2L<span style='mso-bidi-font-weight:
-bold'>. Some live sessions will not be during the section time you are enrolled
-in. You are welcome to attend anyway if you are able. If you do not attend the
-live lecture, you are expected to watch the recording. Note that the next live
-lecture during your section time will often rely on information contained in
-the previously recorded live lectures. </span></p>
+on D2L. Attendance at live Zoom sessions is optional and the slides used in the
+video lectures will also be available on D2L. Some live sessions will not be
+during the section time you are enrolled in. You are welcome to attend anyway
+if you are able. If you do not attend the live lecture, you are expected to
+watch the recording. Note that the next live lecture during your section time
+will often rely on information contained in the previously recorded live
+lectures. </p>
 
-<p class=MsoNormal align=center style='margin-bottom:8.0pt;text-align:center;
-tab-stops:.75in'><b style='mso-bidi-font-weight:normal'>Lecture Zoom Info:<span
-style='mso-tab-count:1'>  </span><a
-href="https://minnstate.zoom.us/j/98620108209">https://minnstate.zoom.us/j/98620108209</a><span
-style='mso-tab-count:2'>                </span><u>Meeting ID: 986 2010 8209</u><span
-style='mso-tab-count:1'>                  </span><u><span style='color:red'>Passcode:
-271828</span></u><o:p></o:p></b></p>
+<p class=MsoNormal align=center style='margin-bottom:8.0pt;text-align:center'><b>Lecture
+Zoom Info:Â  <a href="https://minnstate.zoom.us/j/98620108209">https://minnstate.zoom.us/j/98620108209</a>Â Â Â Â Â Â Â Â Â Â Â Â Â  <u>Meeting
+ID: 986 2010 8209</u>Â Â Â Â  <u><span style='color:red'>Passcode: 271828</span></u></b></p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>Homework:<span style='mso-tab-count:1'>    </span></b>Homework
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Homework:Â Â  </b>Homework
 is assigned for every section even if it is not specifically announced in
 class/D2L. All homework problems will be done through the WileyPLUS webpage for
 this course. <b><span style='font-size:14.0pt'>Directions for accessing
-WileyPLUS can be found in the “Course Materials” folder in the D2L Content.</span></b><span
+WileyPLUS can be found in the â€œCourse Materialsâ€ folder in the D2L Content.</span></b><span
 style='color:red'> </span><b><span style='font-size:14.0pt'>The course section
 ID is: <u><span style='color:red'>A38059</span></u>.</span></b> Homework for a
 section is due at 4am either on the following Monday or the day of the quiz
@@ -1241,212 +226,157 @@ section is due at 4am either on the following Monday or the day of the quiz
 started with WileyPLUS or doing any of the homework assignments, please contact
 the instructor.</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify;tab-stops:
-.75in'><b style='mso-bidi-font-weight:normal'>Quizzes and Exams:</b> <span
-style='mso-tab-count:1'> </span>We will have 6 short (approx. 25-minute)
-quizzes. Each quiz will count for 20 points and the lowest quiz will be dropped
-from your grade. There will be three exams and one comprehensive final exam.
-Dates for quizzes and exams can be found in the schedule below and on D2L.
-Questions on the quizzes and exams will be based on assigned homework and the
-in-class, lecture examples.</p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Quizzes
+and Exams:</b>  We will have 6 short (approx. 25-minute) quizzes. Each quiz
+will count for 20 points and the lowest quiz will be dropped from your grade.
+There will be three exams and one comprehensive final exam. Dates for quizzes
+and exams can be found in the schedule below and on D2L. Questions on the
+quizzes and exams will be based on assigned homework and the in-class, lecture
+examples.</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify;tab-stops:
-.75in'><b>Quiz and Exam Time Slots:</b><span style='mso-tab-count:1'> </span>By
-default, you will be assigned the time slot for a quiz/exam according to the
-section you are enrolled in. If you want to take your quiz/exam during one of
-the other time slots, please email me and I can make that adjustment.</p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Quiz and
+Exam Time Slots:</b> By default, you will be assigned the time slot for a
+quiz/exam according to the section you are enrolled in. If you want to take
+your quiz/exam during one of the other time slots, please email me and I can
+make that adjustment.</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>Quiz and Exam Submissions:</b><span
-style='mso-bidi-font-weight:bold'><span style='mso-tab-count:1'>          </span>Quizzes
-and exams will be posted to D2L at the designated time and date. You will have
-the given amount time to complete the problems, </span><b style='mso-bidi-font-weight:
-normal'><u>with legible work shown</u></b><span style='mso-bidi-font-weight:
-bold'>, on a piece of paper, and then upload images of your work/solutions to
-the “Assignments” folder in D2L. </span><b style='mso-bidi-font-weight:normal'><i><span
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Quiz and
+Exam Submissions:</b>Â Â Â Â Â Â Â Â  Quizzes and exams will be posted to D2L at the
+designated time and date. You will have the given amount time to complete the
+problems, <b><u>with legible work shown</u></b>, on a piece of paper, and then
+upload images of your work/solutions to the â€œAssignmentsâ€ folder in D2L. <b><i><span
 style='font-size:16.0pt'>Image files should be <span style='color:red'>.jpg
-format </span>and at a resolution that results in a file size of at least 100KB</span></i>.</b><span
-style='mso-bidi-font-weight:bold'> Other forms of submission are only allowed
-with instructor permission. There will be an opportunity in the first week to
-practice submitting.<o:p></o:p></span></p>
+format </span>and at a resolution that results in a file size of at least 100KB</span></i>.</b>
+Other forms of submission are only allowed with instructor permission. There
+will be an opportunity in the first week to practice submitting.</p>
 
-<p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'><span style='letter-spacing:-.1pt'>Tutoring:<span
-style='mso-tab-count:1'>        </span></span></b><span style='letter-spacing:
+<p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'><b><span
+style='letter-spacing:-.1pt'>Tutoring:Â Â Â Â Â Â  </span></b><span style='letter-spacing:
 -.1pt'>Tutoring Services is located in the library and provides free one-on-one
 tutoring. See <a href="http://www.winona.edu/tutoring">www.winona.edu/tutoring</a>
-for more info and to schedule virtual tutoring sessions. <o:p></o:p></span></p>
+for more info and to schedule virtual tutoring sessions. </span></p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>Late/Missed Work: </b>Late homework or
-missed quizzes will result in a score of zero. Make-up quizzes and make-up
-exams <b style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:
-normal'>before the time of the normal quiz or exam </i></b>will be given at the
-discretion of the instructor. If you have an unavoidable absence, please inform
-the instructor beforehand.</p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Late/Missed
+Work: </b>Late homework or missed quizzes will result in a score of zero.
+Make-up quizzes and make-up exams <b><i>before the time of the normal quiz or
+exam </i></b>will be given at the discretion of the instructor. If you have an
+unavoidable absence, please inform the instructor beforehand.</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b
-style='mso-bidi-font-weight:normal'>Academic Dishonesty:<span
-style='mso-spacerun:yes'>  </span></b>Any type of academic dishonesty
-(cheating, copying, etc.) will result in failure and will be reported to school
-authorities. <span style='mso-bidi-font-weight:bold'>This includes access to past
-quizzes, exams, etc. that has not been handed out to the whole class.</span> <b><u><span
-style='color:red'>This also includes student-to-student communication during a
-quiz or exam and/or posting homework, quiz, or exam questions to unsanctioned
-“homework help” websites.</span></u></b><span style='color:red'> </span>If you
-are having trouble with the course, please contact the instructor first.</p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Academic
+Dishonesty:Â  </b>Any type of academic dishonesty (cheating, copying, etc.) will
+result in failure and will be reported to school authorities. This includes
+access to past quizzes, exams, etc. that has not been handed out to the whole
+class. <b><u><span style='color:red'>This also includes student-to-student
+communication during a quiz or exam and/or posting homework, quiz, or exam
+questions to unsanctioned â€œhomework helpâ€ websites.</span></u></b><span
+style='color:red'> </span>If you are having trouble with the course, please
+contact the instructor first.</p>
 
-<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
-normal'><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></b></p>
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:14.0pt'>&nbsp;</span></b></p>
 
-<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
-normal'><span style='font-size:14.0pt'>Schedule of Events – Math 140-05<o:p></o:p></span></b></p>
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:14.0pt'>Schedule of Events â€“ Math 140-05</span></b></p>
 
-<p class=MsoNormal align=center style='text-align:center'>(as of <!--[if supportFields]><span
-style='mso-element:field-begin'></span><span
-style='mso-spacerun:yes'> </span>DATE \@ &quot;M/d/yy&quot; <span
-style='mso-element:field-separator'></span><![endif]--><span style='mso-no-proof:
-yes'>4/14/21</span><!--[if supportFields]><span style='mso-element:field-end'></span><![endif]-->,
-subject to change)</p>
+<p class=MsoNormal align=center style='text-align:center'>(as of 12/18/25, subject to change)</p>
 
-<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+<p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
 
 <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width="100%"
- style='width:100.0%;border-collapse:collapse;border:none;mso-border-alt:solid black .5pt;
- mso-border-themecolor:text1;mso-yfti-tbllook:1184;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
- <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:13.45pt'>
-  <td width="7%" style='width:7.2%;border:solid black 1.0pt;mso-border-themecolor:
-  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
-  0in 5.4pt 0in 5.4pt;height:13.45pt'>
+ style='width:100.0%;border-collapse:collapse;border:none'>
+ <tr style='height:13.45pt'>
+  <td width="7%" style='width:7.2%;border:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>Week</p>
   </td>
-  <td width="18%" style='width:18.56%;border:solid black 1.0pt;mso-border-themecolor:
-  text1;border-left:none;mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:
-  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
-  0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  <td width="18%" style='width:18.56%;border:solid black 1.0pt;border-left:
+  none;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>Monday</p>
   </td>
-  <td width="18%" style='width:18.56%;border:solid black 1.0pt;mso-border-themecolor:
-  text1;border-left:none;mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:
-  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
-  0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  <td width="18%" style='width:18.56%;border:solid black 1.0pt;border-left:
+  none;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>Tuesday</p>
   </td>
-  <td width="18%" style='width:18.56%;border:solid black 1.0pt;mso-border-themecolor:
-  text1;border-left:none;mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:
-  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
-  0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  <td width="18%" style='width:18.56%;border:solid black 1.0pt;border-left:
+  none;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>Wednesday</p>
   </td>
-  <td width="18%" style='width:18.56%;border:solid black 1.0pt;mso-border-themecolor:
-  text1;border-left:none;mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:
-  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
-  0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  <td width="18%" style='width:18.56%;border:solid black 1.0pt;border-left:
+  none;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>Thursday</p>
   </td>
-  <td width="18%" style='width:18.56%;border:solid black 1.0pt;mso-border-themecolor:
-  text1;border-left:none;mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:
-  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
-  0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  <td width="18%" style='width:18.56%;border:solid black 1.0pt;border-left:
+  none;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>Friday</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:1;height:13.45pt'>
-  <td width="7%" style='width:7.2%;border:solid black 1.0pt;mso-border-themecolor:
-  text1;border-top:none;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:
-  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
-  0in 5.4pt 0in 5.4pt;height:13.45pt'>
+ <tr style='height:13.45pt'>
+  <td width="7%" style='width:7.2%;border:solid black 1.0pt;border-top:none;
+  padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>Jan 11</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
-  <p class=MsoNormal align=center style='text-align:center'>10am:
-  Introductions/<br>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal align=center style='text-align:center'>10am: Introductions/<br>
   Syllabus</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>2pm: Introductions/<br>
   Syllabus</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>9:30am:
   Introductions/<br>
   Syllabus</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>10:30am: <br>
   1.1 Functions</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>10am:</p>
   <p class=MsoNormal align=center style='text-align:center'>1.2 Linear
   Functions</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>9:30am:<br>
   1.X Using CAS calculator to solve<br>
   1.5 Exponential Functions<br>
   1.6 Natural Logarithm</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>10am: Office hour</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:2;height:13.45pt'>
-  <td width="7%" style='width:7.2%;border:solid black 1.0pt;mso-border-themecolor:
-  text1;border-top:none;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:
-  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
-  0in 5.4pt 0in 5.4pt;height:13.45pt'>
+ <tr style='height:13.45pt'>
+  <td width="7%" style='width:7.2%;border:solid black 1.0pt;border-top:none;
+  padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>Jan 18</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='color:red'>NO CLASS<br>
   MLK Day</span></p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#558ED5;mso-themecolor:text2;mso-themetint:153;mso-style-textfill-fill-color:
-  #558ED5;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
-  100.0%;mso-style-textfill-fill-colortransforms:"lumm=60000 lumo=40000"'>4am:
-  HW Due <o:p></o:p></span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><o:p>&nbsp;</o:p></b></p>
+  style='color:#2D7FCF'>4am: HW Due </span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
   <p class=MsoNormal align=center style='text-align:center'>9:30am:</p>
   <p class=MsoNormal align=center style='text-align:center'>1.7 Exponential
   Growth Model </p>
@@ -1454,744 +384,521 @@ subject to change)</p>
   from Old / Transformations</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>10am:<br>
   1.9/10 Power Functions, and Polynomials, Periodic Functions</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>9:30am:<br>
   1.3 Average Rate of Change</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>10am: Chapter 1 <br>
   Q &amp; A</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:3;height:13.45pt'>
-  <td width="7%" style='width:7.2%;border:solid black 1.0pt;mso-border-themecolor:
-  text1;border-top:none;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:
-  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
-  0in 5.4pt 0in 5.4pt;height:13.45pt'>
+ <tr style='height:13.45pt'>
+  <td width="7%" style='width:7.2%;border:solid black 1.0pt;border-top:none;
+  padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>Jan 25</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#558ED5;mso-themecolor:text2;mso-themetint:153;mso-style-textfill-fill-color:
-  #558ED5;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
-  100.0%;mso-style-textfill-fill-colortransforms:"lumm=60000 lumo=40000"'>4am:
-  HW Due <o:p></o:p></span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><o:p>&nbsp;</o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b>10am: QUIZ 1<o:p></o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><o:p>&nbsp;</o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b>2pm: QUIZ 1<o:p></o:p></b></p>
+  style='color:#2D7FCF'>4am: HW Due </span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>10am: QUIZ 1</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>2pm: QUIZ 1</b></p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b>9:30am: QUIZ 1<o:p></o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><o:p>&nbsp;</o:p></b></p>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>9:30am: QUIZ 1</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
   <p class=MsoNormal align=center style='text-align:center'>10:30am: <br>
   2.1 Instantaneous Rate of Change (part 1)</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>10am: <br>
   2.1 Instantaneous Rate of Change (continued)</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>9:30am:</p>
   <p class=MsoNormal align=center style='text-align:center'>2.2 The Derivative
   Function<br>
   1.9 Proportionality</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>10am: Office hour</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:4;height:13.45pt'>
-  <td width="7%" style='width:7.2%;border:solid black 1.0pt;mso-border-themecolor:
-  text1;border-top:none;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:
-  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
-  0in 5.4pt 0in 5.4pt;height:13.45pt'>
+ <tr style='height:13.45pt'>
+  <td width="7%" style='width:7.2%;border:solid black 1.0pt;border-top:none;
+  padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>Feb 1</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#558ED5;mso-themecolor:text2;mso-themetint:153;mso-style-textfill-fill-color:
-  #558ED5;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
-  100.0%;mso-style-textfill-fill-colortransforms:"lumm=60000 lumo=40000"'>4am:
-  HW Due <o:p></o:p></span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><o:p>&nbsp;</o:p></b></p>
+  style='color:#2D7FCF'>4am: HW Due </span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
   <p class=MsoNormal align=center style='text-align:center'>10am:</p>
   <p class=MsoNormal align=center style='text-align:center'>2.3 Interpretations
   of the Derivative</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>9:30am:</p>
   <p class=MsoNormal align=center style='text-align:center'>2.3 Local Linear
   Approximation 2.4 The Second Derivative</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>10am:<br>
   2.4 The Second Derivative, cont.</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>9:30am:</p>
   <p class=MsoNormal align=center style='text-align:center'>1.4 Economics
   Applications (Cost and Revenue)<br>
   2.5 Marginal Cost and Revenue</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>10am: Office hour</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>2pm: Chapter 2 <br>
   Q &amp; A </p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:5;height:13.45pt'>
-  <td width="7%" style='width:7.2%;border:solid black 1.0pt;mso-border-themecolor:
-  text1;border-top:none;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:
-  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
-  0in 5.4pt 0in 5.4pt;height:13.45pt'>
+ <tr style='height:13.45pt'>
+  <td width="7%" style='width:7.2%;border:solid black 1.0pt;border-top:none;
+  padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>Feb 8</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#558ED5;mso-themecolor:text2;mso-themetint:153;mso-style-textfill-fill-color:
-  #558ED5;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
-  100.0%;mso-style-textfill-fill-colortransforms:"lumm=60000 lumo=40000"'>4am:
-  HW Due <o:p></o:p></span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><o:p>&nbsp;</o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b>10am: QUIZ 2<o:p></o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><o:p>&nbsp;</o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b>2pm: QUIZ 2<o:p></o:p></b></p>
+  style='color:#2D7FCF'>4am: HW Due </span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>10am: QUIZ 2</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>2pm: QUIZ 2</b></p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b>9:30am: QUIZ 2<o:p></o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>9:30am: QUIZ 2</b></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>10:20am:<br>
   Exam 1 Sample Exam Session</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='color:red'>NO CLASS<br>
-  Student Break Day</span><b><o:p></o:p></b></p>
-  </td>
-  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b>9:30am: EXAM 1<o:p></o:p></b></p>
-  </td>
-  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b>10am: EXAM 1<o:p></o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><o:p>&nbsp;</o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b>2pm: EXAM 1<o:p></o:p></b></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:6;height:13.45pt'>
-  <td width="7%" style='width:7.2%;border:solid black 1.0pt;mso-border-themecolor:
-  text1;border-top:none;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:
-  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
-  0in 5.4pt 0in 5.4pt;height:13.45pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Feb 15</p>
-  </td>
-  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
-  <p class=MsoNormal align=center style='text-align:center'>10am: <br>
-  3.X Derivatives Using CAS Calculator / Linearity Rule</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
-  </td>
-  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='color:red'>NO CLASS<br>
-  Assessment Day</span></p>
-  </td>
-  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
-  <p class=MsoNormal align=center style='text-align:center'>10am:<br>
-  3.3 Chain Rule</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
-  </td>
-  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
-  <p class=MsoNormal align=center style='text-align:center'>9:30am: Office hour</p>
-  </td>
-  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
-  <p class=MsoNormal align=center style='text-align:center'>10am: Office hour</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:7;height:14.2pt'>
-  <td width="7%" style='width:7.2%;border:solid black 1.0pt;mso-border-themecolor:
-  text1;border-top:none;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:
-  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
-  0in 5.4pt 0in 5.4pt;height:14.2pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Feb 22</p>
-  </td>
-  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:14.2pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#558ED5;mso-themecolor:text2;mso-themetint:153;mso-style-textfill-fill-color:
-  #558ED5;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
-  100.0%;mso-style-textfill-fill-colortransforms:"lumm=60000 lumo=40000"'>4am:
-  HW Due <o:p></o:p></span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><o:p>&nbsp;</o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'>10am:<br>
-  3.4 Product Rule</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
-  </td>
-  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:14.2pt'>
-  <p class=MsoNormal align=center style='text-align:center'>9:30am:<br>
-  3.4 Quotient Rule</p>
-  </td>
-  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:14.2pt'>
-  <p class=MsoNormal align=center style='text-align:center'>10am: Chapter 3 <br>
-  Q &amp; A</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour<b><o:p></o:p></b></p>
-  </td>
-  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:14.2pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#558ED5;mso-themecolor:text2;mso-themetint:153;mso-style-textfill-fill-color:
-  #558ED5;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
-  100.0%;mso-style-textfill-fill-colortransforms:"lumm=60000 lumo=40000"'>4am:
-  HW Due <o:p></o:p></span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><o:p>&nbsp;</o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b>9:30am: QUIZ 3<o:p></o:p></b></p>
-  </td>
-  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:14.2pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b>10am: QUIZ 3<o:p></o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><o:p>&nbsp;</o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b>2pm: QUIZ 3<o:p></o:p></b></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:8;height:13.45pt'>
-  <td width="7%" style='width:7.2%;border:solid black 1.0pt;mso-border-themecolor:
-  text1;border-top:none;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:
-  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
-  0in 5.4pt 0in 5.4pt;height:13.45pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Mar 1</p>
-  </td>
-  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
-  <p class=MsoNormal align=center style='text-align:center'>10am:<br>
-  4.1 Local Maxima &amp; Minima (1<sup>st</sup> der test)</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
-  </td>
-  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
-  <p class=MsoNormal align=center style='text-align:center'>9:30am:<br>
-  4.1 Local Maxima &amp; Minima (2<sup>nd</sup> der test)</p>
-  </td>
-  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
-  <p class=MsoNormal align=center style='text-align:center'>10am:<br>
-  4.2 Inflection Points</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
-  </td>
-  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
-  <p class=MsoNormal align=center style='text-align:center'>9:30am:<br>
-  4.3 Global Maxima &amp; Minima</p>
-  </td>
-  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
-  <p class=MsoNormal align=center style='text-align:center'>10am: Office hour</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:9;height:13.45pt'>
-  <td width="7%" style='width:7.2%;border:solid black 1.0pt;mso-border-themecolor:
-  text1;border-top:none;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:
-  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
-  0in 5.4pt 0in 5.4pt;height:13.45pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Mar 8</p>
-  </td>
-  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#558ED5;mso-themecolor:text2;mso-themetint:153;mso-style-textfill-fill-color:
-  #558ED5;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
-  100.0%;mso-style-textfill-fill-colortransforms:"lumm=60000 lumo=40000"'>4am:
-  HW Due <o:p></o:p></span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><o:p>&nbsp;</o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'>10am:<br>
-  4.4 Profit, Cost, Revenue</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>2pm: <br>
-  1.4 Economics Applications <br>
-  (Supply &amp; Demand)</p>
-  </td>
-  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='color:red'>NO CLASS<br>
   Student Break Day</span></p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
-  <p class=MsoNormal align=center style='text-align:center'>10am: No lecture or
-  office hours<br style='mso-special-character:line-break'>
-  <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
-  <![endif]></p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>2pm: <br>
-  4.6 Elasticity of Demand<br style='mso-special-character:line-break'>
-  <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
-  <![endif]></p>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>9:30am: EXAM 1</b></p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>10am: EXAM 1</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>2pm: EXAM 1</b></p>
+  </td>
+ </tr>
+ <tr style='height:13.45pt'>
+  <td width="7%" style='width:7.2%;border:solid black 1.0pt;border-top:none;
+  padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Feb 15</p>
+  </td>
+  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal align=center style='text-align:center'>10am: <br>
+  3.X Derivatives Using CAS Calculator / Linearity Rule</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
+  </td>
+  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='color:red'>NO CLASS<br>
+  Assessment Day</span></p>
+  </td>
+  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal align=center style='text-align:center'>10am:<br>
+  3.3 Chain Rule</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
+  </td>
+  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal align=center style='text-align:center'>9:30am: Office hour</p>
+  </td>
+  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal align=center style='text-align:center'>10am: Office hour</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
+  </td>
+ </tr>
+ <tr style='height:14.2pt'>
+  <td width="7%" style='width:7.2%;border:solid black 1.0pt;border-top:none;
+  padding:0in 5.4pt 0in 5.4pt;height:14.2pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Feb 22</p>
+  </td>
+  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:14.2pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='color:#2D7FCF'>4am: HW Due </span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
+  <p class=MsoNormal align=center style='text-align:center'>10am:<br>
+  3.4 Product Rule</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
+  </td>
+  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:14.2pt'>
+  <p class=MsoNormal align=center style='text-align:center'>9:30am:<br>
+  3.4 Quotient Rule</p>
+  </td>
+  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:14.2pt'>
+  <p class=MsoNormal align=center style='text-align:center'>10am: Chapter 3 <br>
+  Q &amp; A</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
+  </td>
+  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:14.2pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='color:#2D7FCF'>4am: HW Due </span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>9:30am: QUIZ 3</b></p>
+  </td>
+  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:14.2pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>10am: QUIZ 3</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>2pm: QUIZ 3</b></p>
+  </td>
+ </tr>
+ <tr style='height:13.45pt'>
+  <td width="7%" style='width:7.2%;border:solid black 1.0pt;border-top:none;
+  padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Mar 1</p>
+  </td>
+  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal align=center style='text-align:center'>10am:<br>
+  4.1 Local Maxima &amp; Minima (1<sup>st</sup> der test)</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
+  </td>
+  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal align=center style='text-align:center'>9:30am:<br>
+  4.1 Local Maxima &amp; Minima (2<sup>nd</sup> der test)</p>
+  </td>
+  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal align=center style='text-align:center'>10am:<br>
+  4.2 Inflection Points</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
+  </td>
+  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal align=center style='text-align:center'>9:30am:<br>
+  4.3 Global Maxima &amp; Minima</p>
+  </td>
+  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal align=center style='text-align:center'>10am: Office hour</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
+  </td>
+ </tr>
+ <tr style='height:13.45pt'>
+  <td width="7%" style='width:7.2%;border:solid black 1.0pt;border-top:none;
+  padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Mar 8</p>
+  </td>
+  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='color:#2D7FCF'>4am: HW Due </span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
+  <p class=MsoNormal align=center style='text-align:center'>10am:<br>
+  4.4 Profit, Cost, Revenue</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>2pm: <br>
+  1.4 Economics Applications <br>
+  (Supply &amp; Demand)</p>
+  </td>
+  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='color:red'>NO CLASS<br>
+  Student Break Day</span></p>
+  </td>
+  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal align=center style='text-align:center'>10am: No lecture or
+  office hours<br>
+  <br>
+  </p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>2pm: <br>
+  4.6 Elasticity of Demand<br>
+  <br>
+  </p>
+  </td>
+  <td width="18%" style='width:18.56%;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>9:30am:<br>
   Office hour</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>10am: Chapter 4 <br>
   Q &amp; A</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:10;height:13.45pt'>
-  <td width="7%" style='width:7.2%;border:solid black 1.0pt;mso-border-themecolor:
-  text1;border-top:none;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:
-  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
-  0in 5.4pt 0in 5.4pt;height:13.45pt'>
+ <tr style='height:13.45pt'>
+  <td width="7%" style='width:7.2%;border:solid black 1.0pt;border-top:none;
+  padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>Mar 15</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#558ED5;mso-themecolor:text2;mso-themetint:153;mso-style-textfill-fill-color:
-  #558ED5;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
-  100.0%;mso-style-textfill-fill-colortransforms:"lumm=60000 lumo=40000"'>4am:
-  HW Due <o:p></o:p></span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><o:p>&nbsp;</o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b>10am: QUIZ 4<o:p></o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><o:p>&nbsp;</o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b>2pm: QUIZ 4<o:p></o:p></b></p>
+  style='color:#2D7FCF'>4am: HW Due </span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>10am: QUIZ 4</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>2pm: QUIZ 4</b></p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b>9:30am: QUIZ 4<o:p></o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>9:30am: QUIZ 4</b></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>10:20am:<br>
   Exam 2 Sample Exam Session</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b>10am: EXAM 2<o:p></o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><o:p>&nbsp;</o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b>2pm: EXAM 2<o:p></o:p></b></p>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>10am: EXAM 2</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>2pm: EXAM 2</b></p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b>9:30am: EXAM 2<o:p></o:p></b></p>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>9:30am: EXAM 2</b></p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='color:red'>No Class or Office Hours</span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:11;height:13.45pt'>
-  <td width="7%" style='width:7.2%;border:solid black 1.0pt;mso-border-themecolor:
-  text1;border-top:none;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:
-  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
-  0in 5.4pt 0in 5.4pt;height:13.45pt'>
+ <tr style='height:13.45pt'>
+  <td width="7%" style='width:7.2%;border:solid black 1.0pt;border-top:none;
+  padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>Mar 22</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>10am:<br>
   5.1 Distance and Accumulated Change</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>9:30am:<br>
   5.2 The Definite Integral</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>10am:<br>
   5.3 The Definite Integral as Area</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>9:30am:</p>
   <p class=MsoNormal align=center style='text-align:center'>6.4 Consumer and
   Producer Surplus</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>10am: Office hour</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:12;height:13.45pt'>
-  <td width="7%" style='width:7.2%;border:solid black 1.0pt;mso-border-themecolor:
-  text1;border-top:none;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:
-  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
-  0in 5.4pt 0in 5.4pt;height:13.45pt'>
+ <tr style='height:13.45pt'>
+  <td width="7%" style='width:7.2%;border:solid black 1.0pt;border-top:none;
+  padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>Mar 29</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#558ED5;mso-themecolor:text2;mso-themetint:153;mso-style-textfill-fill-color:
-  #558ED5;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
-  100.0%;mso-style-textfill-fill-colortransforms:"lumm=60000 lumo=40000"'>4am:
-  HW Due <o:p></o:p></span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><o:p>&nbsp;</o:p></b></p>
+  style='color:#2D7FCF'>4am: HW Due </span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
   <p class=MsoNormal align=center style='text-align:center'>10am:<br>
   5.4 Interpretations of the Definite Integral</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>9:30am:<br>
   1.7 Present and Future Values</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='color:red'>NO CLASS<br>
-  Student Break Day</span><b><o:p></o:p></b></p>
+  Student Break Day</span></p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>9:30am:<br>
-  <span style='mso-spacerun:yes'> </span>6.5 Present and Future Values</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>11:00am – Noon:<br>
+  Â 6.5 Present and Future Values</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>11:00am â€“ Noon:<br>
   Office Hour</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
-  style='color:red'>No Class or Office Hours</span><b><o:p></o:p></b></p>
+  style='color:red'>No Class or Office Hours</span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:13;mso-yfti-lastrow:yes;height:13.45pt'>
-  <td width="7%" style='width:7.2%;border:solid black 1.0pt;mso-border-themecolor:
-  text1;border-top:none;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:
-  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
-  0in 5.4pt 0in 5.4pt;height:13.45pt'>
+ <tr style='height:13.45pt'>
+  <td width="7%" style='width:7.2%;border:solid black 1.0pt;border-top:none;
+  padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>Apr 5</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>10am: <br>
   Quiz 5 Q &amp; A</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour<b>
   </b></p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#558ED5;mso-themecolor:text2;mso-themetint:153;mso-style-textfill-fill-color:
-  #558ED5;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
-  100.0%;mso-style-textfill-fill-colortransforms:"lumm=60000 lumo=40000"'>4am:
-  HW Due <o:p></o:p></span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><o:p>&nbsp;</o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b>9:30am: QUIZ 5<o:p></o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  style='color:#2D7FCF'>4am: HW Due </span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>9:30am: QUIZ 5</b></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>10:20am:<br>
   5.5 Fundamental Theorem of Calculus </p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b>10am: QUIZ 5<o:p></o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><o:p>&nbsp;</o:p></b></p>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>10am: QUIZ 5</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
   <p class=MsoNormal align=center style='text-align:center'><b>2pm: QUIZ 5</b></p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>9:30am:<br>
   5.6 Average Value</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>10:00am<br>
   4.5 Average Cost<br>
   <br>
@@ -2200,232 +907,173 @@ subject to change)</p>
  </tr>
 </table>
 
-<span style='font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
-"Times New Roman";color:white;mso-color-alt:windowtext;mso-ansi-language:EN-US;
-mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><br clear=all
-style='mso-special-character:line-break;page-break-before:always'>
+<span style='font-size:12.0pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
 </span>
 
-<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+<p class=MsoNormal>&nbsp;</p>
 
 <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width="100%"
- style='width:100.0%;border-collapse:collapse;border:none;mso-border-alt:solid black .5pt;
- mso-border-themecolor:text1;mso-yfti-tbllook:1184;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
- <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:13.45pt'>
-  <td width="7%" style='width:7.2%;border:solid black 1.0pt;mso-border-themecolor:
-  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
-  0in 5.4pt 0in 5.4pt;height:13.45pt'>
+ style='width:100.0%;border-collapse:collapse;border:none'>
+ <tr style='height:13.45pt'>
+  <td width="7%" style='width:7.2%;border:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>Apr 12</p>
   </td>
-  <td width="18%" style='width:18.56%;border:solid black 1.0pt;mso-border-themecolor:
-  text1;border-left:none;mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:
-  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
-  0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  <td width="18%" style='width:18.56%;border:solid black 1.0pt;border-left:
+  none;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#558ED5;mso-themecolor:text2;mso-themetint:153;mso-style-textfill-fill-color:
-  #558ED5;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
-  100.0%;mso-style-textfill-fill-colortransforms:"lumm=60000 lumo=40000"'>4am:
-  HW Due <o:p></o:p></span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><o:p>&nbsp;</o:p></b></p>
+  style='color:#2D7FCF'>4am: HW Due </span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
   <p class=MsoNormal align=center style='text-align:center'>10am:<br>
   6.1 Analyzing Antiderivatives Graphically</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
   </td>
-  <td width="18%" style='width:18.56%;border:solid black 1.0pt;mso-border-themecolor:
-  text1;border-left:none;mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:
-  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
-  0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  <td width="18%" style='width:18.56%;border:solid black 1.0pt;border-left:
+  none;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>9:30am:<br>
   6.2 Antiderivatives and Indefinite Integrals and using CAS</p>
   </td>
-  <td width="18%" style='width:18.56%;border:solid black 1.0pt;mso-border-themecolor:
-  text1;border-left:none;mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:
-  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
-  0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  <td width="18%" style='width:18.56%;border:solid black 1.0pt;border-left:
+  none;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>10am: <br>
   6.3 Using the Fundamental Theorem</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>2pm: Office hour</p>
   </td>
-  <td width="18%" style='width:18.56%;border:solid black 1.0pt;mso-border-themecolor:
-  text1;border-left:none;mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:
-  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
-  0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  <td width="18%" style='width:18.56%;border:solid black 1.0pt;border-left:
+  none;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>9:30am: <br>
   Quiz 6 Q &amp; A</p>
   </td>
-  <td width="18%" style='width:18.56%;border:solid black 1.0pt;mso-border-themecolor:
-  text1;border-left:none;mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:
-  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
-  0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  <td width="18%" style='width:18.56%;border:solid black 1.0pt;border-left:
+  none;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='color:red'>NO CLASS<br>
-  Student Break Day</span><b><o:p></o:p></b></p>
+  Student Break Day</span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes;height:13.45pt'>
-  <td width="7%" style='width:7.2%;border:solid black 1.0pt;mso-border-themecolor:
-  text1;border-top:none;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:
-  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
-  0in 5.4pt 0in 5.4pt;height:13.45pt'>
+ <tr style='height:13.45pt'>
+  <td width="7%" style='width:7.2%;border:solid black 1.0pt;border-top:none;
+  padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>Apr 19</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#558ED5;mso-themecolor:text2;mso-themetint:153;mso-style-textfill-fill-color:
-  #558ED5;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
-  100.0%;mso-style-textfill-fill-colortransforms:"lumm=60000 lumo=40000"'>4am:
-  HW Due <o:p></o:p></span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><o:p>&nbsp;</o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b>10am: QUIZ 6<o:p></o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><o:p>&nbsp;</o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b>2pm: QUIZ 6<o:p></o:p></b></p>
+  style='color:#2D7FCF'>4am: HW Due </span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>10am: QUIZ 6</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>2pm: QUIZ 6</b></p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b>9:30am: QUIZ 6<o:p></o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>9:30am: QUIZ 6</b></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>10:20am:<br>
   Exam 3 Sample Exam Session</p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b>10am: EXAM 3<o:p></o:p></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><o:p>&nbsp;</o:p></b></p>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>10am: EXAM 3</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
   <p class=MsoNormal align=center style='text-align:center'><b>2pm: EXAM 3</b></p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'><b>9:30am: EXAM 3</b></p>
   </td>
   <td width="18%" style='width:18.56%;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
   <p class=MsoNormal align=center style='text-align:center'>10am: Office hour</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>2pm: Sample Final
   Review Session </p>
   </td>
  </tr>
 </table>
 
-<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
-normal'><span style='font-size:10.0pt;color:white;mso-color-alt:windowtext'><br>
-</span></b><b style='mso-bidi-font-weight:normal'><span style='font-size:18.0pt'>Final
-Time Slots:<br>
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:10.0pt'><br>
+</span></b><b><span style='font-size:18.0pt'>Final Time Slots:<br>
 Wednesday, April 28<br>
-8:00am – 10:00am<br>
-10:30am – 12:30pm<br>
-1:00 – 3:00pm<o:p></o:p></span></b></p>
+8:00am â€“ 10:00am<br>
+10:30am â€“ 12:30pm<br>
+1:00 â€“ 3:00pm</span></b></p>
 
-<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
-normal'><span style='font-size:18.0pt'><o:p>&nbsp;</o:p></span></b></p>
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:18.0pt'>&nbsp;</span></b></p>
 
-<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
-normal'><span style='font-size:18.0pt'><o:p>&nbsp;</o:p></span></b></p>
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:18.0pt'>&nbsp;</span></b></p>
 
-<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
-normal'><span style='font-size:18.0pt'><o:p>&nbsp;</o:p></span></b></p>
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:18.0pt'>&nbsp;</span></b></p>
 
-<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
-normal'><span style='font-size:18.0pt'><o:p>&nbsp;</o:p></span></b></p>
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:18.0pt'>&nbsp;</span></b></p>
 
-<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
-normal'><span style='font-size:18.0pt'><o:p>&nbsp;</o:p></span></b></p>
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:18.0pt'>&nbsp;</span></b></p>
 
-<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
-normal'><span style='font-size:18.0pt'><o:p>&nbsp;</o:p></span></b></p>
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:18.0pt'>&nbsp;</span></b></p>
 
-<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
-normal'><span style='font-size:18.0pt'><br>
-<span style='mso-spacerun:yes'> </span></span></b><b style='mso-bidi-font-weight:
-normal'><span style='font-size:14.0pt'><o:p></o:p></span></b></p>
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:18.0pt'><br>
+Â </span></b></p>
 
 <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none;mso-border-alt:solid black .5pt;
- mso-border-themecolor:text1;mso-yfti-tbllook:1184;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
- <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+ style='border-collapse:collapse;border:none'>
+ <tr>
   <td width=719 valign=top style='width:539.5pt;border:solid black 1.0pt;
-  mso-border-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
-  mso-outline-level:3'><a name="_Hlk48557058"><b><span style='font-size:11.0pt'>Commitment
-  to Inclusive Excellence <o:p></o:p></span></b></a></p>
-  <p class=MsoNormal><span style='mso-bookmark:_Hlk48557058'><span
-  style='font-size:11.0pt'>WSU recognizes that our individual differences can
-  deepen our understanding of one another and the world around us, rather than
-  divide us. <o:p></o:p></span></span></p>
-  <p class=MsoNormal><span style='mso-bookmark:_Hlk48557058'><span
-  style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></span></p>
-  <p class=MsoNormal><span style='mso-bookmark:_Hlk48557058'><span
-  style='font-size:11.0pt'>In this class, people of all ethnicities, genders
-  and gender identities, religions, ages, sexual orientations, disabilities,
-  socioeconomic backgrounds, regions, and nationalities are strongly encouraged
-  to share their rich array of perspectives and experiences.&nbsp; <o:p></o:p></span></span></p>
-  <p class=MsoNormal><span style='mso-bookmark:_Hlk48557058'><span
-  style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></span></p>
-  <p class=MsoNormal><span style='mso-bookmark:_Hlk48557058'><span
-  style='font-size:11.0pt'>If you feel your differences may in some way isolate
-  you from WSU’s community or if you have a need for any specific
-  accommodations, please speak with the instructor early in the semester about
-  your concerns and what we can do together to help you become an active and
-  engaged member of our class and community. <o:p></o:p></span></span></p>
-  <p class=MsoNormal><span style='mso-bookmark:_Hlk48557058'><span
-  style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></span></p>
-  <p class=MsoNormal><span style='mso-bookmark:_Hlk48557058'><span
-  style='font-size:11.0pt'>If you or a friend has been a victim of sexual
-  assault, dating violence, domestic violence, or stalking, you can talk to a
-  trained, confidential advocate by calling 507.457.5610. </span></span><span
-  style='mso-bookmark:_Hlk48557058'><span style='font-size:10.0pt'><o:p></o:p></span></span></p>
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><a name="_Hlk48557058"><b><span style='font-size:11.0pt'>Commitment
+  to Inclusive Excellence </span></b></a></p>
+  <p class=MsoNormal><span style='font-size:11.0pt'>WSU recognizes that our
+  individual differences can deepen our understanding of one another and the
+  world around us, rather than divide us. </span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt'>&nbsp;</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt'>In this class, people of
+  all ethnicities, genders and gender identities, religions, ages, sexual
+  orientations, disabilities, socioeconomic backgrounds, regions, and
+  nationalities are strongly encouraged to share their rich array of
+  perspectives and experiences.&nbsp; </span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt'>&nbsp;</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt'>If you feel your
+  differences may in some way isolate you from WSUâ€™s community or if you have a
+  need for any specific accommodations, please speak with the instructor early
+  in the semester about your concerns and what we can do together to help you
+  become an active and engaged member of our class and community. </span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt'>&nbsp;</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt'>If you or a friend has been
+  a victim of sexual assault, dating violence, domestic violence, or stalking,
+  you can talk to a trained, confidential advocate by calling 507.457.5610. </span></p>
   </td>
-  <span style='mso-bookmark:_Hlk48557058'></span>
  </tr>
 </table>
 
-<span style='mso-bookmark:_Hlk48557058'></span>
-
-<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
-style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></b></p>
+<p class=MsoNormal><b><span style='font-size:14.0pt'>&nbsp;</span></b></p>
 
 <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Arial",sans-serif;
 color:black'>The <a href="http://course1.winona.edu/eerrthum/Disclaimer.htm">Standard
-Disclaimer</a> applies.<o:p></o:p></span></p>
+Disclaimer</a> applies.</span></p>
 
 <p class=MsoNormal style='margin-bottom:6.0pt'><span style='font-size:11.0pt;
-font-family:"Arial",sans-serif;color:black'><o:p>&nbsp;</o:p></span></p>
+font-family:"Arial",sans-serif;color:black'>&nbsp;</span></p>
 
 <p class=MsoNormal style='margin-bottom:6.0pt'><span style='font-size:9.0pt;
-font-family:"Arial",sans-serif;color:black'>© Eric Errthum, </span><!--[if supportFields]><span
-style='font-size:9.0pt;font-family:"Arial",sans-serif;color:black'><span
-style='mso-element:field-begin'></span><span
-style='mso-spacerun:yes'> </span>DATE<span style='mso-spacerun:yes'>  </span>\@
-&quot;MMMM yyyy&quot; <span style='mso-element:field-separator'></span></span><![endif]--><span
-style='font-size:9.0pt;font-family:"Arial",sans-serif;color:black'><span
-style='mso-no-proof:yes'>April 2021</span></span><!--[if supportFields]><span
-style='font-size:9.0pt;font-family:"Arial",sans-serif;color:black'><span
-style='mso-element:field-end'></span></span><![endif]--><span style='font-size:
-9.0pt;font-family:"Arial",sans-serif;color:black'>, all rights reserved.<o:p></o:p></span></p>
+font-family:"Arial",sans-serif;color:black'>Â© Eric Errthum, </span><span
+style='font-size:9.0pt;font-family:"Arial",sans-serif;color:black'>December
+2025</span><span style='font-size:9.0pt;font-family:"Arial",sans-serif;
+color:black'>, all rights reserved.</span></p>
 
 </div>
 
