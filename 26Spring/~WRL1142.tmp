@@ -1,0 +1,1725 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List href="26SpringMath213_files/filelist.xml">
+<link rel=Edit-Time-Data href="26SpringMath213_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>MATH 213 Calculus II</title>
+<link rel=themeData href="26SpringMath213_files/themedata.thmx">
+<link rel=colorSchemeMapping href="26SpringMath213_files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SplitPgBreakAndParaMark/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="376">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hashtag"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Unresolved Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Link"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+span.MsoFootnoteReference
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	vertical-align:super;}
+a:link, span.MsoHyperlink
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:#96607D;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.msochpdefault, li.msochpdefault, div.msochpdefault
+	{mso-style-name:msochpdefault;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-font-kerning:0pt;
+	mso-ligatures:none;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:.5in .5in .5in .5in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink="#96607D" style='tab-interval:.5in;word-wrap:
+break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center style='margin-bottom:8.0pt;text-align:center'><b><span
+style='font-size:14.0pt'>MATH 213-02 Calculus II<br>
+</span>Syllabus for Spring 2026</b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b>Mon, Tues, Thurs,
+&amp; Fri, 11:00am – 11:50am</b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b>Gildemeister 325</b></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><b>Instructor: </b>Dr. Eric
+Errthum&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<b>Winona Email Username: </b><span class=SpellE>eerrthum</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Office:<span
+style='color:red'> </span></b>205 Gildemeister
+Hall&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Office
+Hours:&nbsp; </b>See <a href="../index.html">homepage</a>. Or by appointment on
+any day.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:.75in;text-indent:-.75in'><b>Text:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</b><i>Calculus: Early Transcendentals</i>, James Stewart. This text is
+optional but highly recommended.<br>
+<a href="https://openstax.org/details/calculus-volume-2">Calculus Volume 2</a>
+by OpenStax.com: <a href="https://openstax.org/details/calculus-volume-2">https://openstax.org/details/calculus-volume-2</a>.
+This text is free and covers about as much as the Stewart book but not
+everything.</p>
+
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Prerequisite:
+</b>Calculus I (MATH212) or a qualifying score on the mathematics placement
+exam</p>
+
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>About This
+Course<span class=GramE>:&nbsp; <span style='font-weight:normal'>This</span></span></b>
+course continues to build on the ideas introduced in Calculus I. Specifically
+this course covers the techniques and applications of integration, calculus
+with polar coordinates and parametric equations, and functions in power series
+form.</p>
+
+<div align=center>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;mso-yfti-tbllook:1184;mso-padding-alt:0in 0in 0in 0in'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td width=296 style='width:222.25pt;border:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:8.0pt;text-align:center'><span
+  style='mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+   coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+   filled="f" stroked="f">
+   <v:stroke joinstyle="miter"/>
+   <v:formulas>
+    <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+    <v:f eqn="sum @0 1 0"/>
+    <v:f eqn="sum 0 0 @1"/>
+    <v:f eqn="prod @2 1 2"/>
+    <v:f eqn="prod @3 21600 pixelWidth"/>
+    <v:f eqn="prod @3 21600 pixelHeight"/>
+    <v:f eqn="sum @0 0 1"/>
+    <v:f eqn="prod @6 1 2"/>
+    <v:f eqn="prod @7 21600 pixelWidth"/>
+    <v:f eqn="sum @8 21600 0"/>
+    <v:f eqn="prod @7 21600 pixelHeight"/>
+    <v:f eqn="sum @10 21600 0"/>
+   </v:formulas>
+   <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" aspectratio="t"/>
+  </v:shapetype><v:shape id="Picture_x0020_1" o:spid="_x0000_i1026" type="#_x0000_t75"
+   alt="A white and red sign with black text&#10;&#10;Description automatically generated"
+   style='width:183.6pt;height:245.4pt;visibility:visible;mso-wrap-style:square'>
+   <v:imagedata src="26SpringMath213_files/image001.png" o:title="A white and red sign with black text&#10;&#10;Description automatically generated"/>
+  </v:shape><![endif]--><![if !vml]><img border=0 width=245 height=327
+  src="26SpringMath213_files/image005.gif"
+  alt="A white and red sign with black text&#10;&#10;Description automatically generated"
+  v:shapes="Picture_x0020_1"><![endif]></span><o:p></o:p></p>
+  </td>
+  <td width=422 style='width:316.75pt;border:solid black 1.0pt;border-left:
+  none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:8.0pt'><b>Philosophy on Grades</b><a
+  name="_ftnref1"></a><a href="#_ftn1"><span style='mso-bookmark:_ftnref1'><span
+  class=MsoFootnoteReference>[1]</span></span><span style='mso-bookmark:_ftnref1'></span></a><b>:</b><o:p></o:p></p>
+  <p class=MsoListParagraph style='margin-bottom:8.0pt;text-indent:-.25in'><span
+  style='font-family:Symbol'>·</span><span style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span><i>The purpose of being in MATH140 is to learn useful and interesting
+  tools, not to score points and get letter grades</i>. If we spend more time
+  thinking about grades than about mathematics, we’ve failed.<o:p></o:p></p>
+  <p class=MsoListParagraph style='margin-bottom:8.0pt;text-indent:-.25in'><span
+  style='font-family:Symbol'>·</span><span style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span>Y<i>our grades are supposed to serve you, not the other way around</i>.
+  Grades should provide clear, specific, and actionable feedback on what you
+  are doing well and what you need to work on — not just an audit of what you
+  did wrong but a teaching moment for how to improve.<o:p></o:p></p>
+  <p class=MsoListParagraph style='margin-bottom:8.0pt;text-indent:-.25in'><span
+  class=GramE><span style='font-family:Symbol'>·</span><span style='font-size:
+  7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>And,</span> <i>you should
+  be given the opportunity to improve your work and learn from your mistakes </i>using
+  the feedback you receive.<o:p></o:p></p>
+  <p class=MsoListParagraph style='margin-bottom:8.0pt;text-indent:-.25in'><span
+  style='font-family:Symbol'>·</span><span style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span><i>Your final course grade should give information about the quantity
+  and quality of evidence you provide during the semester that shows you
+  understand concepts. </i>It should <i>not </i>be based on artificial
+  measurements that can easily be <span class=GramE>gamed</span> or distorted.<o:p></o:p></p>
+  <p class=MsoListParagraph style='margin-bottom:8.0pt;text-indent:-.25in'><span
+  style='font-family:Symbol'>·</span><span style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span>In short -- <b>your individual grades during the course should reflect
+  the result of an iterative process of demonstrating what you know, based on
+  multiple attempts and feedback; and the course grade should indicate all the
+  things you were eventually able to show that you know. </b><o:p></o:p></p>
+  <p class=MsoNormal>The system of assessment and grading that is used in MATH213
+  is an effort to enact a grading system that does all this — that is accurate,
+  transparent, and fair. It may be somewhat different than you are used to, so <o:p></o:p></p>
+  <p class=MsoNormal align=center style='margin-bottom:8.0pt;text-align:center'><b><u><span
+  style='font-size:18.0pt;color:#C00000'>read the following carefully</span></u></b><span
+  style='font-size:18.0pt'>.</span><o:p></o:p></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-align:justify'><span class=SpellE><b><span
+style='color:black'>WeBWorK</span></b></span><b><span style='color:black'>
+Homework:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></b><span
+style='color:black'>There is homework for each section, <span class=SpellE>assigneed</span>
+through <span class=SpellE>WeBWorK</span>. The homework for each section is </span><b><u><span
+style='color:#F79646'>due 47 hours after class or before the next quiz</span></u><span
+style='color:#F79646'> </span></b><span style='color:black'>(whichever comes first).
+All homework is to be submitted via the <span class=SpellE>WeBWorK</span>
+website located here:</span><o:p></o:p></p>
+
+<p class=MsoNormal align=center style='margin-bottom:8.0pt;text-align:center;
+font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;widows: 2;
+-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;text-decoration-style: initial;
+text-decoration-color: initial;word-spacing:0px'><u><span style='color:blue'><a
+href="http://wsumath.org/webwork2/Math_212_Calculus_I_Errthum_S2023/">http://wsumath.org/webwork2/Math_212_Calculus_I_Errthum_S2023/</a></span></u><span
+style='color:black'>.<u1:p></u1:p></span><o:p></o:p></p>
+
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify;font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><span style='color:black'>(Note: Many institutions use <span
+class=SpellE>WeBWorK</span>; make sure you <span class=GramE>are accessing</span>
+the one at Winona State.) <b><u>Your <span class=SpellE>WeBWorK</span> username
+is your Star <span class=GramE>ID</span> and your initial password is your
+8-digit student ID number.</u></b> If you have any problems logging in to <span
+class=SpellE>WeBWorK</span>, please contact the instructor. Even though all the
+homework is submitted online, you should keep a written record of your work in
+a notebook in case you need to ask for help.&nbsp;</span><o:p></o:p></p>
+
+<p class=MsoListParagraph style='margin-bottom:8.0pt;text-align:justify;
+text-indent:-.25in'><span style='font-family:Symbol'>·</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><i>Grading:
+</i>Each problem in <span class=SpellE>WeBWorK</span> has a given point value.
+Partial credit on a question is sometimes possible. Ultimately a percentage
+will be recorded for the grade. <o:p></o:p></p>
+
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Essays:</b><span
+style='color:red'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>This
+course does more than aim to give you specific mathematical skills. It also
+hopes to instill in you the mathematical virtues of Motivation, Relevancy,
+Exploration, Curiosity, and Persistence. You will be given the opportunity of
+demonstrating one or more of these virtues through essay prompts. Details can
+be found in the D2L Content in the “Math 212 Essay Topics” document.<o:p></o:p></p>
+
+<p class=MsoListParagraph style='margin-bottom:8.0pt;text-align:justify;
+text-indent:-.25in'><span style='font-family:Symbol'>·</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><i>Grading:
+</i>Essays are awarded a “Pass” or an “Incomplete”. An essay earns a “Pass” if
+it answers all parts of the prompt, communicates well, and truly exhibits the
+Mathematical Virtue being written about. An essay is “Incomplete” if it does
+not answer all parts of the prompt or does not communicate the ideas in an
+understandable way. <o:p></o:p></p>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-align:justify'><b>Standards: </b>There are 49 standard
+skills split into 3 categories: Core, Primary, Writing. Your final grade for
+the course will be determined by your ability to consistently demonstrate (some
+of) these 49 skills. The complete list of standards can be found on the “MATH213
+Grading Card” pdf in D2L. We will have 12 short (approx. 25-minute) quizzes,
+four exams and one comprehensive final exam. Dates for quizzes and exams can be
+found in the schedule below. <b><u>Questions on the quizzes and exams will be
+directly based on the standards</u></b> covered in or prior to that
+section/chapter/module.<o:p></o:p></p>
+
+<p class=MsoListParagraph style='margin-bottom:8.0pt;text-align:justify;
+text-indent:-.25in'><span style='font-family:Symbol'>·</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><i>Grading
+for Standards</i><b>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Quizzes
+and exams are graded by evaluating the work relative to college-level
+expectations for quality and one of four marks is given to the work — E, M, R,
+or N. These marks are explained more in the rubric diagram and table below.<o:p></o:p></p>
+
+<div align=center>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=727
+ style='width:545.15pt;border-collapse:collapse;mso-yfti-tbllook:1184;
+ mso-padding-alt:0in 0in 0in 0in'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=62 valign=top style='width:46.15pt;border:solid black 1.0pt;
+  background:#E8E8E8;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='text-autospace:none'><b><span style='color:black'>Mark</span></b><o:p></o:p></p>
+  </td>
+  <td width=665 valign=top style='width:499.0pt;border:solid black 1.0pt;
+  border-left:none;background:#E8E8E8;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='text-autospace:none'><b><span style='color:black'>Description</span></b><o:p></o:p></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width=62 valign=top style='width:46.15pt;border:solid black 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='text-autospace:none'><b>E</b><o:p></o:p></p>
+  </td>
+  <td width=665 valign=top style='width:499.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='text-autospace:none'><b>E</b>xcellent or <b>e</b>xemplary.
+  The work has either no errors at all, or only trivial ones. The work shows
+  clear communication and uses correct, well-constructed English along with
+  correct mathematical notation. All work is clearly explained, and detailed
+  justifications are provided.<o:p></o:p></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=62 valign=top style='width:46.15pt;border:solid black 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='text-autospace:none'><b>M</b><o:p></o:p></p>
+  </td>
+  <td width=665 valign=top style='width:499.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='text-autospace:none'><b>M</b>eets the expectations for
+  the assignment (but is not “excellent”). The solution is complete and
+  reasonably well-communicated and understanding of the concept is evident.
+  There may be some minor, easily correctible mistakes including language or
+  notational errors. Adequate explanations are provided but there are some
+  minor gaps or omissions.<o:p></o:p></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width=62 valign=top style='width:46.15pt;border:solid black 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='text-autospace:none'><b>R</b><o:p></o:p></p>
+  </td>
+  <td width=665 valign=top style='width:499.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='text-autospace:none'><b>R</b>evision needed, due to
+  a serious error or omission. Partial understanding is evident, but there are
+  significant gaps, omissions, or errors.<o:p></o:p></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4;mso-yfti-lastrow:yes'>
+  <td width=62 valign=top style='width:46.15pt;border:solid black 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='text-autospace:none'><b>N</b><o:p></o:p></p>
+  </td>
+  <td width=665 valign=top style='width:499.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='text-autospace:none'><b>N</b>ot assessable, due to major
+  omissions or persistent/systemic major errors.<o:p></o:p></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_2"
+ o:spid="_x0000_i1025" type="#_x0000_t75" alt="A diagram of a diagram&#10;&#10;Description automatically generated"
+ style='width:534.6pt;height:401.4pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="26SpringMath213_files/image003.png" o:title="A diagram of a diagram&#10;&#10;Description automatically generated"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=713 height=535
+src="26SpringMath213_files/image006.gif"
+alt="A diagram of a diagram&#10;&#10;Description automatically generated"
+v:shapes="Picture_x0020_2"><![endif]></span><br clear=all>
+<b><u><span style='font-size:16.0pt'>Once you have earned an E (or M) on a
+Standard, it cannot be lost.<br>
+Only the top two marks of each Standard will be counted.</span></u></b><o:p></o:p></p>
+
+<p class=MsoNormal style='margin-top:6.0pt'><b>Improving your Mark: <span
+style='color:red'>If you want to improve your mark on a Standard, there are a
+variety of ways available to you.</span></b><span style='color:red'> </span>See
+the “Math212 Mark Improvement Options” in D2L. In general, if you want to
+improve your mark in a standard, email me and/or stop by during office hours. <o:p></o:p></p>
+
+<p class=MsoListParagraph style='margin-top:6.0pt;text-indent:-.25in'><span
+style='font-family:Symbol'>·</span><span style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>You are allowed to retry as many standards as time allows during office
+hours. However, you may only try a specific standard once per day.<o:p></o:p></p>
+
+<p class=MsoListParagraph style='margin-top:6.0pt;text-indent:-.25in'><span
+style='font-family:Symbol'>·</span><span style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>I'm happy to answer questions about the standards in general and/or how
+they showed up in exams or quizzes. Stopping by office hours is best; but email
+sometimes works too.<o:p></o:p></p>
+
+<p class=MsoListParagraph style='margin-top:6.0pt;text-indent:-.25in'><span
+style='font-family:Symbol'>·</span><span style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>If we go over a certain problem/standard in my office, you will have to
+wait until the next day before taking a retry in that standard.<o:p></o:p></p>
+
+<p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:.5in;text-indent:-.25in'><span style='font-family:Symbol'>·</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>All Mark
+Improvements must be completed by 3:30pm on Friday, May 1.<o:p></o:p></p>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><b>Wildcards and Tokens:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Some quizzes and exams may contain “Wildcard” problems that are typically a bit
+harder than usual and do not fit into one of the standards. Earning an E or M
+on a Wildcard will count toward your overall Primary mark counts but cannot be
+specifically improved.<o:p></o:p></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><b>Final Exam:&nbsp;&nbsp; </b>The
+default Final Exam time is Thursday (May 7) 8:00-10:00am. Other time slot
+options may be offered (contact the instructor). The final exam will be
+individualized for each student and only contain problems for standards that
+you currently have a second-highest mark of R or N. If you have a standard with
+EE, EM, or MM, it will not improve by taking the final exam.<o:p></o:p></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><b>Determination of Course
+Grade:&nbsp;&nbsp;&nbsp; </b>Your course grade is determined by the <i>number </i>of
+accomplishments you rack up during the course and the <i>level of skill </i>demonstrated
+by your work<i>. </i>The <i>Grade Determination Table </i>below shows what
+accomplishments are required for each basic grade level from A through D. <b>&nbsp;</b>Please
+note that all the requirements for a grade level must be met <span class=GramE>in
+order to</span> earn that grade. <b><u>The grade awarded will be the highest
+grade for which all requirements are met.</u></b> I will try to keep an updated
+record on D2L, but you can always email me directly if D2L seems to be
+incorrect and/or out-of-date.<o:p></o:p></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'>&nbsp;<o:p></o:p></p>
+
+<div align=center>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;mso-yfti-tbllook:1184;mso-padding-alt:0in 0in 0in 0in'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:7.85pt'>
+  <td width=857 colspan=5 style='width:643.1pt;border:solid black 1.0pt;
+  background:#E8E8E8;padding:0in 5.4pt 0in 5.4pt;height:7.85pt'>
+  <p class=MsoNormal align=center style='margin-bottom:6.0pt;text-align:center'><b><span
+  style='font-size:14.0pt;color:black'>MATH213 Grade Determination Table</span><span
+  style='color:black'><br>
+  </span></b><i><span style='color:black'>The grade awarded will be the highest
+  grade for which all requirements are met.</span></i><o:p></o:p></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;height:20.1pt'>
+  <td width=144 style='width:107.9pt;border:solid black 1.0pt;border-top:none;
+  padding:0in 5.4pt 0in 5.4pt;height:20.1pt'>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
+  </td>
+  <td width=174 style='width:130.2pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:20.1pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>to earn an<br>
+  </b><b><span style='font-size:18.0pt'>A</span></b><o:p></o:p></p>
+  </td>
+  <td width=180 style='width:135.0pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:20.1pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>to earn a<br>
+  </b><b><span style='font-size:18.0pt'>B</span></b><o:p></o:p></p>
+  </td>
+  <td width=174 style='width:130.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:20.1pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>to earn a<br>
+  </b><b><span style='font-size:18.0pt'>C</span></b><o:p></o:p></p>
+  </td>
+  <td width=186 style='width:139.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:20.1pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>to earn a<br>
+  </b><b><span style='font-size:18.0pt'>D/P</span></b><o:p></o:p></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2;height:15.7pt'>
+  <td width=144 style='width:107.9pt;border:solid black 1.0pt;border-top:none;
+  padding:0in 5.4pt 0in 5.4pt;height:15.7pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Preparation,
+  Attendance, Participation<o:p></o:p></p>
+  </td>
+  <td width=174 style='width:130.2pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:15.7pt'>
+  <p class=MsoNormal align=center style='text-align:center'>≥90%<o:p></o:p></p>
+  </td>
+  <td width=180 style='width:135.0pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:15.7pt'>
+  <p class=MsoNormal align=center style='text-align:center'>≥80%<o:p></o:p></p>
+  </td>
+  <td width=174 style='width:130.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:15.7pt'>
+  <p class=MsoNormal align=center style='text-align:center'>≥70%<o:p></o:p></p>
+  </td>
+  <td width=186 style='width:139.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:15.7pt'>
+  <p class=MsoNormal align=center style='text-align:center'>≥60%<o:p></o:p></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3;height:15.7pt'>
+  <td width=144 style='width:107.9pt;border:solid black 1.0pt;border-top:none;
+  padding:0in 5.4pt 0in 5.4pt;height:15.7pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  class=GramE>WeBWorK</span></span> Homework Score<o:p></o:p></p>
+  </td>
+  <td width=174 style='width:130.2pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:15.7pt'>
+  <p class=MsoNormal align=center style='text-align:center'>≥90%<o:p></o:p></p>
+  </td>
+  <td width=180 style='width:135.0pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:15.7pt'>
+  <p class=MsoNormal align=center style='text-align:center'>≥80%<o:p></o:p></p>
+  </td>
+  <td width=174 style='width:130.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:15.7pt'>
+  <p class=MsoNormal align=center style='text-align:center'>≥70%<o:p></o:p></p>
+  </td>
+  <td width=186 style='width:139.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:15.7pt'>
+  <p class=MsoNormal align=center style='text-align:center'>≥50%<o:p></o:p></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4;height:48.05pt'>
+  <td width=144 style='width:107.9pt;border:solid black 1.0pt;border-top:none;
+  padding:0in 5.4pt 0in 5.4pt;height:48.05pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Core Standards<br>
+  (11)<o:p></o:p></p>
+  </td>
+  <td width=174 style='width:130.2pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:48.05pt'>
+  <p class=MsoNormal align=center style='text-align:center'>At least 20 E’s or
+  M’s, including at least 10 E’s<o:p></o:p></p>
+  </td>
+  <td width=180 style='width:135.0pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:48.05pt'>
+  <p class=MsoNormal align=center style='text-align:center'>At least 18 E’s or
+  M’s, including at least 9 E’s<o:p></o:p></p>
+  </td>
+  <td width=174 style='width:130.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:48.05pt'>
+  <p class=MsoNormal align=center style='text-align:center'>At least 16 E’s or
+  M’s, including at least 8 E’s<o:p></o:p></p>
+  </td>
+  <td width=186 style='width:139.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:48.05pt'>
+  <p class=MsoNormal align=center style='text-align:center'>At least 14 E’s or
+  M’s<o:p></o:p></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5;height:48.05pt'>
+  <td width=144 style='width:107.9pt;border:solid black 1.0pt;border-top:none;
+  padding:0in 5.4pt 0in 5.4pt;height:48.05pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Primary Standards<br>
+  (29)<o:p></o:p></p>
+  </td>
+  <td width=174 style='width:130.2pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:48.05pt'>
+  <p class=MsoNormal align=center style='text-align:center'>At least 47 E’s or
+  M’s, including at least 24 E’s<o:p></o:p></p>
+  </td>
+  <td width=180 style='width:135.0pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:48.05pt'>
+  <p class=MsoNormal align=center style='text-align:center'>At least 42 E’s or
+  M’s, including at least 12 E’s<o:p></o:p></p>
+  </td>
+  <td width=174 style='width:130.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:48.05pt'>
+  <p class=MsoNormal align=center style='text-align:center'>At least 37 E’s or
+  M’s<o:p></o:p></p>
+  </td>
+  <td width=186 style='width:139.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:48.05pt'>
+  <p class=MsoNormal align=center style='text-align:center'>At least 31 E’s or
+  M’s<o:p></o:p></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6;height:48.05pt'>
+  <td width=144 style='width:107.9pt;border:solid black 1.0pt;border-top:none;
+  padding:0in 5.4pt 0in 5.4pt;height:48.05pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Writing Standards<br>
+  (9)<o:p></o:p></p>
+  </td>
+  <td width=174 style='width:130.2pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:48.05pt'>
+  <p class=MsoNormal align=center style='text-align:center'>At least 15 E’s or
+  M’s, including at least 8 E’s<o:p></o:p></p>
+  </td>
+  <td width=180 style='width:135.0pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:48.05pt'>
+  <p class=MsoNormal align=center style='text-align:center'>At least 13 E’s or
+  M’s, including at least 4 E’s<o:p></o:p></p>
+  </td>
+  <td width=174 style='width:130.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:48.05pt'>
+  <p class=MsoNormal align=center style='text-align:center'>At least 11 E’s or
+  M’s<o:p></o:p></p>
+  </td>
+  <td width=186 style='width:139.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:48.05pt'>
+  <p class=MsoNormal align=center style='text-align:center'>At least 9 E’s or
+  M’s<o:p></o:p></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7;mso-yfti-lastrow:yes;height:48.05pt'>
+  <td width=144 style='width:107.9pt;border:solid black 1.0pt;border-top:none;
+  padding:0in 5.4pt 0in 5.4pt;height:48.05pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Mathematical Essays<o:p></o:p></p>
+  </td>
+  <td width=174 style='width:130.2pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:48.05pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Earn: a “Pass” on
+  at least 2 essays<o:p></o:p></p>
+  </td>
+  <td width=180 style='width:135.0pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:48.05pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Earn: a “Pass” on
+  at least 1 essay<o:p></o:p></p>
+  </td>
+  <td width=174 style='width:130.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:48.05pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Earn: a “Pass” on
+  at least 1 essay<o:p></o:p></p>
+  </td>
+  <td width=186 style='width:139.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:48.05pt'>
+  <p class=MsoNormal align=center style='text-align:center'><i>(no requirement)</i><o:p></o:p></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal align=center style='margin-bottom:6.0pt;text-align:center'><b><span
+style='letter-spacing:-.1pt'>&nbsp;</span></b><o:p></o:p></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'><b><span
+style='letter-spacing:-.1pt'>Tutoring:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></b><span
+style='letter-spacing:-.1pt'>Tutoring Services <span class=GramE>is located in</span>
+the library and provides free one-on-one tutoring. See <a
+href="http://www.winona.edu/tutoring">www.winona.edu/tutoring</a> for more info
+and to schedule in-person or virtual tutoring sessions. </span><o:p></o:p></p>
+
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Late/Missed
+Work: </b><span style='letter-spacing:-.1pt'>All assessments are required to be
+taken in person and according to the schedule below and/or the schedule
+announced in class. </span>Make-up quizzes and make-up exams <b><i>before the
+time of the normal quiz or exam </i></b>will be given during office hours at
+the discretion of the instructor. If you have an unavoidable absence or
+sickness, please inform the instructor AS SOON AS POSSIBLE. This is NOT an
+online course.<o:p></o:p></p>
+
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Academic
+Dishonesty<span class=GramE>:&nbsp; <span style='font-weight:normal'>Any</span></span></b>
+type of academic dishonesty (cheating, copying, etc.) will result in failure
+and will be reported to school authorities. This includes access to sample
+quizzes, exams, etc. that have not been made available to the whole class. This
+also includes student-to-student communication during a quiz or exam and/or <b><u><span
+style='color:red'>using unsanctioned “homework help” websites to answer
+homework/quiz/exam problems.</span></u></b><span style='color:red'> </span>If
+you are having trouble with the course, please contact the instructor first.<o:p></o:p></p>
+
+<p class=MsoNormal style='text-align:justify'><b>Note:&nbsp;&nbsp; </b>This
+syllabus is subject to change if deemed necessary by the instructor.</p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><a name=Schedule></a><span
+style='font-size:14.0pt'>Tentative Schedule of Events – Math 213</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'>(as of December 18,
+2025, subject to change)</p>
+
+<p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+
+<div align=center>
+
+<table class=MsoNormalTable border=1 cellspacing=4 cellpadding=0 width="95%"
+ style='width:95.06%;mso-cellspacing:2.2pt;border:outset 1.5pt;mso-yfti-tbllook:
+ 1184;mso-padding-alt:0in 0in 0in 0in'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="8%" style='width:8.02%;border:inset 1.0pt;border-top:inset 1.5pt;
+  padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Week</p>
+  </td>
+  <td width="21%" style='width:21.96%;border:inset 1.0pt;border-top:inset 1.5pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Monday</p>
+  </td>
+  <td width="21%" style='width:21.94%;border:inset 1.0pt;border-top:inset 1.5pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Tuesday</p>
+  </td>
+  <td width="21%" style='width:21.94%;border:inset 1.0pt;border-top:inset 1.5pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Thursday</p>
+  </td>
+  <td width="24%" style='width:24.68%;border:inset 1.0pt;border-top:inset 1.5pt;
+  padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Friday</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width="8%" style='width:8.02%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Jan 12</p>
+  </td>
+  <td width="21%" style='width:21.96%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Syllabus</p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE>PreCalc</span>
+  Review</p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Calc Review
+  continued</p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Calc Review
+  continued<br>
+  &amp; Algebra skills</p>
+  </td>
+  <td width="24%" style='width:24.68%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Substitution</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width="8%" style='width:8.02%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Jan 19</p>
+  </td>
+  <td width="21%" style='width:21.96%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='color:red'>No Class</span></b><span style='color:red'><br>
+  MLK DAY</span></p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Mod 1 Quiz</p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Int by Parts</p>
+  </td>
+  <td width="24%" style='width:24.68%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Partial Frac</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width="8%" style='width:8.02%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Jan 26</p>
+  </td>
+  <td width="21%" style='width:21.96%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Mod 2 Quiz</p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Integration</p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Numerical<br>
+  Techniques</p>
+  </td>
+  <td width="24%" style='width:24.68%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Improper<br>
+  Integrals</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td width="8%" style='width:8.02%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Feb 2</p>
+  </td>
+  <td width="21%" style='width:21.96%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Mod 3 Quiz</p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Unit 1 Review</p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><i><u><span
+  style='color:#A02B93'>Unit 1 Exam</span></u></i></b></p>
+  </td>
+  <td width="24%" style='width:24.68%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Sequences, Pt 1</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td width="8%" style='width:8.02%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Feb 9</p>
+  </td>
+  <td width="21%" style='width:21.96%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Sequences, Pt 2<br>
+  Series, Pt 1</p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='color:#EE0000'>No Class<br>
+  </span></b><span style='color:#EE0000'>UNIVERSITY ASSESSMENT DAY</span></p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Series, Pt 2</p>
+  </td>
+  <td width="24%" style='width:24.68%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Mod 4 Quiz</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td width="8%" style='width:8.02%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Feb 16</p>
+  </td>
+  <td width="21%" style='width:21.96%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Area</p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Volumes of Rev</p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Volumes</p>
+  </td>
+  <td width="24%" style='width:24.68%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Mod 5 Quiz</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7'>
+  <td width="8%" style='width:8.02%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Feb 23</p>
+  </td>
+  <td width="21%" style='width:21.96%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Int Test</p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Comp Test</p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Mod 6 Quiz</p>
+  </td>
+  <td width="24%" style='width:24.68%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Unit 2 Review</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8'>
+  <td width="8%" style='width:8.02%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Mar 2</p>
+  </td>
+  <td width="21%" style='width:21.96%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><i><u><span
+  style='color:#A02B93'>Unit 2 Exam</span></u></i></b></p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Alt Series</p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Ratio &amp; Root</p>
+  </td>
+  <td width="24%" style='width:24.68%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Review of Tests</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:9'>
+  <td width="8%" style='width:8.02%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Mar 9</p>
+  </td>
+  <td width="91%" colspan=4 style='width:91.24%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='color:red'>No Class</span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='color:red'>SPRING BREAK</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:10'>
+  <td width="8%" style='width:8.02%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Mar 16</p>
+  </td>
+  <td width="21%" style='width:21.96%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Mod 7 Quiz</p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Arc Length</p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Surface Area</p>
+  </td>
+  <td width="24%" style='width:24.68%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Mod 8 Quiz</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:11'>
+  <td width="8%" style='width:8.02%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Mar 23</p>
+  </td>
+  <td width="21%" style='width:21.96%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>App of Int, Pt 1</p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>App of Int, Pt 2</p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>App of Int, Pt 3</p>
+  </td>
+  <td width="24%" style='width:24.68%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Mod 9 Quiz</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:12'>
+  <td width="8%" style='width:8.02%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Mar 30</p>
+  </td>
+  <td width="21%" style='width:21.96%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Unit 3 Review</p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><i><u><span
+  style='color:#A02B93'>Unit 3 Exam</span></u></i></b></p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Pow Ser as Func</p>
+  </td>
+  <td width="24%" style='width:24.68%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>TBD</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:13'>
+  <td width="8%" style='width:8.02%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Apr 6</p>
+  </td>
+  <td width="21%" style='width:21.96%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Func as Pw Ser</p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Taylor Series</p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Mod 10 Quiz</p>
+  </td>
+  <td width="24%" style='width:24.68%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='color:#EE0000'>No Class<br>
+  </span></b><span style='color:#EE0000'>STUDENT SPRING BREAK DAY</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:14'>
+  <td width="8%" style='width:8.02%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Apr 13</p>
+  </td>
+  <td width="21%" style='width:21.96%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE>MacLauren</span>
+  Series</p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>App of Pow Series</p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Param: <span
+  class=SpellE>PreCalc</span> &amp; Calc 1</p>
+  </td>
+  <td width="24%" style='width:24.68%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Mod 11 Quiz</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:15'>
+  <td width="8%" style='width:8.02%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Apr 20</p>
+  </td>
+  <td width="21%" style='width:21.96%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Param: Calc 2</p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Polar: <span
+  class=SpellE>PreCalc</span></p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='color:#EE0000'>No Class<br>
+  </span></b><span style='color:#EE0000'>UNIVERSITY RESEARCH DAY</span></p>
+  </td>
+  <td width="24%" style='width:24.68%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Polar: Calc &amp;
+  Calc 2</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:16;mso-yfti-lastrow:yes'>
+  <td width="8%" style='width:8.02%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Apr 27</p>
+  </td>
+  <td width="21%" style='width:21.96%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Mod 12 Quiz</p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Unit 4 Review</p>
+  </td>
+  <td width="21%" style='width:21.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><i><u><span
+  style='color:#A02B93'>Unit 4 Exam</span></u></i></b></p>
+  </td>
+  <td width="24%" style='width:24.68%;padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Final Review</p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:22.0pt'>Final Exam<o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:22.0pt'>Thursday, May 7<o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:22.0pt'>8:00am – 10:00am</span></b></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<div style='border:none;border-top:solid windowtext 1.0pt;padding:1.0pt 0in 0in 0in'>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+
+<p class=MsoNormal><span style='color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif;color:black'>The <a
+href="http://www.math.vt.edu/people/brown/disclaim.htm">Standard Disclaimer</a>
+applies.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif;color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif;color:black'>© Eric Errthum, December 2025, all
+rights reserved.</span></p>
+
+</div>
+
+</body>
+
+</html>
