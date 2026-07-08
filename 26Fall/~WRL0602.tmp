@@ -16,6 +16,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Print</w:View>
+  <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:ValidateAgainstSchemas/>
@@ -681,6 +682,9 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	font-family:"Times New Roman",serif;
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -748,16 +752,17 @@ Hours:&nbsp; </b>See <a href="../index.html">homepage</a>. Or by appointment on
 any day.</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
-margin-left:1.0in;text-indent:-1.0in'><b>Texts:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</b>“Finite Mathematics” by Howard Rolf (8<sup>th</sup> Ed) – accessed
-digitally through your D2L account. NO other course materials need to be
-purchased. DO NOT BUY AN ACCESS CARD. DO NOT ENTER YOUR CREDIT CARD INFO. (If
-you already did, you should try to return it/get your money back.) The charge
-for these materials is included in your student bill and guarantees the lowest
-cost available.&nbsp; You are already enrolled in this program. If you do not
-wish to participate, you may opt out within D2L.&nbsp; This must be done no
-later than the 5th day of semester. August 30th, 2024. Opting out is not
-recommended, you will be responsible for purchasing your own materials. <br>
+margin-left:1.0in;text-indent:-1.0in'><b>Texts:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+class=GramE>&nbsp;&nbsp; <span style='font-weight:normal'>“</span></span></b>Finite
+Mathematics” by Howard Rolf (8<sup>th</sup> Ed) – accessed digitally through
+your D2L account. NO other course materials need to be purchased. DO NOT BUY AN
+ACCESS CARD. DO NOT ENTER YOUR CREDIT CARD INFO. (If you already did, you
+should try to return it/get your money back.) The charge for these materials is
+included in your student bill and guarantees the lowest cost available.&nbsp;
+You are already enrolled in this program. If you do not wish to participate,
+you may opt out within D2L.&nbsp; This must be done no later than the 5th day
+of semester. August 30th, 2024. Opting out is not recommended, you will be
+responsible for purchasing your own materials. <br>
 <span style='font-size:6.0pt'><br>
 </span>“Common Sense Mathematics” by Bolker and Mast (2<sup>nd</sup> Ed) –
 Excerpts of this text will be available on D2L.</p>
@@ -765,24 +770,26 @@ Excerpts of this text will be available on D2L.</p>
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
 margin-left:1.0in;text-indent:-1.0in'><b>Technology:</b>&nbsp;&nbsp; * You will
 <b><i><u><span style='color:red'>need your laptop every class period</span></u></i></b>.
-Make sure you have a full charge as there are very few outlets in the room.<br>
-* Quizzes/Exams will be administered in the D2L Lockdown Browser. You are responsible
-for having it installed, along with installing the correct printer utilities.<br>
+Make sure you <span class=GramE>have a full charge</span> as there are very few
+outlets in the room.<br>
+* Quizzes/Exams will be administered in the D2L Lockdown Browser. You are
+responsible for having it installed, along with installing the correct printer
+utilities.<br>
 * You are also allowed to use a calculator, but you must show and/or explain
 your work. Some recommended calculators: Casio <i>fx</i>-300ES PLUS or Texas
 Instruments TI-84. The Lockdown Browser has a built-in calculator, but it’s not
 great.<br>
 * You will need a Google account. Make sure you know the password and have
-logged into your Google account using the browser that you’ll use to access D2L.
-It might be worth creating a new Google account to use specifically for this
-class (or just your schoolwork in general)</p>
+logged into your Google account using the browser that you’ll use to access
+D2L. It might be worth creating a new Google account to use specifically for
+this class (or just your schoolwork in general)</p>
 
 <p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Prerequisite:
 </b>MATH050 or placement exam</p>
 
 <p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>About This
-Course:&nbsp; </b>Applications of linear functions, optimization problems, and
-the mathematics of finance.</p>
+Course<span class=GramE>:&nbsp; <span style='font-weight:normal'>Applications</span></span></b>
+of linear functions, optimization problems, and the mathematics of finance.</p>
 
 <p class=MsoNormal style='margin-bottom:8.0pt'><b>Modality Disclaimer: </b>This
 course is designed to be an in-person course. For as long as the University
@@ -818,29 +825,31 @@ Final&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 600 points total</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Grades:</b>&nbsp;
-A = 90% (540 pts), B = 80% (480 pts), C = 70% (420 pts), D = 60% (360 pts)</p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Grades<span
+class=GramE>:<span style='font-weight:normal'>&nbsp; A</span></span></b> = 90%
+(540 pts), B = 80% (480 pts), C = 70% (420 pts), D = 60% (360 pts)</p>
 
 <p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Preparation/Attendance/Participation:&nbsp;&nbsp;&nbsp;&nbsp;
 </b>You will be expected to read the textbook material <b><i><u>before
 attending class</u></i></b>. The reading assignments are posted to D2L under
 “Assignments”; make sure to mark them complete when you have finished them to
 receive credit. Most class time will be spent working in groups. Participation
-in your group is not only expected but necessary and critical for learning the material.
-Attendance on group-work days is worth twice the attendance on other days.</p>
+in your group is not only expected but necessary and critical for learning the
+material. Attendance on group-work days is worth twice the attendance on other
+days.</p>
 
 <p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Exit
-Problems:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; After
-working in groups, most sections contain an exit problem that you will work on
-individually. The exit problem closely matches the type of questions that will
-be asked on the next quiz. As soon as you complete the exit problem <b><i><u>correctly</u></i></b>,
-you will receive credit for it. <b><u>There is no partial credit for Exit
-Problems.</u></b> If there are mistakes or errors in your submission, you can
-resubmit (as many times as needed and as time allows). As soon as you complete
-the exit problem <b><i><u>correctly</u></i></b>, you are free to leave for the
-day. If you do not complete the exit problem during the period, you are welcome
-to complete it outside of class time and hand it in during class or office
-hours.</p>
+Problems:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; After working
+in groups, most sections contain an exit problem that you will work on
+individually. The <span class=GramE>exit problem</span> closely matches the
+type of questions that will be asked <span class=GramE>on</span> the next quiz.
+As soon as you complete the exit problem <b><i><u>correctly</u></i></b>, you
+will receive credit for it. <b><u>There is no partial credit for Exit Problems.</u></b>
+If there are mistakes or errors in your submission, you can <span class=GramE>resubmit</span>
+(as many times as needed and as time allows). As soon as you complete the exit
+problem <b><i><u>correctly</u></i></b>, you are free to leave for the day. If
+you do not complete the exit problem during the period, you are welcome to
+complete it outside of class time and hand it in during class or office hours.</p>
 
 <p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>WebAssign
 Homework:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Homework problems will be
@@ -849,10 +858,10 @@ dates for WebAssign homework can be found in D2L Assignments.</p>
 
 <p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Quizzes:</b>
 &nbsp; We will have 7 (~25 minute) quizzes (see schedule below). Each quiz will
-count for 15 points and the lowest quiz score will be dropped from your grade.
-Quiz problems are based on the group work and exit problems done in the
-preceding class periods. The quizzes will be completed in the Respondus
-Lockdown Browser. </p>
+count for 15 <span class=GramE>points</span> and the lowest quiz score will be
+dropped from your grade. Quiz problems are based on the group work and exit
+problems done in the preceding class periods. The quizzes will be completed in
+the Respondus Lockdown Browser. </p>
 
 <p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Unit Exams
 and Final:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; There will be
@@ -864,9 +873,9 @@ replace a score on a previous assessment.</p>
 Work: </b>Late homework or missed challenges will result in a score of zero.
 There are no make-up challenges. Make-up exams will be given at the discretion
 of the instructor. If you miss class, you should contact me for a copy of the
-day’s activities and/or exit problem, but you will not be able to make up your lost
-attendance/participation points. If you have an unavoidable absence, please
-inform the instructor beforehand.</p>
+day’s activities and/or exit problem, but you will not be able to make up your
+lost attendance/participation points. If you have an unavoidable absence,
+please inform the instructor beforehand.</p>
 
 <p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Desire2Learn:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </b>Course materials can be found on <a href="https://winona.ims.mnscu.edu/">D2L/Brightspace</a>
@@ -874,13 +883,13 @@ including <b><i>approximate</i></b> grades. If you ever want an exact look at
 your grade, email the instructor directly.</p>
 
 <p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Academic
-Dishonesty:&nbsp; </b>Any type of academic dishonesty (cheating, copying,
-plagiarism, using a solutions manual to do homework, etc.) will result in
-failure and will be reported to school authorities. This includes
-student-to-student communication during a quiz or exam and/or <b><u><span
-style='color:red'>using unsanctioned “homework help” and/or AI websites to
-answer homework/quiz/exam problems</span></u></b>. If you are having trouble
-with an assignment, please see the instructor first. </p>
+Dishonesty<span class=GramE>:&nbsp; <span style='font-weight:normal'>Any</span></span></b>
+type of academic dishonesty (cheating, copying, plagiarism, using a solutions
+manual to do homework, etc.) will result in failure and will be reported to
+school authorities. This includes student-to-student communication during a
+quiz or exam and/or <b><u><span style='color:red'>using unsanctioned “homework
+help” and/or AI websites to answer homework/quiz/exam problems</span></u></b>.
+If you are having trouble with an assignment, please see the instructor first. </p>
 
 <p class=MsoNormal style='text-align:justify'><b>Note:&nbsp;&nbsp; </b>This
 syllabus is subject to change if deemed necessary by the instructor.</p>
@@ -895,10 +904,10 @@ mso-bidi-language:AR-SA'><br clear=all style='page-break-before:always'>
 <p class=MsoNormal><a name=Schedule></a><span style='font-size:14.0pt'>&nbsp;</span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
-style='font-size:14.0pt'>Tentative Schedule of Events – Math 112</span></p>
+style='font-size:14.0pt'>Tentative Schedule of Events – Math 110</span></p>
 
-<p class=MsoNormal align=center style='text-align:center'>(as of 23-Aug-26; subject
-to change)</p>
+<p class=MsoNormal align=center style='text-align:center'>(as of 18-Dec-<span
+class=GramE>25;subject</span> to change)</p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:14.0pt'>&nbsp;</span></p>
@@ -909,25 +918,25 @@ style='font-size:14.0pt'>&nbsp;</span></p>
  style='width:90.0%;mso-cellspacing:1.8pt;border:outset 1.5pt;mso-yfti-tbllook:
  1184;mso-padding-alt:0in 0in 0in 0in'>
  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;page-break-inside:avoid'>
-  <td width="10%" style='width:10.92%;padding:.75pt .75pt .75pt .75pt'>
+  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Week Beginning</p>
   </td>
-  <td width="29%" style='width:29.08%;padding:0in 5.4pt 0in 5.4pt'>
+  <td width="29%" style='width:29.46%;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'>Monday</p>
   </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Wednesday</p>
   </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Friday</p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:1;page-break-inside:avoid'>
-  <td width="10%" style='width:10.92%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Aug 24</p>
+  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Aug 25</p>
   </td>
-  <td width="29%" style='width:29.08%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Introductions</p>
+  <td width="29%" style='width:29.46%;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span class=GramE>Introductions</span></p>
   <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>Syllabus</p>
   <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
@@ -936,414 +945,477 @@ style='font-size:14.0pt'>&nbsp;</span></p>
   <p class=MsoNormal align=center style='text-align:center'>Lockdown Browser
   Printing</p>
   </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: Read </span></b></p>
+  style='color:#70AD47'>Due By Class Time: Read CSM Chap 2 (pgs 27-41)</span></b></p>
   <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>Linear Models</p>
+  <p class=MsoNormal align=center style='text-align:center'>Units &amp; Rates
+  Group Work</p>
   <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u></p>
-  <p class=MsoNormal align=center style='text-align:center'>Create Linear
-  Models, Interpret Parameters</p>
+  <p class=MsoNormal align=center style='text-align:center'>Convert between units</p>
+  <p class=MsoNormal align=center style='text-align:center'>Understand/
+  Create/Convert Rates</p>
   <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>Assignment: WileyPlus</p>
-  </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: Read</span></b><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Piecewise Linear
-  Functions<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Create a Piecewise
-  Linear Model in Desmos<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
   <p class=MsoNormal align=center style='text-align:center'>Assignment: Finish
   Group Work and Check Solutions</p>
+  </td>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Re-cap Group Work</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='color:black;background:yellow'>Exit Problem: CSM2</span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:2;page-break-inside:avoid'>
-  <td width="10%" style='width:10.92%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Aug 31</p>
+  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Sep 1</p>
   </td>
-  <td width="29%" style='width:29.08%;padding:0in 5.4pt 0in 5.4pt'>
+  <td width="29%" style='width:29.46%;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
   style='color:red'>No Class<br>
-  Labor Day<o:p></o:p></span></b></p>
+  Labor Day</span></b></p>
   </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='background:aqua;mso-highlight:aqua'>Re-cap Group Work</span><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='color:black;background:yellow'>Exit Problem: Piecewise Linear</span></p>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='color:#70AD47'>Due By Class Time: Read R Secs 1.1, 1.2 (pgs 1-6,
+  14-26)</span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>Functions and
+  Interpreting Mini-Lecture</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u></p>
+  <p class=MsoNormal align=center style='text-align:center'>Identify input and
+  outputs of a function</p>
+  <p class=MsoNormal align=center style='text-align:center'>Identify/Compute
+  slope of line</p>
+  <p class=MsoNormal align=center style='text-align:center'>Identify/Compute
+  intercepts of line</p>
+  <p class=MsoNormal align=center style='text-align:center'>Be able to
+  construct y=mx+b form of a line</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>Assignment:
+  WebAssign Sections 1.1 and 1.2</p>
   </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-Cap / Q&amp;A<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><u><span
-  style='color:#7030A0'>Quiz 1</span></u></b>&nbsp;</p>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Forms of a Line</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u></p>
+  <p class=MsoNormal align=center style='text-align:center'>Use Desmos to
+  understand linear functions</p>
+  <p class=MsoNormal align=center style='text-align:center'>Use Desmos to find
+  parameters</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>Assignment: Finish
+  Group Work and Check Solutions </p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:3;page-break-inside:avoid'>
-  <td width="10%" style='width:10.92%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Sep 7</p>
+  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Sep 8</p>
   </td>
-  <td width="29%" style='width:29.08%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: Read</span></b><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Average Rate of
-  Change <o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Compute Average
-  Rate of Change<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Assignment: WileyPlus</p>
-  </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: Read</span></b><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Concavity</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Determine Concavity
-  and its Consequences</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Assignment: Group Work
-  and Check Solutions</p>
-  </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
+  <td width="29%" style='width:29.46%;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Re-cap Group Work</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'><span
-  style='background:aqua;mso-highlight:aqua'>Re-cap Group Work</span><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='color:black;background:yellow'>Exit Problem: AROC and Concavity</span></p>
+  style='color:black;background:yellow'>Exit Problem: Line Form</span></p>
+  </td>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Re-Cap / Q&amp;A</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'><b><u><span
+  style='color:#7030A0'>Quiz 1</span></u></b></p>
+  </td>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='color:#70AD47'>Due By Class Time: Read R Sec 1.3 (pgs 40-52)</span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>Linear Models of
+  Cost and Revenue</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u></p>
+  <p class=MsoNormal align=center style='text-align:center'>Create Cost,
+  Revenue, and Profit functions</p>
+  <p class=MsoNormal align=center style='text-align:center'>Find Breakeven
+  points</p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
+  <p class=MsoNormal align=center style='text-align:center'>Assignment:
+  WebAssign Section 1.3</p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:4;page-break-inside:avoid'>
-  <td width="10%" style='width:10.92%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Sep 14</p>
+  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Sep 15</p>
   </td>
-  <td width="29%" style='width:29.08%;padding:0in 5.4pt 0in 5.4pt'>
+  <td width="29%" style='width:29.46%;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: Read </span></b></p>
+  style='color:#70AD47'>Due By Class Time: Read CSM Sec 7.1-7.5 (pgs 169-178)</span></b></p>
   <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>Function Properties</p>
+  <p class=MsoNormal align=center style='text-align:center'>Analyzing Linear Information
+  in Spreadsheets</p>
   <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u></p>
-  <p class=MsoNormal align=center style='text-align:center'>Describe a function</p>
+  <p class=MsoNormal align=center style='text-align:center'>Use Sheets to
+  create linear data</p>
+  <p class=MsoNormal align=center style='text-align:center'>Use Sheets to plot
+  data</p>
+  <p class=MsoNormal align=center style='text-align:center'>Use Sheets to
+  analyze options</p>
   <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>Assignment: WileyPlus</p>
+  <p class=MsoNormal align=center style='text-align:center'>Assignment: Finish
+  Group Work</p>
   </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-Cap / Q&amp;A<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Re-cap Group Work</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='color:black;background:yellow'>Exit Problem: CSM7</span></p>
+  </td>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Re-Cap / Q&amp;A</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'><b><u><span
   style='color:#7030A0'>Quiz 2</span></u></b></p>
   </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Work/Make Up Day<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Exam Review</p>
-  </td>
  </tr>
  <tr style='mso-yfti-irow:5;page-break-inside:avoid'>
-  <td width="10%" style='width:10.92%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Sep 21</p>
+  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Sep 22</p>
   </td>
-  <td width="29%" style='width:29.08%;padding:0in 5.4pt 0in 5.4pt'>
+  <td width="29%" style='width:29.46%;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Work/Make Up Day</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>Exam Review<b><span
+  style='color:#70AD47'> </span></b></p>
+  </td>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><u><span
+  style='color:#7030A0'>Unit 1 Exam</span></u></b> </p>
+  </td>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'><span style='mso-spacerun:yes'> </span></span><u><span
-  style='color:#7030A0'>Unit 1 Exam</span></u></b></p>
+  style='color:#70AD47'>Due By Class Time: Read CSM Sec 7.7 (pgs 180-185)</span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>Nonlinear Data:
+  Piecewise Linear Approximations</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u></p>
+  <p class=MsoNormal align=center style='text-align:center'>Create piecewise
+  linear functions</p>
+  <p class=MsoNormal align=center style='text-align:center'>Solve using a
+  piecewise linear assumption</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>Assignment: Finish Group
+  Work and Check Solutions</p>
   </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'></td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'></td>
  </tr>
  <tr style='mso-yfti-irow:6;page-break-inside:avoid'>
-  <td width="10%" style='width:10.92%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Sep 28</p>
+  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Sep 29</p>
   </td>
-  <td width="29%" style='width:29.08%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: Read </span></b><o:p></o:p></p>
-  <p class=MsoNormal>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Technology Toolkit<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Use Technology to
-  Solve for Unknowns<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Assignment: WileyPLUS</p>
-  </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'></td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: Read </span></b><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Quadratic Models<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp; <o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Create Quadratic
-  Models, Determine and Interpret their properties<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Assignment: Finish
-  Group Work and Check Solutions<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>AND<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>WileyPLUS</p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:7;page-break-inside:avoid'>
-  <td width="10%" style='width:10.92%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Oct 5</p>
-  </td>
-  <td width="29%" style='width:29.08%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-Cap Group Work<o:p></o:p></p>
+  <td width="29%" style='width:29.46%;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Re-Cap Group Work</p>
   <p class=MsoNormal align=center style='text-align:center'>&nbsp;<span
-  style='color:black;background:yellow'>Exit Problem: Quadratic Model</span></p>
+  style='color:black;background:yellow'>Exit Problem: Piecewise Linear</span></p>
   </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-Cap / Q&amp;A<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='color:#70AD47'>Due By Class Time: Read R Secs 3.1 &amp; 3.2 (pgs
+  215-221, 224-229)</span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>Systems of
+  Inequalities</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u></p>
+  <p class=MsoNormal align=center style='text-align:center'>Write down a system
+  of inequalities in two variables</p>
+  <p class=MsoNormal align=center style='text-align:center'>Plot the region and
+  find the corners</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>Assignment:
+  WebAssign Sections 3.1 and 3.2</p>
+  </td>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Re-Cap / Q&amp;A</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'><b><u><span
   style='color:#7030A0'>Quiz 3</span></u></b></p>
   </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
+ </tr>
+ <tr style='mso-yfti-irow:7;page-break-inside:avoid'>
+  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Oct 6</p>
+  </td>
+  <td width="29%" style='width:29.46%;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: Read </span></b><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Functions Involving
-  Exponents<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Convert between
-  representations, Determine End Behavior<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Assignment: WileyPlus</p>
+  style='color:#70AD47'>Due By Class Time: Read R Secs 3.3 (pgs 236-250)</span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>Linear Programming</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u></p>
+  <p class=MsoNormal align=center style='text-align:center'>Use Desmos to
+  Optimize in a 2D Region</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>Assignment: WebAssign
+  Section 3.3</p>
+  </td>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='color:red'>NO CLASS<br>
+  University Improvement Day</span></b></p>
+  </td>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Re-cap group work</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='color:black;background:yellow'>Exit Problem: Linear Programming with
+  Desmos</span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:8;page-break-inside:avoid'>
-  <td width="10%" style='width:10.92%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Oct 12</p>
+  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Oct 13</p>
   </td>
-  <td width="29%" style='width:29.08%;padding:0in 5.4pt 0in 5.4pt'>
+  <td width="29%" style='width:29.46%;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: Read </span></b><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Exponential Models<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Create Exponential
-  Models, Determine and Interpret their properties<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
+  style='color:#70AD47'>Due By Class Time: Read R Secs 3.4 (pgs 262-266)</span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>Systems with more
+  than two variables</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u></p>
+  <p class=MsoNormal align=center style='text-align:center'>Write down a system
+  of inequalities with more than two variables</p>
+  <p class=MsoNormal>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>Assignment:
+  WebAssign Section 3.4</p>
+  </td>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='color:#70AD47'>Due By Class Time: <a
+  href="https://www.youtube.com/watch?v=ByplkzcM4bE">Watch This Video</a> and
+  Install OpenSolver</span></b></p>
+  <p class=MsoNormal><b><span style='color:#4EA72E'>&nbsp;</span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'>Linear Programming
+  with Sheets OpenSolver</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u></p>
+  <p class=MsoNormal align=center style='text-align:center'>Find optimal
+  scenarios in Sheets</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>Assignment: Finish
-  Group Work and Check Solutions<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>AND<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>WileyPLUS</p>
+  Group Work and Check Solutions</p>
   </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-cap group work<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
-  style='color:black;background:yellow'>Exit Problem: Exponential Model</span></p>
-  </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-Cap / Q&amp;A<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><u><span
-  style='color:#7030A0'>Quiz 4</span></u></b></p>
+  style='color:#EE0000'>No In-Person Class</span></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>Assignment:
+  WebAssign Section 3.5</p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:9;page-break-inside:avoid'>
-  <td width="10%" style='width:10.92%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Oct 19</p>
+  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Oct 20</p>
   </td>
-  <td width="29%" style='width:29.08%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: Read R </span></b><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Logarithmic Models<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Create Logarithmic
-  Models, Determine and Interpret their properties<o:p></o:p></p>
-  <p class=MsoNormal>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Assignment: WileyPlus</p>
+  <td width="29%" style='width:29.46%;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Re-Cap / Q&amp;A</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'><b><u><span
+  style='color:#7030A0'>Quiz 4<br>
+  </span></u></b>(Use Desmos to Optimize in a 2D Region<br>
+  and<br>
+  Write down a system of inequalities with more than two variables)</p>
   </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Re-cap OpenSolver
+  Group Work and WebAssign 3.5</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='color:black;background:yellow'>Exit Problem: Linear Programming with
+  Open Solver</span></p>
+  </td>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: </span></b><o:p></o:p></p>
-  <p class=MsoNormal><b><span style='color:#4EA72E'>&nbsp;</span></b><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Analyzing Unfamiliar
-  Functions<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Determine
-  Properties of Any Function<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
+  style='color:#70AD47'>Due By Class Time: Read R Sec 1.3 (pgs 36-37)<br>
+  Due <span class=GramE>By</span> Class Time: Read CSM Section 9.3 (pgs
+  221-222)</span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='color:#E8E8E8'>&nbsp;</span>Depreciation Models: Linear vs.
+  Exponential</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u><br>
+  Create Depreciation Models</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>Assignment: Finish
   Group Work and Check Solutions</p>
-  </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-cap Group Work<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='color:black;background:yellow'>Exit Problem: Unfamiliar</span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:10;page-break-inside:avoid'>
-  <td width="10%" style='width:10.92%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Oct 26</p>
+  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Oct 27</p>
   </td>
-  <td width="29%" style='width:29.08%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-Cap / Q&amp;A<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
+  <td width="29%" style='width:29.46%;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Re-cap Group Work</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='color:black;background:yellow'>Exit Problem: Depreciation</span></p>
+  </td>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Re-Cap / Q&amp;A</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'><b><u><span
   style='color:#7030A0'>Quiz 5</span></u></b></p>
+  <p class=MsoNormal align=center style='text-align:center'>(Find optimal
+  scenarios in Sheets<br>
+  and<br>
+  Create Depreciation Models)</p>
   </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Work/Make Up Day<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Work/Make Up Day</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>Exam Review</p>
-  </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><u><span
-  style='color:#7030A0'>Unit 2 Exam</span></u></b></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:11;page-break-inside:avoid'>
-  <td width="10%" style='width:10.92%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Nov 2</p>
+  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Nov 3</p>
   </td>
-  <td width="29%" style='width:29.08%;padding:0in 5.4pt 0in 5.4pt'>
+  <td width="29%" style='width:29.46%;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><u><span
+  style='color:#7030A0'>Unit 2 Exam</span></u></b></p>
+  </td>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: Read R</span></b><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='color:#E8E8E8'>&nbsp;<o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'>Compare and Contrasting
-  Models<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u><br>
-  Compare and Contrast Models, Picking Appropriate Models<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Assignment: Finish
-  Group Work and Check Solutions</p>
-  </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-cap Group Work<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='color:black;background:yellow'>Exit Problem: Models</span></p>
-  </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: Read </span></b><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Function Transformations<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
+  style='color:#70AD47'>Due By Class Time: Read R Secs 5.1 &amp; 5.2 (pgs
+  371-376, 379-388)</span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>Simple and Compound
+  Interest</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals</u>:<br>
-  Find function formulas via transformations and parameter choice<o:p></o:p></p>
-  <p class=MsoNormal>&nbsp;<o:p></o:p></p>
+  Compute future value amounts for simple and compound interest</p>
+  <p class=MsoNormal>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>Assignment:
+  WebAssign Sections 5.1 and 5.2</p>
+  </td>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='color:#70AD47'>Due By Class Time: Read CSM Secs 9.1 – 9.2 (pgs
+  217-221) and Install Goal Seek</span></b></p>
+  <p class=MsoNormal>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>Simple vs. Compound
+  Interest</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u></p>
+  <p class=MsoNormal align=center style='text-align:center'>Use Sheets to
+  analyze interest payments</p>
   <p class=MsoNormal align=center style='text-align:center'>Assignment: Finish
   Group Work and Check Solutions</p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:12;page-break-inside:avoid'>
-  <td width="10%" style='width:10.92%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Nov 9</p>
+  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Nov 10</p>
   </td>
-  <td width="29%" style='width:29.08%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-cap Group Work<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='color:black;background:yellow'>Exit Problem: Transformations</span></p>
+  <td width="29%" style='width:29.46%;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Re-Cap Group Work</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<span
+  style='color:black;background:yellow'>Exit Problem: Simple vs Compound</span></p>
   </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:red'>NO CLASS<br>
-  Veterans’ Day</span></b></p>
-  </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-Cap / Q&amp;A<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Re-Cap / Q&amp;A</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'><b><u><span
   style='color:#7030A0'>Quiz 6</span></u></b></p>
   </td>
- </tr>
- <tr style='mso-yfti-irow:13;page-break-inside:avoid'>
-  <td width="10%" style='width:10.92%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Nov 16</p>
-  </td>
-  <td width="29%" style='width:29.08%;padding:0in 5.4pt 0in 5.4pt'>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: Read <o:p></o:p></span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Function Composition<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Compute Composition
-  of Functions<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Assignment: WileyPLUS</p>
-  </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: Read R </span></b><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Composition Models<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals</u>:<br>
-  Create Models by Composition, Determine and Interpret Properties<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
+  style='color:#70AD47'>Due By Class Time: Read CSM Section 10 (pgs 247-250)</span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'>Borrowing and
+  Saving</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u></p>
+  <p class=MsoNormal align=center style='text-align:center'>Use Sheets to
+  analyze borrowing and saving options</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>Assignment: Finish
   Group Work and Check Solutions</p>
   </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-cap Group Work<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='color:black;background:yellow'>Exit Problem: Composition Model</span></p>
+ </tr>
+ <tr style='mso-yfti-irow:13;page-break-inside:avoid'>
+  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Nov 17</p>
+  </td>
+  <td width="29%" style='width:29.46%;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Re-Cap Group Work</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<span
+  style='color:black;background:yellow'>Exit Problem: Borrowing and <span
+  class=GramE>Saving</span></span></p>
+  </td>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='color:#70AD47'>Due By Class Time: Read R Sec 5.3 (pgs 398-402)</span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>Annuities and
+  Sinking Funds</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals</u>:<br>
+  Calculate using Future-Value Formulas</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>Assignment:
+  WebAssign Section 5.3</p>
+  </td>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='color:#70AD47'>Due By Class Time: Read R Sec 5.4 (pgs 409-420)</span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='color:#70AD47'>&nbsp;</span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'>Amortization</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals</u>:<br>
+  Calculate using Present-Value Formulas</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>Assignment:
+  WebAssign Section 5.4</p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:14;page-break-inside:avoid'>
-  <td width="10%" style='width:10.92%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Nov 23</p>
+  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Nov 24</p>
   </td>
-  <td width="29%" style='width:29.08%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-Cap / Q&amp;A<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
+  <td width="29%" style='width:29.46%;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Re-Cap / Q&amp;A</p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'><b><u><span
   style='color:#7030A0'>Quiz 7</span></u></b></p>
   </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
   style='color:red'>NO CLASS<br>
   Thanksgiving Break</span></b></p>
   </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
   style='color:red'>NO CLASS<br>
   Thanksgiving Break</span></b></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:15;mso-yfti-lastrow:yes;page-break-inside:avoid'>
-  <td width="10%" style='width:10.92%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Nov 30</p>
+  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Dec 1</p>
   </td>
-  <td width="29%" style='width:29.08%;padding:0in 5.4pt 0in 5.4pt'>
+  <td width="29%" style='width:29.46%;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'>Work/Make Up Day</p>
   <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>Exam Review</p>
   </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><u><span
   style='color:#7030A0'>Unit 3 Exam</span></u></b></p>
   </td>
-  <td width="29%" style='width:29.08%;padding:.75pt .75pt .75pt .75pt'>
+  <td width="29%" style='width:29.46%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Work/Make Up Day</p>
   <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'>Exam Review</p>
@@ -1359,7 +1431,7 @@ style='font-size:14.0pt'>&nbsp;</span></p>
 style='font-size:20.0pt'>Final Exam</span></b></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
-style='font-size:20.0pt'>Monday, December 7?</span></p>
+style='font-size:20.0pt'>Monday, December 8</span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:20.0pt'>1:00 – 3:00pm</span></p>
@@ -1383,10 +1455,10 @@ rich array of perspectives and experiences.&nbsp; </p>
 
 <p class=MsoNormal>&nbsp;</p>
 
-<p class=MsoNormal>If you feel your differences may in some way isolate you from
-WSU’s community or if you have a need for any specific accommodations, please
-speak with the instructor early in the semester about your concerns and what we
-can do together to help you become an active and engaged member of our class
+<p class=MsoNormal>If you feel your differences may in some way isolate you
+from WSU’s community or if you have a need for any specific accommodations,
+please speak with the instructor early in the semester about your concerns and
+what we can do together to help you become an active and engaged member of our class
 and community. </p>
 
 <p class=MsoNormal>&nbsp;</p>
