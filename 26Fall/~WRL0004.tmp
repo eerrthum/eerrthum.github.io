@@ -9,14 +9,12 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <meta name=ProgId content=Word.Document>
 <meta name=Generator content="Microsoft Word 15">
 <meta name=Originator content="Microsoft Word 15">
-<link rel=File-List href="26FallMath110-02_files/filelist.xml">
-<title>MATH 110 -- Finite Mathematics</title>
-<link rel=themeData href="26FallMath110-02_files/themedata.thmx">
-<link rel=colorSchemeMapping
-href="26FallMath110-02_files/colorschememapping.xml">
+<link rel=File-List href="26FallMath347_files/filelist.xml">
+<title>MATH 347 -- Number Theory</title>
+<link rel=themeData href="26FallMath347_files/themedata.thmx">
+<link rel=colorSchemeMapping href="26FallMath347_files/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
-  <w:SpellingState>Clean</w:SpellingState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:ValidateAgainstSchemas/>
@@ -682,9 +680,6 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	font-family:"Times New Roman",serif;
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
-span.SpellE
-	{mso-style-name:"";
-	mso-spl-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -695,7 +690,7 @@ span.SpellE
 	mso-ligatures:none;}
 @page WordSection1
 	{size:8.5in 11.0in;
-	margin:.5in .5in .5in .5in;
+	margin:.5in 1.0in 31.5pt 1.0in;
 	mso-header-margin:.5in;
 	mso-footer-margin:.5in;
 	mso-paper-source:0;}
@@ -733,91 +728,73 @@ break-word'>
 <div class=WordSection1>
 
 <p class=MsoNormal align=center style='margin-bottom:8.0pt;text-align:center'><b><span
-style='font-size:14.0pt'>MATH 110-02 Finite Mathematics<br>
+style='font-size:14.0pt'>MATH 347 Number Theory<br>
 </span>Syllabus for Fall 2026</b></p>
 
 <p class=MsoNormal align=center style='margin-bottom:8.0pt;text-align:center'><b>Mondays,
-Wednesdays, and Fridays, 11:00-11:50am</b></p>
+Wednesdays and Fridays, 10:00-10:50am</b></p>
 
 <p class=MsoNormal align=center style='margin-bottom:8.0pt;text-align:center'><b>Gildemeister
-Hall 156</b></p>
+Hall 326</b></p>
 
 <p class=MsoNormal style='margin-bottom:8.0pt'><b>Instructor: </b>Dr. Eric
 Errthum&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<b>Winona Email: </b><span class=SpellE>eerrthum</span> [at] <span
-class=SpellE>winona</span> [dot] <span class=SpellE>edu</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<b>Winona Email: </b>eerrthum [at] winona [dot]
+edu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <b>Office: </b>209 Gildemeister
 Hall&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Office
 Hours:&nbsp; </b>See <a href="../index.html">homepage</a>. Or by appointment on
 any day.</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
-margin-left:1.0in;text-indent:-1.0in'><b>Texts:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</b>“Finite Mathematics” by Howard Rolf (8<sup>th</sup> Ed) – accessed
-digitally through your D2L account. NO other course materials need to be
-purchased. DO NOT BUY AN ACCESS CARD. DO NOT ENTER YOUR CREDIT CARD INFO. (If
-you already did, you should try to return it/get your money back.) The charge
-for these materials is included in your student bill and guarantees the lowest
-cost available.&nbsp; You are already enrolled in this program. If you do not
-wish to participate, you may opt out within D2L.&nbsp; This must be done no
-later than the 5th day of semester. Opting out is not recommended, you will be
-responsible for purchasing your own materials. <br>
-<span style='font-size:6.0pt'><br>
-</span>“Common Sense Mathematics” by Bolker and Mast (2<sup>nd</sup> Ed) –
-Excerpts of this text will be available on D2L.</p>
+margin-left:1.0in;text-indent:-1.0in'><b>Text:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</b>“Introduction to Number Theory” by Peter Schumer. This book is out of
+print, a pdf version is available in D2L. Old used versions of the text can
+sometimes be found through Amazon.com or other sites ranging in price from ~$12
+to ~$100.</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
-margin-left:1.0in;text-indent:-1.0in'><b>Technology:</b>&nbsp;&nbsp; * You will
-<b><i><u><span style='color:red'>need your laptop every class period</span></u></i></b>.
-Make sure you have a full charge as there are very few outlets in the room.<br>
-* Quizzes/Exams will be administered in the D2L Lockdown Browser. You are
-responsible for having it installed, along with installing the correct printer
-utilities.<br>
-* You are also allowed to use a calculator, but you must show and/or explain
-your work. Some recommended calculators: Casio <i>fx</i>-300ES PLUS or Texas
-Instruments TI-84. The Lockdown Browser has a built-in calculator, but it’s not
-great.<br>
-* You will need a Google account. Make sure you know the password and have
-logged into your Google account using the browser that you’ll use to access
-D2L. It might be worth creating a new Google account to use specifically for
-this class (or just your schoolwork in general)</p>
+margin-left:1.0in;text-indent:-1.0in'><b>Calculator:</b>&nbsp;&nbsp;&nbsp; You
+are allowed at most times to use a calculator, but you must show work. At times
+you will be prohibited from doing specific calculations on your calculator.<br>
+You are not allowed to use your cell phone, laptop, or any other device capable
+of electronic communication in place of a calculator.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:99.0pt;text-indent:-99.0pt'><b>Course Website:&nbsp;&nbsp;&nbsp; </b><a
+href="http://course1.winona.edu/eerrthum/math347">http://course1.winona.edu/eerrthum/math347</a></p>
 
 <p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Prerequisite:
-</b>MATH050 or placement exam</p>
+</b>Foundations of Mathematics (MATH327).</p>
 
 <p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>About This
-Course:&nbsp; </b>Applications of linear functions, optimization problems, and
-the mathematics of finance.</p>
+Course:&nbsp; </b>A study of primes, divisibility, congruences,
+number-theoretic functions, Diophantine equations, and continued fractions.</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt'><b>Modality Disclaimer: </b>This
-course is designed to be an in-person course. For as long as the University
-allows in-person classes, there is no guarantee that required
-materials/content/assessments will be available to those who do not attend class
-in person. Some class periods (see schedule below) will be done asynchronously
-online through D2L.<b> </b></p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Expectations:
+</b>Students who complete this course with a passing grade are expected to be
+able to demonstrate the following skills: (i) Mastery of prerequisite material,
+(ii) Proficient modular computing and equation solving, (iii) Logical reasoning
+with regard to whole numbers, (iv) Mastery of the Euclidean algorithm and its
+applications, (v) Solving Diophantine equations, (vi) Determining the
+properties of arithmetic functions</p>
 
 <p class=MsoNormal style='margin-bottom:8.0pt'><b>Grading:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</b>Preparation/Attendance/Participation&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-90 points------ 15%<br>
+</b>Quizzes (7 @ 20 points each, drop lowest, scaled) 120 points---- 20.0%<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Exit
-Problems&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-90 points------ 15%<br>
+Oral Homework (scaled as
+needed)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+65 points---- 10.8%<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-WebAssign
-Homework&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-90 points------ 15%<br>
+Written Homework (scaled as needed)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+65 points---- 10.8%<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Quizzes (7 @ 15 points, drop
-lowest)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-90 points------ 15%<br>
+Midterms (2 @ 100
+points)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+200 points---- 33.4%<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Unit Exams (3 @ 50
-points)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-150 points------ 25%<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Final&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-90 points------ 15%<br>
+Final&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+150 points---- 25.0%<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 --------<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -826,53 +803,50 @@ Final&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb
 <p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Grades:</b>&nbsp;
 A = 90% (540 pts), B = 80% (480 pts), C = 70% (420 pts), D = 60% (360 pts)</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Preparation/Attendance/Participation:&nbsp;&nbsp;&nbsp;&nbsp;
-</b>You will be expected to read the textbook material <b><i><u>before
-attending class</u></i></b>. The reading assignments are posted to D2L under
-“Assignments”; make sure to mark them complete when you have finished them to
-receive credit. Most class time will be spent working in groups. Participation
-in your group is not only expected but necessary and critical for learning the
-material. Attendance on group-work days is worth twice the attendance on other
-days.</p>
-
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Exit
-Problems:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; After
-working in groups, most sections contain an exit problem that you will work on
-individually. The exit problem closely matches the type of questions that will
-be asked on the next quiz. As soon as you complete the exit problem <b><i><u>correctly</u></i></b>,
-you will receive credit for it. <b><u>There is no partial credit for Exit
-Problems.</u></b> If there are mistakes or errors in your submission, you can
-resubmit (as many times as needed and as time allows). As soon as you complete
-the exit problem <b><i><u>correctly</u></i></b>, you are free to leave for the
-day. If you do not complete the exit problem during the period, you are welcome
-to complete it outside of class time and hand it in during class or office
-hours (but it still will only receive credit if it is correct).</p>
-
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>WebAssign
-Homework:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Homework problems will be
-assigned through the WebAssign website. You can access this through D2L. Due dates
-for WebAssign homework can be found in D2L Assignments.</p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Homework:&nbsp;&nbsp;
+</b>Homework will be completed in two ways. <u>Oral Homework</u>: According to
+the schedule below, on Oral Homework Days students will be chosen randomly to
+present solutions to problems from the oral homework. Students will be graded a
+0, 1, or 2 out of 2 corresponding to their level of <i>preparedness</i> (not
+necessarily correctness). When presenting a solution, you should be prepared to
+answer questions clarifying your work. It is not acceptable to write out a
+whole solution, but then when asked about a particular step to say “I don’t
+know.” To me this indicates you copied the homework from someone else without
+understanding it. <u>Written Homework</u>: The written portion of the homework
+is due the period after an Oral Homework Day. This work should be written
+nicely or typed, stapled, and presented in order. Each problem will be graded out
+of 2 corresponding to its level of correctness and clarity.</p>
 
 <p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Quizzes:</b>
-&nbsp; We will have 7 (~25 minute) quizzes (see schedule below). Each quiz will
-count for 15 points and the lowest quiz score will be dropped from your grade.
-Quiz problems are based on the group work and exit problems done in the
-preceding class periods. The quizzes will be completed in the <span
-class=SpellE>Respondus</span> Lockdown Browser. </p>
+&nbsp; We will have seven (~20 minute) quizzes (see schedule below). Each quiz
+will count for 20 points and the lowest quiz score will be dropped from your
+grade. There will possibly be problems on the quizzes that did not show up
+explicitly in the homework. For this reason you are encouraged to work more
+problems than what is just assigned for homework and to ensure that you understand
+the concepts and calculations required in each section.</p>
 
-<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Unit Exams
-and Final:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; There will be
-three in-class exams and one comprehensive final exam. Exam dates are tentative
-until officially announced in class. Occasionally performance on an exam may
-replace a score on a previous assessment.</p>
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Exams:</b>&nbsp;&nbsp;&nbsp;&nbsp;
+There will be three in-class exams and one comprehensive final exam. Exam dates
+are tentative until officially announced in class. The final exam is
+tentatively scheduled for <b>Wednesday, December 9, 8:00 – 10:00am</b>. The
+final exam may or may not include an oral exam to be scheduled during finals
+week.</p>
+
+<p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Reclaiming
+Points: </b>If you miss points on a quiz, you are allowed to come to my office during
+office hours (or by appointment) and request another try to reclaim the lost
+points. Note: requests will be granted or denied by discretion of the
+instructor. In particular, requests will be denied if: problems are of a
+memorization nature, the problem involves proving a statement that is not
+easily altered, it is a bonus problem, or you already got 80% or better on the
+problem.</p>
 
 <p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Late/Missed
-Work: </b>Late homework or missed challenges will result in a score of zero.
-There are no make-up challenges. Make-up exams will be given at the discretion
-of the instructor. If you miss class, you should contact me for a copy of the
-day’s activities and/or exit problem, but you will not be able to make up your
-lost attendance/participation points. If you have an unavoidable absence,
-please inform the instructor beforehand.</p>
+Work: </b>Late homework or missed quizzes will result in a score of zero. There
+are no make-up quizzes. Make-up exams will be given at the discretion of the
+instructor. If you miss class, it is your responsibility to obtain notes and
+assignments from fellow students. If you have an unavoidable absence, please
+inform the instructor beforehand.</p>
 
 <p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Desire2Learn:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </b>Course materials can be found on <a href="https://winona.ims.mnscu.edu/">D2L/Brightspace</a>
@@ -880,565 +854,510 @@ including <b><i>approximate</i></b> grades. If you ever want an exact look at
 your grade, email the instructor directly.</p>
 
 <p class=MsoNormal style='margin-bottom:8.0pt;text-align:justify'><b>Academic
-Dishonesty:&nbsp; </b>Any type of academic dishonesty (cheating, copying,
-plagiarism, using a solutions manual to do homework, etc.) will result in
-failure and will be reported to school authorities. This includes
-student-to-student communication during a quiz or exam and/or <b><u><span
-style='color:red'>using unsanctioned “homework help” and/or AI websites to
-answer homework/quiz/exam problems</span></u></b>. If you are having trouble
-with an assignment, please see the instructor first. </p>
+Dishonesty:&nbsp; </b>Any type of academic dishonesty (including cheating,
+copying, plagiarism, AI assistance, using a solutions manual to do homework,
+etc.) will result in failure and will be reported to school authorities. If you
+are having trouble with an assignment, please see the instructor first. <b>Note:
+using tests/quizzes from a previous semester to study without instructor
+permission is a form of cheating.</b></p>
 
 <p class=MsoNormal style='text-align:justify'><b>Note:&nbsp;&nbsp; </b>This
 syllabus is subject to change if deemed necessary by the instructor.</p>
 
 <p class=MsoNormal style='text-align:justify'>&nbsp;</p>
 
-<span style='font-size:14.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
-"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
-mso-bidi-language:AR-SA'><br clear=all style='page-break-before:always'>
-</span>
-
-<p class=MsoNormal><a name=Schedule></a><span style='font-size:14.0pt'>&nbsp;</span></p>
-
 <p class=MsoNormal align=center style='text-align:center'><span
-style='font-size:14.0pt'>Tentative Schedule of Events – Math 110</span></p>
+style='font-size:14.0pt'>Tentative Schedule of Events – Math 347</span></p>
 
-<p class=MsoNormal align=center style='text-align:center'>(as of
-23-Aug-26;subject to change)</p>
-
-<p class=MsoNormal align=center style='text-align:center'><span
-style='font-size:14.0pt'>&nbsp;</span></p>
+<p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'>(subject
+to change)</p>
 
 <div align=center>
 
 <table class=MsoNormalTable border=1 cellspacing=3 cellpadding=0 width="90%"
  style='width:90.0%;mso-cellspacing:1.8pt;border:outset 1.5pt;mso-yfti-tbllook:
  1184;mso-padding-alt:0in 0in 0in 0in'>
- <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;page-break-inside:avoid'>
-  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Week Beginning</p>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="12%" style='width:12.46%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Week Beginning </p>
   </td>
-  <td width="29%" style='width:29.36%;padding:0in 5.4pt 0in 5.4pt'>
+  <td width="24%" valign=top style='width:24.78%;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'>Monday</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
+  <td width="24%" style='width:24.94%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Wednesday</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
+  <td width="36%" style='width:36.9%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Friday</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:1;page-break-inside:avoid'>
-  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
+ <tr style='mso-yfti-irow:1'>
+  <td width="12%" style='width:12.46%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Aug 24</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:0in 5.4pt 0in 5.4pt'>
+  <td width="24%" valign=top style='width:24.78%;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'>Introductions</p>
+  <p class=MsoNormal align=center style='text-align:center'>1.1 Preliminaries</p>
+  <p class=MsoNormal align=center style='text-align:center'><br>
+  <u>Oral HW</u><br>
+  1.1 (pg 4): 10, 14</p>
   <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>Syllabus</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>First Day Set Up</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>Lockdown Browser
-  Printing</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Written HW<br>
+  </u>1.1 (pg 4): 22, 24</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: Read CSM Chap 2 (<span class=SpellE>pgs</span>
-  27-41)</span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>Units &amp; Rates
-  Group Work</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u></p>
-  <p class=MsoNormal align=center style='text-align:center'>Convert between
-  units</p>
-  <p class=MsoNormal align=center style='text-align:center'>Understand/
-  Create/Convert Rates</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>Assignment: Finish
-  Group Work and Check Solutions</p>
+  <td width="24%" style='width:24.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'>1.2
+  Induction/Well-Ordering<br>
+  1.3 Divisibility, Division Algorithm, Congruences</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u><br>
+  1.2 (pg 10): 8, 11 (do <b><i><u>not</u></i></b> use Binet’s formula)<br>
+  <br>
+  <u>Written HW<br>
+  </u>1.2 (pg 10): 9a, 12, 23</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-cap Group Work</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='color:black;background:yellow'>Exit Problem: CSM2</span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:2;page-break-inside:avoid'>
-  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Aug 31</p>
-  </td>
-  <td width="29%" style='width:29.36%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: Read R Secs 1.1, 1.2 (<span
-  class=SpellE>pgs</span> 1-6, 14-26)</span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>Functions and
-  Interpreting Mini-Lecture</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u></p>
-  <p class=MsoNormal align=center style='text-align:center'>Identify input and
-  outputs of a function</p>
-  <p class=MsoNormal align=center style='text-align:center'>Identify/Compute
-  slope of line</p>
-  <p class=MsoNormal align=center style='text-align:center'>Identify/Compute
-  intercepts of line</p>
-  <p class=MsoNormal align=center style='text-align:center'>Be able to
-  construct y=<span class=SpellE>mx+b</span> form of a line</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>Assignment:
-  WebAssign Sections 1.1 and 1.2</p>
-  </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Forms of a Line</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u></p>
-  <p class=MsoNormal align=center style='text-align:center'>Use Desmos to
-  understand linear functions</p>
-  <p class=MsoNormal align=center style='text-align:center'>Use Desmos to find
-  parameters</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>Assignment: Finish
-  Group Work and Check Solutions </p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-cap Group Work</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='color:black;background:yellow'>Exit Problem: Line Form</span></p>
+  <td width="36%" style='width:36.9%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>1.3, cont.<br>
+  1.4 Combinatorics, Pigeon Hole Principle</p>
+  <p class=MsoNormal align=center style='text-align:center'><br>
+  <u>Oral HW</u><br>
+  1.3 (pg 15): 3a, 4ab, 15</p>
+  <p class=MsoNormal align=center style='text-align:center'>1.4 (pg 20): 8,
+  20ad<br>
+  <br>
+  <u>Written HW</u><br>
+  1.3 (pg 15): 3b, 4c, 20</p>
+  <p class=MsoNormal align=center style='text-align:center'>1.4 (pg 20): 9</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:3;page-break-inside:avoid'>
-  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
+ <tr style='mso-yfti-irow:2'>
+  <td width="12%" style='width:12.46%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Aug 30</p>
+  </td>
+  <td width="24%" style='width:24.78%;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>Oral Homework
+  Day (1.1 – 1.4)</b></p>
+  </td>
+  <td width="24%" style='width:24.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>Written Homework
+  Due (1.1 – 1.4)</b><o:p></o:p></p>
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'><b>Quiz
+  1</b><o:p></o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>Algorithm Analysis</p>
+  </td>
+  <td width="36%" style='width:36.9%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>2.1 GCD &amp;
+  Euclidean Algorithm<o:p></o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'><br>
+  <u>Oral HW</u><o:p></o:p></p>
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'>2.1
+  (pg 28): 1, 2, 4, 18ad, 19a, 24<o:p></o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Written HW</u><o:p></o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>2.1 (pg 28): 12,
+  15, 18bc, 19bd</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width="12%" style='width:12.46%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Sep 7</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
+  <td width="24%" style='width:24.78%;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
   style='color:red'>No Class<br>
-  Labor Day</span></b></p>
+  Labor Day</span></p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-Cap / Q&amp;A</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'><b><u><span
-  style='color:#7030A0'>Quiz 1</span></u></b></p>
+  <td width="24%" style='width:24.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>2.2 Congruence
+  Equations<br>
+  Solving Linear Congruences</p>
+  <p class=MsoNormal align=center style='text-align:center'>Linear Diophantine
+  Equations</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: Read R Sec 1.3 (<span class=SpellE>pgs</span>
-  40-52)</span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>Linear Models of
-  Cost and Revenue</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u></p>
-  <p class=MsoNormal align=center style='text-align:center'>Create Cost,
-  Revenue, and Profit functions</p>
-  <p class=MsoNormal align=center style='text-align:center'>Find Breakeven
-  points</p>
-  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
-  <p class=MsoNormal align=center style='text-align:center'>Assignment:
-  WebAssign Section 1.3</p>
+  <td width="36%" style='width:36.9%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'>2.2,
+  cont.<br>
+  Chinese Remainder Theorem</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u><br>
+  2.2 (pg 36):&nbsp; 2, 4, 5, 7, 9a, 10, 18<br>
+  <br>
+  <u>Written HW</u><br>
+  2.2 (pg 36): 6, 14, 15, 17</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:4;page-break-inside:avoid'>
-  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
+ <tr style='mso-yfti-irow:4'>
+  <td width="12%" style='width:12.46%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Sep 14</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: Read CSM Sec 7.1-7.5 (<span
-  class=SpellE>pgs</span> 169-178)</span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>Analyzing Linear
-  Information in Spreadsheets</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u></p>
-  <p class=MsoNormal align=center style='text-align:center'>Use Sheets to
-  create linear data</p>
-  <p class=MsoNormal align=center style='text-align:center'>Use Sheets to plot
-  data</p>
-  <p class=MsoNormal align=center style='text-align:center'>Use Sheets to
-  analyze options</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>Assignment: Finish
-  Group Work</p>
+  <td width="24%" style='width:24.78%;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>Oral Homework
+  Day (2.1 – 2.2)</b></p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-cap Group Work</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='color:black;background:yellow'>Exit Problem: CSM7</span></p>
+  <td width="24%" style='width:24.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>Written Homework
+  Due (2.1 – 2.2)</b></p>
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'><b>Quiz
+  2</b></p>
+  <p class=MsoNormal align=center style='text-align:center'>2.3 Prime vs.
+  Irreducible</p>
+  <p class=MsoNormal align=center style='text-align:center'><br>
+  X.1 Factorization in Quadratic Domains </p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-Cap / Q&amp;A</p>
+  <td width="36%" style='width:36.9%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>X.1, cont</p>
+  <p class=MsoNormal align=center style='text-align:center'>2.3 Fundamental
+  Theorem of Arithmetic <br>
+  2.4 Sieve of Eratosthenes <br>
+  and Primality Testing</p>
   <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'><b><u><span
-  style='color:#7030A0'>Quiz 2</span></u></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u></p>
+  <p class=MsoNormal align=center style='text-align:center'><a
+  href="../math347/SectionX.1.pdf">X.1: 1, 2</a> <br>
+  2.3 (pg 41): 2, 6, 14, 17b</p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Written HW</u></p>
+  <p class=MsoNormal align=center style='text-align:center'><a
+  href="../math347/SectionX.1.pdf">X.1: 3, 4, 5</a><br>
+  2.3 (pg 41): 3b, 9, 13</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:5;page-break-inside:avoid'>
-  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
+ <tr style='mso-yfti-irow:5'>
+  <td width="12%" style='width:12.46%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Sep 21</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Work/Make Up Day</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>Exam Review<b><span
-  style='color:#70AD47'> </span></b></p>
+  <td width="24%" style='width:24.78%;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'>2.5
+  Euler Phi Function, Euler-Fermat Theorem</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW<br>
+  </u>2.5 (pg 51): 1, 5, 6<br>
+  <br>
+  <u>Written HW<br>
+  </u>2.5 (pg 51): 8, 9, 10</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><u><span
-  style='color:#7030A0'>Unit 1 Exam</span></u></b> </p>
+  <td width="24%" style='width:24.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Introduction to
+  Cryptology</p>
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'>X.2
+  Diffie-Helman Key Exchange </p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u></p>
+  <p class=MsoNormal align=center style='text-align:center'><a
+  href="../Math347/SectionX.2.pdf">X.2: 1</a><br>
+  <br>
+  <u>Written HW</u><br>
+  <a href="../Math347/SectionX.2.pdf">X.2: 2</a></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  <p class=MsoNormal align=center style='text-align:center'>Note: <a
+  href="http://www.wolframalpha.com/input/?i=PowerMod%5b5832%2C16381%2C31861%5d">See
+  here for how to use Wolfram Alpha to compute exponentiation mod m.</a></p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: Read CSM Sec 7.7 (<span
-  class=SpellE>pgs</span> 180-185)</span></b></p>
+  <td width="36%" style='width:36.9%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>7.7 RSA
+  Cryptography</p>
   <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>Nonlinear Data:
-  Piecewise Linear Approximations</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u></p>
-  <p class=MsoNormal align=center style='text-align:center'>Create piecewise
-  linear functions</p>
-  <p class=MsoNormal align=center style='text-align:center'>Solve using a
-  piecewise linear assumption</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>Assignment: Finish
-  Group Work and Check Solutions</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW<br>
+  </u>7.7 (pg 196): 5, 9<br>
+  <br>
+  <u>Written HW<br>
+  </u>7.7 (pg 196): 1, 10, 14</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:6;page-break-inside:avoid'>
-  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
+ <tr style='mso-yfti-irow:6'>
+  <td width="12%" style='width:12.46%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Sep 28</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-Cap Group Work</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<span
-  style='color:black;background:yellow'>Exit Problem: Piecewise Linear</span></p>
+  <td width="24%" style='width:24.78%;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>Oral Homework
+  Day (2.3, X.1, 2.5, X.2 &amp; 7.7)</b></p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: Read R Secs 3.1 &amp; 3.2 (<span
-  class=SpellE>pgs</span> 215-221, 224-229)</span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>Systems of
-  Inequalities</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u></p>
-  <p class=MsoNormal align=center style='text-align:center'>Write down a system
-  of inequalities in two variables</p>
-  <p class=MsoNormal align=center style='text-align:center'>Plot the region and
-  find the corners</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>Assignment:
-  WebAssign Sections 3.1 and 3.2</p>
+  <td width="24%" style='width:24.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>Written Homework
+  Due (2.3, X.1, 2.5, X.2 &amp; 7.7)</b></p>
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'><b>Quiz
+  3</b></p>
+  <p class=MsoNormal align=center style='text-align:center'>Exam Review</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-Cap / Q&amp;A</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'><b><u><span
-  style='color:#7030A0'>Quiz 3</span></u></b></p>
+  <td width="36%" style='width:36.9%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>EXAM I</b></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:7;page-break-inside:avoid'>
-  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
+ <tr style='mso-yfti-irow:7'>
+  <td width="12%" style='width:12.46%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Oct 5</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: Read R Secs 3.3 (<span class=SpellE>pgs</span>
-  236-250)</span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>Linear Programming</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u></p>
-  <p class=MsoNormal align=center style='text-align:center'>Use Desmos to
-  Optimize in a 2D Region</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>Assignment:
-  WebAssign Section 3.3</p>
+  <td width="24%" style='width:24.78%;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>3.1 Arithmetic
+  Functions<br>
+  3.2 Multiplicativity</p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u><br>
+  3.1 (pg 58): 1<br>
+  <br>
+  <u>Written HW</u><br>
+  3.1 (pg 58): 4, 12</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-cap group work<o:p></o:p></p>
+  <td width="24%" style='width:24.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>3.2, cont<o:p></o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>3.3 Mobius
+  Inversion<o:p></o:p></p>
   <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='color:black;background:yellow'>Exit Problem: Linear Programming with
-  Desmos</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u><br>
+  3.2 (pg 62): 3, 4b, 5, 13<br>
+  <br>
+  <u>Written HW</u> <br>
+  3.2 (pg 62): 6, 12, 14, 17</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: Read R Secs 3.4 (<span class=SpellE>pgs</span>
-  262-266)</span></b><o:p></o:p></p>
+  <td width="36%" style='width:36.9%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>3.3, cont<o:p></o:p></p>
   <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Systems with more
-  than two variables<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Write down a system
-  of inequalities with more than two variables<o:p></o:p></p>
-  <p class=MsoNormal>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Assignment:
-  WebAssign Section 3.4</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u><br>
+  3.3 (pg 66): 1, 10, 14<br>
+  <a href="../math347/SectionX.6.pdf">X.6: 1, 2</a><br>
+  <br>
+  <u>Written HW</u><br>
+  3.3 (pg 66): 4, 6, 12<br>
+  <a href="../math347/SectionX.6.pdf">X.6: 3, 4</a></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:8;page-break-inside:avoid'>
-  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Oct 12</p>
+ <tr style='mso-yfti-irow:8'>
+  <td width="12%" style='width:12.46%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Oct 14</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: <a
-  href="https://www.youtube.com/watch?v=ByplkzcM4bE">Watch This Video</a> and
-  Install <span class=SpellE>OpenSolver</span></span></b><o:p></o:p></p>
-  <p class=MsoNormal><b><span style='color:#4EA72E'>&nbsp;</span></b><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Linear Programming
-  with Sheets <span class=SpellE>OpenSolver</span><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Find optimal
-  scenarios in Sheets<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Assignment: Finish
-  Group Work and Check Solutions</p>
+  <td width="24%" style='width:24.78%;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>Oral Homework
+  Day (3.1 – 3.3)</b></p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>More <span
-  class=SpellE>OpenSolver</span> Examples</p>
-  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Assignment:
-  WebAssign Section 3.5</p>
+  <td width="24%" style='width:24.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'><b>Quiz
+  4<br>
+  <br>
+  </b>6.1: Finite Simple Continued Fractions<o:p></o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>Then see link in
+  D2L for summary video.</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-Cap / Q&amp;A<o:p></o:p></p>
+  <td width="36%" style='width:36.9%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>Written Homework
+  Due (3.1 – 3.3)</b><o:p></o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b><o:p></o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>6.1 continued<o:p></o:p></p>
   <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><u><span
-  style='color:#7030A0'>Quiz 4<br>
-  </span></u></b>(Use Desmos to Optimize in a 2D Region<br>
-  and<br>
-  Write down a system of inequalities with more than two variables)</p>
+  <p class=MsoNormal align=center style='text-align:center'>6.3 Infinite Simple
+  Continued Fractions<o:p></o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u><br>
+  6.1 (pg 133): 1, 4, 6<br>
+  <br>
+  <u>Written HW</u><br>
+  6.1 (pg 133): 13, 16</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:9;page-break-inside:avoid'>
-  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
+ <tr style='mso-yfti-irow:9'>
+  <td width="12%" style='width:12.46%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Oct 19</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-cap <span
-  class=SpellE>OpenSolver</span> Group Work and WebAssign 3.5<o:p></o:p></p>
+  <td width="24%" style='width:24.78%;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>6.3, cont.<o:p></o:p></p>
   <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='color:black;background:yellow'>Exit Problem: Linear Programming with
-  Open Solver</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u><br>
+  6.3 (pg 144): 1, 2, 4, 8<br>
+  <br>
+  <u>Written HW</u><br>
+  6.3 (pg 144): 5, 6</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: Read R Sec 1.3 (<span class=SpellE>pgs</span>
-  36-37)<br>
-  Due By Class Time: Read CSM Section 9.3 (<span class=SpellE>pgs</span>
-  221-222)</span></b><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='color:#E8E8E8'>&nbsp;</span>Depreciation Models: Linear vs.
-  Exponential<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u><br>
-  Create Depreciation Models<o:p></o:p></p>
+  <td width="24%" style='width:24.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>6.4 Rational
+  Approximation of Irrationals.<o:p></o:p></p>
   <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Assignment: Finish
-  Group Work and Check Solutions</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u><br>
+  6.4 (pg 152): 3, 4, 6, 8<br>
+  <br>
+  <u>Written HW</u><br>
+  6.4 (pg 152): 7, 9</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-cap Group Work<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='color:black;background:yellow'>Exit Problem: Depreciation</span></p>
+  <td width="36%" style='width:36.9%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>6.4, cont<o:p></o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>Non-simple
+  Continued Fractions<o:p></o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>Pade Approximation<o:p></o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'><br>
+  “<a href="http://arxiv.org/PS_cache/math/pdf/0601/0601660v3.pdf">A Short
+  Proof of the Simple Continued Fraction Expansion of e</a>”<br>
+  by Henry Cohn</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:10;page-break-inside:avoid'>
-  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
+ <tr style='mso-yfti-irow:10'>
+  <td width="12%" style='width:12.46%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Oct 26</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-Cap / Q&amp;A<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><u><span
-  style='color:#7030A0'>Quiz 5</span></u></b><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>(Find optimal
-  scenarios in Sheets<br>
-  and<br>
-  Create Depreciation Models)</p>
+  <td width="24%" style='width:24.78%;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>Oral Homework
+  Day (6.1, 6.3 – 6.4)</b></p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Work/Make Up Day<o:p></o:p></p>
+  <td width="24%" style='width:24.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>Written Homework
+  Due (6.1, 6.3 – 6.4)</b><o:p></o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>Quiz 5</b><o:p></o:p></p>
   <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Exam Review</p>
+  <p class=MsoNormal align=center style='text-align:center'>Review for Exam</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><u><span
-  style='color:#7030A0'>Unit 2 Exam</span></u></b></p>
+  <td width="36%" style='width:36.9%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>EXAM II</b></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:11;page-break-inside:avoid'>
-  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
+ <tr style='mso-yfti-irow:11'>
+  <td width="12%" style='width:12.46%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Nov 2</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: Read R Secs 5.1 &amp; 5.2 (<span
-  class=SpellE>pgs</span> 371-376, 379-388)</span></b><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Simple and Compound
-  Interest<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals</u>:<br>
-  Compute future value amounts for simple and compound interest<o:p></o:p></p>
-  <p class=MsoNormal>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Assignment:
-  WebAssign Sections 5.1 and 5.2</p>
+  <td width="24%" style='width:24.78%;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>4.1 Primitive Roots</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: Read CSM Secs 9.1 – 9.2 (<span
-  class=SpellE>pgs</span> 217-221) and Install Goal Seek</span></b><o:p></o:p></p>
-  <p class=MsoNormal>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Simple vs. Compound
-  Interest<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u><o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Use Sheets to
-  analyze interest payments<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>Assignment: Finish
-  Group Work and Check Solutions</p>
+  <td width="24%" style='width:24.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'>4.1,
+  cont.<br>
+  &nbsp;Using Primitive Roots<o:p></o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW<br>
+  </u>4.1 (pg 80): 3, 5a, 9, 10, 12, 20<br>
+  <br>
+  <u>Written HW<br>
+  </u>4.1 (pg 80): 15, 21, 26, 27</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-Cap Group Work<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<span
-  style='color:black;background:yellow'>Exit Problem: Simple vs Compound</span></p>
+  <td width="36%" style='width:36.9%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>4.2 Quadratic
+  Residues<o:p></o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'><br>
+  <u>Oral HW<br>
+  </u>4.2 (pg 84): 8, 11, 12<o:p></o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'><br>
+  <u>Written HW<br>
+  </u>4.2 (pg 84): 13, 14</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:12;page-break-inside:avoid'>
-  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
+ <tr style='mso-yfti-irow:12'>
+  <td width="12%" style='width:12.46%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Nov 9</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-Cap / Q&amp;A<o:p></o:p></p>
+  <td width="24%" style='width:24.78%;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>4.3 Legendre Symbol<o:p></o:p></p>
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'>4.4
+  Quadratic Reciprocity (Statement and Application)<o:p></o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u><o:p></o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'>4.3 (pg 89): 2, 3,
+  10<br>
+  4.4 (pg 96): 1, 2<o:p></o:p></p>
   <p class=MsoNormal align=center style='text-align:center'>&nbsp;<o:p></o:p></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><u><span
-  style='color:#7030A0'>Quiz 6</span></u></b></p>
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'><u>Written
+  HW</u> <br>
+  4.3 (pg 89): 4, 19a<br>
+  4.4 (pg 96): 4</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
+  <td width="24%" style='width:24.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
   style='color:red'>NO CLASS<br>
-  Veteran’s Day</span></b> </p>
+  Veteran’s Day</span> </p>
+  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: Read CSM Section 10 (<span
-  class=SpellE>pgs</span> 247-250)</span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'>Borrowing and
-  Saving</p>
+  <td width="36%" style='width:36.9%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>X.3 Solvability of
+  Quadratic Equations<br>
+  X.3 Computing Square Roots for p = 3 mod 4</p>
   <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals:</u></p>
-  <p class=MsoNormal align=center style='text-align:center'>Use Sheets to
-  analyze borrowing and saving options</p>
+  <p class=MsoNormal align=center style='text-align:center'><a
+  href="../math347/SquareRoots.pdf">Square Roots for General p</a></p>
+  <p class=MsoNormal align=center style='text-align:center'>(from Daniel E.
+  Otero)</p>
   <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>Assignment: Finish
-  Group Work and Check Solutions</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u></p>
+  <p class=MsoNormal align=center style='text-align:center'><a
+  href="../Math347/SectionX.3.pdf">X.3: 1</a><br>
+  <br>
+  <u>Written HW</u> <br>
+  <a href="../Math347/SectionX.3.pdf">X.3: 2</a></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:13;page-break-inside:avoid'>
-  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
+ <tr style='mso-yfti-irow:13'>
+  <td width="12%" style='width:12.46%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Nov 16</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-Cap Group Work</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;<span
-  style='color:black;background:yellow'>Exit Problem: Borrowing and Saving</span></p>
+  <td width="24%" style='width:24.78%;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>Oral Homework
+  Day (4.1 – 4.4, X.3)</b></p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: Read R Sec 5.3 (<span class=SpellE>pgs</span>
-  398-402)</span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>Annuities and
-  Sinking Funds</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals</u>:<br>
-  Calculate using Future-Value Formulas</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>Assignment:
-  WebAssign Section 5.3</p>
+  <td width="24%" style='width:24.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>Written Homework
+  Due (4.1 – 4.4, X.3)</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>Quiz 6</b><br>
+  <br>
+  X.4 Computations mod n via<br>
+  CRT and Lifting</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>Due By Class Time: Read R Sec 5.4 (<span class=SpellE>pgs</span>
-  409-420)</span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='color:#70AD47'>&nbsp;</span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'>Amortization</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'><u>Learning Goals</u>:<br>
-  Calculate using Present-Value Formulas</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>Assignment:
-  WebAssign Section 5.4</p>
+  <td width="36%" style='width:36.9%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'><b>&nbsp;</b>X.4,
+  cont.<br>
+  2.6 Hensel's Lemma<br>
+  <br>
+  <u>Oral HW</u><br>
+  <a href="../Math347/SectionX.4.pdf">X.4: 1, 2</a><br>
+  2.6: 1, 3</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Written HW</u><br>
+  <a href="../Math347/SectionX.4.pdf">X.4: 3, 4</a><br>
+  2.6: 9, 10</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:14;page-break-inside:avoid'>
-  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
+ <tr style='mso-yfti-irow:14'>
+  <td width="12%" style='width:12.46%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Nov 23</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Re-Cap / Q&amp;A</p>
+  <td width="24%" style='width:24.78%;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'>X.5
+  Computations base p <br>
+  and Changing Bases</p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Oral HW</u></p>
+  <p class=MsoNormal align=center style='text-align:center'><a
+  href="../Math347/SectionX.5.pdf">X.5: 1, 2, 3, 4</a></p>
   <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'><b><u><span
-  style='color:#7030A0'>Quiz 7</span></u></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><u>Written HW</u></p>
+  <p class=MsoNormal align=center style='text-align:center'><a
+  href="../Math347/SectionX.5.pdf">X.5: 5, 6</a></p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
+  <td width="24%" style='width:24.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
   style='color:red'>NO CLASS<br>
-  Thanksgiving Break</span></b></p>
+  Thanksgiving Break</span></p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
+  <td width="36%" style='width:36.9%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
   style='color:red'>NO CLASS<br>
-  Thanksgiving Break</span></b></p>
+  Thanksgiving Break</span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:15;mso-yfti-lastrow:yes;page-break-inside:avoid'>
-  <td width="11%" style='width:11.02%;padding:.75pt .75pt .75pt .75pt'>
+ <tr style='mso-yfti-irow:15;mso-yfti-lastrow:yes'>
+  <td width="12%" style='width:12.46%;padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center'>Nov 30</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Work/Make Up Day</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>Exam Review</p>
+  <td width="24%" style='width:24.78%;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Activity: <i>p</i>-adic
+  numbers</p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><u><span
-  style='color:#7030A0'>Unit 3 Exam</span></u></b></p>
+  <td width="24%" style='width:24.94%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>Oral Homework
+  Day (X.4 &amp; X.5, 2.6)</b></p>
   </td>
-  <td width="29%" style='width:29.36%;padding:.75pt .75pt .75pt .75pt'>
-  <p class=MsoNormal align=center style='text-align:center'>Work/Make Up Day</p>
-  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'>Exam Review</p>
+  <td width="36%" style='width:36.9%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>Written Homework
+  Due (X.4 &amp; X.5, 2.6)</b></p>
+  <p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'><b>Quiz
+  7</b></p>
+  <p class=MsoNormal align=center style='text-align:center'>Final Review</p>
   </td>
  </tr>
 </table>
 
 </div>
 
-<p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'>&nbsp;</p>
+<p class=MsoNormal>&nbsp;</p>
 
 <p class=MsoNormal align=center style='text-align:center'><b><span
-style='font-size:20.0pt'>Final Exam</span></b></p>
+style='font-size:20.0pt'>Exam III, Final Exam</span></b></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
-style='font-size:20.0pt'>Thursday, December 10</span></p>
+style='font-size:20.0pt'>Wednesday, December 10</span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:20.0pt'>8:00 – 10:00am</span></p>
@@ -1474,15 +1393,14 @@ class and community. </p>
 dating violence, domestic violence, or stalking, you can talk to a trained,
 confidential advocate by calling 507.457.5610. </p>
 
-<p class=MsoNormal>&nbsp;</p>
+<p class=MsoNormal style='margin-bottom:6.0pt'><b><span style='font-size:13.5pt'>&nbsp;</span></b></p>
 
 <p class=MsoNormal style='margin-bottom:6.0pt'><span style='font-size:11.0pt;
-font-family:"Arial",sans-serif;color:black'>The <a
-href="http://www.math.vt.edu/people/brown/disclaim.htm">Standard Disclaimer</a>
-applies.</span></p>
+font-family:"Arial",sans-serif;color:black'>The <a href="../Disclaimer.htm">Standard
+Disclaimer</a> applies.</span></p>
 
 <p class=MsoNormal style='margin-bottom:6.0pt'><span style='font-size:11.0pt;
-font-family:"Arial",sans-serif;color:black'>© Eric Errthum, August 2026, all
+font-family:"Arial",sans-serif;color:black'>© Eric Errthum, December 2025, all
 rights reserved.</span></p>
 
 </div>
